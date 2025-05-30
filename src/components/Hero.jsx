@@ -7,19 +7,19 @@ const Hero = () => {
   const slides = [
     {
       image: "./1.png",
-      title: "Bookease",
+      title: "Bademiyan",
       subtitle: "Uncover Secluded Shores",
       description: "Venture beyond the horizon to discover secluded shores untouched by time. Surrender to the allure of unspoiled landscapes and remote beaches. Be enchanted by the harmony of nature and tranquility. Embark on a journey of a lifetime."
     },
     {
       image: "./2.png",
-      title: "Bookease",
+      title: "Bademiyan",
       subtitle: "Discover Hidden Paradise",
       description: "Explore pristine beaches where crystal waters meet untouched sands. Experience the serenity of nature's most beautiful creations. Find your perfect escape in these magical destinations. Create memories that will last forever."
     },
     {
       image: "./3.png",
-      title: "Bookease",
+      title: "Bademiyan",
       subtitle: "Embrace Wild Beauty",
       description: "Journey to remote coastlines where nature reigns supreme. Witness breathtaking sunsets over endless horizons. Feel the freedom of untamed wilderness at your fingertips. Adventure awaits beyond every wave."
     }
