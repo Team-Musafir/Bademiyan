@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -38,35 +40,14 @@ const Navbar = () => {
       }
     );
     
-    // Cleanup function
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-      if (logoRef.current) {
-        const splashes = logoRef.current.querySelectorAll('.logo-splash');
-        splashes.forEach(splash => splash.remove());
-      }
-    };
+
   }, []);
   
   const animateLogo = () => {
     if (!logoRef.current) return;
     
     const letters = logoRef.current.querySelectorAll('span');
-    const splash = document.createElement('div');
-    splash.className = 'logo-splash';
-    splash.style.cssText = `
-      position: absolute;
-      width: 120%;
-      height: 120%;
-      top: -10%;
-      left: -10%;
-      background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%;
-      opacity: 0;
-      pointer-events: none;
-    `;
-    logoRef.current.appendChild(splash);
-    
+  
     // Reset letters position for animation
     gsap.set(letters, {
       y: 40,
@@ -74,7 +55,10 @@ const Navbar = () => {
       rotation: () => gsap.utils.random(-15, 15)
     });
     
-    // Animate letters
+    // Animate letters - reduce movement on small screens
+    const isMobile = window.innerWidth <= 768;
+    const yDistance = isMobile ? 20 : 40;
+    
     gsap.to(letters, {
       y: 0,
       opacity: 1,
@@ -87,15 +71,7 @@ const Navbar = () => {
       }
     });
     
-    // Animate splash effect
-    gsap.to(splash, {
-      keyframes: [
-        { opacity: 1, scale: 0, duration: 0 },
-        { opacity: 0.8, scale: 1, duration: 0.3 },
-        { opacity: 0, scale: 1.2, duration: 0.4 }
-      ],
-      onComplete: () => splash.remove()
-    });
+    
   };
 
   return (
@@ -156,11 +132,12 @@ const Navbar = () => {
           width: 100vw;
           padding: 1em;
           display: flex;
-          gap: 2em;
+          gap: 1em;
           z-index: 100;
           background-color: transparent;
           top: 0;
           left: 0;
+          box-sizing: border-box;
         }
         
         nav > * {
@@ -183,7 +160,6 @@ const Navbar = () => {
         
         .nav-logo a {
           font-family: "Druk", sans-serif;
-          font-size: 1.75rem;
           font-weight: bolder;
           font-style: italic;
           line-height: 0.9;
@@ -203,7 +179,6 @@ const Navbar = () => {
           text-decoration: none;
           text-transform: uppercase;
           font-family: "Akkurat Mono", monospace;
-          font-size: 0.7rem;
           color: #fff;
           display: flex;
           align-items: center;
@@ -221,8 +196,44 @@ const Navbar = () => {
           display: inline;
         }
         
+        /* Responsive font sizes */
+        .nav-logo a {
+          font-size: 1.25rem; /* Base mobile size */
+        }
+        
+        .nav-link {
+          font-size: 0.65rem;
+        }
+        
+        /* Tablet */
+        @media (min-width: 600px) {
+          nav {
+            gap: 2em;
+            padding: 1.5em;
+          }
+          
+          .nav-logo a {
+            font-size: 1.75rem;
+          }
+          
+          .nav-link {
+            font-size: 0.7rem;
+          }
+        }
+        
+        /* Desktop */
+        @media (min-width: 1024px) {
+          .nav-logo a {
+            font-size: 2rem;
+          }
+          
+          .nav-link {
+            font-size: 0.75rem;
+          }
+        }
+        
         /* On small screens, show icons, hide text */
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
           .nav-link .nav-text {
             display: none;
           }
@@ -232,18 +243,51 @@ const Navbar = () => {
           }
           .links {
             justify-content: center;
-            gap: 1.5em;
+            gap: 1em;
           }
           .nav-logo {
             flex: 1 1 100%;
             text-align: center;
           }
           nav {
-            gap: 0;
+            gap: 0.5em;
             flex-wrap: wrap;
+            padding: 0.75em;
           }
+          
+          /* Larger touch targets for mobile */
+          .nav-link {
+            padding: 10px;
+          }
+        }
+        
+        /* Very small screens */
+        @media (max-width: 480px) {
+          nav {
+            padding: 0.5em;
+          }
+          
+          .links {
+            gap: 0.5em;
+          }
+          
+          .nav-link {
+            padding: 8px;
+          }
+          
           .nav-logo a {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
+          }
+        }
+        
+        /* Landscape orientation */
+        @media (max-height: 480px) and (orientation: landscape) {
+          nav {
+            padding: 0.5em;
+          }
+          
+          .nav-logo a {
+            font-size: 1rem;
           }
         }
       `}</style>
