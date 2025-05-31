@@ -1,321 +1,152 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
-  const navRef = useRef(null);
-  const logoRef = useRef(null);
-  const intervalRef = useRef(null);
-  
-  useEffect(() => {
-    // Hide the logo initially
-    const letters = logoRef.current?.querySelectorAll('span');
-    if (letters) {
-      gsap.set(letters, {
-        y: 40,
-        opacity: 0,
-        rotation: () => gsap.utils.random(-15, 15)
-      });
-    }
-    
-    // Animation for the navbar on page load
-    gsap.fromTo(
-      navRef.current,
-      {
-        y: -50,
-        opacity: 0,
-      },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1,
-        ease: "power3.out",
-        delay: 0.5,
-        onComplete: () => {
-          animateLogo();
-          // Set interval to repeat animation every 15 seconds
-          intervalRef.current = setInterval(animateLogo, 15000);
-        }
-      }
-    );
-    
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  }, []);
-  
-  const animateLogo = () => {
-    if (!logoRef.current) return;
-    
-    const letters = logoRef.current.querySelectorAll('span');
-  
-    // Reset letters position for animation
-    gsap.set(letters, {
-      y: 40,
-      opacity: 0,
-      rotation: () => gsap.utils.random(-15, 15)
-    });
-    
-    // Animate letters - reduce movement on small screens
-    const isMobile = window.innerWidth <= 768;
-    const yDistance = isMobile ? 20 : 40;
-    
-    gsap.to(letters, {
-      y: 0,
-      opacity: 1,
-      rotation: 0,
-      duration: 0.8,
-      ease: "back.out(1.7)",
-      stagger: {
-        each: 0.1,
-        from: "center"
-      }
-    });
-    
-    
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const html = document.documentElement;
+    const body = document.body;
+    
+    if (isMenuOpen) {
+      // Disable scrolling on all possible elements
+      html.style.overflow = 'hidden';
+      body.style.overflow = 'hidden';
+      html.classList.add('overflow-hidden');
+      body.classList.add('overflow-hidden');
+      
+      // Additional touch event prevention for mobile
+      body.style.touchAction = 'none';
+      body.style.position = 'fixed';
+      body.style.width = '100%';
+    } else {
+      // Re-enable scrolling
+      html.style.overflow = '';
+      body.style.overflow = '';
+      html.classList.remove('overflow-hidden');
+      body.classList.remove('overflow-hidden');
+      
+      // Restore touch events
+      body.style.touchAction = '';
+      body.style.position = '';
+      body.style.width = '';
+    }
+    
+    return () => {
+      // Cleanup
+      html.style.overflow = '';
+      body.style.overflow = '';
+      html.classList.remove('overflow-hidden');
+      body.classList.remove('overflow-hidden');
+      body.style.touchAction = '';
+      body.style.position = '';
+      body.style.width = '';
+    };
+  }, [isMenuOpen]);
+
   return (
-    <nav ref={navRef}>
-      <div className="nav-container">
-        <div className="links left-links">
-          <a href="/services" className="nav-link nav-services">
-            <span className="nav-text">Services</span>
-            <span className="nav-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" strokeWidth="2">
-                <rect x="3" y="7" width="18" height="13" rx="2" />
-                <path d="M16 3v4" />
-                <path d="M8 3v4" />
-              </svg>
-            </span>
-          </a>
-          <a href="/projects" className="nav-link nav-projects">
-            <span className="nav-text">Projects</span>
-            <span className="nav-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" strokeWidth="2">
-                <polygon points="12 2 22 7 12 12 2 7 12 2" />
-                <polyline points="2 17 12 22 22 17" />
-                <polyline points="2 12 12 17 22 12" />
-              </svg>
-            </span>
-          </a>
+    <>
+      <nav className='fixed top-0 left-0 right-0 z-50 transition-all duration-300'>
+        <div className="max-w-7xl mx-auto px-6 py-8">
+          <div className="flex items-center justify-between">
+            <div className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
+              Xplore.
+            </div>
+            
+            {/* Desktop Menu */}
+            <div className="hidden md:flex items-center space-x-12">
+              {['Trips', 'Gallery', 'About', 'Contact'].map((item) => (
+                <a
+                  key={item}
+                  href="#"
+                  className="text-white/90 hover:text-white transition-colors duration-200 font-normal tracking-wide"
+                >
+                  {item}
+                </a>
+              ))}
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={toggleMenu}
+              className="md:hidden relative w-8 h-8 flex items-center justify-center focus:outline-none z-60"
+              aria-label="Toggle menu"
+            >
+              <div className="relative w-6 h-6">
+                <span
+                  className={`absolute left-0 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                    isMenuOpen 
+                      ? 'top-3 rotate-45 opacity-100' 
+                      : 'top-1 rotate-0 opacity-100'
+                  }`}
+                />
+                <span 
+                  className={`absolute left-0 top-3 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                    isMenuOpen ? 'opacity-0' : 'opacity-100'
+                  }`}
+                />
+                <span 
+                  className={`absolute left-0 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                    isMenuOpen 
+                      ? 'top-3 -rotate-45 opacity-100' 
+                      : 'top-5 rotate-0 opacity-100'
+                  }`}
+                />
+              </div>
+            </button>
+          </div>
         </div>
-        
-        <div className="nav-logo">
-          <a href="/" ref={logoRef}>
-            {"BADEMIYAN".split('').map((letter, i) => (
-              <span key={i} className="logo-letter">{letter}</span>
-            ))}
-          </a>
-        </div>
-        
-        <div className="links right-links">
-          <a href="/about" className="nav-link nav-about">
-            <span className="nav-text">About</span>
-            <span className="nav-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" strokeWidth="2">
-                <circle cx="12" cy="8" r="4" />
-                <path d="M2 20c0-4 8-6 10-6s10 2 10 6" />
-              </svg>
-            </span>
-          </a>
-          <a href="/contact" className="nav-link nav-contact">
-            <span className="nav-text">Contact</span>
-            <span className="nav-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" strokeWidth="2">
-                <rect x="2" y="4" width="20" height="16" rx="2" />
-                <polyline points="2,4 12,14 22,4" />
-              </svg>
-            </span>
-          </a>
+      </nav>
+
+      {/* Background overlay for closing menu */}
+      <div 
+        className={`fixed inset-0 bg-black/50 z-30 transition-all duration-500 ease-in-out md:hidden ${
+          isMenuOpen 
+            ? 'opacity-100 visible' 
+            : 'opacity-0 invisible'
+        }`}
+        onClick={toggleMenu}
+      />
+
+      {/* Mobile Menu Panel */}
+      <div 
+        className={`fixed top-0 right-0 h-full w-[65%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
+          isMenuOpen 
+            ? 'translate-x-0 opacity-100 visible' 
+            : 'translate-x-full opacity-0 invisible'
+        }`}
+      >
+
+        <div className="flex flex-col items-center justify-center h-full space-y-8">
+          {['Home', 'Trips', 'Gallery', 'About', 'Contact'].map((item, index) => (
+            <div
+              key={item}
+              className={`group transition-all duration-300 transform ${
+                isMenuOpen 
+                  ? 'translate-y-0 opacity-100' 
+                  : 'translate-y-8 opacity-0'
+              }`}
+              style={{ 
+                transitionDelay: isMenuOpen ? `${index * 100}ms` : '0ms'
+              }}
+            >
+              <a
+                href="#"
+                onClick={toggleMenu}
+                className="text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2"
+                style={{ fontFamily: 'Playfair Display' }}
+              >
+                {item}
+              </a>
+              <div className="w-24 h-px bg-white/30 group-hover:bg-white group-hover:shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-300 mx-auto mt-2"></div>
+            </div>
+          ))}
         </div>
       </div>
-      
-      <style jsx>{`
-        nav {
-          position: fixed;
-          width: 100vw;
-          padding: 1em;
-          z-index: 100;
-          background-color: transparent;
-          top: 0;
-          left: 0;
-          box-sizing: border-box;
-        }
-        
-        .nav-container {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          width: 100%;
-          position: relative;
-        }
-        
-        .links {
-          display: flex;
-          align-items: center;
-          gap: 1em;
-        }
-        
-        .left-links {
-          justify-content: flex-start;
-          flex: 1;
-        }
-        
-        .right-links {
-          justify-content: flex-end;
-          flex: 1;
-        }
-        
-        .nav-logo {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          z-index: 10;
-        }
-        
-        .nav-logo a {
-          font-family: "Druk", sans-serif;
-          font-weight: bolder;
-          font-style: italic;
-          line-height: 0.9;
-          color: #fff;
-          text-decoration: none;
-          letter-spacing: -0.5px;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-          display: inline-flex;
-        }
-        
-        .logo-letter {
-          display: inline-block;
-          transform-origin: bottom center;
-        }
-        
-        .nav-link {
-          text-decoration: none;
-          text-transform: uppercase;
-          font-family: "Akkurat Mono", monospace;
-          color: #fff;
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          padding: 8px 12px;
-          border-radius: 4px;
-          transition: all 0.3s ease;
-          font-weight: 500;
-        }
-        
-        .nav-link .nav-icon {
-          display: none;
-        }
-        .nav-link .nav-text {
-          display: inline;
-        }
-        
-        /* Responsive font sizes */
-        .nav-logo a {
-          font-size: 1.25rem; /* Base mobile size */
-        }
-        
-        .nav-link {
-          font-size: 0.65rem;
-        }
-        
-        /* Tablet */
-        @media (min-width: 600px) {
-          nav {
-            padding: 1.5em;
-          }
-          
-          .nav-logo a {
-            font-size: 1.75rem;
-          }
-          
-          .nav-link {
-            font-size: 0.7rem;
-          }
-          
-          .links {
-            gap: 1.5em;
-          }
-        }
-        
-        /* Desktop */
-        @media (min-width: 1024px) {
-          .nav-logo a {
-            font-size: 2rem;
-          }
-          
-          .nav-link {
-            font-size: 0.75rem;
-          }
-          
-          .links {
-            gap: 2em;
-          }
-        }
-        
-        /* Mobile adjustments */
-        @media (max-width: 768px) {
-          .nav-link .nav-text {
-            display: none;
-          }
-          .nav-link .nav-icon {
-            display: inline-block;
-            vertical-align: middle;
-          }
-          
-          .links {
-            gap: 0.5em;
-          }
-          
-          .nav-link {
-            padding: 10px;
-            min-width: 36px;
-            justify-content: center;
-          }
-          
-          .nav-logo a {
-            font-size: 1.1rem;
-          }
-        }
-        
-        /* Very small screens */
-        @media (max-width: 480px) {
-          nav {
-            padding: 0.75em;
-          }
-          
-          .links {
-            gap: 0.25em;
-          }
-          
-          .nav-link {
-            padding: 8px;
-            min-width: 32px;
-          }
-          
-          .nav-logo a {
-            font-size: 1rem;
-          }
-        }
-        
-        /* Landscape orientation */
-        @media (max-height: 480px) and (orientation: landscape) {
-          nav {
-            padding: 0.5em;
-          }
-          
-          .nav-logo a {
-            font-size: 0.9rem;
-          }
-          
-          .nav-link {
-            padding: 6px;
-          }
-        }
-      `}</style>
-    </nav>
+    </>
   );
 };
 
