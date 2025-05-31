@@ -5,9 +5,9 @@ import { gsap } from 'gsap';
 
 const TravelDestinationsShowcase = () => {
   const [order, setOrder] = useState([0, 1, 2, 3, 4, 5]);
-  const [detailsEven, setDetailsEven] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
   const animationRef = useRef(null);
-  const isAnimating = useRef(false); // Added to prevent spamming
+  const isAnimating = useRef(false);
 
   const data = [
     {
@@ -73,9 +73,10 @@ const TravelDestinationsShowcase = () => {
   // Initialize the showcase
   const init = () => {
     const active = order[0];
+    setActiveIndex(active);
     const rest = order.slice(1);
-    const detailsActive = detailsEven ? detailsEvenRef.current : detailsOddRef.current;
-    const detailsInactive = detailsEven ? detailsOddRef.current : detailsEvenRef.current;
+    const detailsActive = detailsEvenRef.current;
+    const detailsInactive = detailsOddRef.current;
     const { innerHeight: height, innerWidth: width } = window;
     const offsetTop = height - 430;
     const offsetLeft = width - 830;
@@ -102,15 +103,24 @@ const TravelDestinationsShowcase = () => {
     });
 
     gsap.set(getCardContentRef(active), { x: 0, y: 0, opacity: 0 });
+    
+    // Set initial state for text elements
     gsap.set(detailsActive, { opacity: 0, zIndex: 22, x: -200 });
-    gsap.set(detailsInactive, { opacity: 0, zIndex: 12 });
-
+    if (detailsActive) {
+      gsap.set(detailsActive.querySelector('.text'), { y: 30, opacity: 0 });
+      gsap.set(detailsActive.querySelector('.title-1'), { y: 30, opacity: 0 });
+      gsap.set(detailsActive.querySelector('.title-2'), { y: 30, opacity: 0 });
+      gsap.set(detailsActive.querySelector('.desc'), { y: 20, opacity: 0 });
+      gsap.set(detailsActive.querySelector('.cta'), { y: 20, opacity: 0 });
+    }
+    
+    gsap.set(detailsInactive, { opacity: 0, zIndex: 12, x: 0 });
     if (detailsInactive) {
-      gsap.set(detailsInactive.querySelector('.text'), { y: 100 });
-      gsap.set(detailsInactive.querySelector('.title-1'), { y: 100 });
-      gsap.set(detailsInactive.querySelector('.title-2'), { y: 100 });
-      gsap.set(detailsInactive.querySelector('.desc'), { y: 50 });
-      gsap.set(detailsInactive.querySelector('.cta'), { y: 60 });
+      gsap.set(detailsInactive.querySelector('.text'), { y: 30, opacity: 0 });
+      gsap.set(detailsInactive.querySelector('.title-1'), { y: 30, opacity: 0 });
+      gsap.set(detailsInactive.querySelector('.title-2'), { y: 30, opacity: 0 });
+      gsap.set(detailsInactive.querySelector('.desc'), { y: 20, opacity: 0 });
+      gsap.set(detailsInactive.querySelector('.cta'), { y: 20, opacity: 0 });
     }
 
     gsap.set(progressForegroundRef.current, {
@@ -151,23 +161,68 @@ const TravelDestinationsShowcase = () => {
     });
 
     rest.forEach((i, index) => {
-  gsap.to(getCardRef(i), {
-    x: offsetLeft + index * (cardWidth + gap),
-    zIndex: 30,
-    delay: startDelay + (0.05 * index), // Fixed: combined delays
-    ease,
-  });
+      gsap.to(getCardRef(i), {
+        x: offsetLeft + index * (cardWidth + gap),
+        zIndex: 30,
+        delay: startDelay + (0.05 * index),
+        ease,
+      });
 
-  gsap.to(getCardContentRef(i), {
-    x: offsetLeft + index * (cardWidth + gap),
-    zIndex: 40,
-    delay: startDelay + (0.05 * index), // Fixed: combined delays
-    ease,
-  });
-});
+      gsap.to(getCardContentRef(i), {
+        x: offsetLeft + index * (cardWidth + gap),
+        zIndex: 40,
+        delay: startDelay + (0.05 * index),
+        ease,
+      });
+    });
 
     gsap.to(paginationRef.current, { y: 0, opacity: 1, ease, delay: startDelay });
-    gsap.to(detailsActive, { opacity: 1, x: 0, ease, delay: startDelay });
+    
+    // Animate text elements in
+    gsap.to(detailsActive, { 
+      opacity: 1, 
+      x: 0, 
+      ease, 
+      delay: startDelay 
+    });
+    
+    if (detailsActive) {
+      gsap.to(detailsActive.querySelector('.text'), {
+        y: 0,
+        opacity: 1,
+        delay: startDelay + 0.1,
+        duration: 0.7,
+        ease
+      });
+      gsap.to(detailsActive.querySelector('.title-1'), {
+        y: 0,
+        opacity: 1,
+        delay: startDelay + 0.2,
+        duration: 0.7,
+        ease
+      });
+      gsap.to(detailsActive.querySelector('.title-2'), {
+        y: 0,
+        opacity: 1,
+        delay: startDelay + 0.3,
+        duration: 0.7,
+        ease
+      });
+      gsap.to(detailsActive.querySelector('.desc'), {
+        y: 0,
+        opacity: 1,
+        delay: startDelay + 0.4,
+        duration: 0.5,
+        ease
+      });
+      gsap.to(detailsActive.querySelector('.cta'), {
+        y: 0,
+        opacity: 1,
+        delay: startDelay + 0.5,
+        duration: 0.5,
+        ease
+      });
+    }
   };
 
   // Auto-play loop
@@ -179,9 +234,21 @@ const TravelDestinationsShowcase = () => {
     }, 5000);
   };
 
+  // Fade out text elements
+  const fadeOutText = (element) => {
+    if (!element) return;
+    
+    return gsap.to(element.querySelectorAll('.text, .title-1, .title-2, .desc, .cta'), {
+      y: 20,
+      opacity: 0,
+      duration: 0.3,
+      ease: "sine.inOut",
+      stagger: 0.05
+    });
+  };
+
   // Navigation step
   const step = (backward = false) => {
-    // Prevent spamming during animation
     if (isAnimating.current) return;
     isAnimating.current = true;
 
@@ -189,12 +256,11 @@ const TravelDestinationsShowcase = () => {
       const newOrder = backward ?
         [prevOrder[prevOrder.length - 1], ...prevOrder.slice(0, -1)] :
         [...prevOrder.slice(1), prevOrder[0]];
-
+      
+      setActiveIndex(newOrder[0]);
       animateStep(newOrder, backward);
       return newOrder;
     });
-
-    setDetailsEven(prev => !prev);
   };
 
   // Perform animation step
@@ -202,8 +268,8 @@ const TravelDestinationsShowcase = () => {
     const active = newOrder[0];
     const rest = newOrder.slice(1);
     const prv = backward ? newOrder[1] : newOrder[newOrder.length - 1];
-    const detailsActive = detailsEven ? detailsOddRef.current : detailsEvenRef.current;
-    const detailsInactive = detailsEven ? detailsEvenRef.current : detailsOddRef.current;
+    const detailsActive = detailsEvenRef.current;
+    const detailsInactive = detailsOddRef.current;
     const { innerHeight: height, innerWidth: width } = window;
     const offsetTop = height - 430;
     const offsetLeft = width - 830;
@@ -214,14 +280,59 @@ const TravelDestinationsShowcase = () => {
     const ease = "sine.inOut";
 
     gsap.set(detailsActive, { zIndex: 22 });
-    gsap.to(detailsActive, { opacity: 1, delay: 0.4, ease });
+    
+    // Fade out current text before transitioning
+    const fadeOutTimeline = fadeOutText(detailsActive);
+    
+    fadeOutTimeline.eventCallback('onComplete', () => {
+      // Set initial state for new text elements
+      if (detailsActive) {
+        gsap.set(detailsActive.querySelector('.text'), { y: 30, opacity: 0 });
+        gsap.set(detailsActive.querySelector('.title-1'), { y: 30, opacity: 0 });
+        gsap.set(detailsActive.querySelector('.title-2'), { y: 30, opacity: 0 });
+        gsap.set(detailsActive.querySelector('.desc'), { y: 20, opacity: 0 });
+        gsap.set(detailsActive.querySelector('.cta'), { y: 20, opacity: 0 });
+      }
 
-    if (detailsActive) {
-      gsap.to(detailsActive.querySelector('.text'), { y: 0, delay: 0.1, duration: 0.7, ease });
-      gsap.to(detailsActive.querySelector('.title-1'), { y: 0, delay: 0.15, duration: 0.7, ease });
-      gsap.to(detailsActive.querySelector('.title-2'), { y: 0, delay: 0.15, duration: 0.7, ease });
-      gsap.to(detailsActive.querySelector('.desc'), { y: 0, delay: 0.3, duration: 0.4, ease });
-    }
+      // Animate in new text elements
+      if (detailsActive) {
+        gsap.to(detailsActive.querySelector('.text'), {
+          y: 0,
+          opacity: 1,
+          delay: 0.4,
+          duration: 0.7,
+          ease
+        });
+        gsap.to(detailsActive.querySelector('.title-1'), {
+          y: 0,
+          opacity: 1,
+          delay: 0.5,
+          duration: 0.7,
+          ease
+        });
+        gsap.to(detailsActive.querySelector('.title-2'), {
+          y: 0,
+          opacity: 1,
+          delay: 0.6,
+          duration: 0.7,
+          ease
+        });
+        gsap.to(detailsActive.querySelector('.desc'), {
+          y: 0,
+          opacity: 1,
+          delay: 0.7,
+          duration: 0.5,
+          ease
+        });
+        gsap.to(detailsActive.querySelector('.cta'), {
+          y: 0,
+          opacity: 1,
+          delay: 0.8,
+          duration: 0.5,
+          ease
+        });
+      }
+    });
 
     gsap.set(getCardRef(prv), { zIndex: 10 });
     gsap.set(getCardRef(active), { zIndex: 20 });
@@ -271,14 +382,14 @@ const TravelDestinationsShowcase = () => {
         gsap.set(detailsInactive, { opacity: 0 });
 
         if (detailsInactive) {
-          gsap.set(detailsInactive.querySelector('.text'), { y: 100 });
-          gsap.set(detailsInactive.querySelector('.title-1'), { y: 100 });
-          gsap.set(detailsInactive.querySelector('.title-2'), { y: 100 });
-          gsap.set(detailsInactive.querySelector('.desc'), { y: 50 });
-          gsap.set(detailsInactive.querySelector('.cta'), { y: 60 });
+          gsap.set(detailsInactive.querySelector('.text'), { y: 30, opacity: 0 });
+          gsap.set(detailsInactive.querySelector('.title-1'), { y: 30, opacity: 0 });
+          gsap.set(detailsInactive.querySelector('.title-2'), { y: 30, opacity: 0 });
+          gsap.set(detailsInactive.querySelector('.desc'), { y: 20, opacity: 0 });
+          gsap.set(detailsInactive.querySelector('.cta'), { y: 20, opacity: 0 });
         }
 
-        isAnimating.current = false; // Reset animation flag
+        isAnimating.current = false;
       },
     });
 
@@ -327,7 +438,6 @@ const TravelDestinationsShowcase = () => {
   useEffect(() => {
     loadImages();
 
-    // Clean up animation interval on unmount
     return () => {
       if (animationRef.current) {
         clearInterval(animationRef.current);
@@ -352,6 +462,11 @@ const TravelDestinationsShowcase = () => {
   return (
     <div className="travel-showcase">
       <div className="indicator" ref={indicatorRef}></div>
+      
+      {/* Background text elements */}
+      <div className="bg-text top">Wanderlust</div>
+      <div className="bg-text bottom">Adventure</div>
+      
       <div className="cards-container">
         {data.map((item, index) => (
           <div
@@ -378,16 +493,16 @@ const TravelDestinationsShowcase = () => {
 
       <div className="details" id="details-even" ref={detailsEvenRef}>
         <div className="place-box">
-          <div className="text">{data[order[0]].place}</div>
+          <div className="text">{data[activeIndex].place}</div>
         </div>
         <div className="title-box-1">
-          <div className="title-1">{data[order[0]].title}</div>
+          <div className="title-1">{data[activeIndex].title}</div>
         </div>
         <div className="title-box-2">
-          <div className="title-2">{data[order[0]].title2}</div>
+          <div className="title-2">{data[activeIndex].title2}</div>
         </div>
         <div className="desc">
-          {data[order[0]].description}
+          {data[activeIndex].description}
         </div>
         <div className="cta">
           <button className="bookmark">
@@ -399,18 +514,18 @@ const TravelDestinationsShowcase = () => {
         </div>
       </div>
 
-      <div className="details" id="details-odd" ref={detailsOddRef} style={{ display: 'none' }}>
+      <div className="details" id="details-odd" ref={detailsOddRef}>
         <div className="place-box">
-          <div className="text">{data[order[0]].place}</div>
+          <div className="text">{data[activeIndex].place}</div>
         </div>
         <div className="title-box-1">
-          <div className="title-1">{data[order[0]].title}</div>
+          <div className="title-1">{data[activeIndex].title}</div>
         </div>
         <div className="title-box-2">
-          <div className="title-2">{data[order[0]].title2}</div>
+          <div className="title-2">{data[activeIndex].title2}</div>
         </div>
         <div className="desc">
-          {data[order[0]].description}
+          {data[activeIndex].description}
         </div>
         <div className="cta">
           <button className="bookmark">
@@ -745,6 +860,29 @@ const TravelDestinationsShowcase = () => {
           z-index: 100;
         }
         
+        /* Background text styles */
+        .bg-text {
+          position: absolute;
+          z-index: 5;
+          font-size: 24vw;
+          font-weight: 900;
+          color: rgba(255, 255, 255, 0.03);
+          text-transform: uppercase;
+          white-space: nowrap;
+          font-family: "Oswald", sans-serif;
+          pointer-events: none;
+        }
+        
+        .bg-text.top {
+          top: -12vw;
+          left: -5vw;
+        }
+        
+        .bg-text.bottom {
+          bottom: -12vw;
+          right: -5vw;
+        }
+        
         /* Mobile responsive styles */
         @media (max-width: 768px) {
           .details {
@@ -777,6 +915,10 @@ const TravelDestinationsShowcase = () => {
           
           nav {
             padding: 15px 20px;
+          }
+          
+          .bg-text {
+            font-size: 20vw;
           }
         }
       `}</style>
