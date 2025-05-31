@@ -12,10 +12,8 @@ const Highlights = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Smoother transition with easing
   const translateY = Math.max(0, 100 - (scrollY / window.innerHeight) * 100);
 
-  // added dummy just for a layout 
   return (
     <section
       className="relative min-h-screen bg-white py-20 z-30"
