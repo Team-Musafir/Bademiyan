@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import TravelPackages from './components/Packages'
 import Highlights from './components/Highlights'
 import JourneyBanner from './components/Journey'
+import Reviews from './components/Review'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <TravelPackages/>
       <Highlights/>
       <JourneyBanner/>
+      <Reviews/>
+      <Footer/>
     </main>
   )
 }

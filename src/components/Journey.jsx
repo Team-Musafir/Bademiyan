@@ -26,8 +26,6 @@ export default function JourneyBanner() {
             See what makes each experience with our trips exceptional.
           </p>
         </div>
-
-        <div className="absolute inset-0 bg-black/30 rounded-3xl z-0"></div>
       </div>
     </div>
   );
