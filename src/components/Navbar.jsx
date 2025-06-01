@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeItem, setActiveItem] = useState('');
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -49,6 +50,33 @@ const Navbar = () => {
 
   return (
     <>
+      <style jsx global>{`
+        .underline-effect {
+          position: relative;
+        }
+        
+        .underline-effect::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 1.5px;
+          background: linear-gradient(90deg, #fff, #fff);
+          border-radius: 1px;
+          transition: width 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+        }
+        
+        .underline-effect:hover::after {
+          width: 100%;
+        }
+        
+        .underline-effect.active::after {
+          width: 100%;
+          background: linear-gradient(90deg, #fff, #fff);
+        }
+      `}</style>
+
       <nav className='fixed top-0 left-0 right-0 z-50 transition-all duration-300'>
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex items-center justify-between">
@@ -62,7 +90,12 @@ const Navbar = () => {
                 <a
                   key={item}
                   href="#"
-                  className="text-white/90 hover:text-white transition-colors duration-200 font-normal tracking-wide"
+                  className={`underline-effect text-white/90 hover:text-white transition-colors duration-200 font-normal tracking-wide ${
+                    activeItem === item ? 'active' : ''
+                  }`}
+                  onMouseEnter={() => setActiveItem(item)}
+                  onMouseLeave={() => setActiveItem('')}
+                  onClick={() => setActiveItem(item)}
                 >
                   {item}
                 </a>
@@ -111,7 +144,7 @@ const Navbar = () => {
         onClick={toggleMenu}
       />
 
-      {/* Mobile Menu Panel */}
+      {/* Mobile Menu Panel - Reverted to original version */}
       <div 
         className={`fixed top-0 right-0 h-full w-[65%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
           isMenuOpen 
@@ -135,7 +168,10 @@ const Navbar = () => {
             >
               <a
                 href="#"
-                onClick={toggleMenu}
+                onClick={() => {
+                  toggleMenu();
+                  setActiveItem(item);
+                }}
                 className="text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2"
                 style={{ fontFamily: 'Playfair Display' }}
               >
