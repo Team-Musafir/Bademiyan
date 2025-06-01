@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800">
             {/* Social Media Icons */}
             <div className="flex items-center space-x-6 mb-6 md:mb-0">
-              <div className="text-xl font-bold text-white">AdventureCo.</div>
+              <div className="text-xl font-bold text-white">Bademiyan Tours and Services.</div>
               <div className="h-6 border-l border-gray-700"></div>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -115,7 +115,7 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} AdventureCo. All rights reserved.
+              &copy; {new Date().getFullYear()} Bademiyan Tours and Services. All rights reserved.
             </div>
           </div>
         </div>

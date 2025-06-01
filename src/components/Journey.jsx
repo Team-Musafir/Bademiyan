@@ -15,7 +15,7 @@ export default function JourneyBanner() {
 
       <div className="relative w-full flex justify-center overflow-hidden">
         <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover rounded-3xl">
-          <source src="/bg.mp4" type="video/mp4" />
+          <source src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/bg.mp4?updatedAt=1748816800769" type="video/mp4" />
         </video>
 
         <div className="relative w-full max-w-6xl h-[600px] flex flex-col justify-center items-center text-center text-white px-8 z-10">

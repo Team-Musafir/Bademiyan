@@ -37,7 +37,7 @@ const Hero = () => {
     },
     {
       id: 2,
-      image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070',
+      image: 'https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vikashkr50-17845104.jpg?updatedAt=1748814426516',
       heading: {
         line1: { part1: "Discover", part2: "hidden" },
         line2: { part1: "wonders", part2: "in every", part3: "corner" },
