@@ -1,23 +1,22 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import TravelPackages from './components/Packages'
-import Highlights from './components/Highlights'
-import JourneyBanner from './components/Journey'
-import Reviews from './components/Review'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Packages from './pages/Packages';
+import Contact from './pages/Contact';
+// import NotFound from './pages/NotFound'; 
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <main className="relative">
-      <Navbar />
-      <Hero />
-      <TravelPackages/>
-      <Highlights/>
-      <JourneyBanner/>
-      <Reviews/>
-      <Footer/>
-    </main>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/packages" element={<Packages />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
