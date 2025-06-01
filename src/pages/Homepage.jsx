@@ -7,6 +7,7 @@ import Highlights from '../components/Highlights';
 import JourneyBanner from '../components/Journey';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
+import Contact from '../components/Contact';
 
 
 function Homepage() {
@@ -18,6 +19,7 @@ function Homepage() {
       <Highlights/>
       <JourneyBanner/>
       <Reviews/>
+      <Contact/>
       <Footer/>
     </main>
   )

@@ -89,7 +89,7 @@ const Reviews = () => {
 
   return (
     <div className="bg-white py-16 px-6 font-['Poppins']">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         {/* Animated Header */}
         <div className="mb-12 overflow-hidden">
           <motion.div

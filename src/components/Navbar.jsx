@@ -66,7 +66,7 @@ const Navbar = () => {
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-12">
-              {['Trips', 'Gallery', 'About', 'Contact'].map((item) => (
+              {['About', 'Tours-Packages', 'Events','Blog', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href="#"
