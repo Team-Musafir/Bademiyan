@@ -258,11 +258,11 @@ const TravelPackages = () => {
                       
                       {/* Content Overlay */}
                       <div className="absolute inset-0 p-6 flex flex-col justify-end text-white">
-                        <h3 className="text-xl font-semibold mb-2 leading-tight">
+                        <h3 className="text-2xl font-semibold mb-2 leading-tight">
                           {pkg.title}
                         </h3>
                         <div className="flex items-center justify-between">
-                          <span className="text-sm opacity-90">
+                          <span className="text-base font-light opacity-90">
                             {pkg.duration}
                           </span>
                           <span className="text-2xl font-bold">
