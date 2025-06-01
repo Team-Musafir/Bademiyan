@@ -9,42 +9,20 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const html = document.documentElement;
-    const body = document.body;
-    
     if (isMenuOpen) {
-      // Disable scrolling on all possible elements
-      html.style.overflow = 'hidden';
-      body.style.overflow = 'hidden';
-      html.classList.add('overflow-hidden');
-      body.classList.add('overflow-hidden');
-      
-      // Additional touch event prevention for mobile
-      body.style.touchAction = 'none';
-      body.style.position = 'fixed';
-      body.style.width = '100%';
+      // Simply prevent scrolling without changing positions
+      document.body.style.overflow = 'hidden';
+      document.body.style.touchAction = 'none';
     } else {
       // Re-enable scrolling
-      html.style.overflow = '';
-      body.style.overflow = '';
-      html.classList.remove('overflow-hidden');
-      body.classList.remove('overflow-hidden');
-      
-      // Restore touch events
-      body.style.touchAction = '';
-      body.style.position = '';
-      body.style.width = '';
+      document.body.style.overflow = '';
+      document.body.style.touchAction = '';
     }
     
+    // Cleanup function
     return () => {
-      // Cleanup
-      html.style.overflow = '';
-      body.style.overflow = '';
-      html.classList.remove('overflow-hidden');
-      body.classList.remove('overflow-hidden');
-      body.style.touchAction = '';
-      body.style.position = '';
-      body.style.width = '';
+      document.body.style.overflow = '';
+      document.body.style.touchAction = '';
     };
   }, [isMenuOpen]);
 
@@ -75,10 +53,15 @@ const Navbar = () => {
           width: 100%;
           background: linear-gradient(90deg, #fff, #fff);
         }
+        
+        /* Additional styles to prevent content shift */
+        body.menu-open {
+          overflow: hidden !important;
+        }
       `}</style>
 
       <nav className='fixed top-0 left-0 right-0 z-50 transition-all duration-300'>
-        <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <div className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
               Xplore.
@@ -105,7 +88,7 @@ const Navbar = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMenu}
-              className="md:hidden relative w-8 h-8 flex items-center justify-center focus:outline-none z-60"
+              className="md:hidden relative w-8 h-8 flex items-center justify-center focus:outline-none z-50"
               aria-label="Toggle menu"
             >
               <div className="relative w-6 h-6">
@@ -144,7 +127,7 @@ const Navbar = () => {
         onClick={toggleMenu}
       />
 
-      {/* Mobile Menu Panel - Reverted to original version */}
+      {/* Mobile Menu Panel */}
       <div 
         className={`fixed top-0 right-0 h-full w-[65%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
           isMenuOpen 
@@ -152,7 +135,6 @@ const Navbar = () => {
             : 'translate-x-full opacity-0 invisible'
         }`}
       >
-
         <div className="flex flex-col items-center justify-center h-full space-y-8">
           {['Home', 'Trips', 'Gallery', 'About', 'Contact'].map((item, index) => (
             <div

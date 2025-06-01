@@ -60,7 +60,7 @@ const Hero = () => {
       image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074',
       heading: {
         line1: { part1: "Where", part2: "adventure" },
-        line2: { part1: "meets", part2: "serenity", part3: "and" },
+        line2: { part1: "meets", part2: "serenity", part3: "&" },
         line3: { part1: "dreams", part2: "become reality." }
       },
       description: "Find the perfect balance between thrilling exploration and peaceful moments."
@@ -307,7 +307,7 @@ const Hero = () => {
               initial="hidden"
               animate={taglineControls}
             >
-              <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 sm:px-4 md:px-5 py-2 md:py-2 mt-8 font-normal">
+              <div className="inline-block bg-white/20 backdrop-blur-sm rounded-full px-4 sm:px-4 md:px-5 py-2 md:py-2 mt-20 font-normal">
                 <div className="text-white text-center text-[0.9rem] xs:text-xs sm:text-sm md:text-base">
                   {taglineText.split('').map((char, i) => (
                     <motion.span
@@ -327,7 +327,7 @@ const Hero = () => {
 
             {/* Heading with preserved structure and animation */}
             <motion.h1
-              className="text-white leading-none mb-8 md:mb-0"
+              className="text-white leading-none"
               initial="hidden"
               animate={headingControls}
             >
@@ -364,7 +364,7 @@ const Hero = () => {
 
         {/* Bottom Content Stack - Mobile: Vertical, Desktop: Horizontal */}
         <motion.div
-          className="max-w-7xl mx-auto px-6 w-full pb-12 md:pb-20"
+          className="max-w-6xl mx-auto px-6 w-full pb-12 md:pb-20"
           variants={contentVariants}
           initial="hidden"
           animate={contentControls}
@@ -430,7 +430,7 @@ const Hero = () => {
               <button 
                 onClick={handleExploreClick}
                 className="group relative bg-transparent border border-white/60 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center gap-3 font-light tracking-wide text-sm uppercase cursor-pointer pointer-events-auto"
-              > 
+              >
                 <span>Explore Now</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
@@ -453,9 +453,9 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Interactive Elements - Higher z-index */}
-      {/* Side Navigation Arrows */}
-      <div className="absolute inset-0 z-50 flex items-center justify-between px-4 md:px-8 pointer-events-none">
+      {/* Interactive Elements - Lower z-index to be below navbar sidebar */}
+      {/* Side Navigation Arrows - Only show on desktop to avoid conflict with mobile sidebar */}
+      <div className="absolute inset-0 z-20 hidden md:flex items-center justify-between px-4 lg:px-8 pointer-events-none">
         <button
           onClick={goToPrev}
           className="p-3 rounded-full bg-black/30 backdrop-blur-sm border border-white/20 hover:bg-black/50 transition-all duration-300 group pointer-events-auto"
@@ -474,7 +474,7 @@ const Hero = () => {
       </div>
 
       {/* Desktop-only Progress Indicator */}
-      <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40 w-full max-w-md px-4">
+      <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-md px-4">
         <div className="flex flex-col items-center">
           {/* Progress bar container */}
           <div className="progress-bar w-full mb-3">
