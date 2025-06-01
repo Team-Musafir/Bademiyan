@@ -27,7 +27,7 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?q=80&w=2070',
+      image: 'https://ik.imagekit.io/qad3x0vr1/mark-harpur-xzyD63yc5vI-unsplash.jpg?updatedAt=1748811781161',
       heading: {
         line1: { part1: "Embark on", part2: "journeys" },
         line2: { part1: "not", part2: "just", part3: "destinations" },
@@ -47,7 +47,7 @@ const Hero = () => {
     },
     {
       id: 3,
-      image: 'https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=2073',
+      image: 'https://ik.imagekit.io/qad3x0vr1/konark%20temple,India.jpeg?updatedAt=1748811758408',
       heading: {
         line1: { part1: "Journey", part2: "beyond" },
         line2: { part1: "the", part2: "ordinary", part3: "into" },
@@ -57,7 +57,7 @@ const Hero = () => {
     },
     {
       id: 4,
-      image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074',
+      image: 'https://ik.imagekit.io/qad3x0vr1/Effiel%20Tower.jpg?updatedAt=1748811780252',
       heading: {
         line1: { part1: "Where", part2: "adventure" },
         line2: { part1: "meets", part2: "serenity", part3: "&" },

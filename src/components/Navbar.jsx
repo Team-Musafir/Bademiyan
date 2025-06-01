@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <div className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
-              Xplore.
+              BadeMiyan.
             </div>
             
             {/* Desktop Menu */}
