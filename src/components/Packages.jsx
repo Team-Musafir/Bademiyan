@@ -6,34 +6,34 @@ const TravelPackages = () => {
   const packages = [
     {
       id: 1,
-      title: "Tropical Paradise Recreation",
+      title: "Odisha",
       duration: "7 days, 6 nights",
       price: "$999",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793",
       gradient: "from-amber-600/80 to-orange-800/80"
     },
     {
       id: 2,
-      title: "Cruise Getaway Expedition",
+      title: "Bengal",
       duration: "7 days, 6 nights",
       price: "$1799",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "https://pixabay.com/get/g4fb85025c058230965969694f205f48d196442d139caa5422e43267d21300cd32c9d41c6a1aed6daf480f82322e84f63.jpg",
       gradient: "from-slate-600/80 to-blue-800/80"
     },
     {
       id: 3,
-      title: "Cultural Immersion in Morocco",
+      title: "North East India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rehanverma-2408167.jpg?updatedAt=1748815082107",
       gradient: "from-red-600/80 to-amber-700/80"
     },
     {
       id: 4,
-      title: "River Expedition in Thuringia",
+      title: "Explore India",
       duration: "7 Days, 6 Nights",
       price: "$899",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/india.jpg?updatedAt=1748812485940",
       gradient: "from-green-700/80 to-emerald-800/80"
     }
   ];
