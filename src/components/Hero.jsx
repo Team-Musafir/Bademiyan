@@ -298,7 +298,7 @@ const Hero = () => {
       {/* Text Content - Lower z-index, non-interactive */}
       <div className="relative z-10 min-h-screen flex flex-col pointer-events-none">
         {/* Top Content - Tagline and Heading */}
-        <div className="max-w-7xl mx-auto px-6 w-full pt-12 lg:pt-20 md:pt-20 flex-grow flex flex-col justify-center md:justify-start">
+        <div className="max-w-7xl mx-auto px-6 w-full lg:pt-20 md:pt-20 flex-grow flex flex-col justify-center md:justify-start">
           <div className="max-w-5xl mx-auto text-center">
             {/* Tagline with character-by-character cloud effect */}
             <motion.div
