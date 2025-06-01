@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Footer from './components/Footer'
 import TravelPackages from './components/Packages'
+import Highlights from './components/Highlights'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <TravelPackages/>
-      <Footer />
+      <Highlights/>
     </main>
   )
 }
