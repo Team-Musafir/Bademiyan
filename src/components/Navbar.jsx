@@ -10,16 +10,13 @@ const Navbar = () => {
 
   useEffect(() => {
     if (isMenuOpen) {
-      // Simply prevent scrolling without changing positions
       document.body.style.overflow = 'hidden';
       document.body.style.touchAction = 'none';
     } else {
-      // Re-enable scrolling
       document.body.style.overflow = '';
       document.body.style.touchAction = '';
     }
     
-    // Cleanup function
     return () => {
       document.body.style.overflow = '';
       document.body.style.touchAction = '';
@@ -54,13 +51,13 @@ const Navbar = () => {
           background: linear-gradient(90deg, #fff, #fff);
         }
         
-        /* Additional styles to prevent content shift */
         body.menu-open {
           overflow: hidden !important;
         }
       `}</style>
 
-      <nav className='fixed top-0 left-0 right-0 z-50 transition-all duration-300'>
+      {/* Changed from fixed to absolute positioning */}
+      <nav className='absolute top-0 left-0 right-0 z-50 transition-all duration-300'>
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <div className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
