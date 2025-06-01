@@ -62,7 +62,7 @@ const TravelPackages = () => {
   };
 
   return (
-    <section id="packages" className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-6">
+    <section id="packages" className="min-h-screen bg-white p-6">
       <motion.div
         initial="hidden"
         whileInView="show"
