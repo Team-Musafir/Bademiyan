@@ -25,7 +25,7 @@ const TravelPackages = () => {
       title: "North East India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rehanverma-2408167.jpg?updatedAt=1748815082107",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nans1419-20519339.jpg",
       gradient: "from-red-600/80 to-amber-700/80"
     },
     {
