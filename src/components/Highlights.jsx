@@ -10,7 +10,7 @@ export default function Highlights() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
+        staggerChildren: 0.3 // Increased stagger time
       }
     }
   };
@@ -21,23 +21,40 @@ export default function Highlights() {
       opacity: 1, 
       y: 0,
       transition: { 
-        duration: 0.6,
+        duration: 0.9, // Increased duration
         ease: [0.16, 1, 0.3, 1]
       } 
     }
   };
 
+  // Updated card animation with direction and slower timing
   const cardItem = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: (index) => ({ 
+      opacity: 0, 
+      x: index % 2 === 0 ? 100 : -100
+    }),
     show: (index) => ({ 
       opacity: 1, 
-      y: 0,
+      x: 0,
       transition: { 
-        delay: index * 0.1,
-        duration: 0.5,
+        delay: index * 0.2, // Increased delay between cards
+        duration: 0.9, // Increased duration
         ease: [0.16, 1, 0.3, 1]
       } 
     })
+  };
+
+  // Slower heading animation
+  const headingLine = {
+    hidden: { opacity: 0, y: 40 }, // Increased starting position
+    show: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 1.0, // Increased duration
+        ease: [0.16, 1, 0.3, 1]
+      } 
+    }
   };
 
   return (
@@ -54,19 +71,30 @@ export default function Highlights() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Side - Text */}
         <motion.div 
-          className="sm:space-y-12 space-y-12 md:space-y-48 lg:space-y-48"
+          className="sm:space-y-12 space-y-12 md:space-y-54 lg:space-y-54"
           variants={container}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: "-100px" }}
         >
-          <motion.div variants={item} className="space-y-4">
-            <h1 className="text-5xl md:text-6xl font-light leading-tight tracking-tight">
-              <div className="flex flex-col font-playfair">
-                <span className="font-playfair">Our true <em className="italic font-normal">beliefs</em></span>
-                <span className="font-playfair">for <em className="italic font-normal">your</em> benefits.</span>
-              </div>
-            </h1>
+          <motion.div className="space-y-4" variants={container}>
+            <motion.h1 
+              className="text-5xl md:text-6xl font-light leading-tight tracking-tight flex flex-col"
+              variants={container}
+            >
+              <motion.span 
+                variants={headingLine} 
+                className="font-playfair"
+              >
+                Our true <em className="italic font-normal">beliefs</em>
+              </motion.span>
+              <motion.span 
+                variants={headingLine} 
+                className="font-playfair mt-2"
+              >
+                for <em className="italic font-normal">your</em> benefits.
+              </motion.span>
+            </motion.h1>
           </motion.div>
           
           <motion.div variants={item}>
@@ -87,85 +115,69 @@ export default function Highlights() {
           whileInView="show"
           viewport={{ once: true, margin: "-100px" }}
         >
-          {/* Customer-Centric Card */}
-          <motion.div 
-            className="bg-white rounded-2xl p-6 border-2 border-black shadow-sm hover:shadow-md transition-shadow"
-            variants={cardItem}
-            custom={0}
-          >
-            <div className="flex items-start space-x-4">
-              <div className="bg-gray-100 border-1 rounded-full p-3 flex-shrink-0">
-                <User className="w-6 h-6 text-black" />
+          {/* Cards with custom animation based on index */}
+          {[
+            { 
+              title: "Customer-Centric", 
+              icon: <User className="w-6 h-6 text-black" />,
+              content: "Being customer-centric is the compass that guides our travel services. We prioritize our customers' needs.",
+              bg: "bg-white",
+              border: "border-2 border-black",
+              textColor: "text-black",
+              iconBg: "bg-gray-100"
+            },
+            { 
+              title: "Sustainable Travel", 
+              icon: <Leaf className="w-6 h-6 text-white" />,
+              content: "Committed to responsible and eco-conscious journeys, traveling the world with minimal footprints and pollutions.",
+              bg: "bg-gray-900",
+              border: "",
+              textColor: "text-white",
+              iconBg: "bg-gray-700"
+            },
+            { 
+              title: "Authentic Experiences", 
+              icon: <Plane className='w-6 h-6 text-black'/>,
+              content: "We deliver journeys that immerse you in unforgettable encounters with the world's diverse cultures & landscapes.",
+              bg: "bg-white",
+              border: "border-2 border-black",
+              textColor: "text-black",
+              iconBg: "bg-gray-100"
+            },
+            { 
+              title: "Quality Guides", 
+              icon: <Star className="w-6 h-6 text-white" />,
+              content: "Every journey will be led by knowledgeable, passionate experts who enhance your travel experience.",
+              bg: "bg-gray-900",
+              border: "",
+              textColor: "text-white",
+              iconBg: "bg-gray-700"
+            }
+          ].map((card, index) => (
+            <motion.div 
+              key={index}
+              className={`${card.bg} ${card.border} rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow`}
+              variants={cardItem}
+              custom={index}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+            >
+              <div className="flex items-start space-x-4">
+                <div className={`${card.iconBg} rounded-full p-3 flex-shrink-0`}>
+                  {card.icon}
+                </div>
+                <div>
+                  <h3 className={`text-xl font-medium ${card.textColor} mb-2`}>
+                    {card.title}
+                  </h3>
+                  <p className={`${card.textColor === 'text-white' ? 'text-gray-300' : 'text-gray-700'} leading-relaxed`}>
+                    {card.content}
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-xl font-medium text-black mb-2">Customer-Centric</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Being customer-centric is the compass that guides our 
-                  travel services. We prioritize our customers' needs.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Sustainable Travel Card */}
-          <motion.div 
-            className="bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow"
-            variants={cardItem}
-            custom={1}
-          >
-            <div className="flex items-start space-x-4">
-              <div className="bg-gray-700 rounded-full p-3 flex-shrink-0">
-                <Leaf className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="text-xl font-medium text-white mb-2">Sustainable Travel</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Committed to responsible and eco-conscious journeys, 
-                  traveling the world with minimal footprints and pollutions.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Authentic Experiences Card */}
-          <motion.div 
-            className="bg-white rounded-2xl p-6 border-2 border-black shadow-sm hover:shadow-md transition-shadow"
-            variants={cardItem}
-            custom={2}
-          >
-            <div className="flex items-start space-x-4">
-              <div className="bg-gray-100 border-1 rounded-full p-3 flex-shrink-0">
-                <Plane className='w-6 h-6 text-black'/>
-              </div>
-              <div>
-                <h3 className="text-xl font-medium text-black mb-2">Authentic Experiences</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We deliver journeys that immerse you in unforgettable 
-                  encounters with the world's diverse cultures & landscapes.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Quality Guides Card */}
-          <motion.div 
-            className="bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow"
-            variants={cardItem}
-            custom={3}
-          >
-            <div className="flex items-start space-x-4">
-              <div className="bg-gray-700 rounded-full p-3 flex-shrink-0">
-                <Star className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="text-xl font-medium text-white mb-2">Quality Guides</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Every journey will be led by knowledgeable, passionate 
-                  experts who enhance your travel experience.
-                </p>
-              </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </div>
