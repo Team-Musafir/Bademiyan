@@ -364,7 +364,7 @@ const Hero = () => {
 
         {/* Bottom Content Stack - Mobile: Vertical, Desktop: Horizontal */}
         <motion.div
-          className="max-w-7xl mx-auto px-6 w-full pb-6 md:pb-20"
+          className="max-w-7xl mx-auto px-6 w-full pb-12 md:pb-20"
           variants={contentVariants}
           initial="hidden"
           animate={contentControls}
@@ -425,14 +425,16 @@ const Hero = () => {
               </div>
             </div>
             
-            {/* Explore Button */}
-            <button 
-              onClick={handleExploreClick}
-              className="group relative bg-transparent border border-white/60 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center gap-3 font-light tracking-wide text-sm uppercase cursor-pointer pointer-events-auto"
-            > 
-              <span>Explore Now</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-            </button>
+            {/* Explore Button with extra bottom space */}
+            <div className="mt-4 mb-8">
+              <button 
+                onClick={handleExploreClick}
+                className="group relative bg-transparent border border-white/60 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center gap-3 font-light tracking-wide text-sm uppercase cursor-pointer pointer-events-auto"
+              > 
+                <span>Explore Now</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
+            </div>
           </div>
 
           {/* Desktop: Original Horizontal Layout */}
