@@ -66,7 +66,7 @@ const Navbar = () => {
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-12">
-              {['About', 'Tours-Packages', 'Events','Blog', 'Contact'].map((item) => (
+              {['About', 'Tours','Packages', 'Events','Blog', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href="#"
@@ -126,7 +126,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Panel */}
       <div 
-        className={`fixed top-0 right-0 h-full w-[65%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
+        className={`fixed top-0 right-0 h-full w-[60%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
           isMenuOpen 
             ? 'translate-x-0 opacity-100 visible' 
             : 'translate-x-full opacity-0 invisible'
