@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const Reviews = () => {
@@ -50,21 +50,50 @@ const Reviews = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerView, setCardsPerView] = useState(3);
+  const [autoSlide, setAutoSlide] = useState(true);
+  const intervalRef = useRef(null);
+
+  // Function to start auto sliding
+  const startAutoSlide = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(() => {
+      setCurrentIndex(prevIndex => {
+        if (prevIndex >= reviews.length - cardsPerView) return 0;
+        return prevIndex + 1;
+      });
+    }, 5000); // Slide every 5 seconds
+  };
+
+  // Function to stop auto sliding
+  const stopAutoSlide = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+  };
 
   const nextSlide = () => {
-    setCurrentIndex(prevIndex =>
-      prevIndex === reviews.length - cardsPerView ? 0 : prevIndex + 1
-    );
+    stopAutoSlide();
+    setCurrentIndex(prevIndex => {
+      if (prevIndex >= reviews.length - cardsPerView) return 0;
+      return prevIndex + 1;
+    });
+    if (autoSlide) startAutoSlide();
   };
 
   const prevSlide = () => {
-    setCurrentIndex(prevIndex =>
-      prevIndex === 0 ? reviews.length - cardsPerView : prevIndex - 1
-    );
+    stopAutoSlide();
+    setCurrentIndex(prevIndex => {
+      if (prevIndex === 0) return reviews.length - cardsPerView;
+      return prevIndex - 1;
+    });
+    if (autoSlide) startAutoSlide();
   };
 
   const goToSlide = (index) => {
-    setCurrentIndex(index);
+    stopAutoSlide();
+    setCurrentIndex(index * cardsPerView);
+    if (autoSlide) startAutoSlide();
   };
 
   useEffect(() => {
@@ -76,7 +105,8 @@ const Reviews = () => {
       } else {
         setCardsPerView(3);
       }
-
+      
+      // Adjust current index if it's out of bounds
       if (currentIndex > reviews.length - cardsPerView) {
         setCurrentIndex(Math.max(0, reviews.length - cardsPerView));
       }
@@ -84,119 +114,160 @@ const Reviews = () => {
 
     handleResize();
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, [cardsPerView, currentIndex, reviews.length]);
+    
+    // Start auto slide
+    if (autoSlide) startAutoSlide();
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      stopAutoSlide();
+    };
+  }, [cardsPerView, currentIndex, reviews.length, autoSlide]);
+
+  // Animation variants
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 20 },
+    show: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 0.6, 
+        ease: "easeOut" 
+      }
+    }
+  };
 
   return (
-    <div className="bg-white py-16 px-6 font-['Poppins'] overflow-hidden">
-      <div className="w-full mx-auto">
-        {/* Animated Header */}
-        <div className="mb-12 md:px-[10rem] lg:px-[10rem] overflow-hidden">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 0.8,
-                ease: [0.16, 0.77, 0.47, 0.97]
-              }
-            }}
-            viewport={{ once: true, margin: "-50px" }}
-          >
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-normal text-gray-900 leading-wider">
-              Real <span className="italic">stories</span>
+    <section id="reviews" className="bg-white py-24 px-6">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={container}
+        className="max-w-6xl mx-auto"
+      >
+        {/* Header Section */}
+        <motion.div 
+          variants={item}
+          className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8"
+        >
+          <div className="flex-1">
+            <h1 className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight">
+              Real <em className="italic font-serif text-slate-700">stories</em>
               <br />
               from travelers
-            </h2>
-          </motion.div>
-        </div>
+            </h1>
+          </div>
+        </motion.div>
 
-        {/* Carousel Container */}
-        <div className="relative max-w-6xl mx-auto px-4">
-          <div className="relative">
-            {/* Navigation Buttons */}
-            <button
-              onClick={prevSlide}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
-              aria-label="Previous slide"
+        {/* Reviews Slider */}
+        <motion.div 
+          variants={item}
+          className="relative"
+          onMouseEnter={() => {
+            setAutoSlide(false);
+            stopAutoSlide();
+          }}
+          onMouseLeave={() => {
+            setAutoSlide(true);
+            startAutoSlide();
+          }}
+        >
+          {/* Navigation Buttons */}
+          <button 
+            onClick={prevSlide}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
+            aria-label="Previous slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          
+          <button 
+            onClick={nextSlide}
+            className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
+            aria-label="Next slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          {/* Cards Container */}
+          <div className="overflow-hidden py-4">
+            <div 
+              className="flex transition-transform duration-500 ease-in-out"
+              style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-
-            <button
-              onClick={nextSlide}
-              className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
-              aria-label="Next slide"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-
-            {/* Cards Container */}
-            <div className="overflow-hidden">
-              <div
-                className="flex transition-transform duration-500 ease-in-out"
-                style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}
-              >
-                {reviews.map((review) => (
-                  <div
-                    key={review.id}
-                    className="flex-shrink-0 px-4"
-                    style={{ width: `${100 / cardsPerView}%` }}
+              {reviews.map((review) => (
+                <div 
+                  key={review.id}
+                  className="flex-shrink-0 px-4"
+                  style={{ width: `${100 / cardsPerView}%` }}
+                >
+                  <motion.div 
+                    whileHover={{ y: -10 }}
+                    className="group relative bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col"
                   >
-                    <div className="bg-white border-2 border-gray-800 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 h-full min-h-[320px] flex flex-col">
-                      <div className="flex-1">
-                        <p className="text-gray-600 text-lg leading-relaxed mb-6 font-light">
-                          "{review.text}"
+                    <div className="flex-1">
+                      <p className="text-slate-600 text-lg leading-relaxed mb-6 font-normal">
+                        "{review.text}"
+                      </p>
+                    </div>
+
+                    <div className="flex items-center mt-4">
+                      <img
+                        src={review.avatar}
+                        alt={review.name}
+                        className="w-14 h-14 rounded-full object-cover mr-4 border-2 border-amber-100"
+                      />
+                      <div>
+                        <h4 className="font-medium text-slate-900 text-lg">
+                          {review.name}
+                        </h4>
+                        <p className="text-slate-500 text-sm flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {review.country}
                         </p>
                       </div>
-
-                      <div className="flex items-center mt-4">
-                        <img
-                          src={review.avatar}
-                          alt={review.name}
-                          className="w-14 h-14 rounded-full object-cover mr-4 border-2 border-gray-800"
-                        />
-                        <div>
-                          <h4 className="font-medium text-gray-900 text-lg">
-                            {review.name}
-                          </h4>
-                          <p className="text-gray-600 text-sm flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                            {review.country}
-                          </p>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  </motion.div>
+                </div>
+              ))}
             </div>
           </div>
+        </motion.div>
 
-          {/* Pagination Dots */}
-          <div className="flex justify-center mt-8 space-x-2">
-            {Array.from({ length: Math.ceil(reviews.length / cardsPerView) }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index * cardsPerView)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${index === Math.floor(currentIndex / cardsPerView)
-                    ? 'bg-gray-800 w-6'
-                    : 'bg-gray-300'
-                  }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
+        {/* Minimalist Pagination Dots */}
+        <div className="flex justify-center mt-12 space-x-2">
+          {Array.from({ length: Math.ceil(reviews.length / cardsPerView) }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`h-1.5 rounded-full transition-all duration-300 ${
+                index === Math.floor(currentIndex / cardsPerView) 
+                  ? 'bg-black w-6' 
+                  : 'bg-gray-300 w-3'
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </section>
   );
 };
 
