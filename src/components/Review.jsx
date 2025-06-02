@@ -91,7 +91,7 @@ const Reviews = () => {
     <div className="bg-white py-16 px-6 font-['Poppins'] overflow-hidden">
       <div className="w-full mx-auto">
         {/* Animated Header */}
-        <div className="mb-12 px-[10rem] overflow-hidden">
+        <div className="mb-12 md:px-[10rem] lg:px-[10rem] overflow-hidden">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{
