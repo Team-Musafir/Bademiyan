@@ -4,6 +4,14 @@ import { Facebook, Twitter, Instagram, Youtube, Phone, MapPin } from 'lucide-rea
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+          .font-playfair {
+            font-family: 'Playfair Display', serif;
+          }
+        `}
+      </style>
       {/* Hero Image Section */}
       <div className="relative h-96 w-full">
         <img 
@@ -95,7 +103,11 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800">
             {/* Social Media Icons */}
             <div className="flex items-center space-x-6 mb-6 md:mb-0">
-              <div className="text-xl font-bold text-white">Bademiyan Tours and Services.</div>
+              <div 
+                className="text-xl text-white font-playfair"
+              >
+                Bademiyan Tours and Services
+              </div>
               <div className="h-6 border-l border-gray-700"></div>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
