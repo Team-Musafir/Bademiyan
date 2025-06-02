@@ -58,7 +58,7 @@ export default function Highlights() {
   };
 
   return (
-    <div className="min-h-screen bg-white p-8 flex items-center">
+    <div className="min-h-screen w-full bg-white p-8 flex items-center">
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
         .font-playfair-medium-italic {

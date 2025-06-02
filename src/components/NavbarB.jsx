@@ -79,7 +79,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <NavLink 
               to="/" 
-              className="text-white text-2xl font-light tracking-wide italic"
+              className="text-black text-2xl font-light tracking-wide italic"
               style={{ fontFamily: 'Playfair Display' }}
               onClick={() => setActiveItem('Home')}
             >
@@ -93,7 +93,7 @@ const Navbar = () => {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) => 
-                    `underline-effect text-white/90 hover:text-white transition-colors duration-200 font-normal tracking-wide ${
+                    `underline-effect text-black/90 hover:text-black transition-colors duration-200 font-normal tracking-wide ${
                       isActive ? 'active' : ''
                     }`
                   }
@@ -162,7 +162,7 @@ const Navbar = () => {
                 to={item.path}
                 onClick={toggleMenu}
                 className={({ isActive }) => 
-                  `text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
+                  `text-black text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
                     isActive ? 'font-medium' : ''
                   }`
                 }
