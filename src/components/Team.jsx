@@ -105,12 +105,12 @@ const Team = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover transition-all duration-500 ease-in-out filter grayscale group-hover:grayscale-0"
+                  className="w-full h-full object-cover transition-all duration-500 ease-in-out filter md:grayscale md:group-hover:grayscale-0 lg:grayscale lg:group-hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-0 transition-opacity duration-500"></div>
                 
-                {/* Social Icons Overlay - only visible on hover */}
-                <div className="absolute p-6 gap-12 inset-0 flex items-end justify-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                {/* Social Icons Overlay - always visible on mobile, hover on desktop */}
+                <div className="absolute p-6 gap-12 inset-0 flex items-end justify-center space-x-4 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500">
                   <SocialIcon href={member.social.twitter}>
                     <TwitterIcon />
                   </SocialIcon>
