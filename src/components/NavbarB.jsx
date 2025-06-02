@@ -4,7 +4,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState('');
   const location = useLocation();
 
   const toggleMenu = () => {
@@ -12,10 +11,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // Set active item based on current route
-    const path = location.pathname.split('/')[1] || 'home';
-    setActiveItem(path.charAt(0).toUpperCase() + path.slice(1));
-    
     // Handle body overflow when menu is open
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -29,7 +24,7 @@ const Navbar = () => {
       document.body.style.overflow = '';
       document.body.style.touchAction = '';
     };
-  }, [isMenuOpen, location]);
+  }, [isMenuOpen]);
 
   const menuItems = [
     { name: 'Home', path: '/' },
@@ -55,7 +50,7 @@ const Navbar = () => {
           left: 0;
           width: 0;
           height: 1.5px;
-          background: linear-gradient(90deg, #fff, #fff);
+          background: linear-gradient(90deg, #000, #000); /* Changed to black */
           border-radius: 1px;
           transition: width 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
         }
@@ -66,11 +61,28 @@ const Navbar = () => {
         
         .underline-effect.active::after {
           width: 100%;
-          background: linear-gradient(90deg, #fff, #fff);
+          background: linear-gradient(90deg, #000, #000); /* Changed to black */
         }
         
         body.menu-open {
           overflow: hidden !important;
+        }
+        
+        /* Active underline for mobile menu */
+        .mobile-link.active {
+          position: relative;
+        }
+        
+        .mobile-link.active::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 24px;
+          height: 2px;
+          background: white;
+          border-radius: 1px;
         }
       `}</style>
 
@@ -79,14 +91,13 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <NavLink 
               to="/" 
-              className="text-black text-2xl font-light tracking-wide italic"
+              className="text-black text-2xl font-light tracking-wide italic" /* Changed to black */
               style={{ fontFamily: 'Playfair Display' }}
-              onClick={() => setActiveItem('Home')}
             >
               BadeMiyan.
             </NavLink>
             
-            {/* Desktop Menu */}
+            {/* Desktop Menu - Changed to black */}
             <div className="hidden md:flex items-center space-x-12">
               {menuItems.slice(1).map((item) => (
                 <NavLink
@@ -95,7 +106,7 @@ const Navbar = () => {
                   className={({ isActive }) => 
                     `underline-effect text-black/90 hover:text-black transition-colors duration-200 font-normal tracking-wide ${
                       isActive ? 'active' : ''
-                    }`
+                    }` /* Changed to black */
                   }
                 >
                   {item.name}
@@ -103,7 +114,7 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - Changed to black */}
             <button
               onClick={toggleMenu}
               className="md:hidden relative w-8 h-8 flex items-center justify-center focus:outline-none z-50"
@@ -111,19 +122,19 @@ const Navbar = () => {
             >
               <div className="relative w-6 h-6">
                 <span
-                  className={`absolute left-0 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                  className={`absolute left-0 w-6 h-0.5 bg-black transition-all duration-300 ease-in-out ${
                     isMenuOpen 
                       ? 'top-3 rotate-45 opacity-100' 
                       : 'top-1 rotate-0 opacity-100'
                   }`}
                 />
                 <span 
-                  className={`absolute left-0 top-3 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                  className={`absolute left-0 top-3 w-6 h-0.5 bg-black transition-all duration-300 ease-in-out ${
                     isMenuOpen ? 'opacity-0' : 'opacity-100'
                   }`}
                 />
                 <span 
-                  className={`absolute left-0 w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+                  className={`absolute left-0 w-6 h-0.5 bg-black transition-all duration-300 ease-in-out ${
                     isMenuOpen 
                       ? 'top-3 -rotate-45 opacity-100' 
                       : 'top-5 rotate-0 opacity-100'
@@ -135,7 +146,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay - Unchanged */}
       <div 
         className={`fixed inset-0 bg-black/50 z-30 transition-all duration-500 ease-in-out md:hidden ${
           isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
@@ -143,7 +154,7 @@ const Navbar = () => {
         onClick={toggleMenu}
       />
 
-      {/* Mobile Menu Panel */}
+      {/* Mobile Menu Panel - Unchanged */}
       <div 
         className={`fixed top-0 right-0 h-full w-[60%] bg-[#1a1d1f] z-40 transition-all duration-500 ease-in-out md:hidden transform ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
@@ -162,8 +173,8 @@ const Navbar = () => {
                 to={item.path}
                 onClick={toggleMenu}
                 className={({ isActive }) => 
-                  `text-black text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
-                    isActive ? 'font-medium' : ''
+                  `mobile-link text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
+                    isActive ? 'active' : ''
                   }`
                 }
                 style={{ fontFamily: 'Playfair Display' }}
