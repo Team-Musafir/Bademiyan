@@ -25,7 +25,7 @@ export default function TravelCompanyPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1080')`
+            backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
           }}
         />
         
@@ -58,10 +58,10 @@ export default function TravelCompanyPage() {
                   muted 
                   playsInline
                   className="w-full h-60 object-cover bg-gray-200"
-                  poster="./bg.jpg"
+                  poster="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/11480620-uhd_3840_2160_30fps.mp4?tr=orig"
                 >
                   <source 
-                    src="https://assets.mixkit.https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/bg.mp4?updatedAt=1748816800769/videos/preview/mixkit-river-surrounded-by-forest-1587-large.mp4" 
+                    src="http://ik.imagekit.io/qad3x0vr1/Explore%20tiles/13404039_3840_2160_60fps.mp4?tr=orig" 
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -76,7 +76,7 @@ export default function TravelCompanyPage() {
                 <div 
                   className="h-90 bg-cover bg-center bg-gray-200"
                   style={{
-                    backgroundImage: `url('./bg.jpg')`
+                    backgroundImage: `url('https://pixabay.com/get/g360f89f2e67dd7a62e1b7f6c91e30fb355a18698793da9774ed13a338a7c698cb4053fdaeba94f2b6ae154da8233b2a6.jpg')`
                   }}
                 />
               </div>
