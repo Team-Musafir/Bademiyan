@@ -52,13 +52,13 @@ const Reviews = () => {
   const [cardsPerView, setCardsPerView] = useState(3);
 
   const nextSlide = () => {
-    setCurrentIndex(prevIndex => 
+    setCurrentIndex(prevIndex =>
       prevIndex === reviews.length - cardsPerView ? 0 : prevIndex + 1
     );
   };
 
   const prevSlide = () => {
-    setCurrentIndex(prevIndex => 
+    setCurrentIndex(prevIndex =>
       prevIndex === 0 ? reviews.length - cardsPerView : prevIndex - 1
     );
   };
@@ -76,7 +76,7 @@ const Reviews = () => {
       } else {
         setCardsPerView(3);
       }
-      
+
       if (currentIndex > reviews.length - cardsPerView) {
         setCurrentIndex(Math.max(0, reviews.length - cardsPerView));
       }
@@ -88,18 +88,18 @@ const Reviews = () => {
   }, [cardsPerView, currentIndex, reviews.length]);
 
   return (
-    <div className="bg-white py-16 px-6 font-['Poppins']">
-      <div className="w-full px-[10rem] mx-auto">
+    <div className="bg-white py-16 px-6 font-['Poppins'] overflow-hidden">
+      <div className="w-full mx-auto">
         {/* Animated Header */}
-        <div className="mb-12 overflow-hidden">
+        <div className="mb-12 px-[10rem] overflow-hidden">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ 
-              opacity: 1, 
+            whileInView={{
+              opacity: 1,
               y: 0,
-              transition: { 
-                duration: 0.8, 
-                ease: [0.16, 0.77, 0.47, 0.97] 
+              transition: {
+                duration: 0.8,
+                ease: [0.16, 0.77, 0.47, 0.97]
               }
             }}
             viewport={{ once: true, margin: "-50px" }}
@@ -113,86 +113,87 @@ const Reviews = () => {
         </div>
 
         {/* Carousel Container */}
-        <div className="relative">
-          {/* Navigation Buttons */}
-          <button 
-            onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
-            aria-label="Previous slide"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-          
-          <button 
-            onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
-            aria-label="Next slide"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Cards Container */}
-          <div className="overflow-hidden">
-            <div 
-              className="flex transition-transform duration-500 ease-in-out"
-              style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}
+        <div className="relative max-w-6xl mx-auto px-4">
+          <div className="relative">
+            {/* Navigation Buttons */}
+            <button
+              onClick={prevSlide}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
+              aria-label="Previous slide"
             >
-              {reviews.map((review) => (
-                <div 
-                  key={review.id}
-                  className="flex-shrink-0 px-4"
-                  style={{ width: `${100 / cardsPerView}%` }}
-                >
-                  <div className="bg-white border-2 border-gray-800 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 h-full min-h-[320px] flex flex-col">
-                    <div className="flex-1">
-                      <p className="text-gray-600 text-lg leading-relaxed mb-6 font-light">
-                        "{review.text}"
-                      </p>
-                    </div>
-                    
-                    <div className="flex items-center mt-4">
-                      <img
-                        src={review.avatar}
-                        alt={review.name}
-                        className="w-14 h-14 rounded-full object-cover mr-4 border-2 border-gray-800"
-                      />
-                      <div>
-                        <h4 className="font-medium text-gray-900 text-lg">
-                          {review.name}
-                        </h4>
-                        <p className="text-gray-600 text-sm flex items-center">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                          </svg>
-                          {review.country}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+
+            <button
+              onClick={nextSlide}
+              className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-lg hover:bg-gray-800 transition-all duration-300"
+              aria-label="Next slide"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+
+            {/* Cards Container */}
+            <div className="overflow-hidden">
+              <div
+                className="flex transition-transform duration-500 ease-in-out"
+                style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}
+              >
+                {reviews.map((review) => (
+                  <div
+                    key={review.id}
+                    className="flex-shrink-0 px-4"
+                    style={{ width: `${100 / cardsPerView}%` }}
+                  >
+                    <div className="bg-white border-2 border-gray-800 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 h-full min-h-[320px] flex flex-col">
+                      <div className="flex-1">
+                        <p className="text-gray-600 text-lg leading-relaxed mb-6 font-light">
+                          "{review.text}"
                         </p>
+                      </div>
+
+                      <div className="flex items-center mt-4">
+                        <img
+                          src={review.avatar}
+                          alt={review.name}
+                          className="w-14 h-14 rounded-full object-cover mr-4 border-2 border-gray-800"
+                        />
+                        <div>
+                          <h4 className="font-medium text-gray-900 text-lg">
+                            {review.name}
+                          </h4>
+                          <p className="text-gray-600 text-sm flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            {review.country}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Pagination Dots */}
-        <div className="flex justify-center mt-8 space-x-2">
-          {Array.from({ length: Math.ceil(reviews.length / cardsPerView) }).map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index * cardsPerView)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === Math.floor(currentIndex / cardsPerView) 
-                  ? 'bg-gray-800 w-6' 
-                  : 'bg-gray-300'
-              }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
+          {/* Pagination Dots */}
+          <div className="flex justify-center mt-8 space-x-2">
+            {Array.from({ length: Math.ceil(reviews.length / cardsPerView) }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index * cardsPerView)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${index === Math.floor(currentIndex / cardsPerView)
+                    ? 'bg-gray-800 w-6'
+                    : 'bg-gray-300'
+                  }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
