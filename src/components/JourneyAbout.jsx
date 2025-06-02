@@ -20,7 +20,7 @@ export default function Journey() {
         
         <div className="relative w-full max-w-6xl h-[600px] flex flex-col text-white px-4 z-10">
           {/* Location text at top right */}
-          <div className="absolute top-8 right-0">
+          <div className="absolute top-8 right-8">
             <p className="text-sm md:text-base text-black font-normal">Location: Mountain Strait, Any State</p>
           </div>
           
