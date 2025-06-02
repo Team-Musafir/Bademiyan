@@ -15,7 +15,7 @@ export default function Journey() {
       
       <div className="relative w-full flex justify-center overflow-hidden">
         <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover rounded-3xl">
-          <source src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/bg.mp4?updatedAt=1748816800769" type="video/mp4" />
+          <source src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/19096560-uhd_3840_2160_24fps.mp4" type="video/mp4" />
         </video>
         
         <div className="relative w-full max-w-6xl h-[600px] flex flex-col text-white px-4 z-10">
