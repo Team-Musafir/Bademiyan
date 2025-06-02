@@ -178,7 +178,7 @@ const TravelPackages = () => {
           className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8"
         >
           <div className="flex-1">
-            <h1 className="text-4xl md:text-6xl font-light text-slate-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight">
               Must <em className="italic font-serif text-slate-700">experience</em>
               <br />
               packages
@@ -262,7 +262,7 @@ const TravelPackages = () => {
                           {pkg.title}
                         </h3>
                         <div className="flex items-center justify-between">
-                          <span className="text-base font-light opacity-90">
+                          <span className="text-base font-normal opacity-90">
                             {pkg.duration}
                           </span>
                           <span className="text-2xl font-bold">
