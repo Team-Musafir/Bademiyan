@@ -4,7 +4,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState('');
   const location = useLocation();
 
   const toggleMenu = () => {
@@ -12,10 +11,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // Set active item based on current route
-    const path = location.pathname.split('/')[1] || 'home';
-    setActiveItem(path.charAt(0).toUpperCase() + path.slice(1));
-    
     // Handle body overflow when menu is open
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -29,7 +24,7 @@ const Navbar = () => {
       document.body.style.overflow = '';
       document.body.style.touchAction = '';
     };
-  }, [isMenuOpen, location]);
+  }, [isMenuOpen]);
 
   const menuItems = [
     { name: 'Home', path: '/' },
@@ -72,16 +67,33 @@ const Navbar = () => {
         body.menu-open {
           overflow: hidden !important;
         }
+        
+        /* Active underline for mobile menu */
+        .mobile-link.active {
+          position: relative;
+        }
+        
+        .mobile-link.active::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 24px;
+          height: 2px;
+          background: white;
+          border-radius: 1px;
+        }
       `}</style>
 
       <nav className='absolute top-0 left-0 right-0 z-50 transition-all duration-300'>
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
+            {/* Logo without underline effect */}
             <NavLink 
               to="/" 
               className="text-white text-2xl font-light tracking-wide italic"
               style={{ fontFamily: 'Playfair Display' }}
-              onClick={() => setActiveItem('Home')}
             >
               BadeMiyan.
             </NavLink>
@@ -162,8 +174,8 @@ const Navbar = () => {
                 to={item.path}
                 onClick={toggleMenu}
                 className={({ isActive }) => 
-                  `text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
-                    isActive ? 'font-medium' : ''
+                  `mobile-link text-white text-xl font-normal tracking-wider transition-all duration-300 block py-2 ${
+                    isActive ? 'active' : ''
                   }`
                 }
                 style={{ fontFamily: 'Playfair Display' }}

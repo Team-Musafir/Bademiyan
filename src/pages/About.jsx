@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import Navbar from '../components/NavbarB';
 import Highlights from '../components/Highlights';
 import Journey from '../components/JourneyAbout';
+import Team from '../components/Team';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function TravelCompanyPage() {
   const contentRef = useRef(null);
@@ -132,6 +135,9 @@ export default function TravelCompanyPage() {
 
       <Highlights/>
       <Journey/>
+      <Team/>
+      <Contact/>
+      <Footer/>
 
       {/* Animation styles */}
       <style jsx global>{`
