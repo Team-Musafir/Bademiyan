@@ -8,76 +8,76 @@ function Tours() {
   const packages = [
     {
       id: 1,
-      title: "Tropical Paradise Recreation",
-      location: "Bali, Indonesia",
+      title: "Incredible Odisha",
+      location: "Konark Sun Temple,India",
       duration: "7 Days, 6 Nights",
       price: "$999",
-      image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793"
     },
     {
       id: 2,
-      title: "Cruise Getaway Expedition",
-      location: "Caribbean Islands",
+      title: "North-Bengal & Sikkim",
+      location: "Darjeling,India",
       duration: "7 Days, 6 Nights",
       price: "$1799",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Northeast.jpg?updatedAt=1748812451591"
     },
     {
       id: 3,
-      title: "Cultural Immersion in Morocco",
-      location: "Cusco, Peru",
+      title: "North India Tours",
+      location: "Leh,India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
-      image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73dad?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
     },
     {
       id: 4,
-      title: "River Expedition in Thuringia",
-      location: "Thuringia, Germany",
+      title: "Western India Tours",
+      location: "Hawa Mahal, India",
       duration: "7 Days, 6 Nights",
       price: "$899",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/hawa-mahal-6688170_1920.jpg"
     },
     {
       id: 5,
-      title: "Mountain Odyssey Adventure",
-      location: "Kathmandu, Nepal",
+      title: "South India Tours",
+      location: "Madurai,India",
       duration: "5 Days, 4 Nights",
       price: "$899",
-      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-esther-234072-5690494.jpg"
     },
     {
       id: 6,
-      title: "Wildlife Safari Expedition",
-      location: "Nairobi, Kenya",
+      title: "Island of India",
+      location: "Daman and Diu,India",
       duration: "7 Days, 6 Nights",
       price: "$1899",
-      image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nirmal-rajendharkumar-1577471-3030016.jpg"
     },
     {
       id: 7,
-      title: "River Expedition in Thuringia",
-      location: "Thuringia, Germany",
+      title: "International Tours",
+      location: "Morteratsch,Switzerland",
       duration: "7 Days, 6 Nights",
       price: "$899",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
     },
-    {
-      id: 8,
-      title: "Mountain Odyssey Adventure",
-      location: "Kathmandu, Nepal",
-      duration: "5 Days, 4 Nights",
-      price: "$899",
-      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=300&fit=crop"
-    },
-    {
-      id: 9,
-      title: "Wildlife Safari Expedition",
-      location: "Nairobi, Kenya",
-      duration: "7 Days, 6 Nights",
-      price: "$1899",
-      image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop"
-    }
+    // {
+    //   id: 8,
+    //   title: "Mountain Odyssey Adventure",
+    //   location: "Kathmandu, Nepal",
+    //   duration: "5 Days, 4 Nights",
+    //   price: "$899",
+    //   image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=300&fit=crop"
+    // },
+    // {
+    //   id: 9,
+    //   title: "Wildlife Safari Expedition",
+    //   location: "Nairobi, Kenya",
+    //   duration: "7 Days, 6 Nights",
+    //   price: "$1899",
+    //   image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop"
+    // }
 
   ];
 
