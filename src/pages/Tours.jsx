@@ -149,7 +149,7 @@ function Tours() {
       </div>
       <Contact/>
       <Footer/>
-            
+
       <style jsx global>{`
         @keyframes gentleFadeInLeft {
           0% {

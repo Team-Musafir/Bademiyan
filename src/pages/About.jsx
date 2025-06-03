@@ -31,11 +31,7 @@ export default function TravelCompanyPage() {
             backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
           }}
         />
-        
-        {/* Forest/Temple Overlay for authenticity */}
-        <div className="absolute inset-0 bg-gradient-to-b from-green-900/60 via-green-800/40 to-green-900/70" />
-        
-        {/* Content with split word animation */}
+                
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center">
             <span className="block animate-fadeInLeft" style={{ animationDelay: '0.2s' }}>About</span>
