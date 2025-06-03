@@ -151,46 +151,46 @@ const Contacts = () => {
       {/* Information Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-[2rem]">
-  <div className="flex-1 w-full md:w-auto">
-    <motion.h1
-      className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight text-center md:text-left"
-      initial={{ opacity: 0, x: -30 }}
-      whileInView={{
-        opacity: 1,
-        x: 0,
-        transition: { duration: 0.7, ease: "easeOut" }
-      }}
-      viewport={{ once: true, margin: "-100px" }}
-    >
-      <span className="inline-block">
-        Get in <em className="italic font-serif text-slate-700">Touch</em>
-      </span>
-    </motion.h1>
-  </div>
+          <div className="flex-1 w-full md:w-auto">
+            <motion.h1
+              className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight text-center md:text-left"
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 0.7, ease: "easeOut" }
+              }}
+              viewport={{ once: true, margin: "-100px" }}
+            >
+              <span className="inline-block">
+                Get in <em className="italic font-serif text-slate-700">Touch</em>
+              </span>
+            </motion.h1>
+          </div>
 
-  <motion.div
-    className="flex items-start gap-8 w-full md:w-auto"
-    initial={{ opacity: 0, x: 30 }}
-    whileInView={{
-      opacity: 1,
-      x: 0,
-      transition: { duration: 0.7, delay: 0.2, ease: "easeOut" }
-    }}
-    viewport={{ once: true, margin: "-100px" }}
-  >
-    <div className="text-center md:text-right max-w-sm w-full mx-auto md:mx-0 md:max-w-none">
-      <p className="text-slate-600 md:text-lg lg:text-lg sm:text-base text-base leading-relaxed mb-6">
-        Indulge in our carefully crafted packages to <br/>immerse you in the
-        most captivating and<br/> transformative travel adventures.
-      </p>
-      <div className="flex justify-center md:justify-end">
-        {/* <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
-          Learn More
-        </button> */}
-      </div>
-    </div>
-  </motion.div>
-</div>
+          <motion.div
+            className="flex items-start gap-8 w-full md:w-auto"
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.7, delay: 0.2, ease: "easeOut" }
+            }}
+            viewport={{ once: true, margin: "-100px" }}
+          >
+            <div className="text-center md:text-right max-w-sm w-full mx-auto md:mx-0 md:max-w-none">
+              <p className="text-slate-600 md:text-lg lg:text-lg sm:text-base text-base leading-relaxed mb-6">
+                Indulge in our carefully crafted packages to <br />immerse you in the
+                most captivating and<br /> transformative travel adventures.
+              </p>
+              <div className="flex justify-center md:justify-end">
+                <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </motion.div>
+        </div>
 
         {/* Combined Form and Cards Section */}
         <div className="flex flex-col lg:flex-row gap-12">

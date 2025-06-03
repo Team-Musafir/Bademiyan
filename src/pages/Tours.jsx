@@ -1,5 +1,6 @@
-import React from 'react'
-import Navbar from '../components/NavbarB'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from '../components/NavbarB';
 import { MapPin, Clock } from 'lucide-react';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -16,7 +17,7 @@ function Tours() {
     },
     {
       id: 2,
-      title: "North-Bengal & Sikkim",
+      title: "North-Bengal and Sikkim", //dont replace this and with & as it is used in the slug ,if remove encountor 404 notfound
       location: "Darjeling,India",
       duration: "7 Days, 6 Nights",
       price: "$1799",
@@ -61,25 +62,18 @@ function Tours() {
       duration: "7 Days, 6 Nights",
       price: "$899",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
-    },
-    // {
-    //   id: 8,
-    //   title: "Mountain Odyssey Adventure",
-    //   location: "Kathmandu, Nepal",
-    //   duration: "5 Days, 4 Nights",
-    //   price: "$899",
-    //   image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400&h=300&fit=crop"
-    // },
-    // {
-    //   id: 9,
-    //   title: "Wildlife Safari Expedition",
-    //   location: "Nairobi, Kenya",
-    //   duration: "7 Days, 6 Nights",
-    //   price: "$1899",
-    //   image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop"
-    // }
-
+    }
   ];
+
+  // Fixed slug generation
+  const generateSlug = (title) => {
+    return title
+      .toLowerCase()
+      .replace(/\s*&\s*/g, 'and')   // Handle ampersands with spaces
+      .replace(/[^\w\s-]/g, '')      // Keep hyphens and alphanumeric
+      .replace(/\s+/g, '-')          // Spaces to hyphens
+      .replace(/-+/g, '-');          // Remove consecutive hyphens
+  };
 
   return (
     <div className="min-h-1/2 bg-white">
@@ -92,7 +86,6 @@ function Tours() {
           }}
         />
         
-        
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
             <span className="block animate-gentleFadeInLeft">Tours</span>
@@ -102,49 +95,49 @@ function Tours() {
         </div>
       </section>
 
-      {/* Packages Section */}
       <div className="p-6 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {packages.map((pkg) => (
-            <div
-              key={pkg.id}
-              className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer"
-            >
-              <div className="relative h-110 overflow-hidden">
-                <img
-                  src={pkg.image}
-                  alt={pkg.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                
-                {/* Content Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-xl font-bold mb-3 leading-tight">
-                    {pkg.title}
-                  </h3>
-                  
-                  {/* Location */}
-                  <div className="flex items-center mb-2">
-                    <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
-                    <span className="text-sm font-medium">{pkg.location}</span>
-                  </div>
-                  
-                  {/* Duration */}
-                  <div className="flex items-center mb-4">
-                    <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
-                    <span className="text-sm font-medium">{pkg.duration}</span>
-                  </div>
-                  
-                  {/* Price */}
-                  <div className="text-right">
-                    <span className="text-2xl font-bold">{pkg.price}</span>
+          {packages.map((pkg) => {
+            const slug = generateSlug(pkg.title);
+            return (
+              <Link 
+                to={`/tour/${slug}`} 
+                key={pkg.id}
+                className="block"
+              >
+                <div className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer">
+                  <div className="relative h-110 overflow-hidden">
+                    <img
+                      src={pkg.image}
+                      alt={pkg.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                    
+                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                      <h3 className="text-xl font-bold mb-3 leading-tight">
+                        {pkg.title}
+                      </h3>
+                      
+                      <div className="flex items-center mb-2">
+                        <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
+                        <span className="text-sm font-medium">{pkg.location}</span>
+                      </div>
+                      
+                      <div className="flex items-center mb-4">
+                        <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
+                        <span className="text-sm font-medium">{pkg.duration}</span>
+                      </div>
+                      
+                      <div className="text-right">
+                        <span className="text-2xl font-bold">{pkg.price}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </div>
       <Contact/>
@@ -207,4 +200,4 @@ function Tours() {
   )
 }
 
-export default Tours
+export default Tours;
