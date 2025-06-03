@@ -294,6 +294,272 @@ function Blog() {
         >
         </motion.div>
       </section>
+      <section className="px-6 md:px-20 py-12">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">Europe</span>
+        </h2>
+
+        <div className="grid grid-cols-3 gap-4 max-w-6xl mx-auto">
+          {/* Column 1 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 1"
+              className="rounded-xl w-full h-[300px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 2"
+              className="rounded-xl w-full h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 2 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 3"
+              className="rounded-xl w-full h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 4"
+              className="rounded-xl w-full h-[300px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 5"
+              className="rounded-xl w-full h-[240px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Europe 6"
+              className="rounded-xl w-full h-[240px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="px-6 md:px-20 py-12">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">North India</span>
+        </h2>
+
+        <div className="grid grid-cols-3 gap-4 max-w-6xl mx-auto">
+          {/* Column 1 */}
+          <div>
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="North 1"
+              className="rounded-xl w-full h-[540px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 2 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="North 2"
+              className="rounded-xl w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="North 3"
+              className="rounded-xl w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="North 4"
+              className="rounded-xl w-full h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="North 5"
+              className="rounded-xl w-full h-[350px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="px-6 md:px-20 py-12">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">Western India</span>
+        </h2>
+
+        <div className="max-w-7xl mx-auto space-y-6">
+          {/* Top Row - 2 Wide Images */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[1, 2].map((n) => (
+              <div key={n} className="overflow-hidden rounded-xl">
+                <img
+                  src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                  alt={`Western ${n}`}
+                  className="w-full h-[300px] object-cover transform transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Bottom Row - 3 Smaller Images */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {[3, 4, 5].map((n) => (
+              <div key={n} className="overflow-hidden rounded-xl">
+                <img
+                  src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                  alt={`Western ${n}`}
+                  className="w-full h-[220px] object-cover transform transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="px-6 md:px-20 py-12">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">South India</span>
+        </h2>
+
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Left Column */}
+          <div className="flex flex-col gap-6">
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="South 1"
+                className="w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="South 2"
+                className="w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+
+          {/* Center Column - Tall Image */}
+          <div className="overflow-hidden rounded-xl">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="South 3"
+              className="w-full h-[520px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Right Column */}
+          <div className="flex flex-col gap-6">
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="South 4"
+                className="w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="South 5"
+                className="w-full h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-6 md:px-20 py-12">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">Islands of India</span>
+        </h2>
+
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+          {/* Column 1 - Stacked */}
+          <div className="flex flex-col gap-6">
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="Island 1"
+                className="w-full h-[260px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="Island 2"
+                className="w-full h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+
+          {/* Column 2 - Feature Image */}
+          <div className="col-span-2 overflow-hidden rounded-xl">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Island 3"
+              className="w-full h-[460px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 3 - Mini Stack */}
+          <div className="flex flex-col gap-6">
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="Island 4"
+                className="w-full h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+                alt="Island 5"
+                className="w-full h-[260px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-6 md:px-20 py-12 bg-gray-50">
+        <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journeys <span className="italic font-serif">Around the World</span>
+        </h2>
+
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-6">
+          {/* Column 1 - Tall image */}
+          <div className="overflow-hidden rounded-xl md:col-span-2">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+              alt="Journey 1"
+              className="w-full h-[480px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 2 - Two stacked smaller images */}
+          <div className="flex flex-col gap-6 md:col-span-3">
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80"
+                alt="Journey 2"
+                className="w-full h-[230px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80"
+                alt="Journey 3"
+                className="w-full h-[230px] object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 
       <Contact />
       <Footer />
