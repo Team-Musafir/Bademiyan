@@ -75,7 +75,7 @@ export default function TravelCompanyPage() {
                 <div 
                   className="h-90 bg-cover bg-center bg-gray-200"
                   style={{
-                    backgroundImage: `url('https://pixabay.com/get/g360f89f2e67dd7a62e1b7f6c91e30fb355a18698793da9774ed13a338a7c698cb4053fdaeba94f2b6ae154da8233b2a6.jpg')`
+                    backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/mountains-8404275_1920.jpg')`
                   }}
                 />
               </div>
