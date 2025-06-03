@@ -17,7 +17,7 @@ const TravelPackages = () => {
       title: "Bengal",
       duration: "7 days, 6 nights",
       price: "$1799",
-      image: "https://pixabay.com/get/g4fb85025c058230965969694f205f48d196442d139caa5422e43267d21300cd32c9d41c6a1aed6daf480f82322e84f63.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/victoria-memorial-2394784_1920.jpg",
     },
     {
       id: 3,
@@ -59,7 +59,7 @@ const TravelPackages = () => {
       title: "Adventure Tours",
       duration: "6 Days, 5 Nights",
       price: "$1899",
-      image: "https://pixabay.com/get/g5ac73213a4f0637bcaff7d05321956fbafe1fe7c6e79ddbef1c051857dd013369b2117282e8eea1dc515e94ac1575fd8.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/mountain-7565293_1920.jpg",
       gradient: "from-green-700/80 to-emerald-800/80"
     }
   ];
