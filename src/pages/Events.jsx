@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../components/NavbarB';
+import Contact from '../components/Contact';
 import { motion, AnimatePresence } from 'framer-motion';
 import Footer from '../components/Footer';
 
@@ -11,7 +12,7 @@ function Events() {
       title: "RathYatra (Chariot Festival) 2025",
       description: "The grand chariot festival of Lord Jagannath in Puri, attracting millions of devotees worldwide.",
       longDescription: "Rath Yatra is one of the most important Hindu festivals celebrated annually in Puri, Odisha. The festival commemorates Lord Jagannath's annual visit to Gundicha Temple via Mausi Maa Temple near Saradha Bali. The main attraction is the pulling of the chariots by thousands of devotees through the Bada Danda (Grand Avenue) to Gundicha Temple. The chariots are massive structures built anew each year from wood, with the main chariot standing at 45 feet tall with 16 wheels.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/rath-yatra.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/RathaYatra.jpg",
       date: "July 12-20, 2025",
       location: "Puri, Odisha",
       highlights: ["Grand procession of three chariots", "Sacred rituals at Jagannath Temple", "Traditional music and dance performances", "Community feasts and cultural events"]
@@ -20,7 +21,7 @@ function Events() {
       title: "Konark Dance Festival",
       description: "A classical dance extravaganza against the magnificent backdrop of the Sun Temple.",
       longDescription: "The Konark Dance Festival is a five-day event held annually against the backdrop of the magnificent Sun Temple at Konark. The festival showcases classical dance forms like Odissi, Bharatanatyam, Manipuri, Kathak, and Chhau. Renowned artists from all over the country participate in this cultural extravaganza. The festival is organized by Odisha Tourism in collaboration with Odissi Research Centre to promote the diverse Indian classical dance heritage.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/konark-festival.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Konark-festival.jpg",
       date: "December 1-5, 2025",
       location: "Konark, Odisha",
       highlights: ["Performances by renowned classical dancers", "Evening sessions under moonlight", "Workshops on traditional dance forms", "Artisan exhibitions"]
@@ -29,7 +30,7 @@ function Events() {
       title: "Dhauli Mahotsav",
       description: "Celebration of peace and harmony through classical dance performances at Dhauli hills.",
       longDescription: "Dhauli Mahotsav is an annual festival held at the foothills of Dhauli, the place where the famous Kalinga War was fought. The festival celebrates the triumph of peace over war, as it was here that Emperor Ashoka renounced war and embraced Buddhism. The festival features classical dance performances by eminent artists from across India, creating a mesmerizing atmosphere under the stars with the illuminated Shanti Stupa as the backdrop.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/dhauli-festival.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/1-Dhauli-1.jpg",
       date: "November 8-10, 2025",
       location: "Bhubaneswar, Odisha",
       highlights: ["Performances against the backdrop of Shanti Stupa", "Peace symposiums and discussions", "Cultural heritage walks", "Meditation sessions"]
@@ -38,7 +39,7 @@ function Events() {
       title: "Parab Tribal Dance Festival",
       description: "Vibrant showcase of tribal culture, dance, and music from Odisha's indigenous communities.",
       longDescription: "Parab Tribal Dance Festival is a colorful celebration of the rich cultural heritage of Odisha's tribal communities. The festival brings together various tribal groups from across the state to showcase their unique dance forms, music, art, and traditions. Visitors get a rare opportunity to witness authentic tribal rituals, traditional attire, and indigenous cuisine. The festival aims to preserve and promote the diverse cultural traditions of Odisha's tribal population.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/tribal-festival.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/23127585_parab2_aspera.jpg",
       date: "February 15-17, 2026",
       location: "Koraput, Odisha",
       highlights: ["Authentic tribal dance performances", "Traditional craft demonstrations", "Tribal cuisine experience", "Cultural exchange programs"]
@@ -47,7 +48,7 @@ function Events() {
       title: "Dhanu Yatra Festival",
       description: "The world's largest open-air theater depicting the mythological story of Krishna.",
       longDescription: "Dhanu Yatra is recognized as the world's largest open-air theater, celebrated in Bargarh, Odisha. The festival enacts the mythological story of Lord Krishna and his demon uncle Kansa. The entire town transforms into Mathura, with different areas representing Gopapura, Vrindavan, and Mathura. The festival runs for 11 days, attracting thousands of spectators who witness the dramatic performances that span across the town.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/dhanu-yatra.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/ODISHA%20FC-63bbfadd3f58e9.4522050693eq2r17.png",
       date: "December 25, 2025 - January 4, 2026",
       location: "Bargarh, Odisha",
       highlights: ["Epic scale open-air performances", "Town-wide transformation into mythological settings", "Traditional folk theater", "Cultural processions and music"]
@@ -56,7 +57,7 @@ function Events() {
       title: "Baul Music Festival",
       description: "Mystical folk music tradition from Bengal and Odisha's border regions.",
       longDescription: "The Baul Music Festival celebrates the mystical folk tradition of the Bauls, wandering minstrels from Bengal and Odisha. Their music, recognized by UNESCO as an Intangible Cultural Heritage, combines elements of Sufism, Vaishnavism, and Tantric philosophy. The festival brings together Baul singers from across Eastern India to perform their soulful, philosophical songs accompanied by traditional instruments like the ektara and dotara.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/baul-music.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/istockphoto-1284681157-612x612.jpg",
       date: "March 10-12, 2026",
       location: "Balasore, Odisha",
       highlights: ["Performances by renowned Baul singers", "Workshops on Baul philosophy", "Traditional instrument demonstrations", "Spiritual discourse sessions"]
@@ -68,7 +69,7 @@ function Events() {
       title: "Khandigiri Mahotsav",
       description: "Cultural festival celebrating Jain heritage and Odissi dance at ancient cave sites.",
       longDescription: "The Khandagiri Mahotsav is a vibrant cultural festival held at the ancient Khandagiri and Udayagiri caves in Bhubaneswar. This festival celebrates the rich Jain heritage of the region and showcases classical Odissi dance performances by renowned artists. The event also features heritage walks, art exhibitions, and lectures on Jain philosophy and Odisha's history.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/khandagiri.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/1-khandagiri-udaigiri-caves-attr-hero.jpeg",
       date: "January 10-12, 2026",
       location: "Bhubaneswar, Odisha",
       highlights: [
@@ -82,7 +83,7 @@ function Events() {
       title: "Rajarani Music Festival",
       description: "Three-day classical music festival in the historic Rajarani Temple complex.",
       longDescription: "The Rajarani Music Festival is a prestigious three-day celebration of Indian classical music held against the backdrop of the 11th-century Rajarani Temple in Bhubaneswar. The festival brings together maestros of Hindustani and Carnatic music traditions for evening performances under the stars. The temple's unique architecture creates exceptional acoustics, making it an ideal venue for this musical extravaganza that attracts connoisseurs from across the country.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/rajarani.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/rajarani1-26-1482725094.jpg",
       date: "January 20-22, 2026",
       location: "Bhubaneswar, Odisha",
       highlights: [
@@ -96,7 +97,7 @@ function Events() {
       title: "Adivasi Mela",
       description: "Annual tribal fair showcasing handicrafts, art, and culture of Odisha's tribes.",
       longDescription: "Adivasi Mela is a vibrant annual tribal fair that celebrates the rich cultural heritage of Odisha's 62 indigenous communities. Held over ten days, the festival features tribal art exhibitions, handicraft stalls, traditional music and dance performances, and indigenous cuisine. Visitors can interact with tribal artisans, witness live demonstrations of traditional crafts, and purchase authentic tribal artifacts directly from the makers.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/adivasi-mela.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Adivasi-Mela-At-Bhubaneswar.webp",
       date: "January 26 - February 4, 2026",
       location: "Bhubaneswar, Odisha",
       highlights: [
@@ -110,7 +111,7 @@ function Events() {
       title: "Joranda Sadhu Festival",
       description: "Unique gathering of Mahima Dharma ascetics at their spiritual headquarters.",
       longDescription: "The Joranda Sadhu Festival is a unique spiritual gathering of Mahima Dharma ascetics at their headquarters in Dhenkanal district. Thousands of saffron-clad sadhus congregate for special rituals, spiritual discourses, and community service activities. The highlight is the grand procession of ascetics carrying sacred fire pots and chanting hymns. This festival offers a rare glimpse into the ascetic traditions of this indigenous Odia spiritual movement.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/joranda.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/1522948-dev.webp",
       date: "March 5-7, 2026",
       location: "Dhenkanal, Odisha",
       highlights: [
@@ -124,7 +125,7 @@ function Events() {
       title: "Nabarna Bhog",
       description: "Sacred food offering festival at Joranda with unique spiritual rituals.",
       longDescription: "Nabarna Bhog is a unique food offering festival celebrated at the Mahima Gadi in Joranda. Devotees prepare massive quantities of traditional rice-based offerings that are arranged in elaborate patterns before being sanctified. The highlight is the 'Akhand Dhupa' - continuous incense burning for 72 hours. The festival culminates in the distribution of prasad to thousands of devotees, symbolizing the community aspect of Mahima Dharma.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/nabarna.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/joranda-mela-2024.jpg",
       date: "April 12-14, 2026",
       location: "Joranda, Odisha",
       highlights: [
@@ -138,7 +139,7 @@ function Events() {
       title: "Folk Dance Festival",
       description: "Colorful Sambalpuri folk dances performed by troupes from across Western Odisha.",
       longDescription: "The Folk Dance Festival showcases the vibrant dance traditions of Western Odisha, featuring performances of Sambalpuri, Dalkhai, Rasarkeli, and other folk dance forms. Troupes from across the region compete in colorful traditional attire, accompanied by live folk orchestras playing dhol, nisan, and tamak. The festival includes workshops where visitors can learn basic dance steps and understand the cultural significance of each dance form.",
-      image: "https://ik.imagekit.io/qad3x0vr1/Events/sambalpuri.jpg",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/3d34e492ebc9209da0141d0e7ed46efd.jpg",
       date: "February 20-22, 2026",
       location: "Sambalpur, Odisha",
       highlights: [
@@ -365,26 +366,25 @@ function Events() {
             }}
           >
             {/* Navigation Buttons */}
-            <button 
-              onClick={prevSlide}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-lg transition-all duration-300 border border-gray-200 hover:bg-gray-50"
-              aria-label="Previous slide"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-            
-            <button 
-              onClick={nextSlide}
-              className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-lg transition-all duration-300 border border-gray-200 hover:bg-gray-50"
-              aria-label="Next slide"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-
+          <button 
+            onClick={prevSlide}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
+            aria-label="Previous slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          
+          <button 
+            onClick={nextSlide}
+            className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
+            aria-label="Next slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
             {/* Cards Container */}
             <div className="overflow-hidden py-4">
               <div 
@@ -456,20 +456,20 @@ function Events() {
             </div>
           </motion.div>
 
-          {/* Enhanced Pagination Dots */}
-          <div className="flex justify-center mt-12 space-x-3">
-            {Array.from({ length: Math.ceil(mustExperienceEvents.length / cardsPerView) }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  index === Math.floor(currentIndex / cardsPerView) 
-                    ? 'bg-amber-600 w-8' 
-                    : 'bg-gray-300 w-3'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
+        {/* Minimalist Pagination Dots */}
+        <div className="flex justify-center mt-12 space-x-2">
+          {Array.from({ length: Math.ceil(mustExperienceEvents.length / cardsPerView) }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`h-1.5 rounded-full transition-all duration-300 ${
+                index === Math.floor(currentIndex / cardsPerView) 
+                  ? 'bg-black w-6' 
+                  : 'bg-gray-300 w-3'
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
           </div>
         </motion.div>
       </section>
@@ -520,7 +520,7 @@ function Events() {
                 <p className="text-gray-600">{festival.description}</p>
                 <button 
                   onClick={() => openModal(festival)}
-                  className="mt-4 text-amber-600 font-medium hover:text-amber-700 transition-colors"
+                  className="mt-4 text-black font-medium hover:text-gray-800 transition-colors"
                 >
                   View Details →
                 </button>
@@ -529,6 +529,7 @@ function Events() {
           ))}
         </div>
       </section>
+      <Contact/>
 
       <Footer/>
 
@@ -614,7 +615,7 @@ function Events() {
                   )}
                   
                   <div className="pt-4">
-                    <button className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg transition-colors duration-300">
+                    <button className="w-full py-3 bg-black hover:bg-gray-800 text-white font-bold rounded-lg transition-colors duration-300">
                       Book Your Experience
                     </button>
                   </div>

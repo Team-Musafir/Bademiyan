@@ -1,8 +1,9 @@
 import React from 'react'
+import Tours from './Tours'
 
 function Packages() {
   return (
-    <div>Packages</div>
+    <Tours/>
   )
 }
 

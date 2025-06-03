@@ -213,20 +213,20 @@ const TravelPackages = () => {
           {/* Navigation Buttons */}
           <button 
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-lg transition-all duration-300 border border-gray-200 hover:bg-gray-50"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
             aria-label="Previous slide"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
           
           <button 
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-white rounded-full p-3 shadow-xl hover:shadow-lg transition-all duration-300 border border-gray-200 hover:bg-gray-50"
+            className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
             aria-label="Next slide"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
           </button>
@@ -285,15 +285,15 @@ const TravelPackages = () => {
           </div>
         </motion.div>
 
-        {/* Enhanced Pagination Dots */}
-        <div className="flex justify-center mt-12 space-x-3">
+        {/* Minimalist Pagination Dots */}
+        <div className="flex justify-center mt-12 space-x-2">
           {Array.from({ length: Math.ceil(packages.length / cardsPerView) }).map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-2 rounded-full transition-all duration-300 ${
+              className={`h-1.5 rounded-full transition-all duration-300 ${
                 index === Math.floor(currentIndex / cardsPerView) 
-                  ? 'bg-amber-600 w-8' 
+                  ? 'bg-black w-6' 
                   : 'bg-gray-300 w-3'
               }`}
               aria-label={`Go to slide ${index + 1}`}
