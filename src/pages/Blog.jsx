@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 function Blog() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar/>
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
@@ -28,9 +28,61 @@ function Blog() {
           </p>
         </div>
       </section>
+      <section className="px-6 md:px-20 py-12">
+        <h1 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
+          Journey in <span className="italic font-serif">Asia</span>
+        </h1>
 
-      <Contact/>
-      <Footer/>
+
+        <div className="grid grid-cols-3 gap-4 max-w-6xl mx-auto">
+          {/* Column 1 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 1"
+              className="rounded-xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 2"
+              className="rounded-xl w-full h-[300px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 2 */}
+          <div>
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 3"
+              className="rounded-xl w-full h-[540px] object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col gap-4">
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 4"
+              className="rounded-xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 5"
+              className="rounded-xl w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <img
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              alt="Asia 6"
+              className="rounded-xl w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
+      </section>
+
+
+
+      <Contact />
+      <Footer />
       {/* Animation styles */}
       <style jsx global>{`
         @keyframes fadeIn {
