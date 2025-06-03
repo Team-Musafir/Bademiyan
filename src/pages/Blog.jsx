@@ -38,12 +38,12 @@ function Blog() {
           {/* Column 1 */}
           <div className="flex flex-col gap-4">
             <img
-              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/piligrim.jpg?updatedAt=1748812513556"
               alt="Asia 1"
               className="rounded-xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <img
-              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/hertiage.jpg?updatedAt=1748812487841"
               alt="Asia 2"
               className="rounded-xl w-full h-[300px] object-cover transition-transform duration-300 hover:scale-105"
             />
@@ -61,17 +61,17 @@ function Blog() {
           {/* Column 3 */}
           <div className="flex flex-col gap-4">
             <img
-              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Women%20Only.jpg?updatedAt=1748812495729"
               alt="Asia 4"
               className="rounded-xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <img
-              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/international2.jpg?updatedAt=1748812528730"
               alt="Asia 5"
               className="rounded-xl w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
             />
             <img
-              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+              src="https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rehanverma-2408167.jpg?updatedAt=1748815082107"
               alt="Asia 6"
               className="rounded-xl w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
             />
