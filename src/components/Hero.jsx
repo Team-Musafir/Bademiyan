@@ -3,8 +3,10 @@ import React, { useEffect, useState, useRef } from 'react';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, useAnimation, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
   // Animation controls
   const taglineControls = useAnimation();
   const taglineCharControls = useAnimation();
@@ -130,9 +132,7 @@ const Hero = () => {
 
   // Handle explore button click
   const handleExploreClick = () => {
-    console.log("Explore button clicked - navigate to tours page");
-    // In a real app, you would navigate to a tours page:
-    // router.push('/tours');
+    navigate('/tours');
   };
 
   // Trigger animations when in view
@@ -246,7 +246,7 @@ const Hero = () => {
   return (
     <div
       ref={ref}
-      className="min-h-screen relative overflow-hidden" 
+      className="min-h-screen relative overflow-hidden"
     >
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
@@ -375,12 +375,12 @@ const Hero = () => {
             <p className="text-white/80 text-lg font-light leading-relaxed max-w-md text-center">
               {slides[currentSlide].description}
             </p>
-            
+
             {/* Progress Indicator */}
             <div className="w-full max-w-md">
               <div className="flex flex-col items-center">
                 <div className="progress-bar w-full mb-3">
-                  <div 
+                  <div
                     className="progress-fill"
                     style={{ width: `${progress}%` }}
                   />
@@ -396,11 +396,10 @@ const Hero = () => {
                       <button
                         key={index}
                         onClick={() => goToSlide(index)}
-                        className={`w-1 h-1 rounded-full transition-all pointer-events-auto ${
-                          index === currentSlide 
-                            ? 'bg-amber-400 scale-125' 
+                        className={`w-1 h-1 rounded-full transition-all pointer-events-auto ${index === currentSlide
+                            ? 'bg-amber-400 scale-125'
                             : 'bg-white/40 hover:bg-white/70'
-                        }`}
+                          }`}
                         aria-label={`Go to slide ${index + 1}`}
                       />
                     ))}
@@ -424,10 +423,10 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Explore Button with extra bottom space */}
             <div className="mt-4 mb-8">
-              <button 
+              <button
                 onClick={handleExploreClick}
                 className="group relative bg-transparent border border-white/60 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center gap-3 font-light tracking-wide text-sm uppercase cursor-pointer pointer-events-auto"
               >
@@ -442,10 +441,10 @@ const Hero = () => {
             <p className="text-white/80 text-xl font-light leading-relaxed max-w-md text-left">
               {slides[currentSlide].description}
             </p>
-            <button 
+            <button
               onClick={handleExploreClick}
               className="group relative bg-transparent border border-white/60 text-white px-10 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 flex items-center justify-center gap-3 font-light tracking-wide text-sm uppercase cursor-pointer pointer-events-auto"
-            > 
+            >
               <span>Explore Now</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
@@ -478,7 +477,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           {/* Progress bar container */}
           <div className="progress-bar w-full mb-3">
-            <div 
+            <div
               className="progress-fill"
               style={{ width: `${progress}%` }}
             />
@@ -497,11 +496,10 @@ const Hero = () => {
                 <button
                   key={index}
                   onClick={() => goToSlide(index)}
-                  className={`w-1 h-1 rounded-full transition-all ${
-                    index === currentSlide 
-                      ? 'bg-amber-400 scale-125' 
+                  className={`w-1 h-1 rounded-full transition-all ${index === currentSlide
+                      ? 'bg-amber-400 scale-125'
                       : 'bg-white/40 hover:bg-white/70'
-                  }`}
+                    }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
               ))}

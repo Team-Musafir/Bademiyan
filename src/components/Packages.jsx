@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const TravelPackages = () => {
+  const navigate = useNavigate();
   // Create 8 packages with unique data
   const packages = [
     {
@@ -121,7 +123,7 @@ const TravelPackages = () => {
       } else {
         setCardsPerView(4);
       }
-      
+
       // Adjust current index if it's out of bounds
       if (currentIndex > packages.length - cardsPerView) {
         setCurrentIndex(Math.max(0, packages.length - cardsPerView));
@@ -130,10 +132,10 @@ const TravelPackages = () => {
 
     handleResize();
     window.addEventListener('resize', handleResize);
-    
+
     // Start auto slide
     if (autoSlide) startAutoSlide();
-    
+
     return () => {
       window.removeEventListener('resize', handleResize);
       stopAutoSlide();
@@ -153,12 +155,12 @@ const TravelPackages = () => {
 
   const item = {
     hidden: { opacity: 0, y: 20 },
-    show: { 
-      opacity: 1, 
+    show: {
+      opacity: 1,
       y: 0,
-      transition: { 
-        duration: 0.6, 
-        ease: "easeOut" 
+      transition: {
+        duration: 0.6,
+        ease: "easeOut"
       }
     }
   };
@@ -173,7 +175,7 @@ const TravelPackages = () => {
         className="max-w-6xl mx-auto"
       >
         {/* Header Section */}
-        <motion.div 
+        <motion.div
           variants={item}
           className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8"
         >
@@ -184,13 +186,16 @@ const TravelPackages = () => {
               packages
             </h1>
           </div>
-          
+
           <div className="flex items-start gap-8 w-full md:w-auto">
             <div className="text-right max-w-sm w-full">
               <p className="text-slate-600 md:text-lg lg:text-lg sm:text-base text-base leading-relaxed mb-6">
                 Indulge in our carefully crafted packages to immerse you in the most captivating and transformative travel adventures.
               </p>
-              <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
+              <button
+                onClick={() => navigate('/tours')}
+                className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700"
+              >
                 See All Packages
               </button>
             </div>
@@ -198,7 +203,7 @@ const TravelPackages = () => {
         </motion.div>
 
         {/* Packages Slider */}
-        <motion.div 
+        <motion.div
           variants={item}
           className="relative"
           onMouseEnter={() => {
@@ -211,7 +216,7 @@ const TravelPackages = () => {
           }}
         >
           {/* Navigation Buttons */}
-          <button 
+          <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
             aria-label="Previous slide"
@@ -220,8 +225,8 @@ const TravelPackages = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          
-          <button 
+
+          <button
             onClick={nextSlide}
             className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-black rounded-full p-3 shadow-sm hover:bg-gray-800 transition-all duration-300"
             aria-label="Next slide"
@@ -233,29 +238,29 @@ const TravelPackages = () => {
 
           {/* Cards Container */}
           <div className="overflow-hidden py-4">
-            <div 
+            <div
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}
             >
               {packages.map((pkg) => (
-                <div 
+                <div
                   key={pkg.id}
                   className="flex-shrink-0 px-4"
                   style={{ width: `${100 / cardsPerView}%` }}
                 >
-                  <motion.div 
+                  <motion.div
                     whileHover={{ y: -10 }}
                     className="group relative overflow-hidden rounded-2xl bg-white transition-all duration-500"
                   >
                     {/* Image Container */}
                     <div className="relative h-100 overflow-hidden">
-                      <img 
+                      <img
                         src={pkg.image}
                         alt={pkg.title}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       />
                       <div className={`absolute inset-0 transition-opacity duration-300 group-hover:opacity-90`} />
-                      
+
                       {/* Content Overlay */}
                       <div className="absolute inset-0 p-6 flex flex-col justify-end text-white">
                         <h3 className="text-2xl font-semibold mb-2 leading-tight">
@@ -291,11 +296,10 @@ const TravelPackages = () => {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
-                index === Math.floor(currentIndex / cardsPerView) 
-                  ? 'bg-black w-6' 
+              className={`h-1.5 rounded-full transition-all duration-300 ${index === Math.floor(currentIndex / cardsPerView)
+                  ? 'bg-black w-6'
                   : 'bg-gray-300 w-3'
-              }`}
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
