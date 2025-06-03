@@ -184,9 +184,9 @@ const Contacts = () => {
         most captivating and<br/> transformative travel adventures.
       </p>
       <div className="flex justify-center md:justify-end">
-        <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
+        {/* <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
           Learn More
-        </button>
+        </button> */}
       </div>
     </div>
   </motion.div>
