@@ -60,7 +60,6 @@ const Navbar = () => {
   const menuItems = [
     { name: 'About', path: 'about' },
     { name: 'Tours', path: 'tours' },
-    { name: 'Packages', path: 'packages' },
     { name: 'Events', path: 'events' },
     { name: 'Blog', path: 'blog' },
     { name: 'Contact', path: 'contact' }

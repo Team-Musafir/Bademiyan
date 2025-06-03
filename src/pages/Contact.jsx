@@ -92,36 +92,36 @@ const Contacts = () => {
         />
         <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
-          <motion.h1 
+          <motion.h1
             className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline"
             initial="hidden"
             animate="show"
             variants={container}
           >
-            <motion.span 
+            <motion.span
               className="block"
               variants={{
                 hidden: { x: -100, opacity: 0 },
-                show: { 
-                  x: 0, 
+                show: {
+                  x: 0,
                   opacity: 1,
                   transition: { duration: 0.8, ease: "easeOut" }
                 }
               }}
             >
-              Contact 
+              Contact
             </motion.span>
-            <motion.span 
+            <motion.span
               className="block italic font-serif mx-2 md:mx-4"
               variants={{
                 hidden: { x: 100, opacity: 0 },
-                show: { 
-                  x: 0, 
+                show: {
+                  x: 0,
                   opacity: 1,
-                  transition: { 
-                    duration: 0.8, 
+                  transition: {
+                    duration: 0.8,
                     delay: 0.2,
-                    ease: "easeOut" 
+                    ease: "easeOut"
                   }
                 }
               }}
@@ -129,16 +129,16 @@ const Contacts = () => {
               Us
             </motion.span>
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-xl max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
-            animate={{ 
-              opacity: 1, 
+            animate={{
+              opacity: 1,
               y: 0,
-              transition: { 
-                duration: 0.7, 
+              transition: {
+                duration: 0.7,
                 delay: 0.4,
-                ease: "easeOut" 
+                ease: "easeOut"
               }
             }}
           >
@@ -151,55 +151,59 @@ const Contacts = () => {
       {/* Information Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-[2rem]">
-          <div className="flex-1">
-            <motion.h1 
-              className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight"
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ 
-                opacity: 1, 
-                x: 0,
-                transition: { duration: 0.7, ease: "easeOut" } 
-              }}
-              viewport={{ once: true, margin: "-100px" }}
-            >
-              Get in <em className="italic font-serif text-slate-700">Touch</em>
-            </motion.h1>
-          </div>
+  <div className="flex-1 w-full md:w-auto">
+    <motion.h1
+      className="text-4xl md:text-6xl font-normal text-slate-900 mb-6 leading-tight text-center md:text-left"
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{
+        opacity: 1,
+        x: 0,
+        transition: { duration: 0.7, ease: "easeOut" }
+      }}
+      viewport={{ once: true, margin: "-100px" }}
+    >
+      <span className="inline-block">
+        Get in <em className="italic font-serif text-slate-700">Touch</em>
+      </span>
+    </motion.h1>
+  </div>
 
-          <motion.div 
-            className="flex items-start gap-8 w-full md:w-auto"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ 
-              opacity: 1, 
-              x: 0,
-              transition: { duration: 0.7, delay: 0.2, ease: "easeOut" } 
-            }}
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            <div className="text-right max-w-sm w-full">
-              <p className="text-slate-600 md:text-lg lg:text-lg sm:text-base text-base leading-relaxed mb-6">
-                Indulge in our carefully crafted packages to immerse you in the
-                most captivating and transformative travel adventures.
-              </p>
-              <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
-                Learn More
-              </button>
-            </div>
-          </motion.div>
-        </div>
-        
+  <motion.div
+    className="flex items-start gap-8 w-full md:w-auto"
+    initial={{ opacity: 0, x: 30 }}
+    whileInView={{
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.7, delay: 0.2, ease: "easeOut" }
+    }}
+    viewport={{ once: true, margin: "-100px" }}
+  >
+    <div className="text-center md:text-right max-w-sm w-full mx-auto md:mx-0 md:max-w-none">
+      <p className="text-slate-600 md:text-lg lg:text-lg sm:text-base text-base leading-relaxed mb-6">
+        Indulge in our carefully crafted packages to <br/>immerse you in the
+        most captivating and<br/> transformative travel adventures.
+      </p>
+      <div className="flex justify-center md:justify-end">
+        <button className="text-amber-600 font-medium transition-colors hover:text-amber-700 pb-1 cursor-pointer border-b border-amber-600 hover:border-amber-700">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </motion.div>
+</div>
+
         {/* Combined Form and Cards Section */}
         <div className="flex flex-col lg:flex-row gap-12">
-          
+
           {/* Contact Form */}
-          <motion.div 
+          <motion.div
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, margin: "-100px" }}
             variants={container}
             className="w-full lg:w-1/2"
           >
-            <motion.p 
+            <motion.p
               className="text-slate-600 text-lg max-w-lg mb-[1.5rem]"
               variants={item}
             >
@@ -264,7 +268,7 @@ const Contacts = () => {
           </motion.div>
 
           {/* Contact Cards */}
-          <motion.div 
+          <motion.div
             className="w-full lg:w-1/2"
             initial="hidden"
             whileInView="show"
@@ -280,7 +284,7 @@ const Contacts = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Call Card */}
-              <motion.div 
+              <motion.div
                 variants={cardAnimation}
                 className="relative p-6 border-2 border-black rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] group cursor-pointer overflow-hidden"
               >
@@ -335,7 +339,7 @@ const Contacts = () => {
               </motion.div>
 
               {/* Email Card */}
-              <motion.div 
+              <motion.div
                 variants={cardAnimation}
                 className="relative p-6 border-2 border-black rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] group cursor-pointer overflow-hidden"
               >
@@ -390,7 +394,7 @@ const Contacts = () => {
               </motion.div>
 
               {/* Visit Card */}
-              <motion.div 
+              <motion.div
                 variants={cardAnimation}
                 className="relative p-6 border-2 border-black rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] group cursor-pointer overflow-hidden"
               >
@@ -451,7 +455,7 @@ const Contacts = () => {
               </motion.div>
 
               {/* Hours Card */}
-              <motion.div 
+              <motion.div
                 variants={cardAnimation}
                 className="relative p-6 border-2 border-black rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] group cursor-pointer overflow-hidden"
               >
@@ -514,13 +518,13 @@ const Contacts = () => {
 
       {/* Map Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <motion.div 
+        <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: 30 }}
-          whileInView={{ 
-            opacity: 1, 
+          whileInView={{
+            opacity: 1,
             y: 0,
-            transition: { duration: 0.7, ease: "easeOut" } 
+            transition: { duration: 0.7, ease: "easeOut" }
           }}
           viewport={{ once: true, margin: "-100px" }}
         >
@@ -533,17 +537,17 @@ const Contacts = () => {
           </p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="bg-white rounded-xl shadow-lg overflow-hidden h-[500px] border border-slate-200 relative"
           initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ 
-            opacity: 1, 
+          whileInView={{
+            opacity: 1,
             scale: 1,
-            transition: { 
-              duration: 0.8, 
+            transition: {
+              duration: 0.8,
               ease: "easeOut",
               delay: 0.1
-            } 
+            }
           }}
           viewport={{ once: true, margin: "-100px" }}
         >
@@ -560,17 +564,17 @@ const Contacts = () => {
             ></iframe>
           </div>
 
-          <motion.div 
+          <motion.div
             className="absolute bottom-6 left-6 bg-white rounded-lg shadow-lg p-4 max-w-xs z-10"
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ 
-              opacity: 1, 
+            whileInView={{
+              opacity: 1,
               y: 0,
-              transition: { 
-                duration: 0.7, 
+              transition: {
+                duration: 0.7,
                 delay: 0.3,
-                ease: "easeOut" 
-              } 
+                ease: "easeOut"
+              }
             }}
             viewport={{ once: true, margin: "-100px" }}
           >
@@ -600,7 +604,7 @@ const Contacts = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="flex flex-col md:flex-row gap-6 mt-10"
           initial="hidden"
           whileInView="show"
@@ -615,16 +619,16 @@ const Contacts = () => {
             }
           }}
         >
-          <motion.div 
+          <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
-              show: { 
-                opacity: 1, 
+              show: {
+                opacity: 1,
                 y: 0,
-                transition: { 
-                  duration: 0.6, 
-                  ease: "easeOut" 
-                } 
+                transition: {
+                  duration: 0.6,
+                  ease: "easeOut"
+                }
               }
             }}
             className="bg-slate-50 p-6 rounded-xl flex-1 border border-slate-200 transition-all hover:shadow-md"
@@ -647,17 +651,17 @@ const Contacts = () => {
             </p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
-              show: { 
-                opacity: 1, 
+              show: {
+                opacity: 1,
                 y: 0,
-                transition: { 
-                  duration: 0.6, 
+                transition: {
+                  duration: 0.6,
                   delay: 0.2,
-                  ease: "easeOut" 
-                } 
+                  ease: "easeOut"
+                }
               }
             }}
             className="bg-slate-50 p-6 rounded-xl flex-1 border border-slate-200 transition-all hover:shadow-md"
