@@ -1,0 +1,1378 @@
+{
+  "golden-triangle-tour": {
+    "title": "Golden Triangle Tour",
+    "location": "Konark Sun Temple, India",
+    "duration": "7 Days, 6 Nights",
+    "description": "Explore the architectural wonders of Bhubaneswar, Puri, and Konark - Odisha's golden triangle.",
+    "price": 999,
+    "quota": 20,
+    "schedule": "Every Monday and Friday",
+    "longDescription": "This tour covers Odisha's most iconic heritage sites. Marvel at the ancient temples of Bhubaneswar, experience spiritual bliss at Jagannath Temple in Puri, and witness the magnificent Sun Temple at Konark - a UNESCO World Heritage site. The package includes guided tours, comfortable stays, and authentic Odia cuisine experiences.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg",
+    "includes": [
+      "6 nights in 3-star hotels",
+      "Daily breakfast and 3 dinners",
+      "AC transportation throughout",
+      "Expert local guides",
+      "All monument entrance fees",
+      "Cultural performance in Puri"
+    ],
+    "excludes": [
+      "Lunches",
+      "Camera fees at monuments",
+      "Personal shopping",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Bhubaneswar",
+        "activities": [
+          "Airport welcome",
+          "Check-in at hotel",
+          "Evening visit to Khandagiri & Udayagiri caves",
+          "Welcome dinner with Odissi dance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udayagiri-caves.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Temple City Exploration",
+        "activities": [
+          "Lingaraj Temple darshan",
+          "Visit Mukteswar Temple",
+          "Rajrani Temple photography",
+          "Evening at Ekamra Haat crafts market"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lingaraj-temple.jpg"
+      },
+      {
+        "day": 3,
+        "title": "To Puri via Dhauli",
+        "activities": [
+          "Visit Dhauli Peace Pagoda",
+          "Stop at Pipli applique village",
+          "Check-in at Puri beach resort",
+          "Evening Jagannath Temple darshan"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dhauli-pagoda.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Puri & Konark Discovery",
+        "activities": [
+          "Sunrise at Puri beach",
+          "Full day Konark Sun Temple tour",
+          "Chandrabhaga beach visit",
+          "Evening Raghurajpur artist village"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/konark-wheel.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Chilika Lake Excursion",
+        "activities": [
+          "Boat cruise on Chilika Lake",
+          "Dolphin spotting",
+          "Lunch at Satapada",
+          "Visit Kalijai Temple"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chilika-lake.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Return to Bhubaneswar",
+        "activities": [
+          "Morning at leisure in Puri",
+          "Return drive to Bhubaneswar",
+          "Visit Odisha State Museum",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/odisha-museum.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Last minute shopping",
+          "Airport transfer",
+          "Depart with memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/konark-sunrise.jpg",
+        "alt": "Sunrise at Konark Temple"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/puri-beach.jpg",
+        "alt": "Golden sands of Puri"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/odia-cuisine.jpg",
+        "alt": "Traditional Odia thali"
+      }
+    ]
+  },
+  "jagannath-dham-darshan": {
+    "title": "Jagannath Dham Darshan",
+    "location": "Puri, Odisha, India",
+    "duration": "7 Days, 6 Nights",
+    "description": "Experience the divine blessings of Lord Jagannath in this spiritual journey through Puri's sacred temples.",
+    "price": 1799,
+    "quota": 15,
+    "schedule": "Monthly departures on full moon days",
+    "longDescription": "This sacred pilgrimage takes you through the most important temples of Lord Jagannath in Puri, including the famous Jagannath Temple, Gundicha Temple, and Lokanath Temple. Experience the rich culture and traditions of Odisha while participating in special darshans and rituals. The package includes comfortable accommodation near the temple, traditional Odia meals, and guided tours by knowledgeable priests.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg",
+    "includes": [
+      "6 nights accommodation in 3-star hotels",
+      "All meals (vegetarian)",
+      "Special darshan tickets",
+      "English speaking guide",
+      "All temple entry fees",
+      "AC transportation",
+      "Evening aarti participation"
+    ],
+    "excludes": [
+      "Personal expenses",
+      "Camera fees at temples",
+      "Travel insurance",
+      "Anything not mentioned in includes"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Puri & Temple Introduction",
+        "activities": [
+          "Arrive at Bhubaneswar airport",
+          "Transfer to Puri (1.5 hours drive)",
+          "Check-in at hotel",
+          "Evening visit to Swargadwar beach",
+          "Briefing about temple customs"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/swargadwar-beach.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Jagannath Temple Darshan",
+        "activities": [
+          "Early morning special darshan",
+          "Breakfast at hotel",
+          "Temple complex tour",
+          "Learn about temple history",
+          "Evening witness the Pahandi ritual"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jagannath-temple.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Gundicha Temple & Local Pilgrimage",
+        "activities": [
+          "Visit Gundicha Temple (Jagannath's aunt's home)",
+          "Explore local markets for religious artifacts",
+          "Visit Sakshi Gopal Temple",
+          "Evening beach meditation"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gundicha-temple.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Lokanath Temple & Spiritual Activities",
+        "activities": [
+          "Morning visit to Lokanath Temple",
+          "Participate in temple rituals",
+          "Learn about temple architecture",
+          "Evening cultural program"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lokanath-temple.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Konark Sun Temple Excursion",
+        "activities": [
+          "Full day trip to Konark Sun Temple",
+          "Visit Chandrabhaga beach",
+          "Explore temple museum",
+          "Return to Puri in evening"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/konark-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Free Day for Personal Worship",
+        "activities": [
+          "Free time for personal worship",
+          "Optional cooking class of temple prasad",
+          "Evening aarti participation",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/puri-aarti.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Final temple visit",
+          "Check-out from hotel",
+          "Transfer to Bhubaneswar airport",
+          "Depart with blessings"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jagannath-temple-view.jpg",
+        "alt": "Jagannath Temple main entrance"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/puri-beach.jpg",
+        "alt": "Puri beach view"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/konark-wheel.jpg",
+        "alt": "Konark Sun Temple wheel"
+      }
+    ]
+  },
+  "tribal-tour": {
+    "title": "Tribal Tour",
+    "location": "Koraput, Odisha, India",
+    "duration": "6 Days, 5 Nights",
+    "description": "Immerse yourself in the vibrant cultures of Odisha's indigenous tribes in this unique ethnographic journey.",
+    "price": 1199,
+    "quota": 12,
+    "schedule": "Twice monthly (1st & 3rd week)",
+    "longDescription": "This immersive experience takes you deep into the tribal heartlands of Odisha to meet the Bondas, Dongria Kondhs, and other indigenous communities. Witness their ancient traditions, colorful handicrafts, and sustainable lifestyles. The tour includes village stays, cultural exchanges, and nature treks through the Eastern Ghats with expert anthropologist guides.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-3678501.jpeg",
+    "includes": [
+      "5 nights accommodation (mix of hotels and eco-lodges)",
+      "All meals featuring tribal cuisine",
+      "Expert anthropologist guides",
+      "All transportation in 4x4 vehicles",
+      "Village entry permits",
+      "Cultural performance fees"
+    ],
+    "excludes": [
+      "Photography permits for certain tribes",
+      "Personal shopping of handicrafts",
+      "Travel insurance",
+      "Tips for local guides"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Bhubaneswar",
+        "activities": [
+          "Airport reception",
+          "Orientation briefing",
+          "Visit Tribal Museum",
+          "Overnight in Bhubaneswar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tribal-museum.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Journey to Koraput",
+        "activities": [
+          "Scenic drive through Eastern Ghats",
+          "Visit Daringbadi hill station",
+          "Interact with local artisans",
+          "Overnight in Koraput"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/eastern-ghats.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Bonda Hills Exploration",
+        "activities": [
+          "Trek to Bonda villages",
+          "Cultural exchange program",
+          "Traditional lunch with community",
+          "Evening handicraft workshop"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/bonda-tribe.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Dongria Kondh Villages",
+        "activities": [
+          "Visit Niyamgiri hills",
+          "Learn about tribal agriculture",
+          "Participate in folk dances",
+          "Night stay in eco-lodge"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dongria-kondh.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Jeypore & Kotpad Weavers",
+        "activities": [
+          "Visit Kotpad handloom village",
+          "Natural dyeing demonstration",
+          "Tribal market exploration",
+          "Return to Koraput"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kotpad-weavers.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Return & Departure",
+        "activities": [
+          "Morning tribal art workshop",
+          "Drive back to Bhubaneswar",
+          "Airport transfer",
+          "Depart with cultural insights"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/tribal-dance.jpg",
+        "alt": "Tribal dance performance"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/handicrafts.jpg",
+        "alt": "Tribal handicrafts"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/nature-trek.jpg",
+        "alt": "Scenic trekking route"
+      }
+    ]
+  },
+  "buddhism-and-beyond": {
+    "title": "Buddhism and Beyond",
+    "location": "Dhauli, Lalitgiri, Ratnagiri, India",
+    "duration": "7 Days, 6 Nights",
+    "description": "Trace the Buddhist heritage of Odisha through its ancient monasteries and peace pagodas.",
+    "price": 899,
+    "quota": 18,
+    "schedule": "Every Thursday",
+    "longDescription": "This spiritual journey covers Odisha's important Buddhist sites including the Diamond Triangle (Lalitgiri, Ratnagiri, and Udayagiri). Visit the Dhauli Peace Pagoda where Emperor Ashoka embraced Buddhism after the Kalinga War. The tour includes meditation sessions, monastery stays, and interactions with Buddhist monks while exploring Odisha's rich Buddhist archaeological heritage.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-soubhagya23-13829286.jpg",
+    "includes": [
+      "6 nights accommodation (including 1 monastery stay)",
+      "Vegetarian meals throughout",
+      "Expert Buddhist guide",
+      "All entrance fees",
+      "Meditation sessions",
+      "AC transportation"
+    ],
+    "excludes": [
+      "Donations at monasteries",
+      "Personal meditation accessories",
+      "Travel insurance",
+      "Video camera fees"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Bhubaneswar",
+        "activities": [
+          "Airport welcome",
+          "Visit Khandagiri Jain caves",
+          "Orientation session",
+          "Overnight in Bhubaneswar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/khandagiri.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Dhauli Peace Pagoda",
+        "activities": [
+          "Morning meditation at Dhauli",
+          "Visit Shanti Stupa",
+          "Kalinga War history session",
+          "Evening chanting"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dhauli-stupa.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Lalitgiri Monastery",
+        "activities": [
+          "Drive to Lalitgiri",
+          "Explore ancient monastery ruins",
+          "Buddhist museum visit",
+          "Stay at meditation center"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lalitgiri.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Ratnagiri Excavations",
+        "activities": [
+          "Morning yoga session",
+          "Full day at Ratnagiri site",
+          "Stupa and vihara exploration",
+          "Evening discourse with monk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ratnagiri.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Udayagiri & Langudi Hills",
+        "activities": [
+          "Visit Udayagiri monastery",
+          "Trek to Langudi Hill relics",
+          "Picnic lunch in nature",
+          "Return to Bhubaneswar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udayagiri-buddhist.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Buddhist Art & Culture",
+        "activities": [
+          "Visit State Museum Buddhist gallery",
+          "Thangka painting workshop",
+          "Evening meditation",
+          "Farewell vegetarian feast"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/thangka.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Final meditation session",
+          "Airport transfer",
+          "Peaceful departure"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/peace-pagoda.jpg",
+        "alt": "Dhauli Peace Pagoda"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/buddha-statue.jpg",
+        "alt": "Ancient Buddha statue"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/monastery-view.jpg",
+        "alt": "Monastery panoramic view"
+      }
+    ]
+  },
+  "shakti-peeth": {
+    "title": "Shakti Peeth",
+    "location": "Various locations, Odisha, India",
+    "duration": "5 Days, 4 Nights",
+    "description": "A spiritual pilgrimage to Odisha's powerful Shakti Peethas - seats of the Divine Feminine.",
+    "price": 899,
+    "quota": 15,
+    "schedule": "During Navratri festivals",
+    "longDescription": "This sacred tour covers Odisha's most revered Shakti Peethas including Tara Tarini, Charchika, and Samaleswari temples. Experience the powerful feminine energy through special pujas, yagnas, and rituals conducted by temple priests. The journey includes stays near temples, traditional vegetarian meals, and opportunities to participate in ancient worship practices.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/arial1.jpg",
+    "includes": [
+      "4 nights temple stay/dharamshala",
+      "All vegetarian meals",
+      "Special puja participation",
+      "English speaking priest guide",
+      "AC transportation",
+      "All temple donations"
+    ],
+    "excludes": [
+      "Personal offerings to deities",
+      "Camera fees at temples",
+      "Travel insurance",
+      "Extra rituals not in itinerary"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Tara Tarini Darshan",
+        "activities": [
+          "Arrive at Bhubaneswar",
+          "Drive to Tara Tarini hill shrine",
+          "Evening aarti participation",
+          "Overnight at temple guest house"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tara-tarini.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Charchika Temple",
+        "activities": [
+          "Morning puja at Tara Tarini",
+          "Drive to Banki",
+          "Charchika Temple special darshan",
+          "Evening cultural program"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/charchika.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Samaleswari Temple",
+        "activities": [
+          "Drive to Sambalpur",
+          "Full day at Samaleswari Temple",
+          "Participate in abhishekam",
+          "Learn temple history"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/samaleswari.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Manikeswari & Biraja Temples",
+        "activities": [
+          "Visit Manikeswari Temple, Bhawanipatna",
+          "Drive to Jajpur",
+          "Biraja Temple darshan",
+          "Evening hawan ceremony"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/biraja.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          "Morning final puja",
+          "Return to Bhubaneswar",
+          "Airport transfer",
+          "Depart with blessings"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/shakti-idol.jpg",
+        "alt": "Goddess idol"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/temple-puja.jpg",
+        "alt": "Temple rituals"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/sacred-fire.jpg",
+        "alt": "Hawan ceremony"
+      }
+    ]
+  },
+  "western-odisha-tour": {
+    "title": "Western Odisha Tour",
+    "location": "Sambalpur, Bargarh, India",
+    "duration": "7 Days, 6 Nights",
+    "description": "Discover the cultural richness of Western Odisha - from Sambalpuri textiles to tribal villages.",
+    "price": 1899,
+    "quota": 12,
+    "schedule": "Twice monthly",
+    "longDescription": "This immersive tour showcases Western Odisha's unique cultural heritage. Experience the world-famous Sambalpuri ikat weaving, visit tribal villages, explore the Hirakud Dam, and witness the region's distinctive folk arts. The package includes hands-on textile workshops, village homestays, and interactions with master artisans and tribal communities.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-joy-photo-238541869-32138411.jpg",
+    "includes": [
+      "6 nights accommodation (mix of hotels and homestays)",
+      "All meals featuring local cuisine",
+      "Textile workshops",
+      "Expert cultural guide",
+      "All transportation",
+      "Village entry permits"
+    ],
+    "excludes": [
+      "Textile purchases",
+      "Camera fees in tribal areas",
+      "Travel insurance",
+      "Personal shopping"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Sambalpur",
+        "activities": [
+          "Arrive at Jharsuguda airport",
+          "Transfer to Sambalpur",
+          "Orientation walk",
+          "Evening cultural briefing"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sambalpur-city.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Textile Heritage",
+        "activities": [
+          "Visit ikat weaving villages",
+          "Natural dyeing demonstration",
+          "Handloom workshop",
+          "Evening folk music performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ikat-weaving.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Hirakud Dam & Tribal Villages",
+        "activities": [
+          "Hirakud Dam tour",
+          "Boat ride on reservoir",
+          "Visit Gandhamardan tribal villages",
+          "Overnight homestay"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/hirakud-dam.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Bargarh & Nrusinghanath",
+        "activities": [
+          "Drive to Bargarh",
+          "Visit Nrusinghanath Temple",
+          "Tribal market exploration",
+          "Learn Sambalpuri dance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/nrusinghanath.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Sonepur & Handicrafts",
+        "activities": [
+          "Visit Sonepur textile center",
+          "Terracotta workshop",
+          "Evening Dalkhai dance performance",
+          "Return to Sambalpur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sonepur-textiles.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Chiplima & Debrigarh",
+        "activities": [
+          "Chiplima waterfall visit",
+          "Debrigarh wildlife sanctuary",
+          "Tribal cooking class",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chiplima.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Final textile market visit",
+          "Airport transfer",
+          "Depart with cultural treasures"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/sambalpuri-saree.jpg",
+        "alt": "Sambalpuri ikat saree"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/tribal-dance.jpg",
+        "alt": "Dalkhai dance"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/handicrafts.jpg",
+        "alt": "Tribal handicrafts"
+      }
+    ]
+  },
+  "wildlife-tourism": {
+    "title": "Wildlife Tourism",
+    "location": "Simlipal, Bhitarkanika, India",
+    "duration": "5 Days, 4 Nights",
+    "description": "Explore Odisha's rich biodiversity in its national parks and wildlife sanctuaries.",
+    "price": 1299,
+    "quota": 10,
+    "schedule": "Weekly departures",
+    "longDescription": "This wildlife adventure takes you through Odisha's premier conservation areas including Simlipal National Park (tiger reserve) and Bhitarkanika (mangrove ecosystem). Experience jungle safaris, birdwatching, crocodile spotting, and nature walks led by expert naturalists. The package includes eco-lodge stays and opportunities to learn about conservation efforts.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg",
+    "includes": [
+      "4 nights in eco-lodges",
+      "All meals (jungle cuisine)",
+      "Park entry fees",
+      "Expert naturalist guides",
+      "Safari rides",
+      "Boat cruises"
+    ],
+    "excludes": [
+      "Camera fees (professional equipment)",
+      "Personal gear",
+      "Travel insurance",
+      "Tips for guides"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Bhubaneswar",
+        "activities": [
+          "Airport pickup",
+          "Drive to Simlipal",
+          "Evening orientation",
+          "Night stay at forest guest house"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/simlipal-entrance.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Simlipal Safari",
+        "activities": [
+          "Morning jungle safari",
+          "Visit Barehipani Falls",
+          "Evening birdwatching",
+          "Night nature walk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/barehipani.jpg"
+      },
+      {
+        "day": 3,
+        "title": "To Bhitarkanika",
+        "activities": [
+          "Drive to Bhitarkanika",
+          "Check-in at eco-resort",
+          "Evening mangrove boat cruise",
+          "Crocodile spotting"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mangrove-cruise.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Bhitarkanika Exploration",
+        "activities": [
+          "Morning bird sanctuary visit",
+          "Nature trail",
+          "Visit crocodile breeding center",
+          "Sunset at river mouth"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/bhitarkanika-birds.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          "Final nature walk",
+          "Return to Bhubaneswar",
+          "Airport transfer",
+          "Depart with wild memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/tiger-sighting.jpg",
+        "alt": "Royal Bengal tiger"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/mangrove-forest.jpg",
+        "alt": "Bhitarkanika mangroves"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/estuarine-crocodile.jpg",
+        "alt": "Saltwater crocodile"
+      }
+    ]
+  },
+  "temple-tours": {
+    "title": "Temple Tours",
+    "location": "Across Odisha, India",
+    "duration": "6 Days, 5 Nights",
+    "description": "A sacred journey through Odisha's most architecturally significant temples.",
+    "price": 1099,
+    "quota": 15,
+    "schedule": "Weekly departures",
+    "longDescription": "This temple circuit covers Odisha's architectural marvels from the ancient Lingaraj Temple to the exquisite Mukteswar Temple. Experience the living temple traditions, learn about Kalinga architecture, and participate in special rituals. The tour includes guided explanations by temple scholars, comfortable stays, and authentic temple cuisine experiences.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-ravi-mittal-107469583-29064614.jpg",
+    "includes": [
+      "5 nights in temple vicinity hotels",
+      "Daily breakfast and 2 dinners",
+      "Expert temple guide",
+      "All transportation",
+      "Special darshan arrangements",
+      "Cultural performances"
+    ],
+    "excludes": [
+      "Temple donations",
+      "Camera fees",
+      "Personal puja materials",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Bhubaneswar Temples",
+        "activities": [
+          "Airport pickup",
+          "Lingaraj Temple darshan",
+          "Mukteswar Temple visit",
+          "Evening Ekamra Walks"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lingaraj.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Puri Jagannath Temple",
+        "activities": [
+          "Drive to Puri",
+          "Jagannath Temple darshan",
+          "Visit Gundicha Temple",
+          "Beach sunset"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jagannath.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Konark Sun Temple",
+        "activities": [
+          "Sun Temple guided tour",
+          "Architecture workshop",
+          "Chandrabhaga beach",
+          "Return to Bhubaneswar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/konark.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Dhauli & Rajarani",
+        "activities": [
+          "Dhauli Peace Pagoda",
+          "Rajarani Temple photography",
+          "State Museum visit",
+          "Evening sound & light show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/rajarani.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Chausathi Yogini & Others",
+        "activities": [
+          "Hirapur Yogini Temple",
+          "Visit Brahmeswar Temple",
+          "Shopping for temple artifacts",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/yogini.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning final temple visit",
+          "Airport transfer",
+          "Depart with blessings"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/temple-architecture.jpg",
+        "alt": "Temple carvings"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/temple-ritual.jpg",
+        "alt": "Temple ceremony"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/temple-sunset.jpg",
+        "alt": "Temple at sunset"
+      }
+    ]
+  },
+  "kashmir-of-odisha": {
+    "title": "Kashmir of Odisha",
+    "location": "Daringbadi, Odisha, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "Experience the cool climes and coffee plantations of Odisha's hill station - Daringbadi.",
+    "price": 799,
+    "quota": 15,
+    "schedule": "Weekly departures",
+    "longDescription": "Escape to Odisha's own Kashmir - the picturesque hill station of Daringbadi. This tour takes you through coffee plantations, pine forests, and waterfalls of this unique region that experiences winter chill. Enjoy nature walks, plantation tours, and cozy evenings by the fireplace in this offbeat getaway.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg",
+    "includes": [
+      "3 nights in plantation resort",
+      "All meals (local cuisine)",
+      "Plantation tours",
+      "Nature guide",
+      "All transportation",
+      "Bonfire evenings"
+    ],
+    "excludes": [
+      "Personal shopping",
+      "Adventure activities",
+      "Travel insurance",
+      "Tips"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Daringbadi",
+        "activities": [
+          "Pickup from Berhampur/Visakhapatnam",
+          "Scenic drive to hills",
+          "Check-in at resort",
+          "Evening nature walk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/daringbadi-view.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Hill Station Exploration",
+        "activities": [
+          "Coffee plantation tour",
+          "Visit Lovers' Point",
+          "Waterfall picnic",
+          "Evening bonfire"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/coffee-plantation.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Nature & Culture",
+        "activities": [
+          "Trek to Doluri River",
+          "Visit tribal villages",
+          "Local handicraft demo",
+          "Cultural performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/daringbadi-trek.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Check-out",
+          "Return transfer",
+          "End of tour"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/hill-station.jpg",
+        "alt": "Daringbadi hills"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/coffee-beans.jpg",
+        "alt": "Coffee beans"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/waterfall.jpg",
+        "alt": "Hill station waterfall"
+      }
+    ]
+  },
+  "heritage-tour": {
+    "title": "Heritage Tour",
+    "location": "Across Odisha, India",
+    "duration": "7 Days, 6 Nights",
+    "description": "A comprehensive journey through Odisha's living heritage - from ancient forts to living traditions.",
+    "price": 1399,
+    "quota": 12,
+    "schedule": "Twice monthly",
+    "longDescription": "This heritage odyssey covers Odisha's architectural marvels, living crafts traditions, and intangible cultural heritage. Visit ancient forts, stepwells, and monuments while interacting with traditional artisans keeping centuries-old crafts alive. The tour includes special access to heritage sites, craft demonstrations, and stays in heritage properties.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/caption.jpg",
+    "includes": [
+      "6 nights in heritage stays",
+      "Daily breakfast and 3 dinners",
+      "Expert heritage guide",
+      "All entry fees",
+      "Craft workshops",
+      "AC transportation"
+    ],
+    "excludes": [
+      "Personal shopping of crafts",
+      "Camera fees at monuments",
+      "Travel insurance",
+      "Tips"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Bhubaneswar Heritage",
+        "activities": [
+          "Airport pickup",
+          "Old Town heritage walk",
+          "Visit Khandagiri caves",
+          "Evening at Ekamra Haat"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/old-town.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Puri & Konark Heritage",
+        "activities": [
+          "Drive to Puri",
+          "Jagannath Temple architecture study",
+          "Konark Sun Temple guided tour",
+          "Stay at heritage property"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/konark-architecture.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Cuttack Fort & Silver Filigree",
+        "activities": [
+          "Visit Barabati Fort",
+          "Silver filigree workshop",
+          "Katak Chandi Temple",
+          "Evening at riverside"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/filigree.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Sambalpur Textile Heritage",
+        "activities": [
+          "Drive to Sambalpur",
+          "Ikat weaving demonstration",
+          "Visit Hirakud Dam",
+          "Evening folk performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sambalpuri-loom.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Western Odisha Forts",
+        "activities": [
+          "Visit Asurgarh Fort",
+          "Explore tribal heritage",
+          "Drive to Bhawanipatna",
+          "Stay at palace heritage"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/asurgarh.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Return to Bhubaneswar",
+        "activities": [
+          "Visit Chhatia Temple",
+          "Stop at Pipili applique village",
+          "Final heritage briefing",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/pipili.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Final museum visit",
+          "Airport transfer",
+          "Depart with heritage insights"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/fort-ruins.jpg",
+        "alt": "Ancient fort ruins"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/craft-demo.jpg",
+        "alt": "Traditional craft demonstration"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/heritage-stay.jpg",
+        "alt": "Heritage property stay"
+      }
+    ]
+  },
+  "eco-tourism": {
+    "title": "Eco-Tourism",
+    "location": "Satkosia, Chilika, India",
+    "duration": "5 Days, 4 Nights",
+    "description": "Sustainable travel through Odisha's pristine natural habitats and community conservation projects.",
+    "price": 1499,
+    "quota": 8,
+    "schedule": "Monthly departures",
+    "longDescription": "This eco-friendly tour focuses on responsible travel through Odisha's biodiversity hotspots. Stay in eco-lodges, participate in conservation activities, and experience community-based tourism initiatives. The itinerary includes Satkosia Gorge, Chilika Lake (Asia's largest brackish water lagoon), and mangrove ecosystems with expert naturalists.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/108064-679600422_tiny.jpg",
+    "includes": [
+      "4 nights in eco-lodges",
+      "All organic meals",
+      "Expert naturalist guides",
+      "All activities",
+      "Community contribution",
+      "Sustainable transportation"
+    ],
+    "excludes": [
+      "Personal gear",
+      "Travel insurance",
+      "Tips",
+      "Extra donations"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Satkosia Introduction",
+        "activities": [
+          "Arrive at Bhubaneswar",
+          "Drive to Satkosia",
+          "Evening nature orientation",
+          "Night walk (optional)"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/satkosia-view.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Satkosia Gorge Exploration",
+        "activities": [
+          "Morning boat safari",
+          "Nature trail with naturalist",
+          "Visit tribal conservation project",
+          "Evening documentary screening"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gorge-safari.jpg"
+      },
+      {
+        "day": 3,
+        "title": "To Chilika Lake",
+        "activities": [
+          "Drive to Chilika",
+          "Check-in at island eco-camp",
+          "Dolphin spotting cruise",
+          "Sunset at lagoon"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chilika-dolphin.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Chilika Bird Sanctuary",
+        "activities": [
+          "Morning birdwatching",
+          "Mangrove kayaking",
+          "Fishing community interaction",
+          "Conservation talk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chilika-birds.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          "Final nature walk",
+          "Return to Bhubaneswar",
+          "Airport transfer",
+          "Sustainable travel pledge"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/eco-lodge.jpg",
+        "alt": "Eco-friendly accommodation"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/nature-trail.jpg",
+        "alt": "Guided nature walk"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kayaking.jpg",
+        "alt": "Mangrove kayaking"
+      }
+    ]
+  },
+  "textile-tourism": {
+    "title": "Textile Tourism",
+    "location": "Pipili, Nuapatna, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "A colorful journey through Odisha's textile traditions - from ikat to temple textiles.",
+    "price": 899,
+    "quota": 10,
+    "schedule": "Weekly departures",
+    "longDescription": "This textile-focused tour takes you to the heart of Odisha's weaving villages. Witness the intricate processes behind Sambalpuri ikat, Bomkai, and other traditional textiles. Meet master weavers, try your hand at natural dyeing, and build your own textile collection with expert guidance. The tour includes visits to off-loom weaving centers and rare textile collections.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pipili-applique.webp",
+    "includes": [
+      "3 nights in boutique stays",
+      "All meals featuring local cuisine",
+      "Textile expert guide",
+      "All workshops",
+      "Transportation",
+      "Market visits"
+    ],
+    "excludes": [
+      "Textile purchases",
+      "Shipping costs",
+      "Travel insurance",
+      "Tips"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Pipili Applique",
+        "activities": [
+          "Arrive at Bhubaneswar",
+          "Drive to Pipili",
+          "Applique workshop",
+          "Evening market exploration"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/pipili-workshop.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Sambalpuri Ikat Villages",
+        "activities": [
+          "Drive to Bargarh",
+          "Ikat dyeing demonstration",
+          "Weaver interactions",
+          "Evening textile documentation"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ikat-dyeing.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Nuapatna & Bomkai",
+        "activities": [
+          "Visit Nuapatna temple textiles",
+          "Bomkai weaving center",
+          "Natural dye preparation",
+          "Evening textile exhibition"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/bomkai.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": [
+          "Final shopping at Ekamra Haat",
+          "Textile packing workshop",
+          "Airport transfer",
+          "Depart with textile treasures"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/weaving-loom.jpg",
+        "alt": "Handloom weaving"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/natural-dyes.jpg",
+        "alt": "Natural dye preparation"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/textile-collection.jpg",
+        "alt": "Traditional Odisha textiles"
+      }
+    ]
+  },
+  "adventure-tour-plan": {
+    "title": "Adventure Tour Plan",
+    "location": "Chandipur, Badaghagara, India",
+    "duration": "8 Days, 7 Nights",
+    "description": "Thrilling adventures across Odisha's diverse landscapes - from disappearing beaches to mighty waterfalls.",
+    "price": 1999,
+    "quota": 8,
+    "schedule": "Monthly departures",
+    "longDescription": "This adrenaline-packed itinerary combines Odisha's most exciting adventure activities. Experience the unique disappearing beach at Chandipur, trek to spectacular waterfalls, go river rafting, and try rock climbing. The tour includes expert adventure guides, safety equipment, and comfortable base camps between activities.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/1.webp",
+    "includes": [
+      "7 nights accommodation (mix of camps and lodges)",
+      "All meals (high energy)",
+      "Expert adventure guides",
+      "All safety equipment",
+      "Activities as per itinerary",
+      "Transportation between sites"
+    ],
+    "excludes": [
+      "Personal adventure gear",
+      "Travel insurance",
+      "Tips",
+      "Optional activities"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Orientation",
+        "activities": [
+          "Arrive at Bhubaneswar",
+          "Drive to base camp",
+          "Safety briefing",
+          "Evening team building"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/adventure-camp.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Chandipur Beach Adventure",
+        "activities": [
+          "Disappearing beach exploration",
+          "Sand boarding",
+          "Beach cycling",
+          "Evening bonfire"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chandipur.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Badaghagara Waterfall Trek",
+        "activities": [
+          "Full day waterfall trek",
+          "Rock climbing basics",
+          "Natural pool swimming",
+          "Return to base"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/badaghagara.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Mahanadi River Rafting",
+        "activities": [
+          "White water rafting (Grade II-III)",
+          "Riverside picnic",
+          "Evening debrief",
+          "Overnight at riverside camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/rafting.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Deomali Peak Trek",
+        "activities": [
+          "Trek to Odisha's highest point",
+          "Summit lunch",
+          "Return trek",
+          "Evening at forest camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/deomali.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Bhitarkanika Kayaking",
+        "activities": [
+          "Mangrove kayaking expedition",
+          "Wildlife spotting",
+          "Evening conservation talk",
+          "Night stay at eco-camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mangrove-kayak.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Rock Climbing & Rappelling",
+        "activities": [
+          "Natural rock face climbing",
+          "Waterfall rappelling",
+          "Adventure photography",
+          "Farewell celebration"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/rock-climbing.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "activities": [
+          "Final adventure debrief",
+          "Return to Bhubaneswar",
+          "Airport transfer",
+          "Depart with adventure stories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/waterfall-rappel.jpg",
+        "alt": "Waterfall rappelling"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/beach-cycling.jpg",
+        "alt": "Beach cycling"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/summit-view.jpg",
+        "alt": "Mountain summit view"
+      }
+    ]
+  }
+}

@@ -13,11 +13,14 @@ import IslandOfIndia from './pages/tourpages/IslandOfIndia';
 import NorthIndiaTours from './pages/tourpages/NorthIndiaTours';
 import SouthIndiaTours from './pages/tourpages/SouthIndiaTours';
 import WesternIndiaTours from './pages/tourpages/WesternIndiaTours';
-import TourGlobal from './pages/TourGlobal';
+import ScrollToTop from './components/ScrolltoTop';
+import DestinationPage from './pages/IncredibleOdisha';
+import NorthBengalSikkim from './pages/NorthBengalSikkim';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -33,7 +36,14 @@ function App() {
         <Route path="/tour/north-india" element={<NorthIndiaTours />} />
         <Route path="/tour/south-india" element={<SouthIndiaTours />} />
         <Route path="/tour/western-india" element={<WesternIndiaTours />} />
-        <Route path="/tour/incredible-odisha/:packageRoute" element={<TourGlobal/>} />
+        <Route path="/tour/incredible-odisha/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tour/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
+        {/* from here needed change for alll */}
+        <Route path="/tour/international-tours/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tour/island-of-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tour/north-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tour/south-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tour/western-india/:packageRoute" element={<DestinationPage />} />
       </Routes>
     </Router>
   );

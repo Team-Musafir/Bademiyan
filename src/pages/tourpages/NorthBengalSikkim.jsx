@@ -1,154 +1,152 @@
-import React from 'react'
-import Navbar from '../../components/NavbarB'
-import Footer from '../../components/Footer'
-import Contact from '../../components/Contact'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import Navbar from '../../components/NavbarB';
+import Footer from '../../components/Footer';
+import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 function NorthBengalSikkim() {
+  const navigate = useNavigate();
+
   const packages = [
     {
       id: 1,
       title: "Darjeeling Tour Package",
+      route: "darjeeling-tour-package",
       location: "Darjeeling, India",
       duration: "5 Days, 4 Nights",
       price: "$1299",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vinayak-khithani-2408962.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vinayak-khithani-2408962.jpg"
     },
     {
       id: 2,
       title: "Sikkim Tour Package",
+      route: "sikkim-tour-package",
       location: "Gangtok, India",
       duration: "6 Days, 5 Nights",
       price: "$1499",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3037435.jpeg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3037435.jpeg"
     },
     {
       id: 3,
       title: "Offbeat Dooars",
+      route: "offbeat-dooars",
       location: "Dooars, India",
       duration: "4 Days, 3 Nights",
       price: "$999",
-      image: "https://ik.imagekit.io/qad3x0vr1/780x439_Thimphu.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/780x439_Thimphu.jpg"
     },
     {
       id: 4,
       title: "Offbeat Darjeeling",
+      route: "offbeat-darjeeling",
       location: "Darjeeling, India",
       duration: "4 Days, 3 Nights",
       price: "$1099",
-      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-103875.jpeg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-103875.jpeg"
     },
     {
       id: 5,
       title: "Offbeat Kalimpong",
+      route: "offbeat-kalimpong",
       location: "Kalimpong, India",
       duration: "3 Days, 2 Nights",
       price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-4542265.jpeg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-4542265.jpeg"
     }
   ];
-    const generateSlug = (title) => {
-    return title
-      .toLowerCase()
-      .replace(/\s*&\s*/g, 'and')   // Handle ampersands with spaces
-      .replace(/[^\w\s-]/g, '')      // Keep hyphens and alphanumeric
-      .replace(/\s+/g, '-')          // Spaces to hyphens
-      .replace(/-+/g, '-');          // Remove consecutive hyphens
-  };
-  return (
-    <div>
-       <Navbar />
-      <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
-          }}
-        />
 
+  const handlePackageClick = (route) => {
+    navigate(`/tour/north-bengal-sikkim/${route}`);
+  };
+
+  return (
+    <div className="min-h-1/2 bg-white">
+      <Navbar />
+      <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
+        }} />
+        
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block animate-gentleFadeInLeft">North-Bengal </span>
+            <span className="block animate-gentleFadeInLeft">North-Bengal</span>
             <span className="block animate-softPulse mx-2 md:mx-4">&</span>
-            <span className="block italic font-serif animate-gentleFadeInRight"> Sikkim</span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Sikkim</span>
           </h1>
         </div>
       </section>
+
       <div className="p-6 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {packages.map((pkg) => {
-            const slug = generateSlug(pkg.title);
-            return (
-              <Link
-                to={`/tour/${slug}`}
-                key={pkg.id}
-                className="block"
-              >
-                <div className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer">
-                  <div className="relative h-110 overflow-hidden">
-                    <img
-                      src={pkg.image}
-                      alt={pkg.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-xl font-bold mb-3 leading-tight">
-                        {pkg.title}
-                      </h3>
-
-                      <div className="flex items-center mb-2">
-                        <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
-                        <span className="text-sm font-medium">{pkg.location}</span>
-                      </div>
-
-                      <div className="flex items-center mb-4">
-                        <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
-                        <span className="text-sm font-medium">{pkg.duration}</span>
-                      </div>
-
-                      <div className="text-right">
-                        <span className="text-2xl font-bold">{pkg.price}</span>
-                      </div>
-                    </div>
+          {packages.map((pkg) => (
+            <div 
+              key={pkg.id}
+              onClick={() => handlePackageClick(pkg.route)}
+              className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer"
+            >
+              <div className="relative h-110 overflow-hidden">
+                <img
+                  src={pkg.image}
+                  alt={pkg.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                
+                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                  <h3 className="text-xl font-bold mb-3 leading-tight">
+                    {pkg.title}
+                  </h3>
+                  
+                  <div className="flex items-center mb-2">
+                    <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
+                    <span className="text-sm font-medium">{pkg.location}</span>
+                  </div>
+                  
+                  <div className="flex items-center mb-4">
+                    <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
+                    <span className="text-sm font-medium">{pkg.duration}</span>
+                  </div>
+                  
+                  <div className="text-right">
+                    <span className="text-2xl font-bold">{pkg.price}</span>
                   </div>
                 </div>
-              </Link>
-            );
-          })}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-
+      
       <Contact />
       <Footer />
+
       <style jsx global>{`
         @keyframes gentleFadeInLeft {
           0% {
-             opacity: 0;
+            opacity: 0;
             transform: translateX(-10px);
           }
           100% {
-             opacity: 1;
+            opacity: 1;
             transform: translateX(0);
           }
         }
-                
+        
         @keyframes gentleFadeInRight {
           0% {
-             opacity: 0;
+            opacity: 0;
             transform: translateX(10px);
           }
           100% {
-             opacity: 1;
+            opacity: 1;
             transform: translateX(0);
           }
         }
-                
+        
         @keyframes softPulse {
           0% {
-             opacity: 0;
+            opacity: 0;
             transform: scale(0.95);
           }
           50% {
@@ -156,29 +154,28 @@ function NorthBengalSikkim() {
             transform: scale(1.05);
           }
           100% {
-             opacity: 1;
+            opacity: 1;
             transform: scale(1);
           }
         }
-                
+        
         .animate-gentleFadeInLeft {
           animation: gentleFadeInLeft 0.8s ease-out forwards;
           animation-delay: 0.2s;
         }
-                
+        
         .animate-softPulse {
           animation: softPulse 1s ease-in-out forwards;
           animation-delay: 0.4s;
         }
-                
+        
         .animate-gentleFadeInRight {
           animation: gentleFadeInRight 0.8s ease-out forwards;
           animation-delay: 0.6s;
         }
       `}</style>
-
     </div>
-  )
+  );
 }
 
-export default NorthBengalSikkim
+export default NorthBengalSikkim;
