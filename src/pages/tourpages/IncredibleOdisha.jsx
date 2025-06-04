@@ -13,7 +13,7 @@ function IncredibleOdisha() {
       location: "Konark Sun Temple, India",
       duration: "7 Days, 6 Nights",
       price: "$999",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793"
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function IncredibleOdisha() {
       location: "Darjeling, India",
       duration: "7 Days, 6 Nights",
       price: "$1799",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Northeast.jpg?updatedAt=1748812451591"
+      image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ function IncredibleOdisha() {
       location: "Leh, India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg"
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-3678501.jpeg"
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ function IncredibleOdisha() {
       location: "Hawa Mahal, India",
       duration: "7 Days, 6 Nights",
       price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/hawa-mahal-6688170_1920.jpg"
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-soubhagya23-13829286.jpg"
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ function IncredibleOdisha() {
       location: "Madurai, India",
       duration: "5 Days, 4 Nights",
       price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-esther-234072-5690494.jpg"
+      image: "https://ik.imagekit.io/qad3x0vr1/arial1.jpg"
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ function IncredibleOdisha() {
       location: "Daman and Diu, India",
       duration: "7 Days, 6 Nights",
       price: "$1899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nirmal-rajendharkumar-1577471-3030016.jpg"
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-joy-photo-238541869-32138411.jpg"
     },
     {
       id: 7,
@@ -61,7 +61,7 @@ function IncredibleOdisha() {
       location: "Ranthambore, India",
       duration: "5 Days, 4 Nights",
       price: "$1299",
-      image: "https://images.unsplash.com/photo-1525164286253-04e68b9a94e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg"
     },
     {
       id: 8,
@@ -69,7 +69,7 @@ function IncredibleOdisha() {
       location: "Varanasi, India",
       duration: "6 Days, 5 Nights",
       price: "$1099",
-      image: "https://images.unsplash.com/photo-1581852057100-9a8fd9a356d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-ravi-mittal-107469583-29064614.jpg"
     },
     {
       id: 9,
@@ -77,7 +77,7 @@ function IncredibleOdisha() {
       location: "Daringbadi, India",
       duration: "4 Days, 3 Nights",
       price: "$799",
-      image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg"
     },
     {
       id: 10,
@@ -85,7 +85,7 @@ function IncredibleOdisha() {
       location: "Hampi, India",
       duration: "7 Days, 6 Nights",
       price: "$1399",
-      image: "https://images.unsplash.com/photo-1584811644727-e2c9c4a0a0a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/caption.jpg"
     },
     {
       id: 11,
@@ -93,7 +93,7 @@ function IncredibleOdisha() {
       location: "Sunderbans, India",
       duration: "5 Days, 4 Nights",
       price: "$1499",
-      image: "https://images.unsplash.com/photo-1584811644727-e2c9c4a0a0a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/108064-679600422_tiny.jpg"
     },
     {
       id: 12,
@@ -101,7 +101,7 @@ function IncredibleOdisha() {
       location: "Jaipur, India",
       duration: "4 Days, 3 Nights",
       price: "$899",
-      image: "https://images.unsplash.com/photo-1584811644727-e2c9c4a0a0a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/pipili-applique.webp"
     },
     {
       id: 13,
@@ -109,7 +109,7 @@ function IncredibleOdisha() {
       location: "Manali, India",
       duration: "8 Days, 7 Nights",
       price: "$1999",
-      image: "https://images.unsplash.com/photo-1584811644727-e2c9c4a0a0a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      image: "https://ik.imagekit.io/qad3x0vr1/1.webp"
     },
   ];
   const generateSlug = (title) => {
