@@ -10,6 +10,7 @@ function Tours() {
     {
       id: 1,
       title: "Incredible Odisha",
+      route: "incredible-odisha", // Hard-coded route
       location: "Konark Sun Temple,India",
       duration: "7 Days, 6 Nights",
       price: "$999",
@@ -17,7 +18,8 @@ function Tours() {
     },
     {
       id: 2,
-      title: "North-Bengal and Sikkim", //dont replace this and with & as it is used in the slug ,if remove encountor 404 notfound
+      title: "North-Bengal and Sikkim",
+      route: "north-bengal-sikkim", // Hard-coded route
       location: "Darjeling,India",
       duration: "7 Days, 6 Nights",
       price: "$1799",
@@ -26,6 +28,7 @@ function Tours() {
     {
       id: 3,
       title: "North India Tours",
+      route: "north-india-tours", // Hard-coded route
       location: "Leh,India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
@@ -34,6 +37,7 @@ function Tours() {
     {
       id: 4,
       title: "Western India Tours",
+      route: "western-india-tours", // Hard-coded route
       location: "Hawa Mahal, India",
       duration: "7 Days, 6 Nights",
       price: "$899",
@@ -42,6 +46,7 @@ function Tours() {
     {
       id: 5,
       title: "South India Tours",
+      route: "south-india-tours", // Hard-coded route
       location: "Madurai,India",
       duration: "5 Days, 4 Nights",
       price: "$899",
@@ -50,6 +55,7 @@ function Tours() {
     {
       id: 6,
       title: "Island of India",
+      route: "island-of-india", // Hard-coded route
       location: "Daman and Diu,India",
       duration: "7 Days, 6 Nights",
       price: "$1899",
@@ -58,22 +64,13 @@ function Tours() {
     {
       id: 7,
       title: "International Tours",
+      route: "international-tours", // Hard-coded route
       location: "Morteratsch,Switzerland",
       duration: "7 Days, 6 Nights",
       price: "$899",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
     }
   ];
-
-  // Fixed slug generation
-  const generateSlug = (title) => {
-    return title
-      .toLowerCase()
-      .replace(/\s*&\s*/g, 'and')   // Handle ampersands with spaces
-      .replace(/[^\w\s-]/g, '')      // Keep hyphens and alphanumeric
-      .replace(/\s+/g, '-')          // Spaces to hyphens
-      .replace(/-+/g, '-');          // Remove consecutive hyphens
-  };
 
   return (
     <div className="min-h-1/2 bg-white">
@@ -97,47 +94,44 @@ function Tours() {
 
       <div className="p-6 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {packages.map((pkg) => {
-            const slug = generateSlug(pkg.title);
-            return (
-              <Link 
-                to={`/tour/${slug}`} 
-                key={pkg.id}
-                className="block"
-              >
-                <div className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer">
-                  <div className="relative h-110 overflow-hidden">
-                    <img
-                      src={pkg.image}
-                      alt={pkg.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+          {packages.map((pkg) => (
+            <Link 
+              to={`/tour/${pkg.route}`} // Using hard-coded route
+              key={pkg.id}
+              className="block"
+            >
+              <div className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer">
+                <div className="relative h-110 overflow-hidden">
+                  <img
+                    src={pkg.image}
+                    alt={pkg.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                  
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <h3 className="text-xl font-bold mb-3 leading-tight">
+                      {pkg.title}
+                    </h3>
                     
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-xl font-bold mb-3 leading-tight">
-                        {pkg.title}
-                      </h3>
-                      
-                      <div className="flex items-center mb-2">
-                        <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
-                        <span className="text-sm font-medium">{pkg.location}</span>
-                      </div>
-                      
-                      <div className="flex items-center mb-4">
-                        <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
-                        <span className="text-sm font-medium">{pkg.duration}</span>
-                      </div>
-                      
-                      <div className="text-right">
-                        <span className="text-2xl font-bold">{pkg.price}</span>
-                      </div>
+                    <div className="flex items-center mb-2">
+                      <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
+                      <span className="text-sm font-medium">{pkg.location}</span>
+                    </div>
+                    
+                    <div className="flex items-center mb-4">
+                      <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
+                      <span className="text-sm font-medium">{pkg.duration}</span>
+                    </div>
+                    
+                    <div className="text-right">
+                      <span className="text-2xl font-bold">{pkg.price}</span>
                     </div>
                   </div>
                 </div>
-              </Link>
-            );
-          })}
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
       <Contact/>
@@ -176,7 +170,7 @@ function Tours() {
             transform: scale(1.05);
           }
           100% {
-             opacity: 1;
+            opacity: 1;
             transform: scale(1);
           }
         }
