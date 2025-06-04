@@ -187,6 +187,59 @@ function IncredibleOdisha() {
 
       <Contact />
       <Footer />
+      <style jsx global>{`
+        @keyframes gentleFadeInLeft {
+          0% {
+             opacity: 0;
+            transform: translateX(-10px);
+          }
+          100% {
+             opacity: 1;
+            transform: translateX(0);
+          }
+        }
+                
+        @keyframes gentleFadeInRight {
+          0% {
+             opacity: 0;
+            transform: translateX(10px);
+          }
+          100% {
+             opacity: 1;
+            transform: translateX(0);
+          }
+        }
+                
+        @keyframes softPulse {
+          0% {
+             opacity: 0;
+            transform: scale(0.95);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1.05);
+          }
+          100% {
+             opacity: 1;
+            transform: scale(1);
+          }
+        }
+                
+        .animate-gentleFadeInLeft {
+          animation: gentleFadeInLeft 0.8s ease-out forwards;
+          animation-delay: 0.2s;
+        }
+                
+        .animate-softPulse {
+          animation: softPulse 1s ease-in-out forwards;
+          animation-delay: 0.4s;
+        }
+                
+        .animate-gentleFadeInRight {
+          animation: gentleFadeInRight 0.8s ease-out forwards;
+          animation-delay: 0.6s;
+        }
+      `}</style>
     </div>
   )
 }
