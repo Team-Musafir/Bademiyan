@@ -13,7 +13,7 @@ function NorthIndiaTours() {
       location: "Himachal Pradesh, India",
       duration: "Customizable",
       price: "From $799",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/himachal.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-2961109.jpeg"  // Replace with your image
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function NorthIndiaTours() {
       location: "Uttar Pradesh, India",
       duration: "Customizable",
       price: "From $699",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/uttar-pradesh.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rachel-claire-8112547.jpg"  // Replace with your image
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ function NorthIndiaTours() {
       location: "Kashmir, India",
       duration: "Customizable",
       price: "From $1299",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/kashmir.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/free-photo-of-aerial-view-of-houses-around-the-dal-lake-in-jammu-and-kashmir-india.jpeg"  // Replace with your image
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ function NorthIndiaTours() {
       location: "Ladakh, India",
       duration: "Customizable",
       price: "From $1499",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/ladakh.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-1539700.jpeg"  // Replace with your image
     }
   ];
   const generateSlug = (title) => {
@@ -61,9 +61,9 @@ function NorthIndiaTours() {
 
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block animate-gentleFadeInLeft">North</span>
-            <span className="block animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block italic font-serif animate-gentleFadeInRight">Tours</span>
+            <span className="block italic font-serif animate-gentleFadeInLeft">North</span>
+            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
+            <span className="block animate-gentleFadeInRight">Tours</span>
           </h1>
         </div>
       </section>

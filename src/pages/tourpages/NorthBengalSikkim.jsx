@@ -13,7 +13,7 @@ function NorthBengalSikkim() {
       location: "Darjeeling, India",
       duration: "5 Days, 4 Nights",
       price: "$1299",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/darjeeling.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vinayak-khithani-2408962.jpg"  // Replace with your image
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function NorthBengalSikkim() {
       location: "Gangtok, India",
       duration: "6 Days, 5 Nights",
       price: "$1499",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/sikkim.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3037435.jpeg"  // Replace with your image
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ function NorthBengalSikkim() {
       location: "Dooars, India",
       duration: "4 Days, 3 Nights",
       price: "$999",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/dooars.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/780x439_Thimphu.jpg"  // Replace with your image
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ function NorthBengalSikkim() {
       location: "Darjeeling, India",
       duration: "4 Days, 3 Nights",
       price: "$1099",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/offbeat-darjeeling.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-103875.jpeg"  // Replace with your image
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ function NorthBengalSikkim() {
       location: "Kalimpong, India",
       duration: "3 Days, 2 Nights",
       price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/kalimpong.jpg"  // Replace with your image
+      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-4542265.jpeg"  // Replace with your image
     }
   ];
     const generateSlug = (title) => {
