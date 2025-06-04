@@ -175,7 +175,7 @@ function Blog() {
           viewport={{ once: true, margin: "-100px" }}
           variants={sectionTitleVariants}
         >
-          Journey in <span className="italic font-serif">Asia</span>
+          Journey in <span className="italic font-serif">Odisha</span>
         </motion.h1>
 
         <motion.div 
@@ -296,7 +296,7 @@ function Blog() {
       </section>
       <section className="px-6 md:px-20 py-12">
         <h2 className="text-center text-[2.75rem] md:text-[3.5rem] leading-tight font-light mb-10">
-          Journey in <span className="italic font-serif">Europe</span>
+          Journey in <span className="italic font-serif">North Bengal</span>
         </h2>
 
         <div className="grid grid-cols-3 gap-4 max-w-6xl mx-auto">
