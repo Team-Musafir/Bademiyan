@@ -95,8 +95,8 @@ function Tours() {
       <div className="p-6 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {packages.map((pkg) => (
-            <Link 
-              to={`/tour/${pkg.route}`} // Using hard-coded route
+            <Link
+              to={`/tour/${pkg.route}`} 
               key={pkg.id}
               className="block"
             >
@@ -107,7 +107,7 @@ function Tours() {
                     alt={pkg.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div> */}
                   
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <h3 className="text-xl font-bold mb-3 leading-tight">

@@ -148,7 +148,7 @@ const Reviews = () => {
   };
 
   return (
-    <section id="reviews" className="bg-white py-24 px-6">
+    <section id="reviews" className="bg-white py-18 px-6">
       <motion.div
         initial="hidden"
         whileInView="show"
