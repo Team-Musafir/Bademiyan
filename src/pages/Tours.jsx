@@ -70,15 +70,43 @@ function Tours() {
       price: "$899",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
     },
-     {
+    {
       id: 8,
       title: "Pilgrimage Tours",
       route: "pilgrimage-tours", // Hard-coded route
       location: "Morteratsch,Switzerland",
       duration: "7 Days, 6 Nights",
       price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-artosuraj-28819289.jpg"
+    },
+    {
+      id: 9,
+      title: "North-East India Tours",
+      route: "north-east-india-tours", // Hard-coded route
+      location: "Morteratsch,Switzerland",
+      duration: "7 Days, 6 Nights",
+      price: "$899",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nans1419-20519339.jpg"
+    },
+    {
+      id: 10,
+      title: "Heritage Tours",
+      route: "heritage-tours", // Hard-coded route
+      location: "Morteratsch,Switzerland",
+      duration: "7 Days, 6 Nights",
+      price: "$899",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-usaidphotos-14337670.jpg"
+    },
+    {
+      id: 11,
+      title: "Adventure Tours",
+      route: "adventure-tours", // Hard-coded route
+      location: "Morteratsch,Switzerland",
+      duration: "7 Days, 6 Nights",
+      price: "$899",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/mountain-7565293_1920.jpg"
     }
+
   ];
 
   return (
@@ -91,7 +119,7 @@ function Tours() {
             backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
           }}
         />
-        
+
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
             <span className="block animate-gentleFadeInLeft">Tours</span>
@@ -105,7 +133,7 @@ function Tours() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {packages.map((pkg) => (
             <Link
-              to={`/tours/${pkg.route}`} 
+              to={`/tours/${pkg.route}`}
               key={pkg.id}
               className="block"
             >
@@ -117,22 +145,22 @@ function Tours() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div> */}
-                  
+
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <h3 className="text-xl font-bold mb-3 leading-tight">
                       {pkg.title}
                     </h3>
-                    
+
                     <div className="flex items-center mb-2">
                       <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
                       <span className="text-sm font-medium">{pkg.location}</span>
                     </div>
-                    
+
                     <div className="flex items-center mb-4">
                       <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
                       <span className="text-sm font-medium">{pkg.duration}</span>
                     </div>
-                    
+
                     <div className="text-right">
                       <span className="text-2xl font-bold">{pkg.price}</span>
                     </div>
@@ -143,8 +171,8 @@ function Tours() {
           ))}
         </div>
       </div>
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
 
       <style jsx global>{`
         @keyframes gentleFadeInLeft {
