@@ -129,7 +129,7 @@ function IncredibleOdisha() {
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tour/incredible-odisha/${route}`);
+    navigate(`/tours/incredible-odisha/${route}`);
   };
 
   return (

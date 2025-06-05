@@ -1,0 +1,451 @@
+{
+  "darjeeling-tour-package": {
+    "title": "Darjeeling Tour Package",
+    "location": "Darjeeling, India",
+    "duration": "5 Days, 4 Nights",
+    "description": "Experience the breathtaking Himalayan views and colonial charm of Darjeeling, the Queen of Hills.",
+    "price": 1299,
+    "quota": 15,
+    "schedule": "Every Monday and Friday",
+    "longDescription": "This tour takes you through the most scenic spots of Darjeeling including the famous Tiger Hill sunrise, Himalayan Mountaineering Institute, and the UNESCO-listed Darjeeling Himalayan Railway. Enjoy tea estate visits, cultural shows, and stunning mountain vistas throughout your stay.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vinayak-khithani-2408962.jpg",
+    "includes": [
+      "4 nights in 3-star hotels",
+      "Daily breakfast",
+      "AC transportation throughout",
+      "Expert local guides",
+      "All sightseeing entrance fees",
+      "Toy train ride (subject to availability)"
+    ],
+    "excludes": [
+      "Lunches and dinners",
+      "Camera fees at attractions",
+      "Personal shopping",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Darjeeling",
+        "activities": [
+          "Arrival at Bagdogra Airport/NJP Station",
+          "Transfer to Darjeeling (3-4 hours drive)",
+          "Check-in at hotel",
+          "Evening free at Mall Road",
+          "Overnight in Darjeeling"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/darjeeling-mall-road.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Darjeeling Sightseeing",
+        "activities": [
+          "Early morning Tiger Hill sunrise view",
+          "Visit Ghoom Monastery",
+          "Batasia Loop & War Memorial",
+          "Himalayan Mountaineering Institute",
+          "Padmaja Naidu Himalayan Zoological Park",
+          "Evening tea estate visit"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tiger-hill.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Toy Train & Local Exploration",
+        "activities": [
+          "Joy ride on Darjeeling Himalayan Railway",
+          "Visit Happy Valley Tea Estate",
+          "Explore Tibetan Refugee Center",
+          "Evening cultural show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/toy-train.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Excursion to Mirik",
+        "activities": [
+          "Full day trip to Mirik Lake",
+          "Boat ride on Sumendu Lake",
+          "Visit Orange Orchards",
+          "Return to Darjeeling"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mirik-lake.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          "Morning free for last-minute shopping",
+          "Transfer to Bagdogra Airport/NJP Station",
+          "Depart with wonderful memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/darjeeling-tea-garden.jpg",
+        "alt": "Darjeeling tea gardens"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kanchenjunga-view.jpg",
+        "alt": "Kanchenjunga mountain view"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/darjeeling-monastery.jpg",
+        "alt": "Peaceful monastery in Darjeeling"
+      }
+    ]
+  },
+  "sikkim-tour-package": {
+    "title": "Sikkim Tour Package",
+    "location": "Gangtok, India",
+    "duration": "6 Days, 5 Nights",
+    "description": "Discover the pristine beauty and Buddhist culture of Sikkim, nestled in the Eastern Himalayas.",
+    "price": 1499,
+    "quota": 12,
+    "schedule": "Every Wednesday and Sunday",
+    "longDescription": "This comprehensive tour covers Gangtok's highlights along with excursions to Tsomgo Lake and Rumtek Monastery. Experience Sikkim's unique blend of Tibetan Buddhism, Himalayan landscapes, and vibrant local culture. The package includes comfortable stays, guided tours, and opportunities to sample authentic Sikkimese cuisine.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3037435.jpeg",
+    "includes": [
+      "5 nights in 3-star hotels",
+      "Daily breakfast and 2 dinners",
+      "AC transportation",
+      "Expert local guides",
+      "All permit fees",
+      "Tsomgo Lake excursion"
+    ],
+    "excludes": [
+      "Lunches",
+      "Camera fees at monasteries",
+      "Personal shopping",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Gangtok",
+        "activities": [
+          "Arrival at Bagdogra Airport/NJP Station",
+          "Transfer to Gangtok (4-5 hours drive)",
+          "Check-in at hotel",
+          "Evening free at MG Marg",
+          "Overnight in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gangtok-mg-marg.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Gangtok Sightseeing",
+        "activities": [
+          "Visit Tashi Viewpoint",
+          "Explore Namgyal Institute of Tibetology",
+          "Do Drul Chorten Stupa",
+          "Flower Show at Ridge Park",
+          "Ropeway ride",
+          "Evening cultural show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gangtok-ropeway.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Tsomgo Lake",
+        "activities": [
+          "Full day trip to Tsomgo Lake (12,400 ft)",
+          "Visit Baba Mandir",
+          "Stop at Kyongnosla Waterfall",
+          "Return to Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tsomgo-lake.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Rumtek Monastery & Local Villages",
+        "activities": [
+          "Visit Rumtek Monastery",
+          "Explore Handicraft Center",
+          "Traditional Sikkimese lunch",
+          "Village interaction program",
+          "Evening at leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/rumtek-monastery.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Excursion to Banjhakri Falls",
+        "activities": [
+          "Visit Banjhakri Falls & Energy Park",
+          "Explore Enchey Monastery",
+          "Shopping for local handicrafts",
+          "Farewell dinner with cultural show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/banjhakri-falls.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning free for last-minute activities",
+          "Transfer to Bagdogra Airport/NJP Station",
+          "Depart with Himalayan memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kanchenjunga-sikkim.jpg",
+        "alt": "Kanchenjunga view from Sikkim"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/sikkim-culture.jpg",
+        "alt": "Traditional Sikkimese dance"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/sikkim-monastery.jpg",
+        "alt": "Ancient monastery in Sikkim"
+      }
+    ]
+  },
+  "offbeat-dooars": {
+    "title": "Offbeat Dooars",
+    "location": "Dooars, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "Explore the lesser-known wildlife sanctuaries and tea gardens of Dooars, the gateway to Bhutan.",
+    "price": 999,
+    "quota": 10,
+    "schedule": "Every Tuesday and Saturday",
+    "longDescription": "This offbeat tour takes you through the pristine forests and tea estates of Dooars region. Experience jeep safaris in Gorumara National Park, visit tribal villages, and enjoy the serene beauty of this lesser-explored region. The package includes jungle stays, expert naturalist guides, and opportunities to spot rare wildlife.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/780x439_Thimphu.jpg",
+    "includes": [
+      "3 nights in jungle lodges/eco-resorts",
+      "All meals (local cuisine)",
+      "Jeep safari charges",
+      "Expert naturalist guides",
+      "All park entry fees",
+      "Cultural performances"
+    ],
+    "excludes": [
+      "Camera fees in parks",
+      "Personal shopping",
+      "Travel insurance",
+      "Tips for guides"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Gorumara Introduction",
+        "activities": [
+          "Arrival at NJP Station/Bagdogra Airport",
+          "Transfer to Dooars (3 hours drive)",
+          "Check-in at jungle lodge",
+          "Evening nature walk",
+          "Overnight in Dooars"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dooars-jungle.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Gorumara National Park Safari",
+        "activities": [
+          "Morning jeep safari in Gorumara",
+          "Visit Chapramari Wildlife Sanctuary",
+          "Tea garden tour",
+          "Evening tribal dance performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gorumara-safari.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Jaldapara Wildlife Sanctuary",
+        "activities": [
+          "Elephant safari in Jaldapara",
+          "Visit Buxa Tiger Reserve",
+          "Explore tribal villages",
+          "River side picnic lunch"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jaldapara-elephant.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": [
+          "Morning bird watching",
+          "Transfer to NJP Station/Bagdogra Airport",
+          "Depart with wilderness memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/dooars-tea-garden.jpg",
+        "alt": "Dooars tea gardens"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/dooars-wildlife.jpg",
+        "alt": "Wildlife in Dooars"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/dooars-landscape.jpg",
+        "alt": "Scenic Dooars landscape"
+      }
+    ]
+  },
+  "offbeat-darjeeling": {
+    "title": "Offbeat Darjeeling",
+    "location": "Darjeeling, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "Discover the hidden gems of Darjeeling beyond the usual tourist trails.",
+    "price": 1099,
+    "quota": 8,
+    "schedule": "Every Thursday",
+    "longDescription": "This unique package takes you to lesser-known spots in Darjeeling, including secluded viewpoints, heritage bungalows, and off-the-beaten-path tea estates. Experience the authentic hill station life with homestays, local interactions, and nature walks through pristine forests.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-103875.jpeg",
+    "includes": [
+      "3 nights in heritage bungalows/homestays",
+      "All meals (local cuisine)",
+      "Private transportation",
+      "Expert local guides",
+      "All activity fees",
+      "Tea tasting sessions"
+    ],
+    "excludes": [
+      "Personal shopping",
+      "Travel insurance",
+      "Tips for guides",
+      "Any expenses not mentioned"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Heritage Walk",
+        "activities": [
+          "Arrival at Bagdogra Airport/NJP Station",
+          "Transfer to Darjeeling",
+          "Check-in at heritage bungalow",
+          "Evening heritage walk through old colonial buildings",
+          "Overnight in Darjeeling"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/darjeeling-heritage.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Secret Viewpoints & Tea Estates",
+        "activities": [
+          "Sunrise at Lamahatta Eco Park",
+          "Visit Singalila Viewpoint",
+          "Private tour of family-run tea estate",
+          "Evening at local market"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/darjeeling-secret-view.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Nature Trails & Local Culture",
+        "activities": [
+          "Hike through Senchal Wildlife Sanctuary",
+          "Visit Lepcha Cultural Center",
+          "Traditional Nepali lunch with local family",
+          "Evening storytelling session with locals"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/darjeeling-nature-trail.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to Bagdogra Airport/NJP Station",
+          "Depart with unique memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/darjeeling-hidden-tea.jpg",
+        "alt": "Hidden tea estate in Darjeeling"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/darjeeling-local-life.jpg",
+        "alt": "Local life in Darjeeling"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/darjeeling-heritage-building.jpg",
+        "alt": "Colonial heritage building"
+      }
+    ]
+  },
+  "offbeat-kalimpong": {
+    "title": "Offbeat Kalimpong",
+    "location": "Kalimpong, India",
+    "duration": "3 Days, 2 Nights",
+    "description": "Experience the tranquil beauty and multicultural heritage of Kalimpong, the hidden hill gem.",
+    "price": 899,
+    "quota": 6,
+    "schedule": "Every Friday",
+    "longDescription": "This intimate tour explores Kalimpong's Buddhist monasteries, colonial history, and stunning Himalayan views. Stay in boutique guesthouses, interact with local artisans, and enjoy the peaceful atmosphere of this less-visited hill station. The package focuses on authentic experiences and cultural immersion.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-4542265.jpeg",
+    "includes": [
+      "2 nights in boutique guesthouses",
+      "All meals (local cuisine)",
+      "Private transportation",
+      "Expert local guide",
+      "All activity fees",
+      "Handicraft workshop"
+    ],
+    "excludes": [
+      "Personal shopping",
+      "Travel insurance",
+      "Tips for guides",
+      "Any expenses not mentioned"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival & Cultural Introduction",
+        "activities": [
+          "Arrival at Bagdogra Airport/NJP Station",
+          "Transfer to Kalimpong",
+          "Check-in at guesthouse",
+          "Evening walk through Kalimpong market",
+          "Overnight in Kalimpong"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kalimpong-market.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Monasteries & Local Crafts",
+        "activities": [
+          "Morning at Durpin Monastery",
+          "Visit Thongsha Gompa",
+          "Handicraft workshop with local artisans",
+          "Sunset at Deolo Hill"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kalimpong-monastery.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Nature & Departure",
+        "activities": [
+          "Morning nature walk in Neora Valley",
+          "Visit Cactus Nursery",
+          "Transfer to Bagdogra Airport/NJP Station",
+          "Depart with peaceful memories"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kalimpong-nature.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kalimpong-view.jpg",
+        "alt": "Panoramic view of Kalimpong"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kalimpong-craft.jpg",
+        "alt": "Local handicrafts of Kalimpong"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kalimpong-flora.jpg",
+        "alt": "Unique flora of Kalimpong"
+      }
+    ]
+  }
+}
