@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../components/NavbarB';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
-import tourData from '../data/tourData.json';
+import tourData from '../data/IncredibleOdishaData.json';
 
 const defaultDestinationData = {
   title: 'Tour Package',
@@ -71,7 +71,7 @@ export default function DestinationPage() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tours';
 
   return (
     <div className="min-h-screen bg-white">

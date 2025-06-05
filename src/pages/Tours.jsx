@@ -28,7 +28,7 @@ function Tours() {
     {
       id: 3,
       title: "North India Tours",
-      route: "north-india-tours", // Hard-coded route
+      route: "north-india", // Hard-coded route
       location: "Leh,India",
       duration: "6 Days, 5 Nights",
       price: "$1199",
@@ -37,7 +37,7 @@ function Tours() {
     {
       id: 4,
       title: "Western India Tours",
-      route: "western-india-tours", // Hard-coded route
+      route: "western-india", // Hard-coded route
       location: "Hawa Mahal, India",
       duration: "7 Days, 6 Nights",
       price: "$899",
@@ -46,7 +46,7 @@ function Tours() {
     {
       id: 5,
       title: "South India Tours",
-      route: "south-india-tours", // Hard-coded route
+      route: "south-india", // Hard-coded route
       location: "Madurai,India",
       duration: "5 Days, 4 Nights",
       price: "$899",
@@ -96,7 +96,7 @@ function Tours() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {packages.map((pkg) => (
             <Link
-              to={`/tour/${pkg.route}`} 
+              to={`/tours/${pkg.route}`} 
               key={pkg.id}
               className="block"
             >

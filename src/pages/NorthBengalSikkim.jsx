@@ -6,129 +6,36 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../components/NavbarB';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
-import tourData from '../data/tourData.json';
+import northBengalSikkimData from '../data/northBengalSikkimData.json';
 
 const defaultDestinationData = {
-  title: 'North Bengal & Sikkim Tour',
-  location: 'Darjeeling, Gangtok, Kalimpong, India',
-  duration: '7 Days 6 Nights',
-  description: 'Explore the breathtaking landscapes of North Bengal and Sikkim, from tea gardens to Himalayan vistas.',
-  price: 1250,
-  quota: 12,
-  schedule: 'Available monthly from March to November',
-  longDescription: 'This tour takes you through the stunning regions of North Bengal and Sikkim, offering a perfect blend of nature, culture, and adventure. Visit the famous tea gardens of Darjeeling, experience the Buddhist culture in Gangtok, and enjoy panoramic views of the Himalayas. The tour includes comfortable accommodations, expert guides, and carefully curated experiences to make your journey unforgettable.',
-  heroImage: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
-  includes: [
-    '6 nights accommodation in 3-star hotels',
-    'All meals (breakfast, lunch, and dinner)',
-    'All transportation including airport transfers',
-    'English speaking tour guide',
-    'Entrance fees to all sightseeing locations',
-    'Toy train ride in Darjeeling'
-  ],
-  excludes: [
-    'International airfare',
-    'Travel insurance',
-    'Personal expenses',
-    'Visa fees (if applicable)',
-    'Optional activities'
-  ],
-  itineraryDays: [
-    {
-      day: 1,
-      title: 'Arrival in Bagdogra & Transfer to Darjeeling',
-      activities: [
-        'Arrive at Bagdogra Airport (IXB)',
-        'Meet your tour guide and transfer to Darjeeling (approx. 3 hours drive)',
-        'Check-in at hotel and rest',
-        'Evening at leisure to explore local markets',
-        'Overnight stay in Darjeeling'
-      ],
-      image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2189&q=80'
-    },
-    {
-      day: 2,
-      title: 'Darjeeling Sightseeing',
-      activities: [
-        'Early morning visit to Tiger Hill for sunrise view over Kanchenjunga',
-        'Visit Ghoom Monastery and Batasia Loop',
-        'Tour of Himalayan Mountaineering Institute and Padmaja Naidu Himalayan Zoological Park',
-        'Afternoon tea garden visit and tasting',
-        'Overnight stay in Darjeeling'
-      ]
-    },
-    {
-      day: 3,
-      title: 'Darjeeling to Gangtok',
-      activities: [
-        'Morning toy train ride (Darjeeling Himalayan Railway)',
-        'Drive to Gangtok (approx. 4 hours)',
-        'Enroute visit Teesta River viewpoint',
-        'Check-in at hotel in Gangtok',
-        'Evening visit to MG Marg for shopping and local cuisine',
-        'Overnight stay in Gangtok'
-      ],
-      image: 'https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2189&q=80'
-    },
-    {
-      day: 4,
-      title: 'Gangtok Exploration',
-      activities: [
-        'Visit Rumtek Monastery',
-        'Explore Namgyal Institute of Tibetology',
-        'Tour of Do Drul Chorten Stupa',
-        'Cable car ride for panoramic views of Gangtok',
-        'Overnight stay in Gangtok'
-      ]
-    },
-    {
-      day: 5,
-      title: 'Excursion to Tsomgo Lake & Baba Mandir',
-      activities: [
-        'Full day excursion to Tsomgo Lake (12,400 ft)',
-        'Visit Baba Harbhajan Singh Memorial Temple',
-        'Enjoy the scenic beauty of the Himalayan ranges',
-        'Return to Gangtok in the evening',
-        'Overnight stay in Gangtok'
-      ],
-      image: 'https://images.unsplash.com/photo-1602777924013-1415278a44b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2187&q=80'
-    },
-    {
-      day: 6,
-      title: 'Gangtok to Kalimpong',
-      activities: [
-        'Drive to Kalimpong (approx. 3 hours)',
-        'Visit Deolo Hill for panoramic views',
-        'Explore Durpin Monastery and flower nurseries',
-        'Evening at leisure',
-        'Overnight stay in Kalimpong'
-      ]
-    },
-    {
-      day: 7,
-      title: 'Departure',
-      activities: [
-        'Morning visit to Zang Dhok Palri Phodang monastery',
-        'Transfer to Bagdogra Airport (approx. 3 hours drive)',
-        'Depart with unforgettable memories'
-      ]
-    }
-  ],
+  title: 'Tour Package',
+  location: 'Location not specified',
+  duration: 'Duration not specified',
+  description: 'No description available',
+  price: 0,
+  quota: 0,
+  schedule: 'Schedule not specified',
+  longDescription: 'No detailed description available',
+  heroImage: '',
+  includes: [],
+  excludes: [],
+  itineraryDays: [],
   galleryImages: [
-    { url: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80', alt: 'Darjeeling tea gardens' },
-    { url: 'https://images.unsplash.com/photo-1602777924013-1415278a44b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2187&q=80', alt: 'Tsomgo Lake' },
-    { url: 'https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2189&q=80', alt: 'Gangtok city view' }
+    { url: '', alt: 'Image not available' },
+    { url: '', alt: 'Image not available' },
+    { url: '', alt: 'Image not available' }
   ]
 };
 
-export default function NorthBengalSikkim() {
+export default function DarjeelingTourPackage() {
   const { packageRoute } = useParams();
   const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (tourData[packageRoute]) {
-      setDestinationData(tourData[packageRoute]);
+    if (northBengalSikkimData[packageRoute]) {
+      setDestinationData(northBengalSikkimData[packageRoute]);
     } else {
       console.warn(`Destination "${packageRoute}" not found in tourData`);
       setDestinationData(defaultDestinationData);
@@ -164,7 +71,7 @@ export default function NorthBengalSikkim() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tours';
 
   return (
     <div className="min-h-screen bg-white">

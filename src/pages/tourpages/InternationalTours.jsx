@@ -129,7 +129,7 @@ function InternationalTours() {
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tour/international-tours/${route}`);
+    navigate(`/tours/international-tours/${route}`);
   };
 
   return (

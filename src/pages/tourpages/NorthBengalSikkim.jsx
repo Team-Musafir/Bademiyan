@@ -57,7 +57,7 @@ function NorthBengalSikkim() {
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tour/north-bengal-sikkim/${route}`);
+    navigate(`/tours/north-bengal-sikkim/${route}`);
   };
 
   return (

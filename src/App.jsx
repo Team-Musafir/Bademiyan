@@ -29,21 +29,21 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/tour/incredible-odisha" element={<IncredibleOdishaTour />} />
-        <Route path="/tour/north-bengal-sikkim" element={<NorthBengalTour />} />
-        <Route path="/tour/international-tours" element={<InternationalTours />} />
-        <Route path="/tour/island-of-india" element={<IslandOfIndia />} />
-        <Route path="/tour/north-india" element={<NorthIndiaTours />} />
-        <Route path="/tour/south-india" element={<SouthIndiaTours />} />
-        <Route path="/tour/western-india" element={<WesternIndiaTours />} />
-        <Route path="/tour/incredible-odisha/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tour/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
-        {/* from here needed change for alll */}
-        <Route path="/tour/international-tours/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tour/island-of-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tour/north-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tour/south-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tour/western-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/incredible-odisha" element={<IncredibleOdishaTour />} />
+        <Route path="/tours/north-bengal-sikkim" element={<NorthBengalTour />} />
+        <Route path="/tours/international-tours" element={<InternationalTours />} />
+        <Route path="/tours/island-of-india" element={<IslandOfIndia />} />
+        <Route path="/tours/north-india" element={<NorthIndiaTours />} />
+        <Route path="/tours/south-india" element={<SouthIndiaTours />} />
+        <Route path="/tours/western-india" element={<WesternIndiaTours />} />
+        <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
+        {/* from here needsed change for alll */}
+        <Route path="/tours/international-tours/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/island-of-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/north-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/south-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/western-india/:packageRoute" element={<DestinationPage />} />
       </Routes>
     </Router>
   );
