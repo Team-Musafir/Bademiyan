@@ -1,0 +1,149 @@
+{
+  "rajasthan": {
+    "title": "Rajasthan",
+    "location": "Rajasthan, India",
+    "duration": "Customizable (7-12 Days)",
+    "description": "Experience the royal heritage, majestic forts, and vibrant culture of Rajasthan.",
+    "price": 1099,
+    "quota": 15,
+    "schedule": "Year-round (Best: October-March)",
+    "longDescription": "This royal journey takes you through Rajasthan's most iconic destinations including Jaipur, Udaipur, Jodhpur, and Jaisalmer. Explore magnificent palaces, desert landscapes, and colorful markets. The package can be customized to include luxury stays, cultural experiences, or desert adventures.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg",
+    "includes": [
+      "Accommodation in heritage hotels",
+      "Daily breakfast",
+      "Private AC transportation",
+      "English-speaking guide",
+      "Entrance fees to monuments",
+      "Cultural performances"
+    ],
+    "excludes": [
+      "Airfare/train tickets",
+      "Lunch and dinner",
+      "Camel safari charges",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur",
+        "activities": [
+          "Arrival in Jaipur",
+          "Check-in at heritage hotel",
+          "Evening visit to Hawa Mahal",
+          "Explore local markets",
+          "Overnight in Jaipur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jaipur-hawa-mahal.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Sightseeing",
+        "activities": [
+          "Visit Amber Fort with elephant ride",
+          "Explore City Palace",
+          "See Jantar Mantar",
+          "Evening cultural show",
+          "Overnight in Jaipur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/amber-fort.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Bikaner",
+        "activities": [
+          "Drive to Bikaner (5-6 hours)",
+          "Visit Junagarh Fort",
+          "Explore Karni Mata Temple",
+          "Evening at leisure",
+          "Overnight in Bikaner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/bikaner-fort.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Bikaner to Jaisalmer",
+        "activities": [
+          "Drive to Jaisalmer (5-6 hours)",
+          "Visit Patwon Ki Haveli",
+          "Explore Jaisalmer Fort",
+          "Evening at leisure",
+          "Overnight in Jaisalmer"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jaisalmer-fort.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Jaisalmer Desert Safari",
+        "activities": [
+          "Visit Sam Sand Dunes",
+          "Camel safari in Thar Desert",
+          "Cultural evening with folk dance",
+          "Dinner under the stars",
+          "Overnight in desert camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sam-sand-dunes.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Jaisalmer to Jodhpur",
+        "activities": [
+          "Drive to Jodhpur (5-6 hours)",
+          "Visit Mehrangarh Fort",
+          "Explore Jaswant Thada",
+          "Evening at leisure",
+          "Overnight in Jodhpur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mehrangarh-fort.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Jodhpur to Udaipur",
+        "activities": [
+          "Drive to Udaipur (5-6 hours)",
+          "Visit City Palace",
+          "Boat ride on Lake Pichola",
+          "Evening at leisure",
+          "Overnight in Udaipur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udaipur-lake.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Udaipur Sightseeing",
+        "activities": [
+          "Visit Jag Mandir",
+          "Explore Saheliyon Ki Bari",
+          "Fateh Sagar Lake visit",
+          "Evening cultural show",
+          "Overnight in Udaipur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jag-mandir.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to airport",
+          "Depart with royal memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/rajasthan-culture.jpg",
+        "alt": "Rajasthani cultural performance"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/rajasthan-cuisine.jpg",
+        "alt": "Rajasthani cuisine"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/rajasthan-art.jpg",
+        "alt": "Traditional Rajasthani art"
+      }
+    ]
+  }
+}

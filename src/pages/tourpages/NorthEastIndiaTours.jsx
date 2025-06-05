@@ -2,7 +2,7 @@ import React from 'react'
 
 function NorthEastIndiaTours() {
   return (
-    <div>PilgrimageTours</div>
+    <div>NorthEastTours</div>
   )
 }
 

@@ -22,6 +22,9 @@ import PilgrimageTours from './pages/tourpages/PilgrimageTours';
 import NorthEastIndiaTours from './pages/tourpages/NorthEastIndiaTours';
 import HeritageTours from './pages/tourpages/HeritageTours';
 import AdventureTours from './pages/tourpages/AdventureTours';
+import NorthIndiaPackage from './pages/NorthIndiaTours';
+import WesternIndiaPackage from './pages/WesternIndiaTours';
+import SouthIndiaTrips from './pages/SouthIndiaTours';
 
 function App() {
   return (
@@ -50,9 +53,9 @@ function App() {
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage/>} />
         <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage/>} />
-        <Route path="/tours/north-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/south-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/western-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/north-india/:packageRoute" element={<NorthIndiaPackage/>} />
+        <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage/>} />
+        <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips/>} />
       </Routes>
     </Router>
   );

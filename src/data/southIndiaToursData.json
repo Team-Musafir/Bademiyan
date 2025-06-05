@@ -1,0 +1,114 @@
+{
+  "kerala-tours": {
+    "title": "Kerala Tours",
+    "location": "Kerala, India",
+    "duration": "6 Days, 5 Nights",
+    "description": "Experience the serene backwaters, lush greenery, and rich culture of God's Own Country.",
+    "price": 1199,
+    "quota": 12,
+    "schedule": "Year-round (Best: September-March)",
+    "longDescription": "This tour takes you through Kerala's most beautiful destinations including Alleppey, Munnar, and Kochi. Experience houseboat stays, tea plantations, Kathakali performances, and Ayurvedic treatments. The package can be customized for honeymooners, family vacations, or wellness retreats.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-14847155.jpeg",
+    "includes": [
+      "Accommodation in 3-star hotels/houseboats",
+      "Daily breakfast",
+      "Private transportation with driver",
+      "Backwater houseboat cruise",
+      "Sightseeing as per itinerary",
+      "Kathakali dance performance"
+    ],
+    "excludes": [
+      "Airfare/train tickets",
+      "Lunch and dinner",
+      "Ayurvedic treatment charges",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi",
+        "activities": [
+          "Arrival in Kochi",
+          "Check-in at hotel",
+          "Visit Fort Kochi",
+          "Explore Chinese fishing nets",
+          "Evening Kathakali performance",
+          "Overnight in Kochi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kochi-fort.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "activities": [
+          "Drive to Munnar (4-5 hours)",
+          "Visit tea plantations",
+          "Explore Eravikulam National Park",
+          "Visit Tea Museum",
+          "Overnight in Munnar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/munnar-tea.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Mattupetty Dam",
+          "Explore Echo Point",
+          "Visit spice plantations",
+          "Evening at leisure",
+          "Overnight in Munnar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/munnar-dam.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Alleppey",
+        "activities": [
+          "Drive to Alleppey (5-6 hours)",
+          "Check-in to houseboat",
+          "Backwater cruise",
+          "Village walk",
+          "Overnight on houseboat"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Kovalam",
+        "activities": [
+          "Disembark from houseboat",
+          "Drive to Kovalam (3-4 hours)",
+          "Beach relaxation",
+          "Ayurvedic massage (optional)",
+          "Overnight in Kovalam"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kovalam-beach.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to Trivandrum airport",
+          "Depart with Kerala memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kerala-backwaters.jpg",
+        "alt": "Kerala backwaters"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kerala-tea.jpg",
+        "alt": "Tea plantations in Kerala"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kerala-culture.jpg",
+        "alt": "Kathakali performance"
+      }
+    ]
+  }
+}
