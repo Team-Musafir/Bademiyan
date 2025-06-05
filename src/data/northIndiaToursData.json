@@ -1,0 +1,476 @@
+{
+  "himachal-pradesh": {
+    "title": "Himachal Pradesh",
+    "location": "Himachal Pradesh, India",
+    "duration": "Customizable (6-10 Days)",
+    "description": "Explore the majestic Himalayas, lush valleys, and charming hill stations of Himachal Pradesh.",
+    "price": 799,
+    "quota": 15,
+    "schedule": "Year-round (Best: March-November)",
+    "longDescription": "This customizable tour takes you through Himachal's most beautiful destinations including Shimla, Manali, Dharamshala, and Spiti Valley. Experience mountain trekking, temple visits, and local culture. The package can be tailored to include adventure activities, spiritual retreats, or relaxed sightseeing.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-2961109.jpeg",
+    "includes": [
+      "Accommodation in 3-star hotels/homestays",
+      "Daily breakfast",
+      "Private transportation with driver",
+      "Sightseeing as per itinerary",
+      "Local guide services",
+      "All applicable taxes"
+    ],
+    "excludes": [
+      "Airfare/train tickets",
+      "Lunch and dinner",
+      "Adventure activity charges",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Shimla",
+        "activities": [
+          "Arrival in Shimla",
+          "Check-in at hotel",
+          "Evening walk on Mall Road",
+          "Visit Christ Church",
+          "Overnight in Shimla"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/shimla-mall-road.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Shimla Sightseeing",
+        "activities": [
+          "Visit Jakhu Temple",
+          "Explore Indian Institute of Advanced Study",
+          "Excursion to Kufri",
+          "Toy train ride (optional)",
+          "Overnight in Shimla"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/shimla-kufri.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Manali",
+        "activities": [
+          "Scenic drive to Manali (8-9 hours)",
+          "Stop at Pandoh Dam",
+          "Visit Hidimba Devi Temple",
+          "Explore Mall Road",
+          "Overnight in Manali"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/manali-temple.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Manali Exploration",
+        "activities": [
+          "Visit Solang Valley",
+          "Rohtang Pass excursion (subject to permit)",
+          "Tibetan Monastery visit",
+          "River rafting (optional)",
+          "Overnight in Manali"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/solang-valley.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Manali to Dharamshala",
+        "activities": [
+          "Drive to Dharamshala (6-7 hours)",
+          "Visit McLeod Ganj",
+          "Explore Dalai Lama Temple",
+          "Tibetan market shopping",
+          "Overnight in Dharamshala"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dharamshala-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to Pathankot airport/station",
+          "Depart with Himalayan memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/himachal-valley.jpg",
+        "alt": "Scenic Himachal valley"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/himachal-trek.jpg",
+        "alt": "Trekking in Himachal"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/himachal-village.jpg",
+        "alt": "Traditional Himachal village"
+      }
+    ]
+  },
+  "uttar-pradesh": {
+    "title": "Uttar Pradesh",
+    "location": "Uttar Pradesh, India",
+    "duration": "Customizable (5-8 Days)",
+    "description": "Discover the spiritual heartland of India with its ancient temples, holy rivers, and Mughal architecture.",
+    "price": 699,
+    "quota": 20,
+    "schedule": "Year-round (Best: October-March)",
+    "longDescription": "This spiritual journey covers Uttar Pradesh's most sacred sites including Varanasi, Ayodhya, Mathura, and the Taj Mahal in Agra. Experience Ganga aarti, temple visits, and historical explorations. The package can be customized to focus on spirituality, history, or cultural experiences.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rachel-claire-8112547.jpg",
+    "includes": [
+      "Accommodation in 3-star hotels",
+      "Daily breakfast",
+      "Private AC transportation",
+      "English-speaking guide",
+      "Entrance fees to monuments",
+      "Boat ride in Varanasi"
+    ],
+    "excludes": [
+      "Airfare/train tickets",
+      "Lunch and dinner",
+      "Camera fees at monuments",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Varanasi",
+        "activities": [
+          "Arrival in Varanasi",
+          "Check-in at hotel",
+          "Evening Ganga Aarti at Dashashwamedh Ghat",
+          "Overnight in Varanasi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/varanasi-ghat.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Varanasi Sightseeing",
+        "activities": [
+          "Morning boat ride on Ganges",
+          "Visit Kashi Vishwanath Temple",
+          "Explore Sarnath",
+          "Evening at leisure",
+          "Overnight in Varanasi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sarnath.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Varanasi to Ayodhya",
+        "activities": [
+          "Drive to Ayodhya (5-6 hours)",
+          "Visit Ram Janmabhoomi",
+          "Explore Hanuman Garhi",
+          "Evening aarti at Sarayu River",
+          "Overnight in Ayodhya"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ayodhya-temple.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Ayodhya to Agra",
+        "activities": [
+          "Morning flight/train to Agra",
+          "Visit Taj Mahal",
+          "Explore Agra Fort",
+          "Sunset at Mehtab Bagh",
+          "Overnight in Agra"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/taj-mahal.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Agra to Mathura",
+        "activities": [
+          "Drive to Mathura (1.5 hours)",
+          "Visit Krishna Janmabhoomi",
+          "Explore Dwarkadhish Temple",
+          "Evening aarti at Vishram Ghat",
+          "Overnight in Mathura"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mathura-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to Delhi airport/station",
+          "Depart with spiritual memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/up-ghat.jpg",
+        "alt": "Ghats of Uttar Pradesh"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/up-temple.jpg",
+        "alt": "Ancient temple in UP"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/up-culture.jpg",
+        "alt": "Cultural performance"
+      }
+    ]
+  },
+  "kashmir": {
+    "title": "Kashmir",
+    "location": "Kashmir, India",
+    "duration": "Customizable (7-10 Days)",
+    "description": "Experience 'Paradise on Earth' with its stunning lakes, Mughal gardens, and snow-capped mountains.",
+    "price": 1299,
+    "quota": 12,
+    "schedule": "Year-round (Best: April-October)",
+    "longDescription": "This customizable Kashmir tour covers Srinagar, Gulmarg, Pahalgam, and Sonmarg. Enjoy shikara rides on Dal Lake, gondola rides in Gulmarg, and breathtaking mountain views. The package can be tailored for honeymooners, adventure seekers, or family vacations.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/free-photo-of-aerial-view-of-houses-around-the-dal-lake-in-jammu-and-kashmir-india.jpeg",
+    "includes": [
+      "Accommodation in houseboats/hotels",
+      "Daily breakfast and dinner",
+      "Private transportation",
+      "Shikara ride on Dal Lake",
+      "Sightseeing as per itinerary",
+      "All applicable taxes"
+    ],
+    "excludes": [
+      "Airfare",
+      "Gondola ride charges in Gulmarg",
+      "Adventure activity fees",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Srinagar",
+        "activities": [
+          "Arrival in Srinagar",
+          "Check-in at houseboat/hotel",
+          "Shikara ride on Dal Lake",
+          "Evening at leisure",
+          "Overnight in Srinagar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dal-lake.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Sightseeing",
+        "activities": [
+          "Visit Mughal Gardens",
+          "Explore Hazratbal Shrine",
+          "Local market shopping",
+          "Evening shikara ride",
+          "Overnight in Srinagar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mughal-garden.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Srinagar to Gulmarg",
+        "activities": [
+          "Drive to Gulmarg (2 hours)",
+          "Gondola ride to Kongdoori (Phase 1)",
+          "Golfing (optional)",
+          "Evening at leisure",
+          "Overnight in Gulmarg"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gulmarg.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Gulmarg to Pahalgam",
+        "activities": [
+          "Drive to Pahalgam (4-5 hours)",
+          "Visit Betaab Valley",
+          "Explore Aru Valley",
+          "Evening walk by Lidder River",
+          "Overnight in Pahalgam"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/pahalgam.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Pahalgam to Sonmarg",
+        "activities": [
+          "Drive to Sonmarg (5-6 hours)",
+          "Thajiwas Glacier visit",
+          "Horse riding (optional)",
+          "Evening at leisure",
+          "Overnight in Sonmarg"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sonmarg.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Return to Srinagar",
+        "activities": [
+          "Drive back to Srinagar",
+          "Free for shopping",
+          "Farewell dinner",
+          "Overnight in Srinagar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/srinagar-market.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to airport",
+          "Depart with Kashmir memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kashmir-tulips.jpg",
+        "alt": "Tulip gardens of Kashmir"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kashmir-skiing.jpg",
+        "alt": "Skiing in Gulmarg"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kashmir-cuisine.jpg",
+        "alt": "Kashmiri cuisine"
+      }
+    ]
+  },
+  "leh-ladakh": {
+    "title": "Leh & Ladakh",
+    "location": "Ladakh, India",
+    "duration": "Customizable (8-12 Days)",
+    "description": "Journey through the breathtaking landscapes of Ladakh - the land of high passes and Buddhist culture.",
+    "price": 1499,
+    "quota": 10,
+    "schedule": "May-September (Best: June-August)",
+    "longDescription": "This adventurous tour covers Leh, Nubra Valley, Pangong Lake, and Tso Moriri. Experience high-altitude lakes, ancient monasteries, and the unique culture of Ladakh. The package can be customized for road trips, motorcycle tours, or cultural explorations.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-1539700.jpeg",
+    "includes": [
+      "Accommodation in hotels/homestays",
+      "Daily breakfast",
+      "Inner Line Permits",
+      "Private transportation with driver",
+      "Sightseeing as per itinerary",
+      "Medical oxygen (if needed)"
+    ],
+    "excludes": [
+      "Airfare",
+      "Lunch and dinner",
+      "Adventure activity charges",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Leh",
+        "activities": [
+          "Arrival in Leh (11,500 ft)",
+          "Rest for acclimatization",
+          "Evening walk in Leh Market",
+          "Overnight in Leh"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/leh-market.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Leh Local Sightseeing",
+        "activities": [
+          "Visit Shanti Stupa",
+          "Explore Leh Palace",
+          "Visit Thiksey Monastery",
+          "Evening at leisure",
+          "Overnight in Leh"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/thiksey-monastery.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Leh to Nubra Valley",
+        "activities": [
+          "Cross Khardung La (18,380 ft)",
+          "Arrive in Nubra Valley",
+          "Camel safari in Hunder dunes",
+          "Visit Diskit Monastery",
+          "Overnight in Nubra"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/nubra-valley.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Nubra to Pangong Lake",
+        "activities": [
+          "Drive to Pangong via Shyok Valley",
+          "Arrive at Pangong Lake (14,270 ft)",
+          "Evening by the lake",
+          "Overnight at Pangong"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/pangong-lake.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Pangong to Tso Moriri",
+        "activities": [
+          "Drive to Tso Moriri (15,075 ft)",
+          "Visit Chumathang hot springs",
+          "Arrive at Tso Moriri",
+          "Evening at leisure",
+          "Overnight at Tso Moriri"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tso-moriri.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Tso Moriri to Leh",
+        "activities": [
+          "Drive back to Leh (7-8 hours)",
+          "Stop at Mahe Bridge",
+          "Evening at leisure",
+          "Overnight in Leh"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/leh-town.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Leh to Alchi/Uleytokpo",
+        "activities": [
+          "Visit Alchi Monastery",
+          "Explore Likir Monastery",
+          "Stay at riverside camp",
+          "Overnight in Uleytokpo"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alchi-monastery.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Transfer to Leh airport",
+          "Depart with Ladakh memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/ladakh-biking.jpg",
+        "alt": "Biking in Ladakh"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/ladakh-monastery.jpg",
+        "alt": "Ancient monastery"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/ladakh-landscape.jpg",
+        "alt": "Stunning Ladakh landscape"
+      }
+    ]
+  }
+}
