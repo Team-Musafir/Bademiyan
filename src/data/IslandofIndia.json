@@ -1,0 +1,463 @@
+{
+  "lakshadweep": {
+    "title": "Lakshadweep",
+    "location": "Lakshadweep Islands, India",
+    "duration": "5 Days, 4 Nights",
+    "description": "Discover the pristine coral atolls and turquoise lagoons of India's tropical paradise.",
+    "price": 1599,
+    "quota": 12,
+    "schedule": "Every Monday and Friday",
+    "longDescription": "This island escape takes you to the untouched beauty of Lakshadweep's coral islands. Experience world-class snorkeling, relax on white sand beaches, and witness vibrant marine life. The package includes island hopping, water sports, and stays in beachfront cottages with authentic local cuisine.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sanjeev-maurya-1172834340-21617942.jpg",
+    "includes": [
+      "4 nights in beach cottages",
+      "All meals (local seafood cuisine)",
+      "Inter-island transfers",
+      "Snorkeling equipment",
+      "Glass-bottom boat ride",
+      "Cultural performances"
+    ],
+    "excludes": [
+      "Scuba diving (optional extra)",
+      "Alcohol beverages",
+      "Personal shopping",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Agatti",
+        "activities": [
+          "Flight to Agatti Island",
+          "Speedboat transfer to Bangaram",
+          "Check-in at beach cottage",
+          "Evening beach relaxation",
+          "Sunset viewing"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-beach.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Bangaram Island Exploration",
+        "activities": [
+          "Morning snorkeling session",
+          "Coral reef exploration",
+          "Kayaking in the lagoon",
+          "Beach picnic lunch",
+          "Evening island walk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-snorkeling.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Thinnakara",
+        "activities": [
+          "Boat transfer to Thinnakara",
+          "Glass-bottom boat ride",
+          "Swimming in the lagoon",
+          "Seafood barbecue lunch",
+          "Return to Bangaram"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-lagoon.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Kadmat Island Visit",
+        "activities": [
+          "Full day trip to Kadmat",
+          "Scuba diving (optional)",
+          "Visit local fishing village",
+          "Traditional dance performance",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-diving.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          "Morning beach walk",
+          "Transfer to Agatti airport",
+          "Flight back to mainland",
+          "Depart with island memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-aerial.jpg",
+        "alt": "Aerial view of Lakshadweep"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-cottage.jpg",
+        "alt": "Beachfront cottages"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/lakshadweep-coral.jpg",
+        "alt": "Vibrant coral reefs"
+      }
+    ]
+  },
+  "andaman-and-nicobar": {
+    "title": "Andaman and Nicobar",
+    "location": "Andaman Islands, India",
+    "duration": "6 Days, 5 Nights",
+    "description": "Explore the exotic islands with their colonial history, pristine beaches, and vibrant marine life.",
+    "price": 1399,
+    "quota": 15,
+    "schedule": "Every Wednesday and Sunday",
+    "longDescription": "This island adventure covers the highlights of Andaman - from the historic Cellular Jail to the stunning Radhanagar Beach. Experience snorkeling at Elephant Beach, learn about indigenous tribes, and relax at beachfront resorts. The package includes guided tours, water activities, and comfortable island stays.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-14313849.webp",
+    "includes": [
+      "5 nights in beach resorts",
+      "Daily breakfast and 3 dinners",
+      "All inter-island transfers",
+      "Entry permits and fees",
+      "Snorkeling at Elephant Beach",
+      "Light and Sound show ticket"
+    ],
+    "excludes": [
+      "Scuba diving",
+      "Sea walking",
+      "Personal shopping",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Port Blair",
+        "activities": [
+          "Arrival at Veer Savarkar Airport",
+          "Check-in at hotel",
+          "Visit Cellular Jail",
+          "Evening Light and Sound show",
+          "Overnight in Port Blair"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cellular-jail.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Havelock Island Transfer",
+        "activities": [
+          "Ferry to Havelock Island",
+          "Check-in at beach resort",
+          "Visit Radhanagar Beach",
+          "Sunset viewing",
+          "Overnight in Havelock"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/radhanagar-beach.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Elephant Beach Excursion",
+        "activities": [
+          "Boat ride to Elephant Beach",
+          "Snorkeling session",
+          "Beach relaxation",
+          "Return to resort",
+          "Evening at leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/elephant-beach.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Kalapathar Beach & Local Exploration",
+        "activities": [
+          "Visit Kalapathar Beach",
+          "Explore local markets",
+          "Cultural interaction program",
+          "Seafood dinner",
+          "Overnight in Havelock"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kalapathar-beach.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Return to Port Blair",
+        "activities": [
+          "Ferry back to Port Blair",
+          "Visit Chidiya Tapu",
+          "Anthropological Museum",
+          "Farewell dinner",
+          "Overnight in Port Blair"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chidiya-tapu.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning free for shopping",
+          "Airport transfer",
+          "Depart with island memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/andaman-sunset.jpg",
+        "alt": "Andaman sunset"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/andaman-resort.jpg",
+        "alt": "Beach resort"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/andaman-snorkeling.jpg",
+        "alt": "Snorkeling in Andaman"
+      }
+    ]
+  },
+  "daman-and-diu": {
+    "title": "Daman and Diu",
+    "location": "Daman and Diu, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "Experience the Portuguese heritage and serene beaches of this former colonial territory.",
+    "price": 899,
+    "quota": 10,
+    "schedule": "Every Tuesday and Saturday",
+    "longDescription": "This coastal getaway combines history and relaxation in the union territory of Daman and Diu. Explore Portuguese-era forts and churches, enjoy fresh seafood, and unwind at quiet beaches. The package includes heritage walks, beach visits, and stays in comfortable seaside hotels.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-14916666.webp",
+    "includes": [
+      "3 nights in beachfront hotels",
+      "Daily breakfast",
+      "Heritage tour with guide",
+      "All transportation",
+      "Beach activities",
+      "Cultural performance"
+    ],
+    "excludes": [
+      "Lunches and dinners",
+      "Personal shopping",
+      "Alcohol beverages",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Daman",
+        "activities": [
+          "Arrival at Daman",
+          "Check-in at hotel",
+          "Visit Moti Daman Fort",
+          "Jampore Beach sunset",
+          "Overnight in Daman"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/daman-fort.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Daman Heritage Tour",
+        "activities": [
+          "Visit Bom Jesus Church",
+          "Explore Devka Beach",
+          "Seafood lunch",
+          "Daman Freedom Memorial",
+          "Overnight in Daman"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/daman-church.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Diu",
+        "activities": [
+          "Drive to Diu (2 hours)",
+          "Check-in at beach hotel",
+          "Visit Diu Fort",
+          "Nagoa Beach relaxation",
+          "Overnight in Diu"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/diu-fort.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Diu Exploration & Departure",
+        "activities": [
+          "Visit St. Paul's Church",
+          "Shell Museum",
+          "Ghoghla Beach",
+          "Transfer to airport",
+          "Depart with coastal memories"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/diu-beach.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/daman-beach.jpg",
+        "alt": "Daman beach"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/diu-street.jpg",
+        "alt": "Portuguese-style streets"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/daman-diu-food.jpg",
+        "alt": "Local seafood cuisine"
+      }
+    ]
+  },
+  "majuli-island": {
+    "title": "Majuli Island",
+    "location": "Assam, India",
+    "duration": "4 Days, 3 Nights",
+    "description": "Explore the world's largest river island and its unique Vaishnavite culture.",
+    "price": 999,
+    "quota": 8,
+    "schedule": "Every Thursday",
+    "longDescription": "This cultural tour takes you through Majuli's ancient satras (monasteries), traditional mask-making villages, and lush landscapes. Experience Assamese hospitality, witness traditional dance forms, and enjoy the serene Brahmaputra river views. The package includes homestays, cultural interactions, and guided tours of this ecological and cultural treasure.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-103875.jpeg",
+    "includes": [
+      "3 nights in traditional homestays",
+      "All meals (authentic Assamese cuisine)",
+      "Cultural performances",
+      "Boat transfers",
+      "Guide services",
+      "Village tour fees"
+    ],
+    "excludes": [
+      "Personal shopping",
+      "Travel insurance",
+      "Tips for guides",
+      "Any expenses not mentioned"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Jorhat",
+        "activities": [
+          "Arrival at Jorhat Airport",
+          "Boat ride to Majuli",
+          "Check-in at homestay",
+          "Evening satra visit",
+          "Cultural performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/majuli-boat.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Majuli Cultural Tour",
+        "activities": [
+          "Visit Auniati Satra",
+          "Mask-making village tour",
+          "Traditional lunch with locals",
+          "Pottery-making demonstration",
+          "Sunset by Brahmaputra"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/majuli-satra.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Nature & Local Life",
+        "activities": [
+          "Bird watching tour",
+          "Visit Mishing tribal village",
+          "Handloom weaving demonstration",
+          "Traditional dance performance",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/majuli-village.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": [
+          "Morning cycling tour",
+          "Boat transfer back to Jorhat",
+          "Airport transfer",
+          "Depart with cultural memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/majuli-landscape.jpg",
+        "alt": "Majuli river landscape"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/majuli-masks.jpg",
+        "alt": "Traditional masks"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/majuli-sunset.jpg",
+        "alt": "Brahmaputra sunset"
+      }
+    ]
+  },
+  "divar-island": {
+    "title": "Divar Island",
+    "location": "Goa, India",
+    "duration": "3 Days, 2 Nights",
+    "description": "Discover the old-world charm of Goa's hidden island retreat.",
+    "price": 799,
+    "quota": 6,
+    "schedule": "Every Friday",
+    "longDescription": "This offbeat Goa experience takes you to Divar Island, where time stands still amidst Portuguese-era houses, quiet lanes, and panoramic river views. Explore by bicycle, visit ancient churches, and enjoy the slow pace of island life away from Goa's tourist crowds. The package includes boutique stays, cycling tours, and authentic Goan meals.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-4542265.jpeg",
+    "includes": [
+      "2 nights in heritage guesthouse",
+      "All meals (Goan cuisine)",
+      "Bicycle rentals",
+      "Ferry transfers",
+      "Guided heritage walk",
+      "Sunset cruise"
+    ],
+    "excludes": [
+      "Personal shopping",
+      "Alcohol beverages",
+      "Travel insurance",
+      "Tips for guides"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Divar",
+        "activities": [
+          "Pickup from Panjim",
+          "Ferry ride to Divar",
+          "Check-in at guesthouse",
+          "Evening cycling tour",
+          "Sunset viewing"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/divar-ferry.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Island Exploration",
+        "activities": [
+          "Visit Our Lady of Compassion Church",
+          "Explore Portuguese houses",
+          "Traditional Goan lunch",
+          "Village interaction",
+          "Sunset river cruise"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/divar-church.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Departure",
+        "activities": [
+          "Morning photography walk",
+          "Visit local markets",
+          "Ferry back to mainland",
+          "Transfer to Panjim",
+          "Depart with Goan memories"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/divar-streets.jpg",
+        "alt": "Quiet island streets"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/divar-house.jpg",
+        "alt": "Portuguese-era house"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/divar-view.jpg",
+        "alt": "River view from Divar"
+      }
+    ]
+  }
+}
