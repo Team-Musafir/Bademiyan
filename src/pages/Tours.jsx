@@ -70,6 +70,15 @@ function Tours() {
       price: "$899",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
     }
+     {
+      id: 8,
+      title: "Pilgrimage Tours",
+      route: "pilgrimage-tours", // Hard-coded route
+      location: "Morteratsch,Switzerland",
+      duration: "7 Days, 6 Nights",
+      price: "$899",
+      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-christopher-politano-978995-32360919.jpg"
+    }
   ];
 
   return (
