@@ -16,6 +16,10 @@ import WesternIndiaTours from './pages/tourpages/WesternIndiaTours';
 import ScrollToTop from './components/ScrolltoTop';
 import DestinationPage from './pages/IncredibleOdisha';
 import NorthBengalSikkim from './pages/NorthBengalSikkim';
+import PilgrimageTours from './pages/tourpages/PilgrimageTours';
+import NorthEastIndiaTours from './pages/tourpages/NorthEastIndiaTours';
+import HeritageTours from './pages/tourpages/HeritageTours';
+import AdventureTours from './pages/tourpages/AdventureTours';
 
 function App() {
   return (
@@ -36,6 +40,10 @@ function App() {
         <Route path="/tours/north-india" element={<NorthIndiaTours />} />
         <Route path="/tours/south-india" element={<SouthIndiaTours />} />
         <Route path="/tours/western-india" element={<WesternIndiaTours />} />
+        <Route path="/tours/pilgrimage-tours" element={<PilgrimageTours />} />
+        <Route path="/tours/north-east-india-tours" element={<NorthEastIndiaTours />} />
+        <Route path="/tours/heritage-tours" element={<HeritageTours />} />
+        <Route path="/tours/adventure-tours" element={<AdventureTours />} />
         <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         {/* from here needsed change for alll */}
