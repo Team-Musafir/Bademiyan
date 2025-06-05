@@ -8,7 +8,7 @@
     "quota": 20,
     "schedule": "Every Monday and Friday",
     "longDescription": "This tour covers Odisha's most iconic heritage sites. Marvel at the ancient temples of Bhubaneswar, experience spiritual bliss at Jagannath Temple in Puri, and witness the magnificent Sun Temple at Konark - a UNESCO World Heritage site. The package includes guided tours, comfortable stays, and authentic Odia cuisine experiences.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
       "6 nights in 3-star hotels",
       "Daily breakfast and 3 dinners",
@@ -102,15 +102,15 @@
     ],
     "galleryImages": [
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/konark-sunrise.jpg",
+        "url": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-6040175.jpeg",
         "alt": "Sunrise at Konark Temple"
       },
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/puri-beach.jpg",
-        "alt": "Golden sands of Puri"
+        "url": "https://ik.imagekit.io/qad3x0vr1/free-photo-of-stone-wheel-carved-in-wall-of-konark-sun-temple.jpeg",
+        "alt": "Architecture of Konark"
       },
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/odia-cuisine.jpg",
+        "url": "https://ik.imagekit.io/qad3x0vr1/pexels-optically-challenged-19843358.jpg",
         "alt": "Traditional Odia thali"
       }
     ]
@@ -222,16 +222,16 @@
     ],
     "galleryImages": [
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/jagannath-temple-view.jpg",
+        "url": "https://ik.imagekit.io/qad3x0vr1/sri-jagannath-temple-puri-odisha-2-attr-hero.jpeg",
         "alt": "Jagannath Temple main entrance"
       },
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/puri-beach.jpg",
+        "url": "https://ik.imagekit.io/qad3x0vr1/download%20(1).jpeg",
         "alt": "Puri beach view"
       },
       {
-        "url": "https://ik.imagekit.io/qad3x0vr1/konark-wheel.jpg",
-        "alt": "Konark Sun Temple wheel"
+        "url": "https://ik.imagekit.io/qad3x0vr1/Mahaprasad.jpg",
+        "alt": "Mahaprasad"
       }
     ]
   },
