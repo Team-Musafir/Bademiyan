@@ -1,17 +1,28 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Send, X, Phone, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const CircularEnquiryButton = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true); // Start in open state
   const [isHovered, setIsHovered] = useState(false);
 
   const whatsappNumber = "+918008952052";
   const defaultMessage = "Hello, I'm interested in your travel services. Please contact me.";
   
-  // WhatsApp link with the message that will auto-send when opened
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsOpen(false); // Close when scrolling
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -78,7 +89,7 @@ const CircularEnquiryButton = () => {
                 How would you like to contact us?
               </p>
 
-              {/* WhatsApp Button - This will auto-send the message when clicked */}
+              {/* WhatsApp Button */}
               <motion.a
                 href={whatsappLink}
                 target="_blank"
@@ -89,10 +100,7 @@ const CircularEnquiryButton = () => {
                 style={{
                   backdropFilter: "contrast(120%) brightness(105%)"
                 }}
-                onClick={() => {
-                  // The message will be sent automatically via the WhatsApp link
-                  setIsOpen(false);
-                }}
+                onClick={() => setIsOpen(false)}
               >
                 <div className="flex items-center gap-2">
                   <Send size={14} className="text-yellow-600 dark:text-yellow-400" />
@@ -122,7 +130,6 @@ const CircularEnquiryButton = () => {
                 </svg>
               </motion.a>
 
-              {/* Additional Info */}
               <p className="text-yellow-600 dark:text-yellow-400 text-xs text-center pt-1 font-medium drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">
                 Available 24/7
               </p>
