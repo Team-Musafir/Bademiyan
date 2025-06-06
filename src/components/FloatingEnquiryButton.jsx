@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Send, X, Phone, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -6,7 +7,7 @@ const CircularEnquiryButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
-  const whatsappNumber = "919876543210";
+  const whatsappNumber = "8008952052";
   const defaultMessage = "Hello, I'm interested in your travel services. Please contact me.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
