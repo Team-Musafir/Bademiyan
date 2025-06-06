@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { FaRobot, FaTimes, FaPaperPlane, FaWhatsapp } from 'react-icons/fa';
 import tourData1 from '../data/IncredibleOdishaData.json';
 import tourData2 from '../data/InternationalToursData.json';
