@@ -25,6 +25,7 @@ import AdventureTours from './pages/tourpages/AdventureTours';
 import NorthIndiaPackage from './pages/NorthIndiaTours';
 import WesternIndiaPackage from './pages/WesternIndiaTours';
 import SouthIndiaTrips from './pages/SouthIndiaTours';
+import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 import Chatbot from './components/Chatbot';
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
         <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage/>} />
         <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips/>} />
       </Routes>
+       <FloatingEnquiryButton />
     </Router>
   );
 }
