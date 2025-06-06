@@ -9,6 +9,8 @@ const CircularEnquiryButton = () => {
 
   const whatsappNumber = "+918008952052";
   const defaultMessage = "Hello, I'm interested in your travel services. Please contact me.";
+  
+  // WhatsApp link with the message that will auto-send when opened
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   return (
@@ -43,7 +45,7 @@ const CircularEnquiryButton = () => {
         </motion.div>
       </motion.button>
 
-      {/* Expanded Panel with Universal Visibility */}
+      {/* Expanded Panel */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -76,7 +78,7 @@ const CircularEnquiryButton = () => {
                 How would you like to contact us?
               </p>
 
-              {/* WhatsApp Button */}
+              {/* WhatsApp Button - This will auto-send the message when clicked */}
               <motion.a
                 href={whatsappLink}
                 target="_blank"
@@ -86,6 +88,10 @@ const CircularEnquiryButton = () => {
                 className="flex items-center justify-between w-full bg-white/90 hover:bg-white dark:bg-gray-700/40 dark:hover:bg-gray-600 border-2 border-yellow-500/80 dark:border-yellow-400/80 text-gray-800 dark:text-amber-100 px-3 py-2 rounded-lg shadow-sm hover:shadow-md transition-all"
                 style={{
                   backdropFilter: "contrast(120%) brightness(105%)"
+                }}
+                onClick={() => {
+                  // The message will be sent automatically via the WhatsApp link
+                  setIsOpen(false);
                 }}
               >
                 <div className="flex items-center gap-2">
