@@ -7,7 +7,7 @@ const CircularEnquiryButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
-  const whatsappNumber = "8008952052";
+  const whatsappNumber = "+918008952052";
   const defaultMessage = "Hello, I'm interested in your travel services. Please contact me.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
