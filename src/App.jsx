@@ -25,6 +25,7 @@ import AdventureTours from './pages/tourpages/AdventureTours';
 import NorthIndiaPackage from './pages/NorthIndiaTours';
 import WesternIndiaPackage from './pages/WesternIndiaTours';
 import SouthIndiaTrips from './pages/SouthIndiaTours';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Routes>
+        <Route path='/chatbot' element={<Chatbot/>}/>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/tours" element={<Tours />} />
