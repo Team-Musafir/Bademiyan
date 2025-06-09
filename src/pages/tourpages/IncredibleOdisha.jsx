@@ -13,18 +13,18 @@ function IncredibleOdisha() {
       id: 1,
       title: "Golden Triangle Tour",
       route: "golden-triangle-tour",
-      location: "Konark Sun Temple, India",
-      duration: "7 Days, 6 Nights",
-      price: "$999",
+      location: "Bhubaneswar, Konark, Puri, Odisha, India",
+      duration: "4 Days, 3 Nights",
+      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg"
     },
     {
       id: 2,
       title: "Jagannath Dham Darshan",
       route: "jagannath-dham-darshan",
-      location: "Darjeling, India",
-      duration: "7 Days, 6 Nights",
-      price: "$1799",
+      location: "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
+      duration: "5 Days, 4 Nights",
+      price: "₹9,000",
       image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
     },
     {
@@ -67,9 +67,9 @@ function IncredibleOdisha() {
       id: 7,
       title: "Wildlife Tourism",
       route: "wildlife-tourism",
-      location: "Ranthambore, India",
-      duration: "5 Days, 4 Nights",
-      price: "$1299",
+      location: "Bhubaneswar, Balasore, Simlipal, Odisha, India",
+      duration: "6 Days, 5 Nights",
+      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg"
     },
     {
@@ -85,18 +85,18 @@ function IncredibleOdisha() {
       id: 9,
       title: "Kashmir of Odisha",
       route: "kashmir-of-odisha",
-      location: "Daringbadi, India",
-      duration: "4 Days, 3 Nights",
-      price: "$799",
+      location: "Brahmapur, Daringbadi, Phulbani, Bhubaneswar, Odisha, India",
+      duration: "5 Days, 4 Nights",
+      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg"
     },
     {
       id: 10,
       title: "Heritage Tour",
       route: "heritage-tour",
-      location: "Hampi, India",
+      location: "Bhubaneswar, Konark, Puri, Gopalpur, Odisha, India",
       duration: "7 Days, 6 Nights",
-      price: "$1399",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/caption.jpg"
     },
     {
