@@ -1,13 +1,13 @@
 {
-    "enchanting-north-sikkim": { 
+  "enchanting-north-sikkim": {
     "title": "Enchanting North Sikkim: A 5N | 6D Adventure",
-    "location": "North Sikkim",
-    "duration": "5N | 6D",
+    "location": "North Sikkim, India",
+    "duration": "5 Nights | 6 Days",
     "description": "Nestled in the northeastern part of India, Sikkim is a picturesque state renowned for its breathtaking natural beauty, vibrant culture, and spiritual heritage.",
     "price": 25000,
     "quota": 0,
-    "schedule": "",
-    "longDescription": "Sharing its borders with Bhutan, Nepal, and Tibet, this landlocked state is crowned by the majestic Mt. Kanchenjunga, the third-highest peak in the world. Sikkim's serene landscapes, dense forests, and rich biodiversity make it a haven for nature enthusiasts and adventure seekers alike. Historically, Sikkim was an independent kingdom ruled by the Namgyal dynasty until its merger with India in 1975. The state is deeply influenced by Tibetan Buddhism, as reflected in its many monasteries, stupas, and prayer flags. The legacy of Guru Padmasambhava, also known as Guru Rinpoche, is deeply revered, with several sites dedicated to this great spiritual figure. Today, Sikkim is celebrated not only for its pristine environment but also for its harmonious blend of traditional and modern lifestyles. It’s warm hospitality and unique cultural identity make it a must-visit destination for travelers seeking a memorable Himalayan experience.",
+    "schedule": "Schedule not specified",
+    "longDescription": "Sharing its borders with Bhutan, Nepal, and Tibet, this landlocked state is crowned by the majestic Mt. Kanchenjunga, the third-highest peak in the world. Sikkim's serene landscapes, dense forests, and rich biodiversity make it a haven for nature enthusiasts and adventure seekers alike. Historically, Sikkim was an independent kingdom ruled by the Namgyal dynasty until its merger with India in 1975. The state is deeply influenced by Tibetan Buddhism, as reflected in its many monasteries, stupas, and prayer flags. The legacy of Guru Padmasambhava, also known as Guru Rinpoche, is deeply revered, with several sites dedicated to this great spiritual figure. Today, Sikkim is celebrated not only for its pristine environment but also for its harmonious blend of traditional and modern lifestyles. It's warm hospitality and unique cultural identity make it a must-visit destination for travelers seeking a memorable Himalayan experience.",
     "heroImage": "",
     "includes": [
       "Pick-up and Drop (Airport / Railway Station)",
@@ -102,14 +102,22 @@
         ],
         "image": ""
       }
-    ],    "galleryImages": [
+    ],
+    "galleryImages": [
       {
         "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
         "alt": "Pelling Namchi Gangtok Tour Image"
+      },
+      {
+        "url": "",
+        "alt": "Image not available"
+      },
+      {
+        "url": "",
+        "alt": "Image not available"
       }
     ]
   },
-
   "pelling-namchi-gangtok-tour": {
     "title": "Pelling, Namchi & Gangtok Tour",
     "location": "Pelling, Namchi, Gangtok, Sikkim, India",
@@ -217,7 +225,6 @@
       }
     ]
   },
-
   "namchi-gangtok-north-sikkim-tour": {
     "title": "Namchi, Gangtok & North Sikkim Tour",
     "location": "Namchi, Gangtok, Lachen, Lachung, North Sikkim, India",

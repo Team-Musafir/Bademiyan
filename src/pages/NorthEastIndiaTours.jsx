@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../components/NavbarB';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
-import tourData from '../data/northEastTousData.json'; // You'll need to create this JSON file
+import tourData from '../data/northEastToursData.json'; 
 
 const defaultDestinationData = {
   title: 'North East India Tour Package',
