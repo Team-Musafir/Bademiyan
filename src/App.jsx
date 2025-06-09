@@ -14,7 +14,6 @@ import NorthIndiaTours from './pages/tourpages/NorthIndiaTours';
 import SouthIndiaTours from './pages/tourpages/SouthIndiaTours';
 import WesternIndiaTours from './pages/tourpages/WesternIndiaTours';
 import ScrollToTop from './components/ScrolltoTop';
-import DestinationPage from './pages/IncredibleOdisha';
 import NorthBengalSikkim from './pages/NorthBengalSikkim';
 import IslandPackage from './pages/IslandOfIndia';
 import InternationalPackage from './pages/InternationalTours';
@@ -26,6 +25,7 @@ import NorthIndiaPackage from './pages/NorthIndiaTours';
 import WesternIndiaPackage from './pages/WesternIndiaTours';
 import SouthIndiaTrips from './pages/SouthIndiaTours';
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
+import NorthEastIndiaTrips from './pages/NorthEastIndiaTours';
 
 function App() {
   return (
@@ -50,7 +50,7 @@ function App() {
         <Route path="/tours/north-east-india-tours" element={<NorthEastIndiaTours />} />
         <Route path="/tours/heritage-tours" element={<HeritageTours />} />
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
-        <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/northeast-india/:packageRoute" element={<NorthEastIndiaTrips/>} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage/>} />
         <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage/>} />
