@@ -99,7 +99,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             {/* Logo - not underlined */}
             <Link to="/" className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
-              Bademiyan.
+              Bademiyan Tours & Travels.
             </Link>
             
             {/* Desktop Menu */}
