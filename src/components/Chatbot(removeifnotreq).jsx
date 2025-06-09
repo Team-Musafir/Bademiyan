@@ -143,7 +143,7 @@ const Chatbot = () => {
     const generalQuestions = [
       {
         question: ['contact', 'phone', 'number', 'reach', 'whatsapp', 'how to contact'],
-        answer: "You can reach us at:\n📞 +91-XXXXXXXXXX\n💬 WhatsApp: +91-XXXXXXXXXX\n📧 email@bademiyan.com",
+        answer: "You can reach us at:\n📞 +91-8249608314\n💬 WhatsApp: +91-8249608314\n📧 info@bademiyantours.com",
         type: "contact"
       },
       {
@@ -280,7 +280,7 @@ const Chatbot = () => {
                   {msg.type === 'contact' && (
                     <div className="mt-2 flex">
                       <a 
-                        href="https://wa.me/91XXXXXXXXXX" 
+                        href="https://wa.me/918249608314" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="bg-green-500 text-white p-1 rounded flex items-center text-xs"
