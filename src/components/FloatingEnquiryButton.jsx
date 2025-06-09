@@ -17,7 +17,7 @@ const CircularEnquiryButton = () => {
   const chatContainerRef = useRef(null);
   const [isScrolledToBottom, setIsScrolledToBottom] = useState(true);
 
-  const whatsappNumber = "+918008952052";
+  const whatsappNumber = "+918249608314";
   const defaultMessage = "Hello, I'm interested in your travel services. Please contact me.";
   
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
