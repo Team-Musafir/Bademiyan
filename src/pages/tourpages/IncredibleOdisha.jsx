@@ -16,9 +16,6 @@ function IncredibleOdisha() {
       location: "Bhubaneswar, Konark, Puri, Odisha, India",
       duration: "4 days , 3 nights",
       price: "₹10000",
-      location: "Bhubaneswar, Konark, Puri, Odisha, India",
-      duration: "4 Days, 3 Nights",
-      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg"
     },
     {
@@ -28,9 +25,6 @@ function IncredibleOdisha() {
       location: "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
       duration: "5 Days & 4 Nights",
       price: "₹9000",
-      location: "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
-      duration: "5 Days, 4 Nights",
-      price: "₹9,000",
       image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
     },
     {
@@ -76,9 +70,6 @@ function IncredibleOdisha() {
       location: "Ranthambore, India",
       duration: "5 Days, 4 Nights",
       price: "₹17000",
-      location: "Bhubaneswar, Balasore, Simlipal, Odisha, India",
-      duration: "6 Days, 5 Nights",
-      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg"
     },
     {
@@ -97,19 +88,15 @@ function IncredibleOdisha() {
       location: "Daringbadi, India",
       duration: "4 Days, 3 Nights",
       price: "₹17000",
-      location: "Brahmapur, Daringbadi, Phulbani, Bhubaneswar, Odisha, India",
-      duration: "5 Days, 4 Nights",
-      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg"
     },
     {
       id: 10,
       title: "Heritage Tour",
       route: "heritage-tour",
-      location: "Bhubaneswar, Konark, Puri, Gopalpur, Odisha, India",
+      location: "Hampi, India",
       duration: "7 Days, 6 Nights",
       price: "₹18000",
-      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/caption.jpg"
     },
     {
@@ -142,7 +129,7 @@ function IncredibleOdisha() {
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/incredible-odisha/${route}`);
+    navigate(/tours/incredible-odisha/${route});
   };
 
   return (
@@ -150,7 +137,7 @@ function IncredibleOdisha() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
+          backgroundImage: url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
