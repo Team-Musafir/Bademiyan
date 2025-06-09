@@ -707,82 +707,98 @@
 ,
   "wildlife-tourism": {
     "title": "Wildlife Tourism",
-    "location": "Simlipal, Bhitarkanika, India",
-    "duration": "5 Days, 4 Nights",
-    "description": "Explore Odisha's rich biodiversity in its national parks and wildlife sanctuaries.",
-    "price": 1299,
-    "quota": 10,
-    "schedule": "Weekly departures",
-    "longDescription": "This wildlife adventure takes you through Odisha's premier conservation areas including Simlipal National Park (tiger reserve) and Bhitarkanika (mangrove ecosystem). Experience jungle safaris, birdwatching, crocodile spotting, and nature walks led by expert naturalists. The package includes eco-lodge stays and opportunities to learn about conservation efforts.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg",
+    "location": "Bhubaneswar, Balasore, Simlipal, Odisha, India",
+    "duration": "6 Days & 5 Nights",
+    "description": "A thrilling journey through Odisha's wilderness and heritage sites including Simlipal National Park, Kuldiha Sanctuary, and sacred temples.",
+    "price": 17000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handi-crafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constituents 29% of its population. Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down to earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "4 nights in eco-lodges",
-      "All meals (jungle cuisine)",
-      "Park entry fees",
-      "Expert naturalist guides",
-      "Safari rides",
-      "Boat cruises"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Camera fees (professional equipment)",
-      "Personal gear",
-      "Travel insurance",
-      "Tips for guides"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival in Bhubaneswar",
+        "title": "Arrival in Bhubaneswar – The Temple City",
         "activities": [
-          "Airport pickup",
-          "Drive to Simlipal",
-          "Evening orientation",
-          "Night stay at forest guest house"
+          "Arrival and transfer to hotel",
+          "Visit Rajarani Temple, Mukteswar Temple, Brahmeswar Temple, and Lingaraj Temple (outside view)",
+          "Explore Pipili Village and Dhauli Stupa",
+          "Overnight stay in Bhubaneswar"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/simlipal-entrance.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
-        "title": "Simlipal Safari",
+        "title": "Bhubaneswar – Balasore – Similipal Park",
         "activities": [
-          "Morning jungle safari",
-          "Visit Barehipani Falls",
-          "Evening birdwatching",
-          "Night nature walk"
+          "Drive to Balasore and transfer to Ramtirtha Forest Lodge at Similipal National Park",
+          "Nature walk, herbal nursery, and crocodile breeding farm (time permitting)",
+          "Overnight stay at Ramtirtha Forest Lodge"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/barehipani.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
-        "title": "To Bhitarkanika",
+        "title": "Similipal Park – Waterfalls and Jungle Safari",
         "activities": [
-          "Drive to Bhitarkanika",
-          "Check-in at eco-resort",
-          "Evening mangrove boat cruise",
-          "Crocodile spotting"
+          "Visit Barehipani Waterfall and Joranda Waterfall",
+          "Jungle safari in Similipal National Park",
+          "Dinner and overnight stay at Ramtirtha or Gurguria Forest Lodge"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/mangrove-cruise.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
-        "title": "Bhitarkanika Exploration",
+        "title": "Similipal – Panchlingeshwar – Kuldiha",
         "activities": [
-          "Morning bird sanctuary visit",
-          "Nature trail",
-          "Visit crocodile breeding center",
-          "Sunset at river mouth"
+          "Drive to Panchlingeshwar and check in at Panthasala Lodge",
+          "Visit Kuldiha Wildlife Sanctuary",
+          "Evening relaxation at lodge",
+          "Dinner and overnight stay at Panthasala Lodge"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/bhitarkanika-birds.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 5,
-        "title": "Departure",
+        "title": "Bhubaneswar – Nandankanan Zoological Park",
         "activities": [
-          "Final nature walk",
           "Return to Bhubaneswar",
-          "Airport transfer",
-          "Depart with wild memories"
-        ]
+          "Visit Nandankanan Zoological Park (White Tiger Safari, Lion Safari, Botanical Garden)",
+          "Lunch at zoo and return to hotel",
+          "Dinner and overnight stay in Bhubaneswar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 6,
+        "title": "Bhubaneswar – Spiritual Excursions and Departure",
+        "activities": [
+          "Visit Nirmala Jhar Temple, Narayani Temple, and Banpur",
+          "Return to Bhubaneswar and transfer to airport/railway station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
@@ -914,72 +930,91 @@
 }
 ,
   "kashmir-of-odisha": {
-    "title": "Kashmir of Odisha",
-    "location": "Daringbadi, Odisha, India",
-    "duration": "4 Days, 3 Nights",
-    "description": "Experience the cool climes and coffee plantations of Odisha's hill station - Daringbadi.",
-    "price": 799,
-    "quota": 15,
-    "schedule": "Weekly departures",
-    "longDescription": "Escape to Odisha's own Kashmir - the picturesque hill station of Daringbadi. This tour takes you through coffee plantations, pine forests, and waterfalls of this unique region that experiences winter chill. Enjoy nature walks, plantation tours, and cozy evenings by the fireplace in this offbeat getaway.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg",
+    "title": "Kashmir of Odisha Tour",
+    "location": "Brahmapur, Daringbadi, Phulbani, Bhubaneswar, Odisha, India",
+    "duration": "5 Days & 4 Nights",
+    "description": "Explore the hidden treasures of Odisha—Brahmapur, Daringbadi, and Phulbani—through ancient temples, tribal culture, serene landscapes, and nature retreats.",
+    "price": 17000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handi-crafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constituents 29% of its population. Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down to earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "3 nights in plantation resort",
-      "All meals (local cuisine)",
-      "Plantation tours",
-      "Nature guide",
-      "All transportation",
-      "Bonfire evenings"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Personal shopping",
-      "Adventure activities",
-      "Travel insurance",
-      "Tips"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival in Daringbadi",
+        "title": "Arrival in Bhubaneswar – Exploring the Temple City",
         "activities": [
-          "Pickup from Berhampur/Visakhapatnam",
-          "Scenic drive to hills",
-          "Check-in at resort",
-          "Evening nature walk"
+          "Arrival and transfer to hotel",
+          "Visit Rajarani Temple, Mukteswar Temple, Brahmeswar Temple, and Lingaraj Temple (outside view)",
+          "Stop at Pipili Village (applique crafts) and Dhauli Stupa",
+          "Overnight stay in Bhubaneswar"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/daringbadi-view.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
-        "title": "Hill Station Exploration",
+        "title": "Bhubaneswar – Brahmapur",
         "activities": [
-          "Coffee plantation tour",
-          "Visit Lovers' Point",
-          "Waterfall picnic",
-          "Evening bonfire"
+          "Breakfast and drive to Brahmapur",
+          "Visit Chilika Lake for birdwatching and boating",
+          "Explore Narayani Temple and Budi Thakurani Temple",
+          "Overnight stay in Brahmapur"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/coffee-plantation.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
-        "title": "Nature & Culture",
+        "title": "Brahmapur – Phulbani",
         "activities": [
-          "Trek to Doluri River",
-          "Visit tribal villages",
-          "Local handicraft demo",
-          "Cultural performance"
+          "Post breakfast, drive to Phulbani",
+          "Visit historical temples and serene waterfalls",
+          "Nature walks and birdwatching in the region",
+          "Overnight stay in Phulbani"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/daringbadi-trek.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
-        "title": "Departure",
+        "title": "Phulbani – Daringbadi",
         "activities": [
-          "Morning at leisure",
-          "Check-out",
-          "Return transfer",
-          "End of tour"
-        ]
+          "Drive to Daringbadi (Kashmir of Odisha)",
+          "Explore pine forests, coffee plantations, and waterfalls",
+          "Nature walks and optional trekking",
+          "Overnight stay in Daringbadi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 5,
+        "title": "Daringbadi – Bhubaneswar",
+        "activities": [
+          "Return to Bhubaneswar",
+          "Enjoy scenic views and refreshment stops en route",
+          "Transfer to airport or railway station for onward journey"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
@@ -999,103 +1034,113 @@
   },
   "heritage-tour": {
     "title": "Heritage Tour",
-    "location": "Across Odisha, India",
-    "duration": "7 Days, 6 Nights",
-    "description": "A comprehensive journey through Odisha's living heritage - from ancient forts to living traditions.",
-    "price": 1399,
-    "quota": 12,
-    "schedule": "Twice monthly",
-    "longDescription": "This heritage odyssey covers Odisha's architectural marvels, living crafts traditions, and intangible cultural heritage. Visit ancient forts, stepwells, and monuments while interacting with traditional artisans keeping centuries-old crafts alive. The tour includes special access to heritage sites, craft demonstrations, and stays in heritage properties.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/caption.jpg",
+    "location": "Bhubaneswar, Konark, Puri, Gopalpur, Odisha, India",
+    "duration": "7 Days & 6 Nights",
+    "description": "An immersive heritage experience through Odisha’s Buddhist legacy, ancient temples, vibrant crafts, coastal serenity, and tribal traditions.",
+    "price": 18000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handi-crafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constituents 29% of its population. Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down to earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "6 nights in heritage stays",
-      "Daily breakfast and 3 dinners",
-      "Expert heritage guide",
-      "All entry fees",
-      "Craft workshops",
-      "AC transportation"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Personal shopping of crafts",
-      "Camera fees at monuments",
-      "Travel insurance",
-      "Tips"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival & Bhubaneswar Heritage",
+        "title": "Bhubaneswar – Excursion to the Diamond Triangle",
         "activities": [
-          "Airport pickup",
-          "Old Town heritage walk",
-          "Visit Khandagiri caves",
-          "Evening at Ekamra Haat"
+          "Breakfast and excursion to Ratnagiri (Buddhist relics, monasteries, stupas)",
+          "Visit Lalitgiri (oldest Buddhist site with Chaitya and relics)",
+          "Explore Udayagiri (largest Buddhist complex with sculptures)",
+          "Return to Bhubaneswar for dinner and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/old-town.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
-        "title": "Puri & Konark Heritage",
+        "title": "Bhubaneswar – Temple Tour and Nandankanan Zoo",
         "activities": [
-          "Drive to Puri",
-          "Jagannath Temple architecture study",
-          "Konark Sun Temple guided tour",
-          "Stay at heritage property"
+          "Visit Lingaraj Temple, Parsurameswar Temple, Mukteswar Temple, and Rajarani Temple",
+          "Post-lunch visit to Nandankanan Zoological Park (White Tiger Safari)",
+          "Dinner and overnight stay in Bhubaneswar"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/konark-architecture.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
-        "title": "Cuttack Fort & Silver Filigree",
+        "title": "Bhubaneswar – Dhauli – Pipili – Raghurajpur – Puri",
         "activities": [
-          "Visit Barabati Fort",
-          "Silver filigree workshop",
-          "Katak Chandi Temple",
-          "Evening at riverside"
+          "Visit Dhauli Peace Pagoda",
+          "Stop at Pipili (applique work)",
+          "Explore Raghurajpur Artist Village (Pattachitra art)",
+          "Arrival and check-in at hotel in Puri",
+          "Evening visit to Jagannath Temple or relax at Puri Beach",
+          "Overnight stay in Puri"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/filigree.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
-        "title": "Sambalpur Textile Heritage",
+        "title": "Puri – Konark – Puri",
         "activities": [
-          "Drive to Sambalpur",
-          "Ikat weaving demonstration",
-          "Visit Hirakud Dam",
-          "Evening folk performance"
+          "Drive to Konark and visit Sun Temple (UNESCO site)",
+          "Visit Ramchandi Temple and Chandrabhaga Beach",
+          "Return to Puri and explore beach market",
+          "Overnight stay in Puri"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/sambalpuri-loom.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 5,
-        "title": "Western Odisha Forts",
+        "title": "Puri – Chilika Lake – Gopalpur",
         "activities": [
-          "Visit Asurgarh Fort",
-          "Explore tribal heritage",
-          "Drive to Bhawanipatna",
-          "Stay at palace heritage"
+          "Visit Chilika Lake at Barkul",
+          "Boat cruise to Birds Island and Temple Island (Kalijai Temple)",
+          "Drive to Gopalpur and relax on the beach",
+          "Overnight stay in Gopalpur"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/asurgarh.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 6,
-        "title": "Return to Bhubaneswar",
+        "title": "Gopalpur – Bhubaneswar",
         "activities": [
-          "Visit Chhatia Temple",
-          "Stop at Pipili applique village",
-          "Final heritage briefing",
-          "Farewell dinner"
+          "Morning visit to Sonepur Beach",
+          "Drive back to Bhubaneswar",
+          "Stop at Khandagiri and Udayagiri Jain Caves",
+          "Overnight stay in Bhubaneswar"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/pipili.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 7,
-        "title": "Departure",
+        "title": "Departure from Bhubaneswar",
         "activities": [
-          "Final museum visit",
-          "Airport transfer",
-          "Depart with heritage insights"
-        ]
+          "Breakfast and hotel checkout",
+          "Transfer to airport/railway station",
+          "Optional sightseeing or shopping depending on departure schedule"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
