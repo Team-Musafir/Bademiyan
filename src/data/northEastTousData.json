@@ -1,0 +1,340 @@
+{
+    "enchanting-north-sikkim": { 
+    "title": "Enchanting North Sikkim: A 5N | 6D Adventure",
+    "location": "North Sikkim",
+    "duration": "5N | 6D",
+    "description": "Nestled in the northeastern part of India, Sikkim is a picturesque state renowned for its breathtaking natural beauty, vibrant culture, and spiritual heritage.",
+    "price": 25000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Sharing its borders with Bhutan, Nepal, and Tibet, this landlocked state is crowned by the majestic Mt. Kanchenjunga, the third-highest peak in the world. Sikkim's serene landscapes, dense forests, and rich biodiversity make it a haven for nature enthusiasts and adventure seekers alike. Historically, Sikkim was an independent kingdom ruled by the Namgyal dynasty until its merger with India in 1975. The state is deeply influenced by Tibetan Buddhism, as reflected in its many monasteries, stupas, and prayer flags. The legacy of Guru Padmasambhava, also known as Guru Rinpoche, is deeply revered, with several sites dedicated to this great spiritual figure. Today, Sikkim is celebrated not only for its pristine environment but also for its harmonious blend of traditional and modern lifestyles. It’s warm hospitality and unique cultural identity make it a must-visit destination for travelers seeking a memorable Himalayan experience.",
+    "heroImage": "",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival at NJP/IXB and Transfer to Gangtok",
+        "activities": [
+          "Meet and greet by representatives of Bademiyan Tours and Holidays Operators at NJP Railway Station, Bagdogra Airport, or Siliguri Bus Stand.",
+          "Transfer to Gangtok (Approx. 125 km | 4.5 hrs).",
+          "En route, enjoy scenic views of the Teesta River and lush greenery.",
+          "Check-in at your hotel. Rest of the day is free for leisure and exploring MG Marg.",
+          "Overnight stay in Gangtok."
+        ],
+        "image": ""
+      },
+      {
+        "day": 2,
+        "title": "Gangtok to Lachen Transfer",
+        "activities": [
+          "After breakfast, embark on a journey to Lachen (Approx. 120 km | 6 hrs).",
+          "En route, visit the Seven Sisters Waterfalls and Singhik View Point.",
+          "Experience the serenity of the confluence of Lachen Chu and Lachung Chu rivers at Chungthang.",
+          "Arrive in Lachen and check in at your hotel.",
+          "Enjoy the evening at leisure.",
+          "Overnight stay in Lachen."
+        ],
+        "image": ""
+      },
+      {
+        "day": 3,
+        "title": "Lachen to Gurudongmar Lake and Transfer to Lachung",
+        "activities": [
+          "Early morning, start your journey to the majestic Gurudongmar Lake (Approx. 67 km | 3.5 hrs).",
+          "Situated at an altitude of 17,800 ft, this sacred lake is one of the highest in the world.",
+          "Return to Lachen for breakfast.",
+          "Post breakfast, proceed to Lachung (Approx. 50 km | 2 hrs).",
+          "Check-in at your hotel and enjoy the evening at leisure.",
+          "Overnight stay in Lachung."
+        ],
+        "image": ""
+      },
+      {
+        "day": 4,
+        "title": "Lachung to Yumthang Valley and Transfer to Gangtok",
+        "activities": [
+          "After breakfast, visit Yumthang Valley (Approx. 25 km | 1.5 hrs), also known as the 'Valley of Flowers.'",
+          "Optional visit to Zero Point (subject to road and weather conditions).",
+          "Return to Lachung for lunch.",
+          "Drive back to Gangtok (Approx. 120 km | 6 hrs).",
+          "Check-in at your hotel for an overnight stay."
+        ],
+        "image": ""
+      },
+      {
+        "day": 5,
+        "title": "Gangtok Local Sightseeing",
+        "activities": [
+          "After breakfast, explore the popular attractions of Gangtok:",
+          "Tsomgo Lake: A glacial lake at an altitude of 12,400 ft (Approx. 40 km | 1.5 hrs).",
+          "Baba Harbhajan Singh Mandir: A shrine built in honor of an Indian army soldier.",
+          "MG Marg: Spend leisure time shopping and savoring local delicacies.",
+          "Return to the hotel for an overnight stay in Gangtok."
+        ],
+        "image": ""
+      },
+      {
+        "day": 6,
+        "title": "Gangtok to NJP/IXB Drop",
+        "activities": [
+          "After breakfast, transfer to NJP Railway Station or Bagdogra Airport (Approx. 125 km | 4.5 hrs).",
+          "End of the tour with cherished memories of North Sikkim."
+        ],
+        "image": ""
+      }
+    ],    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "alt": "Pelling Namchi Gangtok Tour Image"
+      }
+    ]
+  },
+
+  "pelling-namchi-gangtok-tour": {
+    "title": "Pelling, Namchi & Gangtok Tour",
+    "location": "Pelling, Namchi, Gangtok, Sikkim, India",
+    "duration": "6 Days & 5 Nights",
+    "description": "Discover the enchanting landscapes and spiritual heritage of Sikkim through Pelling, Namchi, and Gangtok with panoramic Himalayan views and cultural landmarks.",
+    "price": 22000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Nestled in the northeastern part of India, Sikkim is a picturesque state renowned for its breathtaking natural beauty, vibrant culture, and spiritual heritage. Sharing its borders with Bhutan, Nepal, and Tibet, this landlocked state is crowned by the majestic Mt. Kanchenjunga, the third-highest peak in the world. Sikkim's serene landscapes, dense forests, and rich biodiversity make it a haven for nature enthusiasts and adventure seekers alike. Historically, Sikkim was an independent kingdom ruled by the Namgyal dynasty until its merger with India in 1975. The state is deeply influenced by Tibetan Buddhism, as reflected in its many monasteries, stupas, and prayer flags. The legacy of Guru Padmasambhava, also known as Guru Rinpoche, is deeply revered, with several sites dedicated to this great spiritual figure. Today, Sikkim is celebrated not only for its pristine environment but also for its harmonious blend of traditional and modern lifestyles. Its warm hospitality and unique cultural identity make it a must-visit destination for travelers seeking a memorable Himalayan experience.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Welcome to NJP/IXB and Transfer to Pelling",
+        "activities": [
+          "Meet and greet at NJP Railway Station, Bagdogra Airport, or Siliguri Bus Stand",
+          "Transfer to Pelling (130 km | 4.5 hrs)",
+          "Check-in at hotel, rest of day at leisure",
+          "Overnight stay in Pelling"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 2,
+        "title": "Pelling Sightseeing",
+        "activities": [
+          "Visit Pemayangtse Monastery",
+          "Explore Rabdentse Ruins",
+          "Visit Kanchenjunga Waterfalls",
+          "Visit Rimbi Waterfalls and Orange Garden",
+          "Visit Skywalk and Chenrezig Statue",
+          "Overnight stay in Pelling"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 3,
+        "title": "Pelling to Namchi and Sightseeing",
+        "activities": [
+          "Transfer to Namchi (75 km | 3 hrs)",
+          "Visit Char Dham",
+          "Visit Samdruptse Hill (Guru Padmasambhava statue)",
+          "Visit Namchi Rock Garden",
+          "Overnight stay in Namchi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 4,
+        "title": "Namchi to Gangtok Transfer",
+        "activities": [
+          "Transfer to Gangtok (80 km | 4 hrs)",
+          "Enjoy views of Teesta River and valleys en route",
+          "Check-in at hotel and explore MG Marg",
+          "Overnight stay in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 5,
+        "title": "Gangtok Sightseeing",
+        "activities": [
+          "Visit Tsomgo Lake",
+          "Visit Baba Harbhajan Singh Mandir",
+          "Free time at MG Marg for shopping",
+          "Overnight stay in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 6,
+        "title": "Gangtok to NJP/IXB Drop",
+        "activities": [
+          "Transfer to NJP Railway Station or Bagdogra Airport (125 km | 4.5 hrs)",
+          "Tour ends with cherished memories"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "alt": "Pelling Namchi Gangtok Tour Image"
+      }
+    ]
+  },
+
+  "namchi-gangtok-north-sikkim-tour": {
+    "title": "Namchi, Gangtok & North Sikkim Tour",
+    "location": "Namchi, Gangtok, Lachen, Lachung, North Sikkim, India",
+    "duration": "7 Days & 6 Nights",
+    "description": "Explore Sikkim’s spiritual and natural wonders—from the serene Char Dham to the spectacular Gurudongmar Lake and Yumthang Valley.",
+    "price": 28000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Nestled in the northeastern part of India, Sikkim is a picturesque state renowned for its breathtaking natural beauty, vibrant culture, and spiritual heritage. Sharing its borders with Bhutan, Nepal, and Tibet, this landlocked state is crowned by the majestic Mt. Kanchenjunga, the third-highest peak in the world. Sikkim's serene landscapes, dense forests, and rich biodiversity make it a haven for nature enthusiasts and adventure seekers alike. Historically, Sikkim was an independent kingdom ruled by the Namgyal dynasty until its merger with India in 1975. The state is deeply influenced by Tibetan Buddhism, as reflected in its many monasteries, stupas, and prayer flags. The legacy of Guru Padmasambhava, also known as Guru Rinpoche, is deeply revered, with several sites dedicated to this great spiritual figure. Today, Sikkim is celebrated not only for its pristine environment but also for its harmonious blend of traditional and modern lifestyles. Its warm hospitality and unique cultural identity make it a must-visit destination for travelers seeking a memorable Himalayan experience.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival at NJP/IXB and Transfer to Namchi",
+        "activities": [
+          "Meet and greet at NJP Railway Station, Bagdogra Airport or Siliguri",
+          "Transfer to Namchi (90 km | 4 hrs)",
+          "Check-in at hotel, evening at leisure",
+          "Overnight stay in Namchi"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 2,
+        "title": "Namchi Sightseeing and Transfer to Gangtok",
+        "activities": [
+          "Visit Char Dham (four Dham replicas and Shiva statue)",
+          "Visit Samdruptse Hill (Padmasambhava statue)",
+          "Explore Namchi Rock Garden",
+          "Post-lunch transfer to Gangtok (80 km | 3 hrs)",
+          "Evening at MG Marg",
+          "Overnight stay in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 3,
+        "title": "Gangtok to Lachen Transfer",
+        "activities": [
+          "Drive to Lachen (120 km | 6 hrs)",
+          "Visit Seven Sisters Waterfalls, Singhik View Point, and Chungthang",
+          "Check-in at hotel in Lachen",
+          "Overnight stay in Lachen"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 4,
+        "title": "Lachen to Gurudongmar Lake and Transfer to Lachung",
+        "activities": [
+          "Early morning drive to Gurudongmar Lake (67 km | 3.5 hrs)",
+          "Return to Lachen for breakfast",
+          "Proceed to Lachung (50 km | 2 hrs)",
+          "Check-in and leisure evening",
+          "Overnight stay in Lachung"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 5,
+        "title": "Lachung to Yumthang Valley and Return to Gangtok",
+        "activities": [
+          "Visit Yumthang Valley (25 km | 1.5 hrs)",
+          "Optional visit to Zero Point (subject to road conditions)",
+          "Return to Lachung for lunch",
+          "Drive back to Gangtok (120 km | 6 hrs)",
+          "Overnight stay in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 6,
+        "title": "Gangtok Local Sightseeing",
+        "activities": [
+          "Visit Tsomgo Lake",
+          "Visit Baba Harbhajan Singh Mandir",
+          "Leisure time at MG Marg",
+          "Overnight stay in Gangtok"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      },
+      {
+        "day": 7,
+        "title": "Gangtok to NJP/IXB Drop",
+        "activities": [
+          "Transfer to NJP Railway Station or Bagdogra Airport (125 km | 4.5 hrs)",
+          "End of the tour with cherished memories"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "alt": "Namchi Gangtok North Sikkim Tour Image"
+      }
+    ]
+  }
+}
