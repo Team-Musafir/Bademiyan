@@ -55,7 +55,7 @@ function IncredibleOdisha() {
       id: 5,
       title: "Shakti Peeth",
       route: "shakti-peeth",
-      location: "Madurai, India",
+      location: "Various locations, Odisha, India",
       duration: "5 Days, 4 Nights",
       price: "₹10000",
       image: "https://ik.imagekit.io/qad3x0vr1/arial1.jpg"
