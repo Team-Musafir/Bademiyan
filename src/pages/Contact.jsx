@@ -316,7 +316,7 @@ const Contacts = () => {
                     Call Us
                   </h3>
                   <p className="text-slate-700 group-hover:text-slate-900 transition-colors">
-                    +91 94370 12345
+                    +91 82496 08314
                   </p>
                   <div className="mt-3">
                     <button className="text-slate-800 text-sm font-medium flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -432,7 +432,7 @@ const Contacts = () => {
                     Visit Us
                   </h3>
                   <p className="text-slate-700 group-hover:text-slate-900 transition-colors">
-                    Plot No. 123, Nayapalli, Bhubaneswar, Odisha
+                    Infocity, Sai Kuthir, Bhubaneswar- 751024
                   </p>
                   <div className="mt-3">
                     <button className="text-slate-800 text-sm font-medium flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -490,7 +490,7 @@ const Contacts = () => {
                     Mon-Sat: 9AM-8PM
                   </p>
                   <p className="text-slate-700 group-hover:text-slate-900 transition-colors">
-                    Sun: 10AM-2PM
+                    Sun: 10AM–5PM (by appointment)
                   </p>
                   <div className="mt-3">
                     <button className="text-slate-800 text-sm font-medium flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -587,7 +587,7 @@ const Contacts = () => {
             <p className="text-slate-600 text-sm">Bhubaneswar, Odisha 751001</p>
             <div className="mt-2 flex space-x-2">
               <a
-                href="tel:+919437012345"
+                href="tel:+918249608314"
                 className="text-blue-600 text-sm flex items-center"
               >
                 <svg
