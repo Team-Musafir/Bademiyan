@@ -13,16 +13,16 @@ function Tours() {
       route: "incredible-odisha", // Hard-coded route
       location: "Konark Sun Temple,India",
       duration: "7 Days, 6 Nights",
-      price: "$999",
+      price: "₹9,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793"
     },
     {
       id: 2,
-      title: "North-Bengal and Sikkim",
+      title: "North-Bengal",
       route: "north-bengal-sikkim", // Hard-coded route
       location: "Darjeling,India",
       duration: "7 Days, 6 Nights",
-      price: "$1799",
+      price: "₹15,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/Northeast.jpg?updatedAt=1748812451591"
     },
     {

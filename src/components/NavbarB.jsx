@@ -108,7 +108,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             {/* Logo - black in both desktop and mobile */}
             <Link to="/" className="text-black text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
-              Bademiyan.
+              Bademiyan Tours & Travels.
             </Link>
             
             {/* Desktop Menu - black items */}
