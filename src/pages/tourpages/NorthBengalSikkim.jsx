@@ -11,47 +11,47 @@ function NorthBengalSikkim() {
   const packages = [
     {
       id: 1,
-      title: "Darjeeling Tour Package",
-      route: "darjeeling-tour-package",
-      location: "Darjeeling, India",
-      duration: "5 Days, 4 Nights",
-      price: "$1299",
+      title: "Darjeeling, Kalimpong & Rishop Tour",
+      route: "Darjeeling-Kalimpong-RishopTour",
+      location: "North Bengal, India",
+      duration: "6 Days, 5 Nights",
+      price: "₹20,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-vinayak-khithani-2408962.jpg"
     },
     {
       id: 2,
-      title: "Sikkim Tour Package",
-      route: "sikkim-tour-package",
-      location: "Gangtok, India",
-      duration: "6 Days, 5 Nights",
-      price: "$1499",
+      title: "Darjeeling, Tinchuley, Chota Mangwa Tour",
+      route: "Darjeeling-Tinchuley-Chota-MangwaTour",
+      location: "North Bengal, India",
+      duration: "5 Days, 4 Nights",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3037435.jpeg"
     },
     {
       id: 3,
-      title: "Offbeat Dooars",
-      route: "offbeat-dooars",
-      location: "Dooars, India",
-      duration: "4 Days, 3 Nights",
-      price: "$999",
+      title: "Kolakham and Tinchuley Nature Retreat",
+      route: "Kolakham-and-Tinchuley-Nature-Retreat",
+      location: "North Bengal, India",
+      duration: "5 Days, 4 Nights",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/780x439_Thimphu.jpg"
     },
     {
       id: 4,
-      title: "Offbeat Darjeeling",
-      route: "offbeat-darjeeling",
-      location: "Darjeeling, India",
-      duration: "4 Days, 3 Nights",
-      price: "$1099",
+      title: "Enchanting Hills of Darjeeling and Kalimpong",
+      route: "Hills-of-Darjeeling-and-Kalimpong",
+      location: "North Bengal, India",
+      duration: "6 Days, 5 Nights",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-103875.jpeg"
     },
     {
       id: 5,
-      title: "Offbeat Kalimpong",
-      route: "offbeat-kalimpong",
-      location: "Kalimpong, India",
-      duration: "3 Days, 2 Nights",
-      price: "$899",
+      title: "Serenity and Splendor: Reshikhola, Sillerygaon, and Rishop Tour with Bademiyan Tour Operators",
+      route: "Reshikhola-Sillerygaon-and-Rishop-Tour",
+      location: "North Bengal, India",
+      duration: "5 Days,4 Nights",
+      price: "₹15,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-4542265.jpeg"
     }
   ];
