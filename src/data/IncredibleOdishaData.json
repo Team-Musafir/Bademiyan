@@ -1,7 +1,6 @@
 {
   "golden-triangle-tour": {
     "title": "Golden Triangle of Odisha Tour",
-
     "location": "Bhubaneswar, Konark, Puri, Odisha, India",
     "duration": "4 days X 3 nights",
     "description": "Explore the rich heritage, vibrant culture, and serene landscapes of Odisha through its Golden Triangle - Bhubaneswar, Konark, and Puri.",
@@ -31,14 +30,12 @@
       "Other meals not mentioned laundry, telephone calls, and incidentals.",
       "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
       "Any expense arising due to unforeseen circumstances is not included."
-
     ],
     "itineraryDays": [
       {
         "day": 1,
         "title": "Arrival in Bhubaneswar – Explore the Temple City",
         "activities": [
-
           "Arrival in Bhubaneswar and hotel transfer",
           "Visit Mukteswar Temple, Rajarani Temple, and Parasurameswar Temple",
           "Explore Khandagiri and Udayagiri Jain caves",
@@ -64,11 +61,6 @@
         "day": 3,
         "title": "Puri – Chilika Lake Excursion",
         "activities": [
-          "Day trip to Chilika Lake (Asia's largest brackish water lagoon)",
-          "Motorboat ride to explore islands",
-          "Spot dolphins and migratory birds",
-          "Return to Puri for dinner and overnight stay"
-        ]
           "Breakfast and day trip to Chilika Lake",
           "Motorboat ride to explore islands and spot dolphins and migratory birds",
           "Return to Puri by evening",
@@ -104,107 +96,90 @@
   },
   "jagannath-dham-darshan": {
     "title": "Jagannath Dham Darshan",
-    "location": "Puri, Odisha, India",
-    "duration": "7 Days, 6 Nights",
-    "description": "Experience the divine blessings of Lord Jagannath in this spiritual journey through Puri's sacred temples.",
-    "price": 1799,
-    "quota": 15,
-    "schedule": "Monthly departures on full moon days",
-    "longDescription": "This sacred pilgrimage takes you through the most important temples of Lord Jagannath in Puri, including the famous Jagannath Temple, Gundicha Temple, and Lokanath Temple. Experience the rich culture and traditions of Odisha while participating in special darshans and rituals. The package includes comfortable accommodation near the temple, traditional Odia meals, and guided tours by knowledgeable priests.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg",
+    "location": "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
+    "duration": "5 Days & 4 Nights",
+    "description": "A spiritually enriching journey through Odisha’s sacred cities—Bhubaneswar, Puri, Konark, and Satapada—featuring temples, beaches, heritage, and dolphins.",
+    "price": 9000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handicrafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. The Golden Triangle of Odisha—Bhubaneswar, Puri, and Konark—offers a captivating blend of ancient temples, coastal beauty, and vibrant culture. Perfect for travelers seeking spiritual solace, architectural grandeur, and scenic vistas, this iconic circuit is a treasure trove of experiences.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "6 nights accommodation in 3-star hotels",
-      "All meals (vegetarian)",
-      "Special darshan tickets",
-      "English speaking guide",
-      "All temple entry fees",
-      "AC transportation",
-      "Evening aarti participation"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Personal expenses",
-      "Camera fees at temples",
-      "Travel insurance",
-      "Anything not mentioned in includes"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival in Puri & Temple Introduction",
+        "title": "Arrival at Bhubaneswar – The Temple City",
         "activities": [
-          "Arrive at Bhubaneswar airport",
-          "Transfer to Puri (1.5 hours drive)",
-          "Check-in at hotel",
-          "Evening visit to Swargadwar beach",
-          "Briefing about temple customs"
+          "Arrival at Bhubaneswar Airport/Railway Station and hotel check-in with welcome drink and traditional aarti",
+          "Visit Lingaraj Temple, Mukteshwar Temple, and Parashurameshwara Temple",
+          "Visit the Odisha State Handicrafts Museum",
+          "Dinner and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/swargadwar-beach.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
-        "title": "Jagannath Temple Darshan",
+        "title": "Bhubaneswar to Puri – A Journey of Nature and Craftsmanship",
         "activities": [
-          "Early morning special darshan",
-          "Breakfast at hotel",
-          "Temple complex tour",
-          "Learn about temple history",
-          "Evening witness the Pahandi ritual"
+          "Breakfast and visit to Nandankanan Biological Park (White Tiger Safari, reptiles, birds)",
+          "Stop at Pipili Artisan Village",
+          "Arrival and check-in at hotel in Puri with welcome drink",
+          "Evening at leisure or beach stroll",
+          "Dinner and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/jagannath-temple.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
-        "title": "Gundicha Temple & Local Pilgrimage",
+        "title": "Puri – Spirituality and Tranquility",
         "activities": [
-          "Visit Gundicha Temple (Jagannath's aunt's home)",
-          "Explore local markets for religious artifacts",
-          "Visit Sakshi Gopal Temple",
-          "Evening beach meditation"
+          "Breakfast and visit to Shri Jagannath Temple",
+          "Visit to Balighai Beach",
+          "Dinner and overnight stay at hotel"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/gundicha-temple.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
-        "title": "Lokanath Temple & Spiritual Activities",
+        "title": "Excursion to Konark – The Sun Temple Marvel",
         "activities": [
-          "Morning visit to Lokanath Temple",
-          "Participate in temple rituals",
-          "Learn about temple architecture",
-          "Evening cultural program"
+          "Breakfast and drive to Konark Sun Temple (UNESCO Site)",
+          "Explore temple architecture and sculptures",
+          "Relax at Konark Beach",
+          "Return to Puri for dinner and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/lokanath-temple.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 5,
-        "title": "Konark Sun Temple Excursion",
+        "title": "Satapada to Bhubaneswar – A Dolphin Adventure",
         "activities": [
-          "Full day trip to Konark Sun Temple",
-          "Visit Chandrabhaga beach",
-          "Explore temple museum",
-          "Return to Puri in evening"
+          "Breakfast and drive to Satapada (Chilika Lake)",
+          "Boat ride to spot Irrawaddy dolphins",
+          "Return to Bhubaneswar for airport/railway station drop-off"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/konark-temple.jpg"
-      },
-      {
-        "day": 6,
-        "title": "Free Day for Personal Worship",
-        "activities": [
-          "Free time for personal worship",
-          "Optional cooking class of temple prasad",
-          "Evening aarti participation",
-          "Farewell dinner"
-        ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/puri-aarti.jpg"
-      },
-      {
-        "day": 7,
-        "title": "Departure",
-        "activities": [
-          "Final temple visit",
-          "Check-out from hotel",
-          "Transfer to Bhubaneswar airport",
-          "Depart with blessings"
-        ]
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
