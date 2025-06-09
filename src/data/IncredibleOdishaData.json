@@ -1,53 +1,64 @@
 {
   "golden-triangle-tour": {
     "title": "Golden Triangle of Odisha Tour",
-    "location": "Bhubaneswar, Konark, Puri, India",
-    "duration": "4 Days, 3 Nights",
-    "description": "Explore the cultural and architectural wonders of Bhubaneswar, Puri, and Konark - Odisha's golden triangle.",
-    "price": 0,
+
+    "location": "Bhubaneswar, Konark, Puri, Odisha, India",
+    "duration": "4 days X 3 nights",
+    "description": "Explore the rich heritage, vibrant culture, and serene landscapes of Odisha through its Golden Triangle - Bhubaneswar, Konark, and Puri.",
+    "price": 10000,
     "quota": 0,
-    "schedule": "Schedule not specified",
-    "longDescription": "Odisha, an eastern Indian state, is famous for its rich tribal heritage, ancient temples, and vibrant culture. Home to over 62 tribes (29% of its population), it offers a unique experience of tribal life, including festivals, music, dance, crafts, and traditions.Key tribes like the Bondos, Didayis, Koyas, and Kondhs preserve their ancient way of life. Their colorful attire, folk art, and lively music reflect Odisha's deep-rooted culture. Exploring tribal villages and dense forests gives a glimpse into their simple yet fascinating world.Odisha's untouched tribal beauty and traditions make it a captivating destination for cultural tours.",
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handicrafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constitute 29% of its population, Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down-to-earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
     "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "3 nights in 3-star hotels",
-      "Daily breakfast",
-      "AC transportation throughout",
-      "All transfers and sightseeing by AC car",
-      "Private boat for Chilika Lake tour",
-      "All toll tax, parking fees & driver allowances"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Camera fees",
-      "Alcoholic/Non-Alcoholic beverages",
-      "Tips, laundry & phone calls",
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
       "Entrance fees to monuments and museum",
-      "Travel insurance",
-      "Any airfare/train fare",
-      "Other meals not mentioned"
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+
     ],
     "itineraryDays": [
       {
         "day": 1,
         "title": "Arrival in Bhubaneswar – Explore the Temple City",
         "activities": [
-          "Transfer to hotel upon arrival",
+
+          "Arrival in Bhubaneswar and hotel transfer",
           "Visit Mukteswar Temple, Rajarani Temple, and Parasurameswar Temple",
           "Explore Khandagiri and Udayagiri Jain caves",
           "Visit Odisha State Museum",
           "Dinner and overnight stay in Bhubaneswar"
-        ]
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
         "title": "Bhubaneswar – Konark – Puri",
         "activities": [
-          "Drive to Konark to visit Sun Temple (UNESCO site)",
+          "Breakfast and drive to Konark",
+          "Visit Sun Temple (UNESCO site)",
           "Stop at Ramchandi Temple and Chandrabhaga Beach",
           "Proceed to Puri and visit Jagannath Temple",
           "Evening at Puri Beach",
           "Overnight stay in Puri"
-        ]
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
@@ -58,15 +69,22 @@
           "Spot dolphins and migratory birds",
           "Return to Puri for dinner and overnight stay"
         ]
+          "Breakfast and day trip to Chilika Lake",
+          "Motorboat ride to explore islands and spot dolphins and migratory birds",
+          "Return to Puri by evening",
+          "Dinner and overnight stay"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
         "title": "Puri – Bhubaneswar – Departure",
         "activities": [
-          "Visit Dhauli Shanti Stupa",
-          "Explore Pipili craft village (famous for applique work)",
+          "Breakfast and visit Dhauli Shanti Stupa",
+          "Explore Pipili craft village",
           "Transfer to Bhubaneswar airport/railway station"
-        ]
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
