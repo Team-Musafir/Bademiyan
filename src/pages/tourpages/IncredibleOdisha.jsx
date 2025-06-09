@@ -24,7 +24,7 @@ function IncredibleOdisha() {
       route: "jagannath-dham-darshan",
       location: "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
       duration: "5 Days & 4 Nights",
-      price: "9000",
+      price: "₹9000",
       image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
     },
     {
@@ -51,7 +51,7 @@ function IncredibleOdisha() {
       route: "shakti-peeth",
       location: "Madurai, India",
       duration: "5 Days, 4 Nights",
-      price: "₹899",
+      price: "₹10000",
       image: "https://ik.imagekit.io/qad3x0vr1/arial1.jpg"
     },
     {
@@ -69,7 +69,7 @@ function IncredibleOdisha() {
       route: "wildlife-tourism",
       location: "Ranthambore, India",
       duration: "5 Days, 4 Nights",
-      price: "₹1299",
+      price: "₹17000",
       image: "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg"
     },
     {
@@ -78,7 +78,7 @@ function IncredibleOdisha() {
       route: "temple-tours",
       location: "Varanasi, India",
       duration: "6 Days, 5 Nights",
-      price: "₹1099",
+      price: "₹10000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-ravi-mittal-107469583-29064614.jpg"
     },
     {
@@ -87,7 +87,7 @@ function IncredibleOdisha() {
       route: "kashmir-of-odisha",
       location: "Daringbadi, India",
       duration: "4 Days, 3 Nights",
-      price: "₹799",
+      price: "₹17000",
       image: "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg"
     },
     {
@@ -96,7 +96,7 @@ function IncredibleOdisha() {
       route: "heritage-tour",
       location: "Hampi, India",
       duration: "7 Days, 6 Nights",
-      price: "₹1399",
+      price: "₹18000",
       image: "https://ik.imagekit.io/qad3x0vr1/caption.jpg"
     },
     {
@@ -123,7 +123,7 @@ function IncredibleOdisha() {
       route: "adventure-tour-plan",
       location: "Manali, India",
       duration: "8 Days, 7 Nights",
-      price: "₹1999",
+      price: "₹10000",
       image: "https://ik.imagekit.io/qad3x0vr1/1.webp"
     },
   ];
