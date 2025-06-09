@@ -1,103 +1,82 @@
 {
   "golden-triangle-tour": {
-    "title": "Golden Triangle Tour",
-    "location": "Konark Sun Temple, India",
-    "duration": "7 Days, 6 Nights",
-    "description": "Explore the architectural wonders of Bhubaneswar, Puri, and Konark - Odisha's golden triangle.",
-    "price": 999,
-    "quota": 20,
-    "schedule": "Every Monday and Friday",
-    "longDescription": "This tour covers Odisha's most iconic heritage sites. Marvel at the ancient temples of Bhubaneswar, experience spiritual bliss at Jagannath Temple in Puri, and witness the magnificent Sun Temple at Konark - a UNESCO World Heritage site. The package includes guided tours, comfortable stays, and authentic Odia cuisine experiences.",
+    "title": "Golden Triangle of Odisha Tour",
+    "location": "Bhubaneswar, Konark, Puri, Odisha, India",
+    "duration": "4 days X 3 nights",
+    "description": "Explore the rich heritage, vibrant culture, and serene landscapes of Odisha through its Golden Triangle - Bhubaneswar, Konark, and Puri.",
+    "price": 10000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha. They consist of ethical gestures, art, handicrafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constitute 29% of its population, Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down-to-earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
     "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
     "includes": [
-      "6 nights in 3-star hotels",
-      "Daily breakfast and 3 dinners",
-      "AC transportation throughout",
-      "Expert local guides",
-      "All monument entrance fees",
-      "Cultural performance in Puri"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Lunches",
-      "Camera fees at monuments",
-      "Personal shopping",
-      "Travel insurance"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival in Bhubaneswar",
+        "title": "Arrival in Bhubaneswar – Explore the Temple City",
         "activities": [
-          "Airport welcome",
-          "Check-in at hotel",
-          "Evening visit to Khandagiri & Udayagiri caves",
-          "Welcome dinner with Odissi dance"
+          "Arrival in Bhubaneswar and hotel transfer",
+          "Visit Mukteswar Temple, Rajarani Temple, and Parasurameswar Temple",
+          "Explore Khandagiri and Udayagiri Jain caves",
+          "Visit Odisha State Museum",
+          "Dinner and overnight stay in Bhubaneswar"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/udayagiri-caves.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 2,
-        "title": "Temple City Exploration",
+        "title": "Bhubaneswar – Konark – Puri",
         "activities": [
-          "Lingaraj Temple darshan",
-          "Visit Mukteswar Temple",
-          "Rajrani Temple photography",
-          "Evening at Ekamra Haat crafts market"
+          "Breakfast and drive to Konark",
+          "Visit Sun Temple (UNESCO site)",
+          "Stop at Ramchandi Temple and Chandrabhaga Beach",
+          "Proceed to Puri and visit Jagannath Temple",
+          "Evening at Puri Beach",
+          "Overnight stay in Puri"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/lingaraj-temple.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 3,
-        "title": "To Puri via Dhauli",
+        "title": "Puri – Chilika Lake Excursion",
         "activities": [
-          "Visit Dhauli Peace Pagoda",
-          "Stop at Pipli applique village",
-          "Check-in at Puri beach resort",
-          "Evening Jagannath Temple darshan"
+          "Breakfast and day trip to Chilika Lake",
+          "Motorboat ride to explore islands and spot dolphins and migratory birds",
+          "Return to Puri by evening",
+          "Dinner and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/dhauli-pagoda.jpg"
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       },
       {
         "day": 4,
-        "title": "Puri & Konark Discovery",
+        "title": "Puri – Bhubaneswar – Departure",
         "activities": [
-          "Sunrise at Puri beach",
-          "Full day Konark Sun Temple tour",
-          "Chandrabhaga beach visit",
-          "Evening Raghurajpur artist village"
+          "Breakfast and visit Dhauli Shanti Stupa",
+          "Explore Pipili craft village",
+          "Transfer to Bhubaneswar airport/railway station"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/konark-wheel.jpg"
-      },
-      {
-        "day": 5,
-        "title": "Chilika Lake Excursion",
-        "activities": [
-          "Boat cruise on Chilika Lake",
-          "Dolphin spotting",
-          "Lunch at Satapada",
-          "Visit Kalijai Temple"
-        ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/chilika-lake.jpg"
-      },
-      {
-        "day": 6,
-        "title": "Return to Bhubaneswar",
-        "activities": [
-          "Morning at leisure in Puri",
-          "Return drive to Bhubaneswar",
-          "Visit Odisha State Museum",
-          "Farewell dinner"
-        ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/odisha-museum.jpg"
-      },
-      {
-        "day": 7,
-        "title": "Departure",
-        "activities": [
-          "Last minute shopping",
-          "Airport transfer",
-          "Depart with memories"
-        ]
+        "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
       }
     ],
     "galleryImages": [
