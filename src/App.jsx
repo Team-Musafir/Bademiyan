@@ -16,10 +16,16 @@ import WesternIndiaTours from './pages/tourpages/WesternIndiaTours';
 import ScrollToTop from './components/ScrolltoTop';
 import DestinationPage from './pages/IncredibleOdisha';
 import NorthBengalSikkim from './pages/NorthBengalSikkim';
+import IslandPackage from './pages/IslandOfIndia';
+import InternationalPackage from './pages/InternationalTours';
 import PilgrimageTours from './pages/tourpages/PilgrimageTours';
 import NorthEastIndiaTours from './pages/tourpages/NorthEastIndiaTours';
 import HeritageTours from './pages/tourpages/HeritageTours';
 import AdventureTours from './pages/tourpages/AdventureTours';
+import NorthIndiaPackage from './pages/NorthIndiaTours';
+import WesternIndiaPackage from './pages/WesternIndiaTours';
+import SouthIndiaTrips from './pages/SouthIndiaTours';
+import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 
 function App() {
   return (
@@ -46,13 +52,13 @@ function App() {
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
         <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
-        {/* from here needsed change for alll */}
-        <Route path="/tours/international-tours/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/island-of-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/north-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/south-india/:packageRoute" element={<DestinationPage />} />
-        <Route path="/tours/western-india/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage/>} />
+        <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage/>} />
+        <Route path="/tours/north-india/:packageRoute" element={<NorthIndiaPackage/>} />
+        <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage/>} />
+        <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips/>} />
       </Routes>
+       <FloatingEnquiryButton />
     </Router>
   );
 }

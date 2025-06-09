@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeritageTours() {
   return (
-    <div>PilgrimageTours</div>
+    <div>heritageTours</div>
   )
 }
 

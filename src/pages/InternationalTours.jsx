@@ -6,10 +6,10 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../components/NavbarB';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
-import islandOfIndiaData from '../data/IslandofIndia.json';
+import internationalToursData from '../data/InternationalToursData.json';
 
 const defaultDestinationData = {
-  title: 'Island Package',
+  title: 'International Tour Package',
   location: 'Location not specified',
   duration: 'Duration not specified',
   description: 'No description available',
@@ -28,16 +28,16 @@ const defaultDestinationData = {
   ]
 };
 
-export default function IslandPackage() {
+export default function InternationalPackage() {
   const { packageRoute } = useParams();
   const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (islandOfIndiaData[packageRoute]) {
-      setDestinationData(islandOfIndiaData[packageRoute]);
+    if (internationalToursData[packageRoute]) {
+      setDestinationData(internationalToursData[packageRoute]);
     } else {
-      console.warn(`Island package "${packageRoute}" not found`);
+      console.warn(`Destination "${packageRoute}" not found in tourData`);
       setDestinationData(defaultDestinationData);
     }
   }, [packageRoute]);
@@ -71,7 +71,7 @@ export default function IslandPackage() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'island';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
 
   return (
     <div className="min-h-screen bg-white">
@@ -131,7 +131,7 @@ export default function IslandPackage() {
               className="w-full h-full object-cover object-center"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
-                e.target.alt = 'Island image placeholder';
+                e.target.alt = 'Tour image placeholder';
               }}
             />
           </div>
@@ -254,7 +254,7 @@ export default function IslandPackage() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-normal text-gray-800"
             >
-              Island <em className="italic">Itinerary</em>
+              Travel <em className="italic">Itinerary</em>
             </motion.h1>
 
             <motion.p
@@ -264,7 +264,7 @@ export default function IslandPackage() {
               viewport={{ once: true }}
               className="text-lg md:text-lg text-gray-600 max-w-xl leading-relaxed text-right"
             >
-              Your detailed day-by-day plan for the perfect {locationFirstPart} getaway
+              Your detailed day-by-day plan for the perfect {locationFirstPart} experience
             </motion.p>
           </div>
 
@@ -338,46 +338,43 @@ export default function IslandPackage() {
       <Reviews />
 
       {destinationData.galleryImages?.length >= 3 && (
-              <motion.div
-                className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
-                initial="hidden"
-                whileInView="visible"
-                variants={fadeIn}
-                viewport={{ once: true }}
-              >
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                  {/* Main large image - same height on mobile and desktop */}
-                  <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
-                    <img
-                      src={destinationData.galleryImages[0].url}
-                      alt={destinationData.galleryImages[0].alt}
-                      className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
-                    />
-                  </div>
-      
-                  {/* Two smaller images - same height as first image on mobile, split on desktop */}
-                  <div className="grid grid-cols-1 grid-rows-2 gap-5 h-64 md:h-96">
-                    {/* First small image - full width on mobile, half height on desktop */}
-                    <div className="rounded-3xl overflow-hidden h-full">
-                      <img
-                        src={destinationData.galleryImages[1].url}
-                        alt={destinationData.galleryImages[1].alt}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                      />
-                    </div>
-      
-                    {/* Second small image - full width on mobile, half height on desktop */}
-                    <div className="rounded-3xl overflow-hidden h-full">
-                      <img
-                        src={destinationData.galleryImages[2].url}
-                        alt={destinationData.galleryImages[2].alt}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            )}
+        <motion.div
+          className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
+          initial="hidden"
+          whileInView="visible"
+          variants={fadeIn}
+          viewport={{ once: true }}
+        >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 h-64 md:h-96">
+            <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
+              <img
+                src={destinationData.galleryImages[0].url || 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=500&fit=crop&crop=center'}
+                alt={destinationData.galleryImages[0].alt || 'Tour image'}
+                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+
+            <div className="grid grid-cols-1 grid-rows-2 gap-5 h-64 md:h-96">
+              <div className="rounded-3xl overflow-hidden h-full">
+                <img
+                  src={destinationData.galleryImages[1].url || 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=200&fit=crop&crop=center'}
+                  alt={destinationData.galleryImages[1].alt || 'Tour image'}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+
+              <div className="rounded-3xl overflow-hidden h-full">
+                <img
+                  src={destinationData.galleryImages[2].url || 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=500&fit=crop&crop=center'}
+                  alt={destinationData.galleryImages[2].alt || 'Tour image'}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      )}
+
       <Footer />
     </div>
   );

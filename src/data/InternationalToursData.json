@@ -1,0 +1,1554 @@
+{
+    "thailand": {
+        "title": "Thailand",
+        "location": "Bangkok, Phuket, Thailand",
+        "duration": "7 Days, 6 Nights",
+        "description": "Experience the vibrant culture, stunning beaches, and bustling cities of Thailand.",
+        "price": 1299,
+        "quota": 15,
+        "schedule": "Every Monday and Thursday",
+        "longDescription": "This tour takes you through Thailand's most iconic destinations including Bangkok's Grand Palace, Phuket's beaches, and Chiang Mai's temples. Enjoy authentic Thai cuisine, traditional dance performances, and relaxing spa treatments. The package includes guided tours, comfortable accommodations, and domestic flights.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-472309.jpeg",
+        "includes": [
+            "6 nights in 4-star hotels",
+            "Daily breakfast and 3 dinners",
+            "All airport transfers",
+            "Domestic flights",
+            "Guided tours with English-speaking guides",
+            "Entrance fees to attractions"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Bangkok",
+                "activities": [
+                    "Arrival at Suvarnabhumi Airport",
+                    "Transfer to hotel",
+                    "Evening at leisure",
+                    "Optional night market visit"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/bangkok-skyline.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Bangkok City Tour",
+                "activities": [
+                    "Visit Grand Palace and Wat Phra Kaew",
+                    "Explore Wat Arun",
+                    "Lunch cruise on Chao Phraya River",
+                    "Visit Jim Thompson House"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/grand-palace.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Flight to Phuket",
+                "activities": [
+                    "Morning flight to Phuket",
+                    "Check-in at beach resort",
+                    "Relax at Patong Beach",
+                    "Evening Phuket Fantasea show"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phuket-beach.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Phi Phi Islands Excursion",
+                "activities": [
+                    "Speedboat tour to Phi Phi Islands",
+                    "Snorkeling at Maya Bay",
+                    "Lunch on Phi Phi Don",
+                    "Monkey Beach visit"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phi-phi-islands.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Phuket Free Day",
+                "activities": [
+                    "Day at leisure (optional activities)",
+                    "Spa treatments available",
+                    "Shopping at local markets",
+                    "Sunset dinner cruise"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phuket-sunset.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Flight to Chiang Mai",
+                "activities": [
+                    "Morning flight to Chiang Mai",
+                    "Visit Doi Suthep Temple",
+                    "Elephant sanctuary visit",
+                    "Night bazaar shopping"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/chiang-mai.jpg"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/pexels-photo-6040175.jpeg",
+                "alt": "Authentic Thai cuisine"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/free-photo-of-stone-wheel-carved-in-wall-of-konark-sun-temple.jpeg",
+                "alt": "Beautiful Thai temple"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/pexels-optically-challenged-19843358.jpg",
+                "alt": "Pristine Thai beach"
+            }
+        ]
+    },
+    "vietnam": {
+        "title": "Vietnam",
+        "location": "Hanoi, Ho Chi Minh City, Vietnam",
+        "duration": "8 Days, 7 Nights",
+        "description": "Discover the rich history, stunning landscapes, and vibrant cities of Vietnam.",
+        "price": 1499,
+        "quota": 12,
+        "schedule": "Every Tuesday and Friday",
+        "longDescription": "This comprehensive tour covers Vietnam's highlights from Hanoi's Old Quarter to Ha Long Bay's limestone karsts and Ho Chi Minh City's war history. Experience Vietnamese cuisine, water puppet shows, and the Mekong Delta's floating markets. The package includes domestic flights, guided tours, and comfortable accommodations.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-foodoncam-58597.jpg",
+        "includes": [
+            "7 nights in 4-star hotels",
+            "Daily breakfast and 4 dinners",
+            "All domestic flights",
+            "Guided tours with English-speaking guides",
+            "Entrance fees to attractions",
+            "Ha Long Bay cruise"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Hanoi",
+                "activities": [
+                    "Arrival at Noi Bai Airport",
+                    "Transfer to hotel",
+                    "Evening water puppet show",
+                    "Welcome dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/hanoi.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Hanoi City Tour",
+                "activities": [
+                    "Visit Ho Chi Minh Mausoleum",
+                    "Explore Temple of Literature",
+                    "Lunch at local restaurant",
+                    "Old Quarter cyclo tour"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/hanoi-old-quarter.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Ha Long Bay Cruise",
+                "activities": [
+                    "Transfer to Ha Long Bay",
+                    "Overnight cruise on junk boat",
+                    "Kayaking and cave exploration",
+                    "Sunset party on deck"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/ha-long-bay.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Ha Long Bay to Da Nang",
+                "activities": [
+                    "Morning tai chi session",
+                    "Visit Sung Sot Cave",
+                    "Flight to Da Nang",
+                    "Check-in at Hoi An hotel"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/da-nang.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Hoi An Ancient Town",
+                "activities": [
+                    "Walking tour of Hoi An",
+                    "Visit Japanese Covered Bridge",
+                    "Tailor visit (optional)",
+                    "Lantern-making workshop"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/hoi-an.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Flight to Ho Chi Minh City",
+                "activities": [
+                    "Morning flight to Ho Chi Minh",
+                    "Visit War Remnants Museum",
+                    "Explore Notre-Dame Cathedral",
+                    "Ben Thanh Market shopping"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/ho-chi-minh.jpg"
+            },
+            {
+                "day": 7,
+                "title": "Mekong Delta Excursion",
+                "activities": [
+                    "Boat tour of Mekong Delta",
+                    "Visit floating markets",
+                    "Local village interaction",
+                    "Traditional music performance"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/mekong-delta.jpg"
+            },
+            {
+                "day": 8,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/vietnamese-food.jpg",
+                "alt": "Vietnamese cuisine"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/vietnamese-countryside.jpg",
+                "alt": "Vietnamese countryside"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/vietnamese-market.jpg",
+                "alt": "Vibrant Vietnamese market"
+            }
+        ]
+    },
+    "sri-lanka": {
+        "title": "Sri Lanka",
+        "location": "Colombo, Kandy, Sri Lanka",
+        "duration": "6 Days, 5 Nights",
+        "description": "Explore the cultural treasures and natural wonders of Sri Lanka.",
+        "price": 1199,
+        "quota": 10,
+        "schedule": "Every Wednesday and Saturday",
+        "longDescription": "This tour covers Sri Lanka's cultural triangle including ancient cities, tea plantations, and wildlife safaris. Visit the Temple of the Tooth in Kandy, climb Sigiriya Rock Fortress, and go on a safari in Yala National Park. The package includes comfortable stays, guided tours, and private transportation.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/free-photo-of-scenic-view-of-galle-fort-overlooking-ocean.jpeg",
+        "includes": [
+            "5 nights in 4-star hotels",
+            "Daily breakfast and 3 dinners",
+            "Private transportation with driver",
+            "English-speaking tour guide",
+            "Entrance fees to attractions",
+            "Yala National Park safari"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Colombo",
+                "activities": [
+                    "Arrival at Bandaranaike Airport",
+                    "Transfer to Negombo",
+                    "Evening at leisure",
+                    "Welcome dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/colombo.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Sigiriya and Dambulla",
+                "activities": [
+                    "Climb Sigiriya Rock Fortress",
+                    "Visit Dambulla Cave Temple",
+                    "Traditional Sri Lankan lunch",
+                    "Evening cultural show"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/sigiriya.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Kandy City Tour",
+                "activities": [
+                    "Visit Temple of the Tooth",
+                    "Explore Royal Botanical Gardens",
+                    "Tea plantation visit",
+                    "Kandy Lake walk"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/kandy.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Nuwara Eliya",
+                "activities": [
+                    "Scenic train ride to Nuwara Eliya",
+                    "Visit tea factory",
+                    "Explore Gregory Lake",
+                    "Stay in colonial-style hotel"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/nuwara-eliya.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Yala National Park",
+                "activities": [
+                    "Morning safari in Yala",
+                    "Afternoon at beach in Mirissa",
+                    "Whale watching (seasonal)",
+                    "Farewell dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/yala-safari.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/sri-lanka-temple.jpg",
+                "alt": "Sri Lankan temple"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/sri-lanka-train.jpg",
+                "alt": "Scenic train ride"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/sri-lanka-beach.jpg",
+                "alt": "Pristine Sri Lankan beach"
+            }
+        ]
+    },
+    "indonesia": {
+        "title": "Indonesia",
+        "location": "Bali, Jakarta, Indonesia",
+        "duration": "7 Days, 6 Nights",
+        "description": "Experience the diverse cultures and stunning landscapes of Indonesia's islands.",
+        "price": 1399,
+        "quota": 12,
+        "schedule": "Every Monday and Thursday",
+        "longDescription": "This tour combines Bali's beaches and temples with Jakarta's urban energy. Visit Uluwatu Temple, experience Balinese dance, explore Ubud's rice terraces, and discover Jakarta's colonial history. The package includes domestic flights, cultural experiences, and beachfront stays.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-1643130.jpeg",
+        "includes": [
+            "6 nights in 4-star hotels",
+            "Daily breakfast and 3 dinners",
+            "Domestic flights",
+            "Guided tours with English-speaking guides",
+            "Cultural performances",
+            "Entrance fees to attractions"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Bali",
+                "activities": [
+                    "Arrival at Ngurah Rai Airport",
+                    "Transfer to Kuta hotel",
+                    "Evening at leisure",
+                    "Optional beach walk"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/bali-arrival.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Bali Cultural Tour",
+                "activities": [
+                    "Visit Uluwatu Temple",
+                    "Kecak dance performance",
+                    "Jimbaran seafood lunch",
+                    "Ubud art market visit"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/uluwatu-temple.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Ubud Exploration",
+                "activities": [
+                    "Tegallalang Rice Terraces",
+                    "Sacred Monkey Forest",
+                    "Traditional Balinese lunch",
+                    "Balinese cooking class"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/ubud-rice-terraces.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Flight to Jakarta",
+                "activities": [
+                    "Morning flight to Jakarta",
+                    "City tour including Monas",
+                    "Visit Kota Tua (Old Town)",
+                    "Evening at leisure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/jakarta-city.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Bogor & Puncak Highlands",
+                "activities": [
+                    "Visit Bogor Botanical Gardens",
+                    "Puncak tea plantation tour",
+                    "Lunch with mountain views",
+                    "Return to Jakarta"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/puncak-tea.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Thousand Islands Excursion",
+                "activities": [
+                    "Boat trip to Tidung Island",
+                    "Snorkeling and beach time",
+                    "Seafood lunch on island",
+                    "Return to Jakarta"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/thousand-islands.jpg"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/bali-beach.jpg",
+                "alt": "Bali beaches"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/balinese-dance.jpg",
+                "alt": "Traditional Balinese dance"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/indonesian-food.jpg",
+                "alt": "Indonesian cuisine"
+            }
+        ]
+    },
+    "mauritius": {
+        "title": "Mauritius",
+        "location": "Mauritius",
+        "duration": "6 Days, 5 Nights",
+        "description": "Relax in paradise with Mauritius' white sand beaches and crystal-clear waters.",
+        "price": 1699,
+        "quota": 10,
+        "schedule": "Every Tuesday and Friday",
+        "longDescription": "This luxury beach getaway includes stays at premium resorts, water sports, and island exploration. Visit Chamarel's colored earth, swim with dolphins, enjoy catamaran cruises, and relax at world-class spas. The package combines relaxation with adventure in this Indian Ocean paradise.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-1189479.jpeg",
+        "includes": [
+            "5 nights in 5-star beach resort",
+            "All-inclusive meals and drinks",
+            "Catamaran cruise to Île aux Cerfs",
+            "Dolphin encounter experience",
+            "Water sports equipment",
+            "Airport transfers"
+        ],
+        "excludes": [
+            "International airfare",
+            "Spa treatments",
+            "Personal shopping",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Mauritius",
+                "activities": [
+                    "Arrival at Sir Seewoosagur Ramgoolam Airport",
+                    "Transfer to resort",
+                    "Resort orientation",
+                    "Evening at leisure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/mauritius-resort.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Northern Island Tour",
+                "activities": [
+                    "Visit Port Louis",
+                    "Explore Pamplemousses Botanical Garden",
+                    "Lunch at local restaurant",
+                    "Cap Malheureux visit"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/port-louis.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Île aux Cerfs Excursion",
+                "activities": [
+                    "Catamaran cruise",
+                    "Beach activities and snorkeling",
+                    "BBQ lunch on island",
+                    "Return to resort"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/ile-aux-cerfs.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Southern Discovery",
+                "activities": [
+                    "Chamarel Colored Earth",
+                    "Seven Colored Earth Geopark",
+                    "Black River Gorges viewpoint",
+                    "Return to resort"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/chamarel.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Dolphin Encounter",
+                "activities": [
+                    "Morning dolphin watching",
+                    "Snorkeling with dolphins",
+                    "Afternoon at leisure",
+                    "Farewell dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/mauritius-dolphins.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "activities": [
+                    "Morning beach time",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/mauritius-beach.jpg",
+                "alt": "Mauritius beaches"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/mauritius-underwater.jpg",
+                "alt": "Underwater world"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/mauritius-resort-pool.jpg",
+                "alt": "Luxury resort pool"
+            }
+        ]
+    },
+    "nepal": {
+        "title": "Nepal",
+        "location": "Kathmandu, Pokhara, Nepal",
+        "duration": "5 Days, 4 Nights",
+        "description": "Discover the Himalayan kingdom with its ancient temples and mountain vistas.",
+        "price": 899,
+        "quota": 12,
+        "schedule": "Every Wednesday and Sunday",
+        "longDescription": "This tour combines Kathmandu's cultural heritage with Pokhara's natural beauty. Visit UNESCO World Heritage Sites, experience traditional Newari culture, enjoy Himalayan views, and take a sunrise mountain flight. The package includes comfortable stays, guided tours, and domestic flights.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-weddingvibes-2104882.jpg",
+        "includes": [
+            "4 nights in 3-star hotels",
+            "Daily breakfast",
+            "Domestic flight to Pokhara",
+            "Guided tours with English-speaking guides",
+            "Entrance fees to monuments",
+            "Sunrise mountain flight"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Kathmandu",
+                "activities": [
+                    "Arrival at Tribhuvan Airport",
+                    "Transfer to hotel",
+                    "Evening walking tour of Thamel",
+                    "Welcome dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/kathmandu-thamel.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Kathmandu Valley Tour",
+                "activities": [
+                    "Visit Pashupatinath Temple",
+                    "Explore Boudhanath Stupa",
+                    "Lunch at local restaurant",
+                    "Visit Swayambhunath (Monkey Temple)"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/boudhanath.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Flight to Pokhara",
+                "activities": [
+                    "Morning mountain flight",
+                    "Transfer to Pokhara",
+                    "Visit Devi's Fall",
+                    "Boat ride on Phewa Lake"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phewa-lake.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Pokhara Exploration",
+                "activities": [
+                    "Sunrise at Sarangkot",
+                    "Visit World Peace Pagoda",
+                    "Explore Old Pokhara",
+                    "Cultural show dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/sarangkot.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/nepal-temple.jpg",
+                "alt": "Ancient Nepali temple"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/himalayas-view.jpg",
+                "alt": "Himalayan mountain views"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/nepali-culture.jpg",
+                "alt": "Traditional Nepali culture"
+            }
+        ]
+    },
+    "bhutan": {
+        "title": "Bhutan",
+        "location": "Thimphu, Paro, Bhutan",
+        "duration": "6 Days, 5 Nights",
+        "description": "Experience the last Himalayan kingdom with its dzongs, monasteries, and stunning landscapes.",
+        "price": 1599,
+        "quota": 8,
+        "schedule": "Every Monday and Friday",
+        "longDescription": "This cultural journey through Bhutan includes visits to Tiger's Nest Monastery, traditional farmhouse stays, and explorations of Thimphu's unique sites. Experience Bhutanese hospitality, Buddhist culture, and breathtaking mountain scenery. The package includes all meals, accommodations, and guided tours.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-peng-lim-6377-910368.jpg",
+        "includes": [
+            "5 nights in 3-star hotels",
+            "All meals (Bhutanese cuisine)",
+            "Private transportation",
+            "English-speaking guide",
+            "Entrance fees to monuments",
+            "Cultural performances"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Paro",
+                "activities": [
+                    "Arrival at Paro Airport",
+                    "Visit Rinpung Dzong",
+                    "Explore Paro town",
+                    "Evening at leisure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/paro-dzong.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Hike to Tiger's Nest",
+                "activities": [
+                    "Full day hike to Taktsang Monastery",
+                    "Lunch at monastery cafeteria",
+                    "Return to Paro",
+                    "Evening hot stone bath"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/tigers-nest.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Transfer to Thimphu",
+                "activities": [
+                    "Visit Tamchog Lhakhang",
+                    "Check-in at Thimphu hotel",
+                    "Explore Memorial Chorten",
+                    "Evening at leisure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/thimphu.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Thimphu Exploration",
+                "activities": [
+                    "Visit Tashichho Dzong",
+                    "Buddha Dordenma statue",
+                    "Traditional paper factory",
+                    "Folk heritage museum"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/buddha-dordenma.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Punakha Excursion",
+                "activities": [
+                    "Drive over Dochula Pass",
+                    "Visit Punakha Dzong",
+                    "Chimi Lhakhang temple",
+                    "Return to Paro"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/punakha-dzong.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/bhutan-valley.jpg",
+                "alt": "Bhutanese valley"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/bhutanese-culture.jpg",
+                "alt": "Traditional Bhutanese culture"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/bhutan-street.jpg",
+                "alt": "Bhutanese streets"
+            }
+        ]
+    },
+    "africa": {
+        "title": "Africa",
+        "location": "Kenya, South Africa, Tanzania",
+        "duration": "10 Days, 9 Nights",
+        "description": "Experience the ultimate African safari adventure across multiple countries.",
+        "price": 2899,
+        "quota": 8,
+        "schedule": "Every first Monday of month",
+        "longDescription": "This premium safari package combines Kenya's Masai Mara, Tanzania's Serengeti, and South Africa's Kruger National Park. Witness the Great Migration, Big Five game drives, and diverse African landscapes. The package includes luxury lodge stays, domestic flights, and expert safari guides.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-pixabay-59989.jpg",
+        "includes": [
+            "9 nights in luxury safari lodges",
+            "All meals during safari",
+            "Domestic flights between parks",
+            "Professional safari guides",
+            "All game drives and park fees",
+            "Cultural village visits"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees for multiple countries",
+            "Premium drinks",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Nairobi",
+                "activities": [
+                    "Arrival at Jomo Kenyatta Airport",
+                    "Transfer to hotel",
+                    "Nairobi city orientation",
+                    "Welcome dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/nairobi.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Masai Mara National Reserve",
+                "activities": [
+                    "Flight to Masai Mara",
+                    "Afternoon game drive",
+                    "Sundowner cocktails",
+                    "Evening at lodge"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/masai-mara.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Full Day Masai Mara",
+                "activities": [
+                    "Morning game drive",
+                    "Visit Masai village",
+                    "Afternoon game drive",
+                    "Bush dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/masai-village.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Flight to Serengeti",
+                "activities": [
+                    "Morning flight to Tanzania",
+                    "Afternoon game drive in Serengeti",
+                    "Sunset viewing",
+                    "Overnight in tented camp"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/serengeti.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Serengeti Exploration",
+                "activities": [
+                    "Full day game drives",
+                    "Picnic lunch in bush",
+                    "Visit migration hotspots",
+                    "Evening at camp"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/serengeti-migration.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Ngorongoro Crater",
+                "activities": [
+                    "Descend into crater floor",
+                    "Wildlife viewing in crater",
+                    "Lunch by hippo pool",
+                    "Transfer to lodge"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/ngorongoro.jpg"
+            },
+            {
+                "day": 7,
+                "title": "Flight to South Africa",
+                "activities": [
+                    "Flight to Johannesburg",
+                    "Connect to Kruger",
+                    "Evening game drive",
+                    "Overnight at safari lodge"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/kruger.jpg"
+            },
+            {
+                "day": 8,
+                "title": "Kruger National Park",
+                "activities": [
+                    "Morning bush walk",
+                    "Afternoon game drive",
+                    "Night safari",
+                    "Overnight at lodge"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/kruger-safari.jpg"
+            },
+            {
+                "day": 9,
+                "title": "Kapama Private Reserve",
+                "activities": [
+                    "Luxury game viewing",
+                    "Spa treatments",
+                    "Farewell gala dinner",
+                    "Overnight at luxury lodge"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/kapama.jpg"
+            },
+            {
+                "day": 10,
+                "title": "Departure",
+                "activities": [
+                    "Morning game drive",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/africa-elephants.jpg",
+                "alt": "African elephants"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/africa-sunset.jpg",
+                "alt": "African sunset"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/africa-lodge.jpg",
+                "alt": "Luxury safari lodge"
+            }
+        ]
+    },
+    "azerbaijan": {
+        "title": "Azerbaijan",
+        "location": "Baku, Azerbaijan",
+        "duration": "5 Days, 4 Nights",
+        "description": "Discover the blend of ancient and modern in this Caspian Sea nation.",
+        "price": 1799,
+        "quota": 10,
+        "schedule": "Every Thursday",
+        "longDescription": "This tour explores Azerbaijan's capital Baku with its medieval Old City and futuristic Flame Towers. Visit the mud volcanoes of Gobustan, the fire temple of Ateshgah, and experience Azerbaijani cuisine. The package includes guided tours, comfortable stays, and unique cultural experiences.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-8412701.jpeg",
+        "includes": [
+            "4 nights in 4-star hotel",
+            "Daily breakfast and 2 dinners",
+            "All entrance fees",
+            "English-speaking guide",
+            "Transportation for tours",
+            "Traditional tea ceremony"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Personal expenses",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Baku",
+                "activities": [
+                    "Arrival at Heydar Aliyev Airport",
+                    "Transfer to hotel",
+                    "Evening walking tour",
+                    "Welcome dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/baku-skyline.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Baku City Tour",
+                "activities": [
+                    "Explore Icherisheher (Old City)",
+                    "Visit Maiden Tower",
+                    "Palace of Shirvanshahs",
+                    "Flame Towers viewpoint"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/baku-oldcity.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Gobustan & Absheron",
+                "activities": [
+                    "Gobustan petroglyphs",
+                    "Mud volcanoes visit",
+                    "Ateshgah Fire Temple",
+                    "Yanar Dag (Burning Mountain)"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/gobustan.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Modern Baku",
+                "activities": [
+                    "Heydar Aliyev Center",
+                    "Baku Boulevard walk",
+                    "Carpet Museum visit",
+                    "Farewell dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/heydar-aliyev-center.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/azerbaijan-flame-towers.jpg",
+                "alt": "Flame Towers at night"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/azerbaijan-cuisine.jpg",
+                "alt": "Azerbaijani cuisine"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/azerbaijan-landscape.jpg",
+                "alt": "Azerbaijani landscapes"
+            }
+        ]
+    },
+    "dubai-uae": {
+        "title": "Dubai & UAE",
+        "location": "Dubai, Abu Dhabi, UAE",
+        "duration": "6 Days, 5 Nights",
+        "description": "Experience the ultramodern architecture and Arabian hospitality of the UAE.",
+        "price": 1899,
+        "quota": 12,
+        "schedule": "Every Saturday",
+        "longDescription": "This luxury tour covers Dubai's iconic landmarks and Abu Dhabi's cultural sites. Visit Burj Khalifa, experience desert safaris, explore Louvre Abu Dhabi, and enjoy world-class shopping. The package includes premium hotel stays, private tours, and unique Emirati experiences.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-gerlynne-dela-cerna-441803712-32364086.jpg",
+        "includes": [
+            "5 nights in 5-star hotels",
+            "Daily breakfast and 2 dinners",
+            "Burj Khalifa At the Top ticket",
+            "Desert safari with dinner",
+            "Private city tours",
+            "Abu Dhabi day trip"
+        ],
+        "excludes": [
+            "International airfare",
+            "Visa fees",
+            "Premium experiences",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Dubai",
+                "activities": [
+                    "Arrival at Dubai Airport",
+                    "Transfer to hotel",
+                    "Dhow cruise dinner",
+                    "Evening at leisure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/dubai-dhow.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Dubai Modern City",
+                "activities": [
+                    "Visit Burj Khalifa (124th floor)",
+                    "Dubai Mall exploration",
+                    "Palm Jumeirah monorail",
+                    "Atlantis The Palm visit"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/burj-khalifa.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Desert Safari",
+                "activities": [
+                    "Morning at leisure",
+                    "Afternoon desert safari",
+                    "Dune bashing",
+                    "Bedouin camp dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/dubai-desert.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Abu Dhabi Day Trip",
+                "activities": [
+                    "Sheikh Zayed Grand Mosque",
+                    "Louvre Abu Dhabi",
+                    "Emirates Palace visit",
+                    "Return to Dubai"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/abu-dhabi-mosque.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Old Dubai & Souks",
+                "activities": [
+                    "Bastakiya Quarter",
+                    "Gold and spice souks",
+                    "Abra water taxi ride",
+                    "Farewell dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/dubai-souk.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "activities": [
+                    "Morning at leisure",
+                    "Transfer to airport",
+                    "Flight back home"
+                ]
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/dubai-skyline.jpg",
+                "alt": "Dubai skyline"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/dubai-luxury.jpg",
+                "alt": "Dubai luxury"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/dubai-modern.jpg",
+                "alt": "Modern Dubai"
+            }
+        ]
+    },
+  "australia-new-zealand": {
+    "title": "Australia and New Zealand",
+    "location": "Sydney, Auckland",
+    "duration": "12 Days, 11 Nights",
+    "description": "Explore the stunning landscapes and vibrant cities of Australia and New Zealand.",
+    "price": 3499,
+    "quota": 10,
+    "schedule": "Every first and third Monday of month",
+    "longDescription": "This comprehensive tour covers Sydney's iconic landmarks, New Zealand's breathtaking fjords, and Maori cultural experiences. Visit the Sydney Opera House, explore Milford Sound, and experience adventure activities in Queenstown. The package includes inter-country flights, premium accommodations, and guided tours.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-benprater-32388292.jpg",
+    "includes": [
+      "11 nights in 4-star hotels",
+      "Daily breakfast and 5 dinners",
+      "Flights between Australia and NZ",
+      "Guided city tours",
+      "Entrance fees to attractions",
+      "Milford Sound cruise"
+    ],
+    "excludes": [
+      "International airfare",
+      "Visa fees",
+      "Optional adventure activities",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Sydney",
+        "activities": [
+          "Arrival at Sydney Airport",
+          "Transfer to hotel",
+          "Evening harbor walk",
+          "Welcome dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sydney-harbor.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Sydney City Tour",
+        "activities": [
+          "Sydney Opera House tour",
+          "Harbor Bridge walk",
+          "Bondi Beach visit",
+          "Darling Harbour evening"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sydney-opera.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Blue Mountains Day Trip",
+        "activities": [
+          "Scenic World rides",
+          "Three Sisters viewpoint",
+          "Leura village visit",
+          "Return to Sydney"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/blue-mountains.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Flight to Auckland",
+        "activities": [
+          "Morning flight to NZ",
+          "Auckland city orientation",
+          "Sky Tower visit",
+          "Evening at leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/auckland.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Rotorua Cultural Experience",
+        "activities": [
+          "Te Puia geothermal park",
+          "Maori cultural show",
+          "Hobbiton Movie Set tour",
+          "Return to Auckland"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/rotorua.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Flight to Queenstown",
+        "activities": [
+          "Scenic flight to Queenstown",
+          "Afternoon at leisure",
+          "Lake Wakatipu cruise",
+          "Evening gondola ride"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/queenstown.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Milford Sound Excursion",
+        "activities": [
+          "Full day trip to Milford",
+          "Nature cruise",
+          "Waterfall sightings",
+          "Return to Queenstown"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/milford-sound.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Adventure Day",
+        "activities": [
+          "Optional activities (bungee, jet boat)",
+          "Arrowtown visit",
+          "Winery tour",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/queenstown-adventure.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Flight to Christchurch",
+        "activities": [
+          "Transfer to Christchurch",
+          "Botanic Gardens visit",
+          "Tram city tour",
+          "Overnight in Christchurch"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/christchurch.jpg"
+      },
+      {
+        "day": 10,
+        "title": "TranzAlpine Train",
+        "activities": [
+          "Scenic train to Greymouth",
+          "Arthur's Pass stop",
+          "Return to Christchurch",
+          "Evening at leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tranzalpine.jpg"
+      },
+      {
+        "day": 11,
+        "title": "Flight to Sydney",
+        "activities": [
+          "Return flight to Australia",
+          "Free day in Sydney",
+          "Optional activities",
+          "Final night dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sydney-night.jpg"
+      },
+      {
+        "day": 12,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure",
+          "Airport transfer",
+          "Flight back home"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/anz-landscape.jpg",
+        "alt": "NZ landscapes"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/anz-wildlife.jpg",
+        "alt": "Australian wildlife"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/anz-adventure.jpg",
+        "alt": "Adventure activities"
+      }
+    ]
+  },
+  "japan": {
+    "title": "Japan",
+    "location": "Tokyo, Kyoto, Japan",
+    "duration": "9 Days, 8 Nights",
+    "description": "Discover the perfect blend of ancient traditions and cutting-edge modernity in Japan.",
+    "price": 2599,
+    "quota": 10,
+    "schedule": "Every second Monday of month",
+    "longDescription": "This immersive journey takes you from Tokyo's neon-lit streets to Kyoto's serene temples, with bullet train rides, cultural workshops, and culinary experiences. Visit shrines, experience tea ceremonies, explore samurai history, and witness Japan's famous cherry blossoms (seasonal).",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-belle-co-99483-402028.jpg",
+    "includes": [
+      "8 nights in 4-star hotels/ryokans",
+      "Daily breakfast and 3 dinners",
+      "7-day Japan Rail Pass",
+      "Guided tours with English-speaking guides",
+      "Cultural experiences (tea ceremony, calligraphy)",
+      "Entrance fees to all listed attractions"
+    ],
+    "excludes": [
+      "International airfare",
+      "Visa fees (if applicable)",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Tokyo",
+        "activities": [
+          "Arrival at Narita/Haneda Airport",
+          "Transfer to hotel (airport limousine bus)",
+          "Evening orientation walk in Shinjuku",
+          "Welcome dinner (kaiseki meal)"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/tokyo-shinjuku.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Tokyo Highlights",
+        "activities": [
+          "Tsukiji Outer Market visit",
+          "Asakusa Senso-ji Temple",
+          "Akihabara electronics district",
+          "Shibuya Crossing experience"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sensoji-temple.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Day Trip to Hakone",
+        "activities": [
+          "Bullet train to Hakone",
+          "Lake Ashi pirate ship cruise",
+          "Owakudani volcanic valley",
+          "Onsen (hot spring) experience"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/hakone.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Travel to Kyoto",
+        "activities": [
+          "Shinkansen to Kyoto",
+          "Fushimi Inari Shrine (1000 gates)",
+          "Gion district walking tour",
+          "Maiko performance dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/fushimi-inari.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Kyoto Cultural Day",
+        "activities": [
+          "Kinkaku-ji (Golden Pavilion)",
+          "Ryoan-ji Zen garden",
+          "Traditional tea ceremony",
+          "Nishiki Market food tour"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kinkakuji.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Nara Day Trip",
+        "activities": [
+          "Todai-ji Temple (Great Buddha)",
+          "Nara Park deer feeding",
+          "Kasuga Taisha Shrine",
+          "Return to Kyoto"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/nara-deer.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Hiroshima & Miyajima",
+        "activities": [
+          "Shinkansen to Hiroshima",
+          "Peace Memorial Park",
+          "Miyajima Island & floating torii",
+          "Return to Osaka"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/miyajima.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Osaka Exploration",
+        "activities": [
+          "Osaka Castle visit",
+          "Dotonbori street food tour",
+          "Umeda Sky Building",
+          "Farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/dotonbori.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure (last-minute shopping)",
+          "Transfer to Kansai Airport",
+          "Flight back home"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/japan-cherry-blossoms.jpg",
+        "alt": "Cherry blossoms in Kyoto"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/japan-bullet-train.jpg",
+        "alt": "Shinkansen bullet train"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/japan-ryokan.jpg",
+        "alt": "Traditional ryokan stay"
+      }
+    ]
+  },
+  "china": {
+    "title": "China",
+    "location": "Beijing, Shanghai, China",
+    "duration": "8 Days, 7 Nights",
+    "description": "Experience the rich history and modern marvels of China's most iconic cities.",
+    "price": 1999,
+    "quota": 12,
+    "schedule": "Every first Monday of month",
+    "longDescription": "Journey through China's fascinating contrasts, from the ancient Great Wall and Forbidden City in Beijing to Shanghai's futuristic skyline. Explore traditional hutongs, marvel at the Terracotta Warriors, cruise the Huangpu River, and savor authentic Chinese cuisine while experiencing both imperial grandeur and cutting-edge modernity.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-dimitris-s12-639310-1441932.jpg",
+    "includes": [
+      "7 nights in 4-star hotels",
+      "Daily breakfast and 4 dinners",
+      "High-speed train Beijing to Shanghai",
+      "Guided tours with English-speaking guides",
+      "Cultural experiences (calligraphy, tai chi)",
+      "Entrance fees to all listed attractions"
+    ],
+    "excludes": [
+      "International airfare",
+      "Visa fees (if applicable)",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Beijing",
+        "activities": [
+          "Arrival at Beijing Capital Airport",
+          "Transfer to hotel",
+          "Evening stroll in Wangfujing Street",
+          "Welcome dinner (Peking duck)"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/beijing-wangfujing.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Imperial Beijing",
+        "activities": [
+          "Tiananmen Square visit",
+          "Forbidden City exploration",
+          "Hutong rickshaw tour",
+          "Traditional courtyard lunch"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/forbidden-city.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Great Wall Adventure",
+        "activities": [
+          "Mutianyu section of Great Wall",
+          "Cable car ride (optional)",
+          "Great Wall hiking experience",
+          "Local village visit"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/great-wall.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Temple of Heaven & Departure to Shanghai",
+        "activities": [
+          "Temple of Heaven morning visit",
+          "Tai Chi demonstration",
+          "High-speed train to Shanghai",
+          "Shanghai arrival and hotel check-in"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/temple-of-heaven.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Modern Shanghai",
+        "activities": [
+          "The Bund waterfront promenade",
+          "Shanghai Tower observation deck",
+          "Nanjing Road shopping street",
+          "Huangpu River cruise"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/shanghai-bund.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Traditional Shanghai",
+        "activities": [
+          "Yu Garden classical garden",
+          "Old City bazaar exploration",
+          "Jade Buddha Temple",
+          "French Concession walking tour"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/yu-garden.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Day Trip to Suzhou",
+        "activities": [
+          "High-speed train to Suzhou",
+          "Classical gardens visit",
+          "Silk factory tour",
+          "Return to Shanghai for farewell dinner"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/suzhou-gardens.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "activities": [
+          "Morning at leisure (last-minute shopping)",
+          "Transfer to Pudong Airport",
+          "Flight back home"
+        ]
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/china-great-wall-sunset.jpg",
+        "alt": "Great Wall at sunset"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/china-shanghai-skyline.jpg",
+        "alt": "Shanghai modern skyline"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/china-traditional-architecture.jpg",
+        "alt": "Traditional Chinese architecture"
+      }
+    ]
+  }
+}

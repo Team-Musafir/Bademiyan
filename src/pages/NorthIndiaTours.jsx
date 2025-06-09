@@ -6,10 +6,10 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../components/NavbarB';
 import Reviews from '../components/Review';
 import Footer from '../components/Footer';
-import islandOfIndiaData from '../data/IslandofIndia.json';
+import northIndiaToursData from '../data/northIndiaToursData.json';
 
 const defaultDestinationData = {
-  title: 'Island Package',
+  title: 'North India Tour Package',
   location: 'Location not specified',
   duration: 'Duration not specified',
   description: 'No description available',
@@ -28,16 +28,16 @@ const defaultDestinationData = {
   ]
 };
 
-export default function IslandPackage() {
+export default function NorthIndiaPackage() {
   const { packageRoute } = useParams();
   const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (islandOfIndiaData[packageRoute]) {
-      setDestinationData(islandOfIndiaData[packageRoute]);
+    if (northIndiaToursData[packageRoute]) {
+      setDestinationData(northIndiaToursData[packageRoute]);
     } else {
-      console.warn(`Island package "${packageRoute}" not found`);
+      console.warn(`Destination "${packageRoute}" not found in tourData`);
       setDestinationData(defaultDestinationData);
     }
   }, [packageRoute]);
@@ -71,7 +71,7 @@ export default function IslandPackage() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'island';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
 
   return (
     <div className="min-h-screen bg-white">
@@ -131,7 +131,7 @@ export default function IslandPackage() {
               className="w-full h-full object-cover object-center"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
-                e.target.alt = 'Island image placeholder';
+                e.target.alt = 'Tour image placeholder';
               }}
             />
           </div>
@@ -254,7 +254,7 @@ export default function IslandPackage() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-normal text-gray-800"
             >
-              Island <em className="italic">Itinerary</em>
+              Travel <em className="italic">Itinerary</em>
             </motion.h1>
 
             <motion.p
@@ -264,7 +264,7 @@ export default function IslandPackage() {
               viewport={{ once: true }}
               className="text-lg md:text-lg text-gray-600 max-w-xl leading-relaxed text-right"
             >
-              Your detailed day-by-day plan for the perfect {locationFirstPart} getaway
+              Your detailed day-by-day plan for the perfect {locationFirstPart} experience
             </motion.p>
           </div>
 
@@ -377,8 +377,7 @@ export default function IslandPackage() {
                   </div>
                 </div>
               </motion.div>
-            )}
-      <Footer />
+            )}     <Footer />
     </div>
   );
 }

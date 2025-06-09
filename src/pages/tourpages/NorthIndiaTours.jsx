@@ -48,7 +48,7 @@ function NorthIndiaTours() {
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/north-india-tours/${route}`);
+    navigate(`/tours/north-india/${route}`);
   };
 
   return (
