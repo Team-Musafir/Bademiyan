@@ -1,6 +1,7 @@
 {
   "golden-triangle-tour": {
     "title": "Golden Triangle of Odisha Tour",
+
     "location": "Bhubaneswar, Konark, Puri, Odisha, India",
     "duration": "4 days X 3 nights",
     "description": "Explore the rich heritage, vibrant culture, and serene landscapes of Odisha through its Golden Triangle - Bhubaneswar, Konark, and Puri.",
@@ -30,12 +31,14 @@
       "Other meals not mentioned laundry, telephone calls, and incidentals.",
       "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
       "Any expense arising due to unforeseen circumstances is not included."
+
     ],
     "itineraryDays": [
       {
         "day": 1,
         "title": "Arrival in Bhubaneswar – Explore the Temple City",
         "activities": [
+
           "Arrival in Bhubaneswar and hotel transfer",
           "Visit Mukteswar Temple, Rajarani Temple, and Parasurameswar Temple",
           "Explore Khandagiri and Udayagiri Jain caves",
@@ -61,6 +64,11 @@
         "day": 3,
         "title": "Puri – Chilika Lake Excursion",
         "activities": [
+          "Day trip to Chilika Lake (Asia's largest brackish water lagoon)",
+          "Motorboat ride to explore islands",
+          "Spot dolphins and migratory birds",
+          "Return to Puri for dinner and overnight stay"
+        ]
           "Breakfast and day trip to Chilika Lake",
           "Motorboat ride to explore islands and spot dolphins and migratory birds",
           "Return to Puri by evening",
@@ -1228,130 +1236,103 @@
   },
   "adventure-tour-plan": {
     "title": "Adventure Tour Plan",
-    "location": "Chandipur, Badaghagara, India",
-    "duration": "8 Days, 7 Nights",
+    "location": "Koraput, Deomali, Gupteswar & Chitrakoot",
+    "duration": "6 Days, 5 Nights",
     "description": "Thrilling adventures across Odisha's diverse landscapes - from disappearing beaches to mighty waterfalls.",
-    "price": 1999,
-    "quota": 8,
-    "schedule": "Monthly departures",
-    "longDescription": "This adrenaline-packed itinerary combines Odisha's most exciting adventure activities. Experience the unique disappearing beach at Chandipur, trek to spectacular waterfalls, go river rafting, and try rock climbing. The tour includes expert adventure guides, safety equipment, and comfortable base camps between activities.",
-    "heroImage": "https://ik.imagekit.io/qad3x0vr1/1.webp",
+    "price": 10000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its tribal cultures and its many ancient Hindu temples. The ethnic culture of Odisha (Orissa) makes you visit all the places that are rich in culture, heritage and ethnicity. It also includes a trip to the dense woods which is the resident of many tribes living in Odisha (Orissa). They consist of ethical gestures, art, handi-crafts, mythologies and the ancient music which is amazing and full of life. Experience the medieval ages in the modern times and walk back into the world of vegetative and cultural Odisha. Odisha's Tribal Tour showcases famous tribes like Bondos, Didayis, Koyas, and Kondhs. Home to over 62 tribes, which constituents 29% of its population. Odisha offers a glimpse into unique tribal life, including their festivals, food, attire, music, and dance. Odisha is known as the homeland of simple down to earth tribes. The land of Odisha is rich in culture and tradition. The untouched beauty of tribal areas and their vibrant culture make Odisha Tribal Tours truly captivating.",
+    "heroImage": "",
     "includes": [
-      "7 nights accommodation (mix of camps and lodges)",
-      "All meals (high energy)",
-      "Expert adventure guides",
-      "All safety equipment",
-      "Activities as per itinerary",
-      "Transportation between sites"
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "Private Boat: - For Chilika Lake Tour (If Chilika is present in the Itinerary)",
+      "GST as applicable"
     ],
     "excludes": [
-      "Personal adventure gear",
-      "Travel insurance",
-      "Tips",
-      "Optional activities"
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
     ],
     "itineraryDays": [
       {
         "day": 1,
-        "title": "Arrival & Orientation",
+        "title": "Arrival in Koraput",
         "activities": [
-          "Arrive at Bhubaneswar",
-          "Drive to base camp",
-          "Safety briefing",
-          "Evening team building"
+          "Arrival in Koraput",
+          "Hotel transfer",
+          "Leisure time",
+          "Overnight stay at the hotel"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/adventure-camp.jpg"
+        "image": ""
       },
       {
         "day": 2,
-        "title": "Chandipur Beach Adventure",
+        "title": "Cultural Exploration of Barogadaba Tribe",
         "activities": [
-          "Disappearing beach exploration",
-          "Sand boarding",
-          "Beach cycling",
-          "Evening bonfire"
+          "Breakfast",
+          "Visit to Machhakunda in Koraput",
+          "Explore villages of Gotalpara and Dural",
+          "Experience Goter festival, Dhemsa dance, and local traditions",
+          "Return to hotel and overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/chandipur.jpg"
+        "image": ""
       },
       {
         "day": 3,
-        "title": "Badaghagara Waterfall Trek",
+        "title": "Adventure at Deomali Peak",
         "activities": [
-          "Full day waterfall trek",
-          "Rock climbing basics",
-          "Natural pool swimming",
-          "Return to base"
+          "Breakfast",
+          "Travel to Deomali Peak",
+          "Trekking and hiking",
+          "Enjoy valley views and return to hotel"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/badaghagara.jpg"
+        "image": ""
       },
       {
         "day": 4,
-        "title": "Mahanadi River Rafting",
+        "title": "Spiritual Journey to Gupteswar",
         "activities": [
-          "White water rafting (Grade II-III)",
-          "Riverside picnic",
-          "Evening debrief",
-          "Overnight at riverside camp"
+          "Day trip to Gupteswar (~140 km)",
+          "Visit ancient caves and traditional Dhuruba villages",
+          "Return to Jeypore for overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/rafting.jpg"
+        "image": ""
       },
       {
         "day": 5,
-        "title": "Deomali Peak Trek",
+        "title": "Majestic Chitrakoot Waterfalls",
         "activities": [
-          "Trek to Odisha's highest point",
-          "Summit lunch",
-          "Return trek",
-          "Evening at forest camp"
+          "Breakfast",
+          "Visit Chitrakoot Waterfalls",
+          "Explore surrounding temples",
+          "Return to hotel for overnight stay"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/deomali.jpg"
+        "image": ""
       },
       {
         "day": 6,
-        "title": "Bhitarkanika Kayaking",
+        "title": "Sightseeing in Koraput & Departure",
         "activities": [
-          "Mangrove kayaking expedition",
-          "Wildlife spotting",
-          "Evening conservation talk",
-          "Night stay at eco-camp"
+          "Explore Jagannath Temple",
+          "Enjoy scenic landscapes",
+          "Transfer for onward journey"
         ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/mangrove-kayak.jpg"
-      },
-      {
-        "day": 7,
-        "title": "Rock Climbing & Rappelling",
-        "activities": [
-          "Natural rock face climbing",
-          "Waterfall rappelling",
-          "Adventure photography",
-          "Farewell celebration"
-        ],
-        "image": "https://ik.imagekit.io/qad3x0vr1/rock-climbing.jpg"
-      },
-      {
-        "day": 8,
-        "title": "Departure",
-        "activities": [
-          "Final adventure debrief",
-          "Return to Bhubaneswar",
-          "Airport transfer",
-          "Depart with adventure stories"
-        ]
+        "image": ""
       }
     ],
-    "galleryImages": [
-      {
-        "url": "https://ik.imagekit.io/qad3x0vr1/waterfall-rappel.jpg",
-        "alt": "Waterfall rappelling"
-      },
-      {
-        "url": "https://ik.imagekit.io/qad3x0vr1/beach-cycling.jpg",
-        "alt": "Beach cycling"
-      },
-      {
-        "url": "https://ik.imagekit.io/qad3x0vr1/summit-view.jpg",
-        "alt": "Mountain summit view"
-      }
-    ]
+    "galleryImages": []
   }
 }

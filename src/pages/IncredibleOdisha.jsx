@@ -148,18 +148,10 @@ export default function DestinationPage() {
       >
         <motion.div className="flex justify-between items-center mb-4" variants={fadeInUp}>
           <span className="text-gray-600 text-base sm:text-lg md:text-xl">Price</span>
-          <span className="text-lg sm:text-xl font-semibold">${destinationData.price.toLocaleString()}</span>
+          <span className="text-lg sm:text-xl font-semibold">₹{destinationData.price.toLocaleString()}/adult</span>
         </motion.div>
-        <motion.div className="flex justify-between items-center mb-4" variants={fadeInUp}>
-          <span className="text-gray-600 text-base sm:text-lg md:text-xl">Quota</span>
-          <span className="text-lg sm:text-xl font-medium text-black underline">
-            {destinationData.quota} Spot{destinationData.quota !== 1 ? 's' : ''} Available
-          </span>
-        </motion.div>
-        <motion.div className="flex justify-between items-center" variants={fadeInUp}>
-          <span className="text-gray-600 text-base sm:text-lg md:text-xl">Schedule</span>
-          <span className="text-lg sm:text-xl font-medium">{destinationData.schedule}</span>
-        </motion.div>
+        
+        
       </motion.div>
 
       <div className="border-1 border-gray-200 my-6 sm:my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20"></div>
