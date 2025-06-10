@@ -57,7 +57,7 @@ function Tours() {
       route: "south-india",
       location: "Madurai, India",
       duration: "5 Days, 4 Nights",
-      price: "₹49,999",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-esther-234072-5690494.jpg",
       tags: ["Temples", "Beaches"],
       badge: "Popular"

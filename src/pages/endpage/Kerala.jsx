@@ -14,45 +14,45 @@ function Kerala() {
       title: "God's Own Itinerary - Kerala",
       route: "gods-own-itinerary",
       location: "Kochi, Munnar, Alleppey, Kerala, India",
-      duration: "7 Days, 6 Nights",
-      price: "₹33,000",
-      image: "https://ik.imagekit.io/u2yelrvui/pexels-ankit-sinha-6261930.jpg"
+      duration: "6 Days, 5 Nights",
+      price: "₹18,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-k-s-aravinda-kashyap-86628820-28961752.jpg"
     },
     {
       id: 2,
       title: "The Soul of South India - Kerala",
       route: "soul-of-south",
       location: "Munnar, Thekkady, Alleppey, Kochi, Kerala, India",
-      duration: "8 Days, 7 Nights",
-      price: "₹36,500",
-      image: "https://ik.imagekit.io/u2yelrvui/pexels-rahul-pandit-2317938.jpg"
+      duration: "7 Days, 6 Nights",
+      price: "₹21,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-rajeshx8-30741899.jpg"
     },
     {
       id: 3,
       title: "Enchanted Kerala",
       route: "enchanted-kerala",
       location: "Munnar, Thekkady, Alleppey, Trivandrum, Kerala, India",
-      duration: "9 Days, 8 Nights",
-      price: "₹39,000",
-      image: "https://ik.imagekit.io/u2yelrvui/pexels-nandhu-kumar-189857.jpg"
+      duration: "8 Days, 7 Nights",
+      price: "₹27,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-preyansh-patel-2147629447-32429711.jpg"
     },
     {
       id: 4,
       title: "Kerala Escapade - Sea, Hills & Backwaters",
       route: "kerala-escapade",
       location: "Munnar, Thekkady, Alleppey, Trivandrum, Kerala, India",
-      duration: "10 Days, 9 Nights",
-      price: "₹42,000",
-      image: "https://ik.imagekit.io/u2yelrvui/pexels-ajay-bhargav-19872.jpg"
+      duration: "9 Days, 8 Nights",
+      price: "₹30,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-rajeshx8-980180.jpg"
     },
     {
       id: 5,
       title: "From Backwaters to the Southern Shores",
       route: "kerala-southern-shores",
       location: "Munnar, Thekkady, Alleppey, Trivandrum, Kanyakumari",
-      duration: "11 Days, 10 Nights",
-      price: "₹45,000",
-      image: "https://ik.imagekit.io/u2yelrvui/pexels-pranav-digwal-846956.jpg"
+      duration: "9 Days, 8 Nights",
+      price: "₹32,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-optically-challenged-3714923.jpg"
     }
   ];
 
@@ -65,7 +65,7 @@ function Kerala() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-2507007.jpeg')`
+          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
         }} />
 
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
