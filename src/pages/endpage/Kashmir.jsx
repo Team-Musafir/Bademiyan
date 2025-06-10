@@ -14,9 +14,9 @@ function Kashmir() {
             title: "Kashmir Calling - A Complete Valley Experience",
             route: "kashmir-calling",
             location: "Srinagar, Gulmarg & Pahalgam, Jammu & Kashmir, India",
-            duration: "7 Days, 6 Nights",
-            price: "₹34,000",
-            image: "https://ik.imagekit.io/u2yelrvui/pexels-ahmed-adly-1271620.jpg"
+            duration: "5 Days, 4 Nights",
+            price: "₹15,000",
+            image: "https://ik.imagekit.io/u2yelrvui/pexels-estudiodelarts-10975803.jpg"
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ function Kashmir() {
             location: "Srinagar & Gulmarg, Jammu & Kashmir, India",
             duration: "6 Days, 5 Nights",
             price: "₹29,000",
-            image: "https://ik.imagekit.io/u2yelrvui/pexels-asad-photo-maldives-1024960.jpg"
+            image: "https://ik.imagekit.io/u2yelrvui/pexels-shubhendu-singh-1278012-2439787.jpg"
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ function Kashmir() {
             location: "Srinagar, Sonmarg & Pahalgam, Jammu & Kashmir, India",
             duration: "8 Days, 7 Nights",
             price: "₹38,000",
-            image: "https://ik.imagekit.io/u2yelrvui/pexels-pixabay-414102.jpg"
+            image: "https://ik.imagekit.io/u2yelrvui/pexels-photonova-2907578.jpg"
         },
         {
             id: 4,
@@ -43,7 +43,7 @@ function Kashmir() {
             location: "Sonmarg, Jammu & Kashmir, India",
             duration: "5 Days, 4 Nights",
             price: "₹26,000",
-            image: "https://ik.imagekit.io/u2yelrvui/pexels-asad-photo-maldives-1024960.jpg"
+            image: "https://ik.imagekit.io/u2yelrvui/pexels-withbaxit-32486614.jpg"
         }
     ];
 
@@ -57,7 +57,7 @@ function Kashmir() {
             <Navbar />
             <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-asad-photo-maldives-1024960.jpg')"
+                    backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')"
                 }} />
 
                 <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
