@@ -24,7 +24,7 @@ function Kashmir() {
             route: "magical-kashmir",
             location: "Srinagar & Gulmarg, Jammu & Kashmir, India",
             duration: "6 Days, 5 Nights",
-            price: "₹29,000",
+            price: "₹18,000",
             image: "https://ik.imagekit.io/u2yelrvui/pexels-shubhendu-singh-1278012-2439787.jpg"
         },
         {
@@ -32,8 +32,8 @@ function Kashmir() {
             title: "Heart in the Himalayas - Kashmir",
             route: "heart-in-himalayas",
             location: "Srinagar, Sonmarg & Pahalgam, Jammu & Kashmir, India",
-            duration: "8 Days, 7 Nights",
-            price: "₹38,000",
+            duration: "6 Days, 5 Nights",
+            price: "₹21,000",
             image: "https://ik.imagekit.io/u2yelrvui/pexels-photonova-2907578.jpg"
         },
         {

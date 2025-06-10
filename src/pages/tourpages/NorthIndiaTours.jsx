@@ -15,7 +15,7 @@ function NorthIndiaTours() {
       route: "himachal-pradesh",
       location: "Himachal Pradesh, India",
       duration: "Customizable",
-      price: "From $799",
+      price: "From ₹22,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-2961109.jpeg"
     },
     {
@@ -24,7 +24,7 @@ function NorthIndiaTours() {
       route: "uttar-pradesh",
       location: "Uttar Pradesh, India",
       duration: "Customizable",
-      price: "From $699",
+      price: "From ₹13,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-rachel-claire-8112547.jpg"
     },
     {
@@ -33,7 +33,7 @@ function NorthIndiaTours() {
       route: "kashmir",
       location: "Kashmir, India",
       duration: "Customizable",
-      price: "From $1299",
+      price: "From ₹15,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/free-photo-of-aerial-view-of-houses-around-the-dal-lake-in-jammu-and-kashmir-india.jpeg"
     },
     {
