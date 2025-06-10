@@ -3,13 +3,13 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Clock, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useParams } from 'react-router-dom';
-import Navbar from '../components/NavbarB';
-import Reviews from '../components/Review';
-import Footer from '../components/Footer';
-import westernIndiaToursData from '../data/westernIndiaToursData.json';
+import Navbar from '../../components/NavbarB';
+import Reviews from '../../components/Review';
+import Footer from '../../components/Footer';
+import southIndiaToursData from '../../data/southIndiaToursData.json';
 
 const defaultDestinationData = {
-  title: 'Western India Tour Package',
+  title: 'South India Tour Package',
   location: 'Location not specified',
   duration: 'Duration not specified',
   description: 'No description available',
@@ -28,14 +28,14 @@ const defaultDestinationData = {
   ]
 };
 
-export default function WesternIndiaPackage() {
+export default function SouthIndiaTrips() {
   const { packageRoute } = useParams();
   const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (westernIndiaToursData[packageRoute]) {
-      setDestinationData(westernIndiaToursData[packageRoute]);
+    if (southIndiaToursData[packageRoute]) {
+      setDestinationData(southIndiaToursData[packageRoute]);
     } else {
       console.warn(`Destination "${packageRoute}" not found in tourData`);
       setDestinationData(defaultDestinationData);
@@ -246,7 +246,7 @@ export default function WesternIndiaPackage() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-normal text-gray-800"
             >
-              Royal <em className="italic">Itinerary</em>
+              Travel <em className="italic">Itinerary</em>
             </motion.h1>
 
             <motion.p

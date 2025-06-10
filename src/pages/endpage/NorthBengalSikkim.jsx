@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Clock, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useParams } from 'react-router-dom';
-import Navbar from '../components/NavbarB';
-import Reviews from '../components/Review';
-import Footer from '../components/Footer';
-import northBengalSikkimData from '../data/northBengalSikkimData.json';
+import Navbar from '../../components/NavbarB';
+import Reviews from '../../components/Review';
+import Footer from '../../components/Footer';
+import northBengalSikkimData from '../../data/northBengalSikkimData.json';
 
 const defaultDestinationData = {
   title: 'Tour Package',
