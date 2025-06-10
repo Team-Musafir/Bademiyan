@@ -5,50 +5,50 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function NorthIndiaTours() {
+function HimalchalTour() {
   const navigate = useNavigate();
 
   const packages = [
-    {
-      id: 1,
-      title: "Golden Triangle Tour",
-      route: "golden-triangle-tour",
-      location: "Delhi, Agra, Jaipur, India",
-      duration: "6 days , 5 nights",
-      price: "₹25,000",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
-    },
-    {
-      id: 2,
-      title: "Spiritual Varanasi",
-      route: "spiritual-varanasi",
-      location: "Varanasi, Sarnath, India",
-      duration: "4 Days & 3 Nights",
-      price: "₹15,000",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
-    },
-    {
-      id: 3,
-      title: "Himalayan Adventure",
-      route: "himalayan-adventure",
-      location: "Shimla, Manali, Leh, India",
-      duration: "12 Days, 11 Nights",
-      price: "₹45,000",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
-    },
-    {
-      id: 4,
-      title: "Rajasthan Royal Tour",
-      route: "rajasthan-royal-tour",
-      location: "Jaipur, Udaipur, Jodhpur, India",
-      duration: "8 Days, 7 Nights",
-      price: "₹32,000",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
-    }
-  ];
+  {
+    id: 1,
+    title: "Serenity in the Hills",
+    route: "serenity-in-the-hills",
+    location: "Kasol, Manali & Manikaran, Himachal Pradesh, India",
+    duration: "6 Days, 5 Nights",
+    price: "₹28,000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+  },
+  {
+    id: 2,
+    title: "High on Himalayas - Himachal Calling",
+    route: "high-on-himalayas",
+    location: "Manali, Himachal Pradesh, India",
+    duration: "5 Days, 4 Nights",
+    price: "₹22,000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+  },
+  {
+    id: 3,
+    title: "Himalayan Heritage - A Journey Through Himachal",
+    route: "himalayan-heritage-tour",
+    location: "Shimla & Manali, Himachal Pradesh, India",
+    duration: "7 Days, 6 Nights",
+    price: "₹30,000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+  },
+  {
+    id: 4,
+    title: "Snowflakes & Family Tales",
+    route: "snowflakes-family-tales",
+    location: "Shimla & Manali, Himachal Pradesh, India",
+    duration: "6 Days, 5 Nights",
+    price: "₹27,000",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+  }
+];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/north-india/${route}`);
+    navigate(`/tours/north-india/himachal-pradesh/${route}`);
   };
 
   return (
@@ -170,4 +170,4 @@ function NorthIndiaTours() {
   );
 }
 
-export default NorthIndiaTours;
+export default HimalchalTour;

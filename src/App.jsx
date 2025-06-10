@@ -26,11 +26,18 @@ import ScrollToTop from './components/ScrolltoTop';
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
 import InternationalPackage from './pages/endpage/InternationalTours';
-import NorthIndiaPackage from './pages/endpage/NorthIndiaTours';
 import WesternIndiaPackage from './pages/endpage/WesternIndiaTours';
 import SouthIndiaTrips from './pages/endpage/SouthIndiaTours';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
+
+
+import HimalchalTour from './pages/endpage/HimachalTour';
+
+import Kmm from './pages/Himachal/kmm';
+import Manali from './pages/Himachal/manali'
+import Sm from './pages/Himachal/sm'
+import Sm1 from './pages/Himachal/sm1'
 
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 
@@ -61,18 +68,35 @@ function App() {
         <Route path="/tours/heritage-tours" element={<HeritageTours />} />
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
 
-        
+
         //INternal page
-        <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage/>} />
-        <Route path="/tours/northeast-india/:packageRoute" element={<NorthEastIndiaTrips/>} />
+        <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
+        <Route path="/tours/northeast-india/:packageRoute" element={<NorthEastIndiaTrips />} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
-        <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage/>} />
-        <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage/>} />
-        <Route path="/tours/north-india/:packageRoute" element={<NorthIndiaPackage/>} />
-        <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage/>} />
-        <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips/>} />
+        <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage />} />
+        <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage />} />
+
+
+        //North india
+        <Route path="/tours/north-india/himachal-pradesh" element={<HimalchalTour />} />
+
+        //himachal child
+        <Route path="/tours/north-india/himachal-pradesh/serenity-in-the-hills" element={<Kmm />} />
+        <Route path="/tours/north-india/himachal-pradesh/high-on-himalayas" element={<Manali />} />
+        <Route path="/tours/north-india/himachal-pradesh/himalayan-heritage-tour" element={<Sm />} />
+        <Route path="/tours/north-india/himachal-pradesh/snowflakes-family-tales" element={<Sm1 />} />
+
+
+
+// required change over here
+        <Route path="/tours/north-india/uttar-pradesh" element={<HimalchalTour />} />
+        <Route path="/tours/north-india/kashmir" element={<HimalchalTour />} />
+        <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
+
+        <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage />} />
+        <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips />} />
       </Routes>
-       <FloatingEnquiryButton />
+      <FloatingEnquiryButton />
     </Router>
   );
 }
