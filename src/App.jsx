@@ -33,20 +33,16 @@ import DestinationPage from './pages/endpage/IncredibleOdisha';
 
 
 import HimalchalTour from './pages/endpage/HimachalTour';
-
-import Kmm from './pages/Himachal/kmm';
-import Manali from './pages/Himachal/manali'
-import Sm from './pages/Himachal/sm'
-import Sm1 from './pages/Himachal/sm1'
-
-import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 import UttarPradeshTour from './pages/endpage/UttarPradesh';
 
 
-import Va from './pages/UttarPradesh/Va';
-import Vp from './pages/UttarPradesh/Vp';
-import Varanasi from './pages/UttarPradesh/varanasi';
-import Vap from './pages/UttarPradesh/Vap';
+import FloatingEnquiryButton from './components/FloatingEnquiryButton';
+import Hp from './pages/Himachal/Himachal';
+import Up from './pages/UttarPradesh/Uttarpradesh';
+
+
+
+
 
 function App() {
   return (
@@ -89,16 +85,11 @@ function App() {
         <Route path="/tours/north-india/uttar-pradesh" element={<UttarPradeshTour />} />
 
         //himachal child
-        <Route path="/tours/north-india/himachal-pradesh/serenity-in-the-hills" element={<Kmm />} />
-        <Route path="/tours/north-india/himachal-pradesh/high-on-himalayas" element={<Manali />} />
-        <Route path="/tours/north-india/himachal-pradesh/himalayan-heritage-tour" element={<Sm />} />
-        <Route path="/tours/north-india/himachal-pradesh/snowflakes-family-tales" element={<Sm1 />} />
+        <Route path="/tours/north-india/himachal-pradesh/:packageRoute" element={<Hp/>} />
+        
 
         //uttar pradesh child
-        <Route path="/tours/north-india/uttar-pradesh/spiritual-heart-india" element={<Va/>} />
-        <Route path="/tours/north-india/uttar-pradesh/sacred-circuit" element={<Vp/>} />
-        <Route path="/tours/north-india/uttar-pradesh/spiritual-symphony" element={<Varanasi />} />
-        <Route path="/tours/north-india/uttar-pradesh/golden-triangle-faith" element={<Vap/>} />
+        <Route path="/tours/north-india/uttar-pradesh/:packageRoute" element={<Up/>} />
 
 
 
