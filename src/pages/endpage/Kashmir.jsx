@@ -57,7 +57,7 @@ function Kashmir() {
             <Navbar />
             <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-asad-photo-maldives-1024960.jpg')"
+                    backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')"
                 }} />
 
                 <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
