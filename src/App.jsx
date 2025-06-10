@@ -101,8 +101,7 @@ function App() {
 
 
 
-// required change over here
-        <Route path="/tours/north-india/kashmir" element={<HimalchalTour />} />
+// required change over here as no data provided 
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
         <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage />} />
