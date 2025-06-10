@@ -26,7 +26,7 @@ import ScrollToTop from './components/ScrolltoTop';
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
 import InternationalPackage from './pages/endpage/InternationalTours';
-import WesternIndiaPackage from './pages/endpage/WesternIndiaTours';
+import WesternIndiaPackage from './pages/endpage/Rajasthan';
 import SouthIndiaTrips from './pages/endpage/SouthIndiaTours';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
@@ -41,6 +41,7 @@ import Hp from './pages/Himachal/Himachal';
 import Up from './pages/UttarPradesh/Uttarpradesh';
 import Kashmir from './pages/endpage/Kashmir';
 import KashmirTrip from './pages/kashmir/Kashmir';
+import Rajasthan from './pages/endpage/Rajasthan';
 
 
 
@@ -101,10 +102,18 @@ function App() {
 
 
 
-// required change over here as no data provided 
+// required change over here as no data provided
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
-        <Route path="/tours/western-india/:packageRoute" element={<WesternIndiaPackage />} />
+        //Rajasthan
+        <Route path="/tours/western-india/:packageRoute" element={<Rajasthan/>} />
+
+        //rajasthan child
+        {/* <Route path="/tours/western-india/:packageRoute" element={<Rajasthan/>} /> */}
+
+
+
+        //kerala
         <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips />} />
       </Routes>
       <FloatingEnquiryButton />
