@@ -11,20 +11,20 @@ function Bhutan() {
   const packages = [
   {
     id: 1,
-    title: "The Land of the Thunder Dragon - Bhutan",
+    title: "The Land of the Thunder Dragon",
     route: "thunder-dragon-bhutan",
-    location: "Bhutan (Ex-Siliguri)",
-    duration: "5 Nights, 6 Days",
-    price: "₹XX,XXX", // Replace with actual price if needed
+    location: "Phuentsholing, Thimphu, Paro, Bhutan",
+    duration: "6 Days, 5 Nights",
+    price: "₹32,000", // Replace with actual price if needed
     image: "https://ik.imagekit.io/u2yelrvui/bhutan1.jpg"
   },
   {
     id: 2,
-    title: "Discover Druk Yul - Bhutan",
+    title: "Discover Druk Yul",
     route: "discover-druk-yul",
-    location: "Bhutan (Ex-Siliguri)",
-    duration: "6 Nights, 7 Days",
-    price: "₹XX,XXX", // Replace with actual price if needed
+    location: "Phuentsholing, Thimphu, Paro, Bhutan",
+    duration: "7 Days, 6 Nights",
+    price: "₹35,000", // Replace with actual price if needed
     image: "https://ik.imagekit.io/u2yelrvui/bhutan2.jpg"
   }
 ];
@@ -38,7 +38,7 @@ function Bhutan() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3651616.jpeg')`
+          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
