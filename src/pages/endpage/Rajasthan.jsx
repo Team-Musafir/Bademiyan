@@ -49,7 +49,7 @@ function Rajasthan() {
 
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/rajasthan/${route}`);
+    navigate(`/tours/western-india/rajasthan/${route}`);
   };
 
   return (

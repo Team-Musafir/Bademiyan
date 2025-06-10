@@ -110,7 +110,7 @@ function App() {
         <Route path="/tours/western-india/rajasthan" element={<Rajasthan/>} />
 
         //rajasthan child
-        <Route path="/tours/western-india/:packageRoute" element={<RajasthanTrip/>} />
+        <Route path="/tours/western-india/rajasthan/:packageRoute" element={<RajasthanTrip/>} />
 
         //kerala
         <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips />} />
