@@ -5,23 +5,59 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function SouthIndiaTours() {
+function Kerala() {
   const navigate = useNavigate();
 
   const packages = [
     {
       id: 1,
-      title: "Kerala Tours",
-      route: "kerala",
-      location: "Kerala, India",
-      duration: "6 Days, 5 Nights",
-      price: "$1199",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-14847155.jpeg"
+      title: "God's Own Itinerary - Kerala",
+      route: "gods-own-itinerary",
+      location: "Kochi, Munnar, Alleppey, Kerala, India",
+      duration: "7 Days, 6 Nights",
+      price: "₹33,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-ankit-sinha-6261930.jpg"
+    },
+    {
+      id: 2,
+      title: "The Soul of South India - Kerala",
+      route: "soul-of-south",
+      location: "Munnar, Thekkady, Alleppey, Kochi, Kerala, India",
+      duration: "8 Days, 7 Nights",
+      price: "₹36,500",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-rahul-pandit-2317938.jpg"
+    },
+    {
+      id: 3,
+      title: "Enchanted Kerala",
+      route: "enchanted-kerala",
+      location: "Munnar, Thekkady, Alleppey, Trivandrum, Kerala, India",
+      duration: "9 Days, 8 Nights",
+      price: "₹39,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-nandhu-kumar-189857.jpg"
+    },
+    {
+      id: 4,
+      title: "Kerala Escapade - Sea, Hills & Backwaters",
+      route: "kerala-escapade",
+      location: "Munnar, Thekkady, Alleppey, Trivandrum, Kerala, India",
+      duration: "10 Days, 9 Nights",
+      price: "₹42,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-ajay-bhargav-19872.jpg"
+    },
+    {
+      id: 5,
+      title: "From Backwaters to the Southern Shores",
+      route: "kerala-southern-shores",
+      location: "Munnar, Thekkady, Alleppey, Trivandrum, Kanyakumari",
+      duration: "11 Days, 10 Nights",
+      price: "₹45,000",
+      image: "https://ik.imagekit.io/u2yelrvui/pexels-pranav-digwal-846956.jpg"
     }
   ];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/south-india/${route}`);
+    navigate(`/tours/south-india/kerala/${route}`);
   };
 
   return (
@@ -29,14 +65,14 @@ function SouthIndiaTours() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
+          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-2507007.jpeg')`
         }} />
-        
+
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block italic font-serif animate-gentleFadeInLeft">South</span>
-            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block animate-gentleFadeInRight">Tours</span>
+            <span className="block animate-gentleFadeInLeft">God's</span>
+            <span className="block animate-softPulse mx-2 md:mx-4">Own</span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Kerala</span>
           </h1>
         </div>
       </section>
@@ -44,7 +80,7 @@ function SouthIndiaTours() {
       <div className="p-6 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {packages.map((pkg) => (
-            <div 
+            <div
               key={pkg.id}
               onClick={() => handlePackageClick(pkg.route)}
               className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer"
@@ -56,22 +92,22 @@ function SouthIndiaTours() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                
+
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-xl font-bold mb-3 leading-tight">
                     {pkg.title}
                   </h3>
-                  
+
                   <div className="flex items-center mb-2">
                     <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
                     <span className="text-sm font-medium">{pkg.location}</span>
                   </div>
-                  
+
                   <div className="flex items-center mb-4">
                     <Clock className="w-4 h-4 mr-2 flex-shrink-0" />
                     <span className="text-sm font-medium">{pkg.duration}</span>
                   </div>
-                  
+
                   <div className="text-right">
                     <span className="text-2xl font-bold">{pkg.price}</span>
                   </div>
@@ -81,7 +117,7 @@ function SouthIndiaTours() {
           ))}
         </div>
       </div>
-      
+
       <Contact />
       <Footer />
 
@@ -142,4 +178,4 @@ function SouthIndiaTours() {
   );
 }
 
-export default SouthIndiaTours;
+export default Kerala;
