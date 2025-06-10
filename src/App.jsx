@@ -27,7 +27,7 @@ import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
 import InternationalPackage from './pages/endpage/InternationalTours';
 import WesternIndiaPackage from './pages/endpage/Rajasthan';
-import SouthIndiaTrips from './pages/endpage/SouthIndiaTours';
+import SouthIndiaTrips from './pages/endpage/Kerela';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
 
