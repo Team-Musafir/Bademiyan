@@ -39,6 +39,7 @@ import UttarPradeshTour from './pages/endpage/UttarPradesh';
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 import Hp from './pages/Himachal/Himachal';
 import Up from './pages/UttarPradesh/Uttarpradesh';
+import Kashmir from './pages/endpage/Kashmir';
 
 
 
@@ -83,6 +84,7 @@ function App() {
         //North india
         <Route path="/tours/north-india/himachal-pradesh" element={<HimalchalTour />} />
         <Route path="/tours/north-india/uttar-pradesh" element={<UttarPradeshTour />} />
+        <Route path="/tours/north-india/kashmir" element={<Kashmir/>} />
 
         //himachal child
         <Route path="/tours/north-india/himachal-pradesh/:packageRoute" element={<Hp/>} />
