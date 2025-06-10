@@ -2,14 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, Clock, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useParams } from 'react-router-dom';
 import Navbar from '../../components/NavbarB';
 import Reviews from '../../components/Review';
 import Footer from '../../components/Footer';
-import internationalToursData from '../../data/InternationalToursData.json';
+import internationalData from '../../data/Bhutan.json';
 
-const defaultDestinationData = {
-  title: 'International Tour Package',
+const defaultInternationalData = {
+  title: 'International Tour',
   location: 'Location not specified',
   duration: 'Duration not specified',
   description: 'No description available',
@@ -28,19 +27,20 @@ const defaultDestinationData = {
   ]
 };
 
-export default function InternationalPackage() {
-  const { packageRoute } = useParams();
-  const [destinationData, setDestinationData] = useState(defaultDestinationData);
+export default function Bhutan() {
+  const [internationalTour, setInternationalTour] = useState(defaultInternationalData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (internationalToursData[packageRoute]) {
-      setDestinationData(internationalToursData[packageRoute]);
+    // You can fetch data here or use static data
+    // For now using the first item from internationalData as an example
+    if (internationalData && internationalData.length > 0) {
+      setInternationalTour(internationalData[0]);
     } else {
-      console.warn(`Destination "${packageRoute}" not found in tourData`);
-      setDestinationData(defaultDestinationData);
+      console.warn('No international tour data found');
+      setInternationalTour(defaultInternationalData);
     }
-  }, [packageRoute]);
+  }, []);
 
   const toggleDay = (index) => {
     setExpandedDay(expandedDay === index ? null : index);
@@ -71,7 +71,7 @@ export default function InternationalPackage() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
+  const locationFirstPart = internationalTour.location?.split(',')[0]?.toLowerCase() || 'tours';
 
   return (
     <div className="min-h-screen bg-white">
@@ -87,7 +87,7 @@ export default function InternationalPackage() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal text-gray-900 mb-6 sm:mb-8 leading-tight sm:leading-normal">
-              {destinationData.title}
+              {internationalTour.title}
             </h1>
           </motion.div>
 
@@ -100,22 +100,22 @@ export default function InternationalPackage() {
           >
             <motion.div className="flex items-center space-x-2 text-gray-600" variants={fadeInUp}>
               <MapPin className="w-4 h-4" />
-              <span className="text-lg sm:text-xl md:text-2xl">{destinationData.location}</span>
+              <span className="text-lg sm:text-xl md:text-2xl">{internationalTour.location}</span>
             </motion.div>
 
             <motion.div className="flex items-center space-x-2 text-gray-600" variants={fadeInUp}>
               <Clock className="w-4 h-4" />
-              <span className="text-base sm:text-lg md:text-xl">{destinationData.duration}</span>
+              <span className="text-base sm:text-lg md:text-xl">{internationalTour.duration}</span>
             </motion.div>
 
             <motion.p className="text-gray-600 text-base sm:text-lg leading-relaxed" variants={fadeInUp}>
-              {destinationData.description}
+              {internationalTour.description}
             </motion.p>
           </motion.div>
         </div>
       </div>
 
-      {destinationData.heroImage && (
+      {internationalTour.heroImage && (
         <motion.div
           className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden"
           initial={{ opacity: 0 }}
@@ -126,11 +126,11 @@ export default function InternationalPackage() {
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
           <div className="absolute inset-0 z-0" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' }}>
             <img
-              src={destinationData.heroImage}
-              alt={`${destinationData.title} tour`}
+              src={internationalTour.heroImage}
+              alt={`${internationalTour.title} tour`}
               className="w-full h-full object-cover object-center"
               onError={(e) => {
-                e.target.src = 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
+                e.target.src = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
                 e.target.alt = 'Tour image placeholder';
               }}
             />
@@ -148,10 +148,8 @@ export default function InternationalPackage() {
       >
         <motion.div className="flex justify-between items-center mb-4" variants={fadeInUp}>
           <span className="text-gray-600 text-base sm:text-lg md:text-xl">Price</span>
-          <span className="text-lg sm:text-xl font-semibold">₹{destinationData.price.toLocaleString()}/adult</span>
+          <span className="text-lg sm:text-xl font-semibold">₹{internationalTour.price.toLocaleString()}/adult</span>
         </motion.div>
-        
-        
       </motion.div>
 
       <div className="border-1 border-gray-200 my-6 sm:my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20"></div>
@@ -164,13 +162,13 @@ export default function InternationalPackage() {
         viewport={{ once: true }}
       >
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-          {destinationData.longDescription}
+          {internationalTour.longDescription}
         </p>
       </motion.div>
 
       <div className="border-1 border-gray-200 my-6 sm:my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20"></div>
 
-      {destinationData.includes?.length > 0 && (
+      {internationalTour.includes?.length > 0 && (
         <>
           <motion.div
             className="mb-8 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20"
@@ -183,7 +181,7 @@ export default function InternationalPackage() {
               Includes:
             </motion.h3>
             <div className="space-y-3">
-              {destinationData.includes.map((item, index) => (
+              {internationalTour.includes.map((item, index) => (
                 <motion.div
                   key={index}
                   className="flex items-start gap-3"
@@ -203,7 +201,7 @@ export default function InternationalPackage() {
         </>
       )}
 
-      {destinationData.excludes?.length > 0 && (
+      {internationalTour.excludes?.length > 0 && (
         <>
           <motion.div
             className='px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 mb-8'
@@ -216,7 +214,7 @@ export default function InternationalPackage() {
               Excludes:
             </motion.h3>
             <div className="space-y-3">
-              {destinationData.excludes.map((item, index) => (
+              {internationalTour.excludes.map((item, index) => (
                 <motion.div
                   key={index}
                   className="flex items-start gap-3"
@@ -236,7 +234,7 @@ export default function InternationalPackage() {
         </>
       )}
 
-      {destinationData.itineraryDays?.length > 0 && (
+      {internationalTour.itineraryDays?.length > 0 && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-18 lg:mb-18 gap-4">
             <motion.h1
@@ -246,7 +244,7 @@ export default function InternationalPackage() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-normal text-gray-800"
             >
-              Travel <em className="italic">Itinerary</em>
+              Travel <em className="italic">Plans</em>
             </motion.h1>
 
             <motion.p
@@ -256,7 +254,7 @@ export default function InternationalPackage() {
               viewport={{ once: true }}
               className="text-lg md:text-lg text-gray-600 max-w-xl leading-relaxed text-right"
             >
-              Your detailed day-by-day plan for the perfect {locationFirstPart} experience
+              Your detailed day-by-day itinerary for the perfect {locationFirstPart} experience
             </motion.p>
           </div>
 
@@ -267,7 +265,7 @@ export default function InternationalPackage() {
             variants={staggerContainer}
             viewport={{ once: true }}
           >
-            {destinationData.itineraryDays.map((day, index) => (
+            {internationalTour.itineraryDays.map((day, index) => (
               <motion.div
                 key={index}
                 variants={fadeInUp}
@@ -329,7 +327,8 @@ export default function InternationalPackage() {
 
       <Reviews />
 
-      {destinationData.galleryImages?.length >= 3 && (
+      {/* Gallery Section */}
+      {internationalTour.galleryImages?.length >= 3 && (
         <motion.div
           className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
           initial="hidden"
@@ -337,28 +336,32 @@ export default function InternationalPackage() {
           variants={fadeIn}
           viewport={{ once: true }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 h-64 md:h-96">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {/* Main large image - same height on mobile and desktop */}
             <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
               <img
-                src={destinationData.galleryImages[0].url || 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=500&fit=crop&crop=center'}
-                alt={destinationData.galleryImages[0].alt || 'Tour image'}
+                src={internationalTour.galleryImages[0].url}
+                alt={internationalTour.galleryImages[0].alt}
                 className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
               />
             </div>
 
+            {/* Two smaller images - same height as first image on mobile, split on desktop */}
             <div className="grid grid-cols-1 grid-rows-2 gap-5 h-64 md:h-96">
+              {/* First small image - full width on mobile, half height on desktop */}
               <div className="rounded-3xl overflow-hidden h-full">
                 <img
-                  src={destinationData.galleryImages[1].url || 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=200&fit=crop&crop=center'}
-                  alt={destinationData.galleryImages[1].alt || 'Tour image'}
+                  src={internationalTour.galleryImages[1].url}
+                  alt={internationalTour.galleryImages[1].alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
 
+              {/* Second small image - full width on mobile, half height on desktop */}
               <div className="rounded-3xl overflow-hidden h-full">
                 <img
-                  src={destinationData.galleryImages[2].url || 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&h=500&fit=crop&crop=center'}
-                  alt={destinationData.galleryImages[2].alt || 'Tour image'}
+                  src={internationalTour.galleryImages[2].url}
+                  alt={internationalTour.galleryImages[2].alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
