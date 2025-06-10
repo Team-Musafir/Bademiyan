@@ -14,7 +14,7 @@ function Rajasthan() {
     title: "Heritage Trails of Rajasthan",
     route: "heritage-trails",
     location: "Jaipur, Jodhpur, Jaisalmer",
-    duration: "6 Days, 5 Nights",
+    duration: "7 Days, 6 Nights",
     price: "₹25,000",
     image: "https://ik.imagekit.io/u2yelrvui/pexels-rehanverma-2588193.jpg"
   },
@@ -23,7 +23,7 @@ function Rajasthan() {
     title: "The Jewel of India - Rajasthan",
     route: "jewel-of-india",
     location: "Jaipur, Udaipur, Chittorgarh",
-    duration: "5 Days, 4 Nights",
+    duration: "6 Days, 5 Nights",
     price: "₹22,000",
     image: "https://ik.imagekit.io/u2yelrvui/pexels-suketdedhia-570031.jpg"
   },
@@ -32,7 +32,7 @@ function Rajasthan() {
     title: "Golden Sands & Royal Palaces",
     route: "golden-sands",
     location: "Jaipur, Jodhpur, Jaisalmer",
-    duration: "6 Days, 5 Nights",
+    duration: "9 Days, 8 Nights",
     price: "₹30,000",
     image: "https://ik.imagekit.io/u2yelrvui/pexels-jai-patil-3381830-5058588.jpg"
   },
@@ -41,7 +41,7 @@ function Rajasthan() {
     title: "Rajasthan Retreat",
     route: "rajasthan-retreat",
     location: "Udaipur, Mt. Abu, Kumbhalgarh",
-    duration: "5 Days, 4 Nights",
+    duration: "6 Days, 5 Nights",
     price: "₹20,000",
     image: "https://ik.imagekit.io/u2yelrvui/istockphoto-1402440832-612x612.jpg"
   }
