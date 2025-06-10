@@ -42,6 +42,7 @@ import Up from './pages/UttarPradesh/Uttarpradesh';
 import Kashmir from './pages/endpage/Kashmir';
 import KashmirTrip from './pages/kashmir/Kashmir';
 import Rajasthan from './pages/endpage/Rajasthan';
+import RajasthanTrip from './pages/Rajasthan/Rajasthan';
 
 
 
@@ -106,12 +107,10 @@ function App() {
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
         //Rajasthan
-        <Route path="/tours/western-india/:packageRoute" element={<Rajasthan/>} />
+        <Route path="/tours/western-india/rajasthan" element={<Rajasthan/>} />
 
         //rajasthan child
-        {/* <Route path="/tours/western-india/:packageRoute" element={<Rajasthan/>} /> */}
-
-
+        <Route path="/tours/western-india/:packageRoute" element={<RajasthanTrip/>} />
 
         //kerala
         <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips />} />
