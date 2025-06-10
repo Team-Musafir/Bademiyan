@@ -34,7 +34,7 @@ function Rajasthan() {
     location: "Jaipur, Jodhpur, Jaisalmer",
     duration: "6 Days, 5 Nights",
     price: "₹30,000",
-    image: "https://ik.imagekit.io/u2yelrvui/pexels-stijn-dijkstra-1306815-16744861.jpg"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-jai-patil-3381830-5058588.jpg"
   },
   {
     id: 4,
