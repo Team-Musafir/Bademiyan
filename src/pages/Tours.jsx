@@ -35,7 +35,7 @@ function Tours() {
       route: "north-india",
       location: "Leh, India",
       duration: "6 Days, 5 Nights",
-      price: "₹89,999",
+      price: "₹13,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nikhlesh-tyagi-1610382-14095828.jpg",
       tags: ["Adventure", "Himalayas"],
       badge: "Popular"
