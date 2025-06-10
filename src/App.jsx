@@ -40,6 +40,13 @@ import Sm from './pages/Himachal/sm'
 import Sm1 from './pages/Himachal/sm1'
 
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
+import UttarPradeshTour from './pages/endpage/UttarPradesh';
+
+
+import Va from './pages/UttarPradesh/Va';
+import Vp from './pages/UttarPradesh/Vp';
+import Varanasi from './pages/UttarPradesh/varanasi';
+import Vap from './pages/UttarPradesh/Vap';
 
 function App() {
   return (
@@ -79,6 +86,7 @@ function App() {
 
         //North india
         <Route path="/tours/north-india/himachal-pradesh" element={<HimalchalTour />} />
+        <Route path="/tours/north-india/uttar-pradesh" element={<UttarPradeshTour />} />
 
         //himachal child
         <Route path="/tours/north-india/himachal-pradesh/serenity-in-the-hills" element={<Kmm />} />
@@ -86,10 +94,16 @@ function App() {
         <Route path="/tours/north-india/himachal-pradesh/himalayan-heritage-tour" element={<Sm />} />
         <Route path="/tours/north-india/himachal-pradesh/snowflakes-family-tales" element={<Sm1 />} />
 
+        //uttar pradesh child
+        <Route path="/tours/north-india/uttar-pradesh/spiritual-heart-india" element={<Va/>} />
+        <Route path="/tours/north-india/uttar-pradesh/sacred-circuit" element={<Vp/>} />
+        <Route path="/tours/north-india/uttar-pradesh/spiritual-symphony" element={<Varanasi />} />
+        <Route path="/tours/north-india/uttar-pradesh/golden-triangle-faith" element={<Vap/>} />
+
+
 
 
 // required change over here
-        <Route path="/tours/north-india/uttar-pradesh" element={<HimalchalTour />} />
         <Route path="/tours/north-india/kashmir" element={<HimalchalTour />} />
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
