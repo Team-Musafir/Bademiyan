@@ -1,0 +1,371 @@
+{
+    "heritage-trails": {
+        "title": "Heritage Trails of Rajasthan",
+        "location": "Jaipur, Jodhpur, Jaisalmer",
+        "duration": "7 Days, 6 Nights",
+        "description": "Experience Rajasthan’s royal history through Jaipur’s pink hues, Jodhpur’s mighty forts, and Jaisalmer’s golden sands.",
+        "price": 25000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Rajasthan, the 'Land of Kings,' offers a royal experience through its magnificent forts, palaces, and golden deserts. The Heritage Trails tour connects you to the regal heritage of Jaipur, the sun-drenched grandeur of Jodhpur, and the magical sands of Jaisalmer.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-12658919.jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by AC Car",
+            "Driver allowances and tolls",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Airfare",
+            "Monument entry fees",
+            "Personal expenses",
+            "Camera fees",
+            "Meals not mentioned",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival at Jaipur",
+                "activities": [
+                    "Pickup and hotel check-in",
+                    "Leisure or local market visit",
+                    "Overnight in Jaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Jaipur City Tour",
+                "activities": [
+                    "Amber Fort",
+                    "City Palace",
+                    "Hawa Mahal",
+                    "Jantar Mantar",
+                    "Overnight in Jaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Jaipur to Jodhpur",
+                "activities": [
+                    "Drive to Jodhpur",
+                    "Mehrangarh Fort visit",
+                    "Clock Tower market",
+                    "Overnight in Jodhpur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Jodhpur to Jaisalmer",
+                "activities": [
+                    "Travel to Jaisalmer",
+                    "Check-in and relax",
+                    "Optional local bazaar visit",
+                    "Overnight in Jaisalmer"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Jaisalmer Fort & Culture",
+                "activities": [
+                    "Jaisalmer Fort tour",
+                    "Patwon Ki Haveli",
+                    "Gadisar Lake",
+                    "Desert cultural show",
+                    "Overnight in camp"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 6,
+                "title": "Desert Safari",
+                "activities": [
+                    "Camel safari",
+                    "Sand dunes exploration",
+                    "Drive back to city",
+                    "Overnight in Jaisalmer"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 7,
+                "title": "Departure from Jaisalmer",
+                "activities": [
+                    "Check-out",
+                    "Transfer to airport/station"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Amber Fort"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Jaisalmer Desert"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Mehrangarh Fort"
+            }
+        ]
+    },
+    "golden-sands": {
+        "title": "Golden Sands & Royal Palaces",
+        "location": "Jaipur, Jodhpur, Jaisalmer, Udaipur",
+        "duration": "9 Days, 8 Nights",
+        "description": "Traverse the deserts and palaces of Rajasthan in this extended tour of regal cities and cultural richness.",
+        "price": 30000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Rajasthan offers timeless grandeur through its forts, lakes, palaces, and endless golden sands. This extended tour covers the most enchanting corners—Jaipur’s royal charm, Jodhpur’s might, Jaisalmer’s desert magic, and Udaipur’s romantic lakescape. Perfect for those wanting a deep-dive into Rajasthani splendor and tradition.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581369.jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by AC Car",
+            "Driver allowances and tolls",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Airfare",
+            "Monument entry fees",
+            "Personal expenses",
+            "Camera fees",
+            "Meals not mentioned",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Jaipur",
+                "activities": [
+                    "Airport/station pickup and hotel check-in",
+                    "Leisure or market walk",
+                    "Overnight in Jaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Jaipur City Tour",
+                "activities": [
+                    "Amber Fort with elephant/jeep ride",
+                    "Hawa Mahal, City Palace",
+                    "Jantar Mantar",
+                    "Local shopping",
+                    "Overnight in Jaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Jaipur to Jodhpur",
+                "activities": [
+                    "Drive to Jodhpur",
+                    "Evening visit to Clock Tower market",
+                    "Overnight in Jodhpur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Jodhpur Exploration",
+                "activities": [
+                    "Mehrangarh Fort tour",
+                    "Jaswant Thada",
+                    "Umaid Bhawan Palace",
+                    "Local street food sampling",
+                    "Overnight in Jodhpur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Jodhpur to Jaisalmer",
+                "activities": [
+                    "Drive to Jaisalmer",
+                    "Check-in and relax",
+                    "Evening leisure or optional local activity",
+                    "Overnight in Jaisalmer"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 6,
+                "title": "Golden Jaisalmer",
+                "activities": [
+                    "Jaisalmer Fort and Patwon ki Haveli",
+                    "Gadisar Lake",
+                    "Evening cultural performance in desert camp",
+                    "Camel safari",
+                    "Overnight in desert camp"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 7,
+                "title": "Jaisalmer to Udaipur",
+                "activities": [
+                    "Long scenic drive to Udaipur",
+                    "Evening at leisure",
+                    "Overnight in Udaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 8,
+                "title": "Udaipur City Tour",
+                "activities": [
+                    "City Palace",
+                    "Saheliyon ki Bari",
+                    "Jagdish Temple",
+                    "Boat ride on Lake Pichola",
+                    "Cultural show (optional)",
+                    "Overnight in Udaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 9,
+                "title": "Departure",
+                "activities": [
+                    "Check-out",
+                    "Airport/station transfer"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Amber Fort Jaipur"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Mehrangarh Fort Jodhpur"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Desert Camp Jaisalmer"
+            }
+        ]
+    },
+    "rajasthan-retreat": {
+        "title": "Rajasthan Retreat",
+        "location": "Udaipur, Mt. Abu, Kumbhalgarh",
+        "duration": "6 Days, 5 Nights",
+        "description": "A peaceful escape through Udaipur’s lakes, Mt. Abu’s hills, and Kumbhalgarh’s fortresses.",
+        "price": 20000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Escape the bustling cities and unwind in Rajasthan’s serene destinations. From Udaipur’s lakefront charm to Mount Abu’s cool hills and Kumbhalgarh’s towering walls, this retreat is ideal for travelers seeking peace, nature, and historic depth. Expect tranquil temples, lush gardens, and hilltop sunsets.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581368.jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by AC Car",
+            "Driver allowances and tolls",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Airfare",
+            "Monument entry fees",
+            "Personal expenses",
+            "Camera fees",
+            "Meals not mentioned",
+            "Travel insurance"
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Udaipur",
+                "activities": [
+                    "Check-in and leisure",
+                    "Evening boat ride on Lake Pichola",
+                    "Overnight stay in Udaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Udaipur Sightseeing",
+                "activities": [
+                    "City Palace tour",
+                    "Saheliyon ki Bari",
+                    "Jagdish Temple",
+                    "Local shopping",
+                    "Overnight in Udaipur"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Udaipur to Mount Abu",
+                "activities": [
+                    "Scenic drive to Mt. Abu",
+                    "Visit Nakki Lake and Sunset Point",
+                    "Evening leisure",
+                    "Overnight in Mt. Abu"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Mount Abu Exploration",
+                "activities": [
+                    "Dilwara Temples",
+                    "Guru Shikhar",
+                    "Peace Park",
+                    "Overnight in Mt. Abu"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Mount Abu to Kumbhalgarh",
+                "activities": [
+                    "Drive to Kumbhalgarh",
+                    "Visit Kumbhalgarh Fort",
+                    "Sound & Light show (optional)",
+                    "Overnight stay in Kumbhalgarh"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 6,
+                "title": "Departure from Udaipur",
+                "activities": [
+                    "Drive back to Udaipur",
+                    "Transfer to airport/station",
+                    "Tour ends"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Lake Pichola Udaipur"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Sunset at Mount Abu"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Kumbhalgarh Fort View"
+            }
+        ]
+    }
+}
