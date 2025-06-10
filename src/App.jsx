@@ -25,7 +25,7 @@ import ScrollToTop from './components/ScrolltoTop';
 
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
-import InternationalPackage from './pages/endpage/InternationalTours';
+import InternationalPackage from './pages/endpage/Bhutan';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
 
@@ -43,6 +43,7 @@ import Rajasthan from './pages/endpage/Rajasthan';
 import RajasthanTrip from './pages/Rajasthan/Rajasthan';
 import Kerala from './pages/endpage/Kerala';
 import KeralaTour from './pages/Kerala/KeralaTour';
+import Bhutan from './pages/Bhutan/Bhutan';
 
 
 
@@ -65,7 +66,6 @@ function App() {
 
         <Route path="/tours/incredible-odisha" element={<IncredibleOdishaTour />} />
         <Route path="/tours/north-bengal-sikkim" element={<NorthBengalTour />} />
-        <Route path="/tours/international-tours" element={<InternationalTours />} />
         <Route path="/tours/island-of-india" element={<IslandOfIndia />} />
         <Route path="/tours/north-india" element={<NorthIndiaTours />} />
         <Route path="/tours/south-india" element={<SouthIndiaTours />} />
@@ -75,13 +75,20 @@ function App() {
         <Route path="/tours/heritage-tours" element={<HeritageTours />} />
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
 
+        <Route path="/tours/international-tours" element={<InternationalTours />} />
 
         //INternal page
         <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
         <Route path="/tours/northeast-india/:packageRoute" element={<NorthEastIndiaTrips />} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage />} />
-        <Route path="/tours/international-tours/:packageRoute" element={<InternationalPackage />} />
+
+
+        <Route path="/tours/international-tours/bhutan" element={<InternationalPackage />} />
+
+
+        //international chid
+        <Route path="/tours/international-tours/bhutan/:packageRoute" element={<Bhutan/>} />
 
 
         //North india
@@ -103,7 +110,7 @@ function App() {
 
 
 
-// required change over here as no data provided
+        // required change over here as no data provided
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
         //Rajasthan
