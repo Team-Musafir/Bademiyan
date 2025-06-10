@@ -1,0 +1,469 @@
+{
+  "rajasthan-retreat": {
+    "title": "Rajasthan Retreat",
+    "location": "Udaipur, Mount Abu, Kumbhalgarh, Rajasthan, India",
+    "duration": "6 days , 5 nights",
+    "description": "Explore the majestic lakes, serene hills, and imposing forts of Rajasthan with this curated 6-day journey covering Udaipur, Mount Abu, and Kumbhalgarh.",
+    "price": 20000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Rajasthan, the \"Land of Kings,\" is a vibrant tapestry of royal heritage, majestic landscapes, and timeless traditions. Known for its golden deserts, grand palaces, and imposing forts, the state is a treasure trove for travelers seeking culture, history, and adventure.\n\nExplore the iconic cities of Jaipur, Udaipur, Jodhpur, and Jaisalmer, each offering unique experiences, from opulent palaces to bustling bazaars. Witness the rich traditions of folk music and dance, marvel at intricately carved temples, or embark on a thrilling camel safari in the Thar Desert.\n\nRajasthan also boasts natural wonders, including the serene lakes of Udaipur, the rugged Aravalli Hills, and wildlife sanctuaries like Ranthambore. With its warm hospitality, colorful festivals, and rich culinary delights, Rajasthan promises an unforgettable journey into India's regal past.\n\nPerfect for history buffs, nature lovers, and adventure seekers alike, Rajasthan is a destination that leaves every traveler enchanted.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/udaipur-lake-palace.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Udaipur – The City of Lakes",
+        "activities": [
+          "Arrival and hotel check-in",
+          "Visit City Palace",
+          "Boat ride on Lake Pichola",
+          "Leisure time at Bagore Ki Haveli"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udaipur-city-palace.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Udaipur Sightseeing",
+        "activities": [
+          "Visit Saheliyon Ki Bari and Jagdish Temple",
+          "Explore Fateh Sagar Lake and Vintage Car Museum",
+          "Visit local bazaars or sunset at Sajjangarh Palace"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/fateh-sagar-lake.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Udaipur to Mount Abu",
+        "activities": [
+          "Drive to Mount Abu",
+          "Hotel check-in and visit Dilwara Temples",
+          "Stroll along Nakki Lake and visit Sunset Point"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/nakki-lake-mount-abu.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Mount Abu to Kumbhalgarh",
+        "activities": [
+          "Drive to Kumbhalgarh",
+          "Check-in and visit Kumbhalgarh Fort"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kumbhalgarh-fort.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Kumbhalgarh to Udaipur",
+        "activities": [
+          "Drive to Udaipur via Ranakpur Jain Temple",
+          "Relax or explore Udaipur",
+          "Optional: Attend folk dance performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ranakpur-jain-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Udaipur",
+        "activities": [
+          "Transfer to airport or railway station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udaipur-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/udaipur-lake-pichola-sunset.jpg",
+        "alt": "Boat ride at Lake Pichola"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/mount-abu-sunset-point.jpg",
+        "alt": "Sunset Point at Mount Abu"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kumbhalgarh-wall.jpg",
+        "alt": "Fort Wall of Kumbhalgarh"
+      }
+    ]
+  },
+  "heritage-trails": {
+    "title": "Heritage Trails of Rajasthan",
+    "location": "Jaipur, Jodhpur, Jaisalmer, Rajasthan, India",
+    "duration": "7 days,6 nights",
+    "description": "Journey through Rajasthan's royal cities—Jaipur, Jodhpur, and Jaisalmer—unveiling majestic forts, colorful bazaars, and golden deserts.",
+    "price": 25000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Rajasthan, the \"Land of Kings,\" is a vibrant tapestry of royal heritage, majestic landscapes, and timeless traditions. Known for its golden deserts, grand palaces, and imposing forts, the state is a treasure trove for travelers seeking culture, history, and adventure.\n\nExplore the iconic cities of Jaipur, Udaipur, Jodhpur, and Jaisalmer, each offering unique experiences, from opulent palaces to bustling bazaars. Witness the rich traditions of folk music and dance, marvel at intricately carved temples, or embark on a thrilling camel safari in the Thar Desert.\n\nRajasthan also boasts natural wonders, including the serene lakes of Udaipur, the rugged Aravalli Hills, and wildlife sanctuaries like Ranthambore. With its warm hospitality, colorful festivals, and rich culinary delights, Rajasthan promises an unforgettable journey into India's regal past.\n\nPerfect for history buffs, nature lovers, and adventure seekers alike, Rajasthan is a destination that leaves every traveler enchanted.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/hawa-mahal-jaipur.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur",
+        "activities": [
+          "Arrival and hotel check-in",
+          "Visit City Palace and Jantar Mantar",
+          "Explore local bazaars or dine at Chokhi Dhani"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jaipur-city-palace.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Sightseeing",
+        "activities": [
+          "Visit Amber Fort with stops at Hawa Mahal and Jal Mahal",
+          "Explore Albert Hall Museum and local bazaars",
+          "Evening at leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/amber-fort-jaipur.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Jodhpur",
+        "activities": [
+          "Drive to Jodhpur",
+          "Check-in and visit Mehrangarh Fort and Jaswant Thada",
+          "Evening walk in old city and taste local snacks"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mehrangarh-fort.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Jodhpur to Jaisalmer",
+        "activities": [
+          "Drive to Jaisalmer through desert landscapes",
+          "Visit Gadisar Lake and explore local markets"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gadisar-lake.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Jaisalmer Sightseeing",
+        "activities": [
+          "Visit Jaisalmer Fort, Patwon Ki Haveli, Salim Singh Ki Haveli",
+          "Camel safari and sunset at Sam Sand Dunes",
+          "Cultural performance in desert camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sam-sand-dunes.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Jaisalmer to Jodhpur",
+        "activities": [
+          "Drive back to Jodhpur",
+          "Visit Umaid Bhawan Palace",
+          "Free time for shopping or leisure"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/umaid-bhawan-palace.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Jodhpur",
+        "activities": [
+          "Transfer to airport or railway station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/jodhpur-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jaipur-hawa-mahal-sunset.jpg",
+        "alt": "Hawa Mahal at sunset"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jodhpur-blue-city.jpg",
+        "alt": "Jodhpur Blue City aerial view"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jaisalmer-desert-camp.jpg",
+        "alt": "Desert Camp in Jaisalmer"
+      }
+    ]
+  },
+   "jewel-of-india": {
+    "title": "The Jewel of India Rajasthan",
+    "location": "Jaipur, Udaipur, Chittorgarh, Rajasthan, India",
+    "duration": "6 days, 5 nights",
+    "description": "Experience royal Rajasthan through its cultural gems—Jaipur, Udaipur, and the heroic Chittorgarh Fort—on this 6-day unforgettable journey.",
+    "price": 22000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Ravishing Rajasthan - Relish the Retreat. Discover the royal grandeur of Jaipur, the romantic lakes of Udaipur, and the heroic legacy of Chittorgarh in this enriching 6-day journey across Rajasthan. From the iconic Hawa Mahal and Amber Fort to the scenic Lake Pichola and the imposing Chittorgarh Fort, this itinerary blends history, architecture, and cultural immersion, offering a holistic experience of India’s regal past.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/udaipur-lake-palace.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur – The Pink City",
+        "activities": [
+          "Arrival and transfer to hotel",
+          "Visit City Palace and Jantar Mantar",
+          "Stroll through Johari Bazaar",
+          "Visit Hawa Mahal for sunset views"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/hawa-mahal-jaipur.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Sightseeing – Royal Grandeur",
+        "activities": [
+          "Visit Amber Fort with optional elephant or jeep ride",
+          "Photo stop at Jal Mahal",
+          "Explore Albert Hall Museum and Birla Mandir",
+          "Optional dinner with cultural show at Chokhi Dhani"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/amber-fort-jaipur.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Udaipur – The City of Lakes",
+        "activities": [
+          "Drive from Jaipur to Udaipur (~400 km, 7-8 hrs)",
+          "Optional stop at Pushkar to visit Brahma Temple and Pushkar Lake",
+          "Evening boat ride on Lake Pichola"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lake-pichola-udaipur.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Udaipur Sightseeing – Romance and Royalty",
+        "activities": [
+          "Visit City Palace and Saheliyon Ki Bari",
+          "Explore Bagore Ki Haveli and Jagdish Temple",
+          "Optional cultural dance performance at Bagore Ki Haveli"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/city-palace-udaipur.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Udaipur to Chittorgarh – The Land of Valor",
+        "activities": [
+          "Drive to Chittorgarh (~120 km, 2.5 hrs one way)",
+          "Explore Chittorgarh Fort, Vijay Stambh, Rani Padmini’s Palace, and Kirti Stambh",
+          "Return to Udaipur in evening"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/chittorgarh-fort.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Udaipur",
+        "activities": [
+          "Leisure time for shopping or stroll",
+          "Transfer to Udaipur Airport or Railway Station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udaipur-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jantar-mantar.jpg",
+        "alt": "Jantar Mantar Jaipur"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jagmandir-lake-palace.jpg",
+        "alt": "Jag Mandir on Lake Pichola"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/chittorgarh-tower.jpg",
+        "alt": "Victory Tower Chittorgarh"
+      }
+    ]
+  },
+  "golden-sands": {
+    "title": "Golden Sands & Royal Palaces",
+    "location": "Jaipur, Jodhpur, Jaisalmer, Udaipur, Rajasthan, India",
+    "duration": "9 days , 8 nights",
+    "description": "Discover the regal cities of Rajasthan with this 9-day journey, exploring deserts, palaces, lakes, and vibrant culture from Jaipur to Udaipur.",
+    "price": 30000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Rajasthan, the \"Land of Kings,\" is a vibrant tapestry of royal heritage, majestic landscapes, and timeless traditions. Known for its golden deserts, grand palaces, and imposing forts, the state is a treasure trove for travelers seeking culture, history, and adventure.\n\nExplore the iconic cities of Jaipur, Udaipur, Jodhpur, and Jaisalmer, each offering unique experiences, from opulent palaces to bustling bazaars. Witness the rich traditions of folk music and dance, marvel at intricately carved temples, or embark on a thrilling camel safari in the Thar Desert.\n\nRajasthan also boasts natural wonders, including the serene lakes of Udaipur, the rugged Aravalli Hills, and wildlife sanctuaries like Ranthambore. With its warm hospitality, colorful festivals, and rich culinary delights, Rajasthan promises an unforgettable journey into India's regal past.\n\nPerfect for history buffs, nature lovers, and adventure seekers alike, Rajasthan is a destination that leaves every traveler enchanted.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/rajasthan-palace-sunset.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur – The Pink City",
+        "activities": [
+          "Arrival and hotel check-in",
+          "Visit City Palace and Jantar Mantar",
+          "Explore Jaipur bazaars and enjoy dinner at Chokhi Dhani"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/hawa-mahal-jaipur.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Sightseeing",
+        "activities": [
+          "Visit Amber Fort, Hawa Mahal, and Jal Mahal",
+          "Explore Albert Hall Museum",
+          "Optional: Light and sound show at Amber Fort"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/amber-fort.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Jodhpur",
+        "activities": [
+          "Drive to Jodhpur",
+          "Visit Mehrangarh Fort and Jaswant Thada",
+          "Explore Sardar Market and Clock Tower"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mehrangarh-fort.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Jodhpur to Jaisalmer",
+        "activities": [
+          "Drive to Jaisalmer",
+          "Visit Gadisar Lake",
+          "Evening at leisure or local markets"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/gadisar-lake.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Jaisalmer Sightseeing",
+        "activities": [
+          "Visit Jaisalmer Fort, Patwon Ki Haveli, and Salim Singh Ki Haveli",
+          "Camel safari and sunset at Sam Sand Dunes",
+          "Cultural performance and dinner at desert camp"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sam-dunes.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Jaisalmer to Udaipur",
+        "activities": [
+          "Drive to Udaipur",
+          "Optional stop at Ranakpur Jain Temple",
+          "Evening at leisure in Udaipur"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/ranakpur-temple.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Udaipur Sightseeing",
+        "activities": [
+          "Visit City Palace, Jagdish Temple, and Saheliyon Ki Bari",
+          "Boat ride on Lake Pichola",
+          "Optional: Cultural show at Bagore Ki Haveli"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/lake-pichola.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Udaipur Exploration",
+        "activities": [
+          "Visit Fateh Sagar Lake and Vintage Car Museum",
+          "Visit Sajjangarh Palace (Monsoon Palace)",
+          "Evening at leisure or local shopping"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/sajjangarh-palace.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Departure from Udaipur",
+        "activities": [
+          "Breakfast and transfer to Udaipur airport or railway station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/udaipur-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jaisalmer-fort.jpg",
+        "alt": "Golden Jaisalmer Fort"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/udaipur-city-palace-night.jpg",
+        "alt": "City Palace at night"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/jodhpur-blue-city.jpg",
+        "alt": "Aerial view of Jodhpur Blue City"
+      }
+    ]
+  }
+}

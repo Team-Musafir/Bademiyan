@@ -15,8 +15,8 @@ function Rajasthan() {
     route: "heritage-trails",
     location: "Jaipur, Jodhpur, Jaisalmer",
     duration: "6 Days, 5 Nights",
-    price: "$1199",
-    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-12658919.jpeg"
+    price: "₹25,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-rehanverma-2588193.jpg"
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ function Rajasthan() {
     route: "jewel-of-india",
     location: "Jaipur, Udaipur, Chittorgarh",
     duration: "5 Days, 4 Nights",
-    price: "$1099",
-    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581368.jpeg"
+    price: "₹22,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-suketdedhia-570031.jpg"
   },
   {
     id: 3,
@@ -33,8 +33,8 @@ function Rajasthan() {
     route: "golden-sands",
     location: "Jaipur, Jodhpur, Jaisalmer",
     duration: "6 Days, 5 Nights",
-    price: "$1149",
-    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581369.jpeg"
+    price: "₹30,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-stijn-dijkstra-1306815-16744861.jpg"
   },
   {
     id: 4,
@@ -42,8 +42,8 @@ function Rajasthan() {
     route: "rajasthan-retreat",
     location: "Udaipur, Mt. Abu, Kumbhalgarh",
     duration: "5 Days, 4 Nights",
-    price: "$1049",
-    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581368.jpeg"
+    price: "₹20,000",
+    image: "https://ik.imagekit.io/u2yelrvui/istockphoto-1402440832-612x612.jpg"
   }
 ];
 
@@ -57,7 +57,7 @@ function Rajasthan() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-3581368.jpeg')`
+          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
