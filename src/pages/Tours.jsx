@@ -46,7 +46,7 @@ function Tours() {
       route: "western-india",
       location: "Hawa Mahal, India",
       duration: "7 Days, 6 Nights",
-      price: "₹64,999",
+      price: "₹20,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/hawa-mahal-6688170_1920.jpg",
       tags: ["Desert", "Palaces"],
       badge: "Featured"

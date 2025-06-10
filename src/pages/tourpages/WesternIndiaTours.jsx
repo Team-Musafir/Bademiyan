@@ -15,7 +15,7 @@ function WesternIndiaTours() {
       route: "rajasthan",
       location: "Rajasthan, India",
       duration: "Customizable",
-      price: "From $1099",
+      price: "From ₹20,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg"
     }
   ];
