@@ -26,8 +26,6 @@ import ScrollToTop from './components/ScrolltoTop';
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
 import InternationalPackage from './pages/endpage/InternationalTours';
-import WesternIndiaPackage from './pages/endpage/Rajasthan';
-import SouthIndiaTrips from './pages/endpage/Kerela';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
 
@@ -43,6 +41,8 @@ import Kashmir from './pages/endpage/Kashmir';
 import KashmirTrip from './pages/kashmir/Kashmir';
 import Rajasthan from './pages/endpage/Rajasthan';
 import RajasthanTrip from './pages/Rajasthan/Rajasthan';
+import Kerala from './pages/endpage/Kerala';
+import KeralaTour from './pages/Kerala/KeralaTour';
 
 
 
@@ -113,7 +113,13 @@ function App() {
         <Route path="/tours/western-india/rajasthan/:packageRoute" element={<RajasthanTrip/>} />
 
         //kerala
-        <Route path="/tours/south-india/:packageRoute" element={<SouthIndiaTrips />} />
+        <Route path="/tours/south-india/kerala" element={<Kerala/>} />
+
+        //kerala chuld
+        <Route path="/tours/south-india/kerala/:packageRoute" element={<KeralaTour/>} />
+
+
+
       </Routes>
       <FloatingEnquiryButton />
     </Router>
