@@ -16,7 +16,7 @@ function HimalchalTour() {
     location: "Kasol, Manali & Manikaran, Himachal Pradesh, India",
     duration: "6 Days, 5 Nights",
     price: "₹28,000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-suicide-chewbacca-2961109.jpg"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ function HimalchalTour() {
     location: "Manali, Himachal Pradesh, India",
     duration: "5 Days, 4 Nights",
     price: "₹22,000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-harshit-nandu-1286798-2873086.jpg"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ function HimalchalTour() {
     location: "Shimla & Manali, Himachal Pradesh, India",
     duration: "7 Days, 6 Nights",
     price: "₹30,000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-vicky-bhusara-1264136-2407751.jpg"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ function HimalchalTour() {
     location: "Shimla & Manali, Himachal Pradesh, India",
     duration: "6 Days, 5 Nights",
     price: "₹27,000",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-sujata-sankhyan-2151623640-31771332.jpg"
   }
 ];
 
@@ -56,7 +56,7 @@ function HimalchalTour() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Fqa1zGrADMg4kKba6B2OdEZZ-ZgBYbTw3g&s')"
+          backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')"
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
