@@ -7,6 +7,7 @@ import Events from './pages/Events';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
+
 import IncredibleOdishaTour from './pages/tourpages/IncredibleOdisha';
 import NorthBengalTour from './pages/tourpages/NorthBengalSikkim';
 import InternationalTours from './pages/tourpages/InternationalTours';
@@ -22,15 +23,16 @@ import AdventureTours from './pages/tourpages/AdventureTours';
 
 import ScrollToTop from './components/ScrolltoTop';
 
-import NorthBengalSikkim from './pages/NorthBengalSikkim';
-import IslandPackage from './pages/IslandOfIndia';
-import InternationalPackage from './pages/InternationalTours';
-import NorthIndiaPackage from './pages/NorthIndiaTours';
-import WesternIndiaPackage from './pages/WesternIndiaTours';
-import SouthIndiaTrips from './pages/SouthIndiaTours';
+import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
+import IslandPackage from './pages/endpage/IslandOfIndia';
+import InternationalPackage from './pages/endpage/InternationalTours';
+import NorthIndiaPackage from './pages/endpage/NorthIndiaTours';
+import WesternIndiaPackage from './pages/endpage/WesternIndiaTours';
+import SouthIndiaTrips from './pages/endpage/SouthIndiaTours';
+import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
+import DestinationPage from './pages/endpage/IncredibleOdisha';
+
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
-import NorthEastIndiaTrips from './pages/NorthEastIndiaTours';
-import DestinationPage from './pages/IncredibleOdisha';
 
 function App() {
   return (
