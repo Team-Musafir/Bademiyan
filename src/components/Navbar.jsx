@@ -92,17 +92,33 @@ const Navbar = () => {
           width: 100%;
           background: linear-gradient(90deg, #fff, #fff);
         }
+
+        @media (max-width: 767px) {
+          .underline-effect::after {
+            background: linear-gradient(90deg, #fff, #fff);
+          }
+          .underline-effect.active::after {
+            background: linear-gradient(90deg, #fff, #fff);
+          }
+        }
       `}</style>
 
       <nav className='absolute top-0 left-0 right-0 z-50 transition-all duration-300'>
-        <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="max-w-7xl mx-auto px-2 py-2">
           <div className="flex items-center justify-between">
-            {/* Logo - not underlined */}
-            <Link to="/" className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
-              Bademiyan Tours & Travels.
+            {/* Logo with image and text - white version */}
+            <Link to="/" className="flex items-center space-x-2">
+              <img 
+                src="/logoW.png" // Make sure you have a white version logo in your public folder
+                alt="Bademiyan Logo"
+                className="h-16 w-auto" // Adjust size as needed
+              />
+              <span className="text-white text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
+                Bademiyan
+              </span>
             </Link>
             
-            {/* Desktop Menu */}
+            {/* Desktop Menu - white items */}
             <div className="hidden md:flex items-center space-x-12">
               {menuItems.map((item) => (
                 <Link
@@ -117,7 +133,7 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Mobile Menu Button - Hidden when sidebar is open */}
+            {/* Mobile Menu Button - white hamburger */}
             {!isMenuOpen && (
               <button
                 onClick={toggleMenu}
