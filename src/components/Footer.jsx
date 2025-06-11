@@ -1,7 +1,14 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Youtube, Phone, MapPin } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import ScrollToTop from './ScrolltoTop';
 
 const Footer = () => {
+
+  const nav = useNavigate()
+  const handleNavigate=(link)=>{
+    nav(link)
+  }
   return (
     <footer className="bg-gray-900 text-white">
       <style jsx='true'>
@@ -35,38 +42,78 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12">
             {/* Discover */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Discover</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Packages</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Gallery</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-              </ul>
-            </div>
+            <div> 
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Discover</h3>
+  <ul className="space-y-3">
+    <li onClick={() => { ScrollToTop(); handleNavigate('/'); }}>
+      <a className="text-gray-400 hover:text-white transition-colors">Home</a>
+    </li>
+    <li onClick={() => handleNavigate('/about')}>
+      <a className="text-gray-400 hover:text-white transition-colors">About Us</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Tours</a>
+    </li>
+    <li onClick={() => handleNavigate('/events')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Events</a>
+    </li>
+    <li onClick={() => handleNavigate('/blog')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Gallery</a>
+    </li>
+    <li onClick={() => handleNavigate('/contact')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Contact</a>
+    </li>
+  </ul>
+</div>
 
-            {/* Services */}
+            {/* Tours */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Services</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Itinerary</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Preparations</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Booking Form</a></li>
-              </ul>
-            </div>
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Tours</h3>
+  <ul className="space-y-3">
+    <li onClick={() => handleNavigate('/tours/incredible-odisha')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Incredile Odisha</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-bengal-sikkim')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North Bengal</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-east-india-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North East India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/western-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Western India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/south-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">South India</a>
+    </li>
+  </ul>
+</div>
+
 
             {/* Packages */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Packages</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Popular Trip</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Personal Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Group Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Business Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
-              </ul>
-            </div>
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Special Tours</h3>
+  <ul className="space-y-3">
+    <li onClick={() => handleNavigate('/tours/island-of-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Islands of India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/international-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">International</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/pilgrimage-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Pilgrimage</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/heritage-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Heritage</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/adventure-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Adventure</a>
+    </li>
+  </ul>
+</div>
+
 
             {/* Support */}
             <div>
@@ -86,13 +133,13 @@ const Footer = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 mt-1 text-gray-400" />
-                  <span className="text-gray-400">+123 456 7890</span>
+                  <span className="text-gray-400">+91 82496 08314</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 mt-1 text-gray-400" />
                   <span className="text-gray-400">
-                    123 Wanderer Street, City Name,<br />
-                    State Name, Nation
+                    Infocity, Sai Kuthir, Bhubaneswar- 751024,<br />
+                    Odisha, India.
                   </span>
                 </div>
               </div>
@@ -106,7 +153,7 @@ const Footer = () => {
               <div 
                 className="text-xl text-white font-playfair"
               >
-                Bademiyan Tours and Services
+                Bademiyan Tours and Travels.
               </div>
               <div className="h-6 border-l border-gray-700"></div>
               <div className="flex space-x-4">
@@ -127,7 +174,7 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Bademiyan Tours and Services. All rights reserved.
+              &copy; {new Date().getFullYear()} Bademiyan Tours and Travels. All rights reserved.
             </div>
           </div>
         </div>
