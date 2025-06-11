@@ -615,7 +615,7 @@ const CircularEnquiryButton = () => {
         )}
       </AnimatePresence>
 
-      <style jsx global>{`
+      <style jsx='true'>{`
         .scrollbar-hide::-webkit-scrollbar {
           display: none;
         }

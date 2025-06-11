@@ -238,7 +238,7 @@ function Tours() {
       <Contact />
       <Footer />
 
-      <style jsx global>{`
+      <style jsx='true'>{`
         @keyframes gentleFadeInLeft {
           0% {
             opacity: 0;

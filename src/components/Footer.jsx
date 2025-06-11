@@ -4,7 +4,7 @@ import { Facebook, Twitter, Instagram, Youtube, Phone, MapPin } from 'lucide-rea
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-      <style>
+      <style jsx='true'>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
           .font-playfair {
