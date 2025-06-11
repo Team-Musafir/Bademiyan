@@ -2,16 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, Clock, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useParams } from 'react-router-dom';
 import Navbar from '../../components/NavbarB';
 import Reviews from '../../components/Review';
 import Footer from '../../components/Footer';
-import internationalData from '../../data/Bhutan.json';
+import tourData from '../../data/BhutanData.json';
 
-const defaultInternationalData = {
-  title: 'International Tour',
-  location: 'Location not specified',
+const defaultDestinationData = {
+  title: 'Bhutan Tour Package',
+  location: 'Bhutan',
   duration: 'Duration not specified',
-  description: 'No description available',
+  description: 'Experience the Last Shangri-La with our exclusive Bhutan tour packages',
   price: 0,
   quota: 0,
   schedule: 'Schedule not specified',
@@ -28,19 +29,18 @@ const defaultInternationalData = {
 };
 
 export default function Bhutan() {
-  const [internationalTour, setInternationalTour] = useState(defaultInternationalData);
+  const { packageRoute } = useParams();
+  const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    // You can fetch data here or use static data
-    // For now using the first item from internationalData as an example
-    if (internationalData && internationalData.length > 0) {
-      setInternationalTour(internationalData[0]);
+    if (tourData[packageRoute]) {
+      setDestinationData(tourData[packageRoute]);
     } else {
-      console.warn('No international tour data found');
-      setInternationalTour(defaultInternationalData);
+      console.warn(`Destination "${packageRoute}" not found in tourData`);
+      setDestinationData(defaultDestinationData);
     }
-  }, []);
+  }, [packageRoute]);
 
   const toggleDay = (index) => {
     setExpandedDay(expandedDay === index ? null : index);
@@ -71,7 +71,7 @@ export default function Bhutan() {
     }
   };
 
-  const locationFirstPart = internationalTour.location?.split(',')[0]?.toLowerCase() || 'tours';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'bhutan tours';
 
   return (
     <div className="min-h-screen bg-white">
@@ -87,7 +87,7 @@ export default function Bhutan() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal text-gray-900 mb-6 sm:mb-8 leading-tight sm:leading-normal">
-              {internationalTour.title}
+              {destinationData.title}
             </h1>
           </motion.div>
 
@@ -100,22 +100,22 @@ export default function Bhutan() {
           >
             <motion.div className="flex items-center space-x-2 text-gray-600" variants={fadeInUp}>
               <MapPin className="w-4 h-4" />
-              <span className="text-lg sm:text-xl md:text-2xl">{internationalTour.location}</span>
+              <span className="text-lg sm:text-xl md:text-2xl">{destinationData.location}</span>
             </motion.div>
 
             <motion.div className="flex items-center space-x-2 text-gray-600" variants={fadeInUp}>
               <Clock className="w-4 h-4" />
-              <span className="text-base sm:text-lg md:text-xl">{internationalTour.duration}</span>
+              <span className="text-base sm:text-lg md:text-xl">{destinationData.duration}</span>
             </motion.div>
 
             <motion.p className="text-gray-600 text-base sm:text-lg leading-relaxed" variants={fadeInUp}>
-              {internationalTour.description}
+              {destinationData.description}
             </motion.p>
           </motion.div>
         </div>
       </div>
 
-      {internationalTour.heroImage && (
+      {destinationData.heroImage && (
         <motion.div
           className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden"
           initial={{ opacity: 0 }}
@@ -126,12 +126,12 @@ export default function Bhutan() {
           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
           <div className="absolute inset-0 z-0" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' }}>
             <img
-              src={internationalTour.heroImage}
-              alt={`${internationalTour.title} tour`}
+              src={destinationData.heroImage}
+              alt={`${destinationData.title} tour`}
               className="w-full h-full object-cover object-center"
               onError={(e) => {
-                e.target.src = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
-                e.target.alt = 'Tour image placeholder';
+                e.target.src = 'https://images.unsplash.com/photo-1581502055019-f1a822d9c9e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80';
+                e.target.alt = 'Bhutan monastery image placeholder';
               }}
             />
           </div>
@@ -148,7 +148,7 @@ export default function Bhutan() {
       >
         <motion.div className="flex justify-between items-center mb-4" variants={fadeInUp}>
           <span className="text-gray-600 text-base sm:text-lg md:text-xl">Price</span>
-          <span className="text-lg sm:text-xl font-semibold">₹{internationalTour.price.toLocaleString()}/adult</span>
+          <span className="text-lg sm:text-xl font-semibold">₹{destinationData.price.toLocaleString()}/adult</span>
         </motion.div>
       </motion.div>
 
@@ -162,13 +162,13 @@ export default function Bhutan() {
         viewport={{ once: true }}
       >
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-          {internationalTour.longDescription}
+          {destinationData.longDescription}
         </p>
       </motion.div>
 
       <div className="border-1 border-gray-200 my-6 sm:my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20"></div>
 
-      {internationalTour.includes?.length > 0 && (
+      {destinationData.includes?.length > 0 && (
         <>
           <motion.div
             className="mb-8 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20"
@@ -181,7 +181,7 @@ export default function Bhutan() {
               Includes:
             </motion.h3>
             <div className="space-y-3">
-              {internationalTour.includes.map((item, index) => (
+              {destinationData.includes.map((item, index) => (
                 <motion.div
                   key={index}
                   className="flex items-start gap-3"
@@ -201,7 +201,7 @@ export default function Bhutan() {
         </>
       )}
 
-      {internationalTour.excludes?.length > 0 && (
+      {destinationData.excludes?.length > 0 && (
         <>
           <motion.div
             className='px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 mb-8'
@@ -214,7 +214,7 @@ export default function Bhutan() {
               Excludes:
             </motion.h3>
             <div className="space-y-3">
-              {internationalTour.excludes.map((item, index) => (
+              {destinationData.excludes.map((item, index) => (
                 <motion.div
                   key={index}
                   className="flex items-start gap-3"
@@ -234,7 +234,7 @@ export default function Bhutan() {
         </>
       )}
 
-      {internationalTour.itineraryDays?.length > 0 && (
+      {destinationData.itineraryDays?.length > 0 && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-18 lg:mb-18 gap-4">
             <motion.h1
@@ -265,7 +265,7 @@ export default function Bhutan() {
             variants={staggerContainer}
             viewport={{ once: true }}
           >
-            {internationalTour.itineraryDays.map((day, index) => (
+            {destinationData.itineraryDays.map((day, index) => (
               <motion.div
                 key={index}
                 variants={fadeInUp}
@@ -328,7 +328,7 @@ export default function Bhutan() {
       <Reviews />
 
       {/* Gallery Section */}
-      {internationalTour.galleryImages?.length >= 3 && (
+      {destinationData.galleryImages?.length >= 3 && (
         <motion.div
           className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
           initial="hidden"
@@ -340,8 +340,8 @@ export default function Bhutan() {
             {/* Main large image - same height on mobile and desktop */}
             <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
               <img
-                src={internationalTour.galleryImages[0].url}
-                alt={internationalTour.galleryImages[0].alt}
+                src={destinationData.galleryImages[0].url}
+                alt={destinationData.galleryImages[0].alt}
                 className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
               />
             </div>
@@ -351,8 +351,8 @@ export default function Bhutan() {
               {/* First small image - full width on mobile, half height on desktop */}
               <div className="rounded-3xl overflow-hidden h-full">
                 <img
-                  src={internationalTour.galleryImages[1].url}
-                  alt={internationalTour.galleryImages[1].alt}
+                  src={destinationData.galleryImages[1].url}
+                  alt={destinationData.galleryImages[1].alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
@@ -360,8 +360,8 @@ export default function Bhutan() {
               {/* Second small image - full width on mobile, half height on desktop */}
               <div className="rounded-3xl overflow-hidden h-full">
                 <img
-                  src={internationalTour.galleryImages[2].url}
-                  alt={internationalTour.galleryImages[2].alt}
+                  src={destinationData.galleryImages[2].url}
+                  alt={destinationData.galleryImages[2].alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>

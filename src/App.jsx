@@ -25,7 +25,7 @@ import ScrollToTop from './components/ScrolltoTop';
 
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
 import IslandPackage from './pages/endpage/IslandOfIndia';
-import InternationalPackage from './pages/endpage/Bhutan';
+import InternationalPackage from './pages/endpage/BhutanTour';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
 
@@ -44,6 +44,7 @@ import RajasthanTrip from './pages/Rajasthan/Rajasthan';
 import Kerala from './pages/endpage/Kerala';
 import KeralaTour from './pages/Kerala/KeralaTour';
 import Bhutan from './pages/Bhutan/Bhutan';
+import BhutanTour from './pages/endpage/BhutanTour';
 
 
 
@@ -63,7 +64,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         // parent page
-
         <Route path="/tours/incredible-odisha" element={<IncredibleOdishaTour />} />
         <Route path="/tours/north-bengal-sikkim" element={<NorthBengalTour />} />
         <Route path="/tours/island-of-india" element={<IslandOfIndia />} />
@@ -75,7 +75,6 @@ function App() {
         <Route path="/tours/heritage-tours" element={<HeritageTours />} />
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
 
-        <Route path="/tours/international-tours" element={<InternationalTours />} />
 
         //INternal page
         <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
@@ -83,10 +82,10 @@ function App() {
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage />} />
 
-
-        <Route path="/tours/international-tours/bhutan" element={<InternationalPackage />} />
-
-
+        //internattional
+        <Route path="/tours/international-tours" element={<InternationalTours />} />
+        //bhutan 
+        <Route path="/tours/international-tours/bhutan" element={<BhutanTour/>} />
         //international chid
         <Route path="/tours/international-tours/bhutan/:packageRoute" element={<Bhutan/>} />
 
