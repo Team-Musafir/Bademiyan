@@ -68,28 +68,52 @@ const Footer = () => {
 
             {/* Tours */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Tours</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Incredile Odisha</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North Bengal</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North East India</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North India</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Western India</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">South India</a></li>
-              </ul>
-            </div>
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Tours</h3>
+  <ul className="space-y-3">
+    <li onClick={() => handleNavigate('/tours/incredible-odisha')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Incredile Odisha</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-bengal-sikkim')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North Bengal</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-east-india-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North East India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/north-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">North India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/western-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Western India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/south-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">South India</a>
+    </li>
+  </ul>
+</div>
+
 
             {/* Packages */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200"></h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Islands of India</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">International</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Piligrimage</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Heritage</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Adventure</a></li>
-              </ul>
-            </div>
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Special Tours</h3>
+  <ul className="space-y-3">
+    <li onClick={() => handleNavigate('/tours/island-of-india')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Islands of India</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/international-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">International</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/pilgrimage-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Pilgrimage</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/heritage-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Heritage</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours/adventure-tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Adventure</a>
+    </li>
+  </ul>
+</div>
+
 
             {/* Support */}
             <div>
