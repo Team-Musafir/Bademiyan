@@ -604,7 +604,7 @@ const Contacts = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="flex flex-col md:flex-row gap-6 mt-10"
           initial="hidden"
           whileInView="show"
@@ -618,8 +618,8 @@ const Contacts = () => {
               }
             }
           }}
-        >
-          <motion.div
+        > */}
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
               show: {
@@ -649,9 +649,9 @@ const Contacts = () => {
               Dedicated parking available in front of our office. Free for
               clients during business hours.
             </p>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
               show: {
@@ -685,8 +685,8 @@ const Contacts = () => {
               Easily accessible via city buses (Route 10, 15, 22). Nearest bus
               stop is 200m away. Auto rickshaws available throughout the city.
             </p>
-          </motion.div>
-        </motion.div>
+          </motion.div> */}
+        {/* </motion.div> */}
       </section>
 
       <Footer />
