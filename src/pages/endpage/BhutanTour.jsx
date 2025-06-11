@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function Bhutan() {
+function BhutanTour() {
   const navigate = useNavigate();
 
   const packages = [
@@ -151,4 +151,4 @@ function Bhutan() {
   );
 }
 
-export default Bhutan;
+export default BhutanTour;
