@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
@@ -6,7 +6,6 @@ import Tours from './pages/Tours';
 import Events from './pages/Events';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-
 
 import IncredibleOdishaTour from './pages/tourpages/IncredibleOdisha';
 import NorthBengalTour from './pages/tourpages/NorthBengalSikkim';
@@ -20,7 +19,6 @@ import NorthEastIndiaTours from './pages/tourpages/NorthEastIndiaTours';
 import HeritageTours from './pages/tourpages/HeritageTours';
 import AdventureTours from './pages/tourpages/AdventureTours';
 
-
 import ScrollToTop from './components/ScrolltoTop';
 
 import NorthBengalSikkim from './pages/endpage/NorthBengalSikkim';
@@ -29,10 +27,8 @@ import InternationalPackage from './pages/endpage/BhutanTour';
 import NorthEastIndiaTrips from './pages/endpage/NorthEastIndiaTours';
 import DestinationPage from './pages/endpage/IncredibleOdisha';
 
-
 import HimalchalTour from './pages/endpage/HimachalTour';
 import UttarPradeshTour from './pages/endpage/UttarPradesh';
-
 
 import FloatingEnquiryButton from './components/FloatingEnquiryButton';
 import Hp from './pages/Himachal/Himachal';
@@ -45,10 +41,13 @@ import Kerala from './pages/endpage/Kerala';
 import KeralaTour from './pages/Kerala/KeralaTour';
 import Bhutan from './pages/Bhutan/Bhutan';
 import BhutanTour from './pages/endpage/BhutanTour';
+import FloatingSocialLinks from './components/FloatingSocialLinks';
 
-
-
-
+// Component to conditionally render FloatingSocialLinks
+const ConditionalFloatingSocialLinks = () => {
+  const location = useLocation();
+  return location.pathname === '/' ? <FloatingSocialLinks /> : null;
+};
 
 function App() {
   return (
@@ -63,7 +62,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
 
-        // parent page
+        {/* parent pages */}
         <Route path="/tours/incredible-odisha" element={<IncredibleOdishaTour />} />
         <Route path="/tours/north-bengal-sikkim" element={<NorthBengalTour />} />
         <Route path="/tours/island-of-india" element={<IslandOfIndia />} />
@@ -75,59 +74,37 @@ function App() {
         <Route path="/tours/heritage-tours" element={<HeritageTours />} />
         <Route path="/tours/adventure-tours" element={<AdventureTours />} />
 
-
-        //INternal page
+        {/* internal pages */}
         <Route path="/tours/incredible-odisha/:packageRoute" element={<DestinationPage />} />
         <Route path="/tours/northeast-india/:packageRoute" element={<NorthEastIndiaTrips />} />
         <Route path="/tours/north-bengal-sikkim/:packageRoute" element={<NorthBengalSikkim />} />
         <Route path="/tours/island-of-india/:packageRoute" element={<IslandPackage />} />
 
-        //internattional
+        {/* international tours */}
         <Route path="/tours/international-tours" element={<InternationalTours />} />
-        //bhutan 
         <Route path="/tours/international-tours/bhutan" element={<BhutanTour/>} />
-        //international chid
         <Route path="/tours/international-tours/bhutan/:packageRoute" element={<Bhutan/>} />
 
-
-        //North india
+        {/* north india */}
         <Route path="/tours/north-india/himachal-pradesh" element={<HimalchalTour />} />
         <Route path="/tours/north-india/uttar-pradesh" element={<UttarPradeshTour />} />
         <Route path="/tours/north-india/kashmir" element={<Kashmir />} />
-
-        //himachal child
         <Route path="/tours/north-india/himachal-pradesh/:packageRoute" element={<Hp />} />
-
-
-        //uttar pradesh child
         <Route path="/tours/north-india/uttar-pradesh/:packageRoute" element={<Up />} />
-
-        //kashmir child
         <Route path="/tours/north-india/kashmir/:packageRoute" element={<KashmirTrip/>} />
-
-
-
-
-
-        // required change over here as no data provided
         <Route path="/tours/north-india/leh-ladakh" element={<HimalchalTour />} />
 
-        //Rajasthan
+        {/* rajasthan */}
         <Route path="/tours/western-india/rajasthan" element={<Rajasthan/>} />
-
-        //rajasthan child
         <Route path="/tours/western-india/rajasthan/:packageRoute" element={<RajasthanTrip/>} />
 
-        //kerala
+        {/* kerala */}
         <Route path="/tours/south-india/kerala" element={<Kerala/>} />
-
-        //kerala chuld
         <Route path="/tours/south-india/kerala/:packageRoute" element={<KeralaTour/>} />
-
-
-
       </Routes>
+      
       <FloatingEnquiryButton />
+      <ConditionalFloatingSocialLinks />
     </Router>
   );
 }

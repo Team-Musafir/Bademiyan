@@ -104,11 +104,18 @@ const Navbar = () => {
       `}</style>
 
       <nav className='absolute top-0 left-0 right-0 z-50 transition-all duration-300'>
-        <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="max-w-7xl mx-auto px-2 py-2">
           <div className="flex items-center justify-between">
-            {/* Logo - black in both desktop and mobile */}
-            <Link to="/" className="text-black text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
-              Bademiyan Tours & Travels.
+            {/* Logo with image and text */}
+            <Link to="/" className="flex items-center space-x-2">
+              <img 
+                src="/logo.png" // Make sure you have a logo.png in your public folder
+                alt="Bademiyan Logo"
+                className="h-16 w-auto" // Adjust size as needed
+              />
+              <span className="text-gray-900 text-2xl font-light tracking-wide italic" style={{ fontFamily: 'Playfair Display' }}>
+                Bademiyan
+              </span>
             </Link>
             
             {/* Desktop Menu - black items */}
@@ -126,7 +133,7 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Mobile Menu Button - white hamburger */}
+            {/* Mobile Menu Button - black hamburger */}
             {!isMenuOpen && (
               <button
                 onClick={toggleMenu}

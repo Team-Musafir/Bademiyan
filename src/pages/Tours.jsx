@@ -133,7 +133,7 @@ function Tours() {
   return (
     <div className="min-h-1/2 bg-white">
       <Navbar />
-      <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
+      <section className="relative mt-[6rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
