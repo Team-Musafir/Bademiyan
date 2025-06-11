@@ -16,7 +16,7 @@ function NorthEastIndiaTours() {
       location: "Lachung, Yumthang Valley, Zero Point, Sikkim, India",
       duration: "4 days , 3 nights",
       price: "₹10000",
-      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg"
+      image: "https://ik.imagekit.io/51dx1i7qo/pexels-renjithponnappan-20463477.jpg"
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ function NorthEastIndiaTours() {
       location: "Namchi, Gangtok, Lachung, Sikkim, India",
       duration: "5 Days & 4 Nights",
       price: "₹9000",
-      image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
+      image: "https://ik.imagekit.io/51dx1i7qo/pexels-rehanverma-2408167.jpg"
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ function NorthEastIndiaTours() {
       location: "Pelling, Namchi, Gangtok, Sikkim, India",
       duration: "10 Days, 9 Nights",
       price: "₹25000",
-      image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-3678501.jpeg"
+      image: "https://ik.imagekit.io/51dx1i7qo/hill-3760386_1920.jpg"
     },
   ];
 
