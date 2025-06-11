@@ -20,31 +20,31 @@ const Reviews = () => {
     },
     {
       id: 3,
-      text: "Their diverse range of destinations and unwavering commitment to customer satisfaction make them my go-to choice for future adventures.",
-      name: "Angellina Diana",
-      country: "Italy",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face&auto=format"
+      text: "Simply superb. Suraj was in touch with me for the entire tour and assisted us with all the help that He could do. The best thing about Bademiya is there was nothing hidden. Suraj explained everything properly. Strongly recommend This travel planner to everyone.",
+      name: "Sarada Prasanna",
+      country: "India",
+      avatar: "https://ik.imagekit.io/51dx1i7qo/unnamed.webp"
     },
     {
       id: 4,
-      text: "Xplore's exceptional customer service and commitment to travel excellence go beyond what I could have ever recommended.",
-      name: "Michael Chen",
-      country: "USA",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face&auto=format"
+      text: "BGood experience with the travel plans, hotel bookings and how smoothly was the trip carried out. Thank you Suraj!",
+      name: "Sthitipragyan Sahoo",
+      country: "India",
+      avatar: "https://ik.imagekit.io/51dx1i7qo/unnamed%20(4).webp"
     },
     {
       id: 5,
-      text: "The attention to detail in every aspect of our journey was remarkable. From the moment we landed to our departure, everything was perfectly arranged.",
-      name: "Sophia Rodriguez",
-      country: "Mexico",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face&auto=format"
+      text: "Best tour agency in bhubaneswar. I had good experience with them.",
+      name: "Belal Khan",
+      country: "India",
+      avatar: "https://ik.imagekit.io/51dx1i7qo/unnamed%20(2).webp"
     },
     {
       id: 6,
-      text: "Our family vacation was absolutely magical. The kids still talk about the wildlife safari and the amazing guides who made every day an adventure.",
-      name: "Thomas Anderson",
-      country: "Canada",
-      avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=40&h=40&fit=crop&crop=face&auto=format"
+      text: "Had an absolutely amazing trip with lots of memories through your service ❤️ Grateful for your kind support and service as well Mr. Suraj...Hope to have a next trip with you soon..",
+      name: "Debadeepa Rath",
+      country: "India",
+      avatar: "https://ik.imagekit.io/51dx1i7qo/unnamed%20(3).webp"
     }
   ];
 
