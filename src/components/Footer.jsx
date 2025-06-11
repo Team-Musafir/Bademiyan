@@ -66,25 +66,28 @@ const Footer = () => {
   </ul>
 </div>
 
-            {/* Services */}
+            {/* Tours */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Services</h3>
+              <h3 className="text-xl font-semibold mb-6 text-gray-200">Tours</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Itinerary</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Preparations</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Booking Form</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Incredile Odisha</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North Bengal</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North East India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Western India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">South India</a></li>
               </ul>
             </div>
 
             {/* Packages */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Packages</h3>
+              <h3 className="text-xl font-semibold mb-6 text-gray-200"></h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Popular Trip</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Personal Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Group Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Business Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Islands of India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">International</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Piligrimage</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Heritage</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Adventure</a></li>
               </ul>
             </div>
 
@@ -106,13 +109,13 @@ const Footer = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 mt-1 text-gray-400" />
-                  <span className="text-gray-400">+123 456 7890</span>
+                  <span className="text-gray-400">+91 82496 08314</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 mt-1 text-gray-400" />
                   <span className="text-gray-400">
-                    123 Wanderer Street, City Name,<br />
-                    State Name, Nation
+                    Infocity, Sai Kuthir, Bhubaneswar- 751024,<br />
+                    Odisha, India.
                   </span>
                 </div>
               </div>
@@ -126,7 +129,7 @@ const Footer = () => {
               <div 
                 className="text-xl text-white font-playfair"
               >
-                Bademiyan Tours and Services
+                Bademiyan Tours and Travels.
               </div>
               <div className="h-6 border-l border-gray-700"></div>
               <div className="flex space-x-4">
@@ -147,7 +150,7 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Bademiyan Tours and Services. All rights reserved.
+              &copy; {new Date().getFullYear()} Bademiyan Tours and Travels. All rights reserved.
             </div>
           </div>
         </div>
