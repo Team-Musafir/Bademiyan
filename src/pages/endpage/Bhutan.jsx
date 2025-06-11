@@ -16,7 +16,7 @@ function Bhutan() {
     location: "Phuentsholing, Thimphu, Paro, Bhutan",
     duration: "6 Days, 5 Nights",
     price: "₹32,000", // Replace with actual price if needed
-    image: "https://ik.imagekit.io/u2yelrvui/bhutan1.jpg"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-setu-r8-5728647.jpg"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ function Bhutan() {
     location: "Phuentsholing, Thimphu, Paro, Bhutan",
     duration: "7 Days, 6 Nights",
     price: "₹35,000", // Replace with actual price if needed
-    image: "https://ik.imagekit.io/u2yelrvui/bhutan2.jpg"
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-karen-w-lim-415441-1089300.jpg"
   }
 ];
 
