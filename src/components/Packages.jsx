@@ -7,64 +7,73 @@ const TravelPackages = () => {
   const navigate = useNavigate();
   // Create 8 packages with unique data
   const packages = [
-    {
-      id: 1,
-      title: "Odisha",
-      duration: "7 days, 6 nights",
-      price: "$999",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793",
-    },
-    {
-      id: 2,
-      title: "Bengal",
-      duration: "7 days, 6 nights",
-      price: "$1799",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/victoria-memorial-2394784_1920.jpg",
-    },
-    {
-      id: 3,
-      title: "North East India",
-      duration: "6 Days, 5 Nights",
-      price: "$1199",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nans1419-20519339.jpg",
-    },
-    {
-      id: 4,
-      title: "Explore India",
-      duration: "7 Days, 6 Nights",
-      price: "$899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/india.jpg?updatedAt=1748812485940",
-    },
-    {
-      id: 5,
-      title: "Pilgrimage Tours",
-      duration: "5 Days, 4 Nights",
-      price: "$1299",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-artosuraj-28819289.jpg",
-    },
-    {
-      id: 6,
-      title: "Best of the World",
-      duration: "4 Days, 3 Nights",
-      price: "$799",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/international.jpg?updatedAt=1748812348350",
-    },
-    {
-      id: 7,
-      title: "Heritage Tours",
-      duration: "8 Days, 7 Nights",
-      price: "$1599",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-usaidphotos-14337670.jpg",
-    },
-    {
-      id: 8,
-      title: "Adventure Tours",
-      duration: "6 Days, 5 Nights",
-      price: "$1899",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/mountain-7565293_1920.jpg",
-      gradient: "from-green-700/80 to-emerald-800/80"
-    }
-  ];
+  {
+    id: 1,
+    title: "Odisha",
+    duration: "7 days, 6 nights",
+    price: "$999",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-sincegameon-26329171.jpg?updatedAt=1748814290793",
+    link: "/tours/incredible-odisha"
+  },
+  {
+    id: 2,
+    title: "Bengal",
+    duration: "7 days, 6 nights",
+    price: "$1799",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/victoria-memorial-2394784_1920.jpg",
+    link: "/tours/north-bengal-sikkim"
+  },
+  {
+    id: 3,
+    title: "North East India",
+    duration: "6 Days, 5 Nights",
+    price: "$1199",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-nans1419-20519339.jpg",
+    link: "/tours/north-east-india-tours"
+  },
+  {
+    id: 4,
+    title: "Explore India",
+    duration: "7 Days, 6 Nights",
+    price: "$899",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/india.jpg?updatedAt=1748812485940",
+    link: "/tours"
+  },
+  {
+    id: 5,
+    title: "Pilgrimage Tours",
+    duration: "5 Days, 4 Nights",
+    price: "$1299",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-artosuraj-28819289.jpg",
+    link: "/tours/pilgrimage-tours"
+  },
+  {
+    id: 6,
+    title: "Best of the World",
+    duration: "4 Days, 3 Nights",
+    price: "$799",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/international.jpg?updatedAt=1748812348350",
+    link: "/tours/international-tours"
+  },
+  {
+    id: 7,
+    title: "Heritage Tours",
+    duration: "8 Days, 7 Nights",
+    price: "$1599",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-usaidphotos-14337670.jpg",
+    link: "/tours/heritage-tours"
+  },
+  {
+    id: 8,
+    title: "Adventure Tours",
+    duration: "6 Days, 5 Nights",
+    price: "$1899",
+    image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/mountain-7565293_1920.jpg",
+    gradient: "from-green-700/80 to-emerald-800/80",
+    link: "/tours/adventure-tours"
+  }
+];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerView, setCardsPerView] = useState(4);
@@ -164,6 +173,11 @@ const TravelPackages = () => {
       }
     }
   };
+  const nav = useNavigate()
+
+  function handlePackage(link){
+    nav(link)
+  }
 
   return (
     <section id="packages" className="bg-white py-24 px-6">
@@ -278,7 +292,7 @@ const TravelPackages = () => {
 
                       {/* Hover Overlay */}
                       <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                        <button className="border-white border-2 text-white px-6 py-3 rounded-full font-normal transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                        <button className="border-white border-2 text-white px-6 py-3 rounded-full font-normal transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300" onClick={() => handlePackage(pkg.link)}>
                           Explore Package
                         </button>
                       </div>

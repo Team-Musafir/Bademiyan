@@ -554,7 +554,7 @@ const Contacts = () => {
           <div className="absolute inset-0 z-0">
             <iframe
               title="Bademiyan Tours Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.845313338865!2d85.81472847505676!3d20.31151088113786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a0d8b9e0a0d%3A0x3b9a3d7e1a3e0b0d!2sBademiyan%20Tours%20and%20Travels!5e0!3m2!1sen!2sin!4v1717489876543!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15120.046239918649!2d85.7784612871582!3d20.3398683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190923c5089fb5%3A0x7d11e99b0e92afbe!2sSAI%20KUTIR%20HOUSING%20COLONY!5e1!3m2!1sen!2sin!4v1749667734182!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -604,7 +604,7 @@ const Contacts = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="flex flex-col md:flex-row gap-6 mt-10"
           initial="hidden"
           whileInView="show"
@@ -618,8 +618,8 @@ const Contacts = () => {
               }
             }
           }}
-        >
-          <motion.div
+        > */}
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
               show: {
@@ -649,9 +649,9 @@ const Contacts = () => {
               Dedicated parking available in front of our office. Free for
               clients during business hours.
             </p>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
               show: {
@@ -685,8 +685,8 @@ const Contacts = () => {
               Easily accessible via city buses (Route 10, 15, 22). Nearest bus
               stop is 200m away. Auto rickshaws available throughout the city.
             </p>
-          </motion.div>
-        </motion.div>
+          </motion.div> */}
+        {/* </motion.div> */}
       </section>
 
       <Footer />
