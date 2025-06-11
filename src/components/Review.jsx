@@ -6,17 +6,17 @@ const Reviews = () => {
   const reviews = [
     {
       id: 1,
-      text: "My travel dreams finally came true, thanks to them. I explored places I never thought I would see, and everything was seamless from start to finish during the trip.",
-      name: "Priya Marcella",
+      text: "Seamless from beginning to end.Help at each step.Personalised itinerary ,thank you for including Sethan in our Manali trip.Above all really great professionalism.Looking forward to travel more with Bademiyan tours 🙌🏻🙌🏻🔥🔥",
+      name: "Pinaki Satapathy",
       country: "India",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face&auto=format"
+      avatar: "https://ik.imagekit.io/51dx1i7qo/Pinaki%20Satapathy.webp"
     },
     {
       id: 2,
-      text: "They provided an amazing adventure that I'll never forget. The accommodations were top-notch, and the itinerary was a perfect trip of relaxation and excitement.",
-      name: "Jose Miguel",
-      country: "Spain",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face&auto=format"
+      text: "Excellent transport and accommodation at quite reasonable cost.. Personalised attention for any alterations in plans.One must enjoy Leh-Ladakh with this operators.",
+      name: "Pradipta Jen",
+      country: "India",
+      avatar: "https://ik.imagekit.io/51dx1i7qo/Pradipta%20Jen.webp"
     },
     {
       id: 3,
