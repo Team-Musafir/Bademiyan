@@ -47,25 +47,28 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Services */}
+            {/* Tours */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Services</h3>
+              <h3 className="text-xl font-semibold mb-6 text-gray-200">Tours</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Itinerary</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Preparations</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Booking Form</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Incredile Odisha</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North Bengal</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North East India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">North India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Western India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">South India</a></li>
               </ul>
             </div>
 
             {/* Packages */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Packages</h3>
+              <h3 className="text-xl font-semibold mb-6 text-gray-200"></h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Popular Trip</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Personal Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Group Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Business Tour</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Islands of India</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">International</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Piligrimage</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Heritage</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Adventure</a></li>
               </ul>
             </div>
 
