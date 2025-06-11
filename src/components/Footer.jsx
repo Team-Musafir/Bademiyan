@@ -90,13 +90,13 @@ const Footer = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 mt-1 text-gray-400" />
-                  <span className="text-gray-400">+123 456 7890</span>
+                  <span className="text-gray-400">+91 82496 08314</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 mt-1 text-gray-400" />
                   <span className="text-gray-400">
-                    123 Wanderer Street, City Name,<br />
-                    State Name, Nation
+                    Infocity, Sai Kuthir, Bhubaneswar- 751024,<br />
+                    Odisha, India.
                   </span>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Footer = () => {
               <div 
                 className="text-xl text-white font-playfair"
               >
-                Bademiyan Tours and Services
+                Bademiyan Tours and Travels.
               </div>
               <div className="h-6 border-l border-gray-700"></div>
               <div className="flex space-x-4">
@@ -131,7 +131,7 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Bademiyan Tours and Services. All rights reserved.
+              &copy; {new Date().getFullYear()} Bademiyan Tours and Travels. All rights reserved.
             </div>
           </div>
         </div>
