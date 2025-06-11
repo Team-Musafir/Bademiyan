@@ -5,23 +5,51 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function WesternIndiaTours() {
+function Rajasthan() {
   const navigate = useNavigate();
 
   const packages = [
-    {
-      id: 1,
-      title: "Rajasthan",
-      route: "rajasthan",
-      location: "Rajasthan, India",
-      duration: "Customizable",
-      price: "From ₹20,000",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg"
-    }
-  ];
+  {
+    id: 1,
+    title: "Heritage Trails of Rajasthan",
+    route: "heritage-trails",
+    location: "Jaipur, Jodhpur, Jaisalmer",
+    duration: "7 Days, 6 Nights",
+    price: "₹25,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-rehanverma-2588193.jpg"
+  },
+  {
+    id: 2,
+    title: "The Jewel of India - Rajasthan",
+    route: "jewel-of-india",
+    location: "Jaipur, Udaipur, Chittorgarh",
+    duration: "6 Days, 5 Nights",
+    price: "₹22,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-suketdedhia-570031.jpg"
+  },
+  {
+    id: 3,
+    title: "Golden Sands & Royal Palaces",
+    route: "golden-sands",
+    location: "Jaipur, Jodhpur, Jaisalmer",
+    duration: "9 Days, 8 Nights",
+    price: "₹30,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-jai-patil-3381830-5058588.jpg"
+  },
+  {
+    id: 4,
+    title: "Rajasthan Retreat",
+    route: "rajasthan-retreat",
+    location: "Udaipur, Mt. Abu, Kumbhalgarh",
+    duration: "6 Days, 5 Nights",
+    price: "₹20,000",
+    image: "https://ik.imagekit.io/u2yelrvui/istockphoto-1402440832-612x612.jpg"
+  }
+];
+
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/western-india/${route}`);
+    navigate(`/tours/western-india/rajasthan/${route}`);
   };
 
   return (
@@ -34,9 +62,9 @@ function WesternIndiaTours() {
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block italic font-serif animate-gentleFadeInLeft">Western</span>
-            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block animate-gentleFadeInRight">Tours</span>
+            <span className="block animate-gentleFadeInLeft">Royal</span>
+            <span className="block animate-softPulse mx-2 md:mx-4">State of</span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Rajasthan</span>
           </h1>
         </div>
       </section>
@@ -142,4 +170,4 @@ function WesternIndiaTours() {
   );
 }
 
-export default WesternIndiaTours;
+export default Rajasthan;

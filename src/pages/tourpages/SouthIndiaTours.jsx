@@ -12,10 +12,10 @@ function SouthIndiaTours() {
     {
       id: 1,
       title: "Kerala Tours",
-      route: "kerala-tours",
+      route: "kerala",
       location: "Kerala, India",
       duration: "6 Days, 5 Nights",
-      price: "$1199",
+      price: "From ₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-photo-14847155.jpeg"
     }
   ];

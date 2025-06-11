@@ -1,0 +1,235 @@
+{
+    "thunder-dragon-bhutan": {
+        "title": "The Land of the Thunder Dragon",
+        "location": "Phuentsholing, Thimphu, Paro, Bhutan",
+        "duration": "6 days X 5 nights",
+        "description": "A 6-day immersive journey through Bhutan’s sacred valleys, hilltop monasteries, and peaceful dzongs from Siliguri to Paro.",
+        "price": 32000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Bhutan, fondly known as the \"Land of the Thunder Dragon,\" is a mystical Himalayan kingdom where ancient traditions blend seamlessly with modernity. Nestled between India and China, this landlocked country is renowned for its breathtaking landscapes, unique cultural heritage, and commitment to Gross National Happiness—a philosophy that prioritizes well-being over material wealth. Bhutan's towering peaks, lush valleys, and picturesque villages create an ethereal charm that enchants every traveler. As the last remaining Buddhist kingdom, its deeply spiritual atmosphere is evident in its dzongs (fortresses), monasteries, and prayer flags fluttering in the wind. Bhutan offers a travel experience like no other—serene, enriching, and transformative.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/bhutan-mountain-view.jpg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Gondola Tickets or any other tickets",
+            "Special clothing and Winter-wear on rent",
+            "Entrance fees to monuments and museum",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Siliguri to Phuentsholing – Gateway to Bhutan",
+                "activities": [
+                    "Drive from Siliguri to Phuentsholing (~150 km)",
+                    "Complete immigration formalities",
+                    "Explore local markets and town streets"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phuentsholing-town.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Phuentsholing to Thimphu – Bhutan’s Capital City",
+                "activities": [
+                    "Drive through scenic Himalayan countryside (~170 km)",
+                    "Visit Kharbandi Gompa",
+                    "Visit Buddha Dordenma statue in Thimphu",
+                    "Explore craft markets and enjoy Bhutanese dinner"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/buddha-dordenma.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Thimphu Sightseeing – Blend of Tradition and Modernity",
+                "activities": [
+                    "Visit Tashichho Dzong, National Memorial Chorten",
+                    "Explore Folk Heritage Museum and Royal Textile Academy",
+                    "Visit Motithang Takin Preserve",
+                    "Evening stroll at Clock Tower Square"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/tashichho-dzong.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Thimphu to Paro – A Valley of Timeless Charm",
+                "activities": [
+                    "Drive to Paro (~50 km)",
+                    "Visit Simtokha Dzong en route",
+                    "Explore Paro Dzong and Nyamai Zampa bridge",
+                    "Evening shopping at Paro handicraft market"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/paro-valley.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Paro – Hike to Tiger’s Nest Monastery",
+                "activities": [
+                    "Trek to Taktsang (Tiger’s Nest Monastery)",
+                    "Visit Kyichu Lhakhang temple",
+                    "Relax at Drukgyel Dzong ruins",
+                    "Optional hot stone bath"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/tigers-nest-monastery.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Departure – Paro to Siliguri via Phuentsholing",
+                "activities": [
+                    "Drive from Paro to Phuentsholing (~170 km)",
+                    "Exit Bhutan, continue to Siliguri (~150 km)",
+                    "End of tour with farewell and memories"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/bhutan-road-trip.jpg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/tigers-nest-paro.jpg",
+                "alt": "Tiger’s Nest Monastery"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/thimphu-cityscape.jpg",
+                "alt": "Thimphu City View"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/paro-dzong.jpg",
+                "alt": "Paro Dzong Fortress"
+            }
+        ]
+    },
+    "discover-druk-yul": {
+        "title": "Discover Druk Yul",
+        "location": "Phuentsholing, Thimphu, Punakha, Paro, Bhutan",
+        "duration": "7 days X 6 nights",
+        "description": "An immersive 7-day journey through Bhutan’s serene valleys, sacred monasteries, and Himalayan landscapes.",
+        "price": 35000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Bhutan, fondly known as the \"Land of the Thunder Dragon,\" is a mystical Himalayan kingdom where ancient traditions blend seamlessly with modernity. Nestled between India and China, this landlocked country is renowned for its breathtaking landscapes, unique cultural heritage, and commitment to Gross National Happiness—a philosophy that prioritizes well-being over material wealth. Bhutan's towering peaks, lush valleys, and picturesque villages create an ethereal charm that enchants every traveler. As the last remaining Buddhist kingdom, its deeply spiritual atmosphere is evident in its dzongs (fortresses), monasteries, and prayer flags fluttering in the wind. Bhutan offers a travel experience like no other—serene, enriching, and transformative.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/bhutan-valley.jpg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Special clothing and Winter-wear on rent",
+            "Entrance fees to monuments and museum",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Siliguri to Phuentsholing – The Gateway to Bhutan",
+                "activities": [
+                    "Drive from Siliguri to Phuentsholing (~150 km)",
+                    "Complete immigration formalities",
+                    "Explore local markets in Phuentsholing"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/phuentsholing-town.jpg"
+            },
+            {
+                "day": 2,
+                "title": "Phuentsholing to Thimphu – Bhutan’s Charming Capital",
+                "activities": [
+                    "Drive to Thimphu via Kharbandi Gompa (~170 km)",
+                    "Visit Buddha Dordenma",
+                    "Evening stroll through Thimphu craft bazaar"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/buddha-dordenma.jpg"
+            },
+            {
+                "day": 3,
+                "title": "Thimphu Sightseeing – Cultural and Scenic Delights",
+                "activities": [
+                    "Visit Tashichho Dzong and National Memorial Chorten",
+                    "See Takin at Motithang Preserve",
+                    "Explore Folk Heritage Museum and Royal Textile Academy"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/tashichho-dzong.jpg"
+            },
+            {
+                "day": 4,
+                "title": "Thimphu to Punakha – Land of Fertility",
+                "activities": [
+                    "Drive via Dochula Pass (~85 km)",
+                    "Visit Punakha Dzong",
+                    "Hike to Chimi Lhakhang"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/punakha-dzong.jpg"
+            },
+            {
+                "day": 5,
+                "title": "Punakha to Paro – A Valley of Timeless Charm",
+                "activities": [
+                    "Drive to Paro (~125 km)",
+                    "Visit Simtokha Dzong en route",
+                    "Explore Paro Dzong and Ta Dzong",
+                    "Walk along Paro River and shop locally"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/paro-dzong.jpg"
+            },
+            {
+                "day": 6,
+                "title": "Paro – Hike to Tiger’s Nest Monastery",
+                "activities": [
+                    "Hike to Taktsang (Tiger’s Nest Monastery)",
+                    "Visit Kyichu Lhakhang and Drukgyel Dzong",
+                    "Optional hot stone bath in evening"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/tigers-nest-monastery.jpg"
+            },
+            {
+                "day": 7,
+                "title": "Departure – Paro to Siliguri via Phuentsholing",
+                "activities": [
+                    "Drive from Paro to Phuentsholing (~170 km)",
+                    "Exit Bhutan, continue to Siliguri (~150 km)"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/bhutan-road.jpg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/dochula-pass.jpg",
+                "alt": "Dochula Pass Chortens"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/takin-preserve.jpg",
+                "alt": "Takin Preserve Bhutan"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/bhutan-folk-museum.jpg",
+                "alt": "Folk Heritage Museum in Thimphu"
+            }
+        ]
+    }
+}

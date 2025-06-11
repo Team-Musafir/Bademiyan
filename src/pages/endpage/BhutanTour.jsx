@@ -5,23 +5,32 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function WesternIndiaTours() {
+function BhutanTour() {
   const navigate = useNavigate();
 
   const packages = [
-    {
-      id: 1,
-      title: "Rajasthan",
-      route: "rajasthan",
-      location: "Rajasthan, India",
-      duration: "Customizable",
-      price: "From ₹20,000",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg"
-    }
-  ];
+  {
+    id: 1,
+    title: "The Land of the Thunder Dragon",
+    route: "thunder-dragon-bhutan",
+    location: "Phuentsholing, Thimphu, Paro, Bhutan",
+    duration: "6 Days, 5 Nights",
+    price: "₹32,000", // Replace with actual price if needed
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-setu-r8-5728647.jpg"
+  },
+  {
+    id: 2,
+    title: "Discover Druk Yul",
+    route: "discover-druk-yul",
+    location: "Phuentsholing, Thimphu, Paro, Bhutan",
+    duration: "7 Days, 6 Nights",
+    price: "₹35,000", // Replace with actual price if needed
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-karen-w-lim-415441-1089300.jpg"
+  }
+];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/western-india/${route}`);
+    navigate(`/tours/international-tours/bhutan/${route}`);
   };
 
   return (
@@ -34,9 +43,9 @@ function WesternIndiaTours() {
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block italic font-serif animate-gentleFadeInLeft">Western</span>
-            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block animate-gentleFadeInRight">Tours</span>
+            <span className="block animate-gentleFadeInLeft">Land of</span>
+            <span className="block animate-softPulse mx-2 md:mx-4">the</span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Thunder Dragon</span>
           </h1>
         </div>
       </section>
@@ -142,4 +151,4 @@ function WesternIndiaTours() {
   );
 }
 
-export default WesternIndiaTours;
+export default BhutanTour;

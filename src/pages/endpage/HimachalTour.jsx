@@ -5,23 +5,50 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function WesternIndiaTours() {
+function HimalchalTour() {
   const navigate = useNavigate();
 
   const packages = [
-    {
-      id: 1,
-      title: "Rajasthan",
-      route: "rajasthan",
-      location: "Rajasthan, India",
-      duration: "Customizable",
-      price: "From ₹20,000",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg"
-    }
-  ];
+  {
+    id: 1,
+    title: "Serenity in the Hills",
+    route: "serenity-in-the-hills",
+    location: "Kasol, Manali & Manikaran, Himachal Pradesh, India",
+    duration: "6 Days, 5 Nights",
+    price: "₹28,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-suicide-chewbacca-2961109.jpg"
+  },
+  {
+    id: 2,
+    title: "High on Himalayas - Himachal Calling",
+    route: "high-on-himalayas",
+    location: "Manali, Himachal Pradesh, India",
+    duration: "5 Days, 4 Nights",
+    price: "₹22,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-harshit-nandu-1286798-2873086.jpg"
+  },
+  {
+    id: 3,
+    title: "Himalayan Heritage - A Journey Through Himachal",
+    route: "himalayan-heritage-tour",
+    location: "Shimla & Manali, Himachal Pradesh, India",
+    duration: "7 Days, 6 Nights",
+    price: "₹30,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-vicky-bhusara-1264136-2407751.jpg"
+  },
+  {
+    id: 4,
+    title: "Snowflakes & Family Tales",
+    route: "snowflakes-family-tales",
+    location: "Shimla & Manali, Himachal Pradesh, India",
+    duration: "6 Days, 5 Nights",
+    price: "₹27,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-sujata-sankhyan-2151623640-31771332.jpg"
+  }
+];
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/western-india/${route}`);
+    navigate(`/tours/north-india/himachal-pradesh/${route}`);
   };
 
   return (
@@ -29,14 +56,14 @@ function WesternIndiaTours() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
+          backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')"
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block italic font-serif animate-gentleFadeInLeft">Western</span>
-            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block animate-gentleFadeInRight">Tours</span>
+            <span className="block animate-gentleFadeInLeft">Himachal</span>
+            <span className="block animate-softPulse mx-2 md:mx-4"></span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Pradesh</span>
           </h1>
         </div>
       </section>
@@ -74,6 +101,7 @@ function WesternIndiaTours() {
                   
                   <div className="text-right">
                     <span className="text-2xl font-bold">{pkg.price}</span>
+                    <span className="text-sm ml-1">per person</span>
                   </div>
                 </div>
               </div>
@@ -142,4 +170,4 @@ function WesternIndiaTours() {
   );
 }
 
-export default WesternIndiaTours;
+export default HimalchalTour;

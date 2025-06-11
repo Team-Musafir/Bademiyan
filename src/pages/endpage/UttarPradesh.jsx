@@ -5,23 +5,51 @@ import Footer from '../../components/Footer';
 import Contact from '../../components/Contact';
 import { MapPin, Clock } from 'lucide-react';
 
-function WesternIndiaTours() {
+function UttarPradeshTour() {
   const navigate = useNavigate();
 
   const packages = [
-    {
-      id: 1,
-      title: "Rajasthan",
-      route: "rajasthan",
-      location: "Rajasthan, India",
-      duration: "Customizable",
-      price: "From ₹20,000",
-      image: "https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-byrahul-1011093.jpg"
-    }
-  ];
+  {
+    id: 1,
+    title: "Discover the Spiritual Heart of India",
+    route: "spiritual-heart-india",
+    location: "Varanasi & Prayagraj, Uttar Pradesh, India",
+    duration: "5 Days, 4 Nights",
+    price: "₹18,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-rachel-claire-8112549.jpg"
+  },
+  {
+    id: 2,
+    title: "The Sacred Circuit",
+    route: "sacred-circuit",
+    location: "Varanasi & Prayagraj, Uttar Pradesh, India",
+    duration: "4 Days, 3 Nights",
+    price: "₹16,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-rachel-claire-8112519.jpg"
+  },
+  {
+    id: 3,
+    title: "Spiritual Symphony by the Sacred River",
+    route: "spiritual-symphony",
+    location: "Varanasi, Uttar Pradesh, India",
+    duration: "3 Days, 2 Nights",
+    price: "₹13,000",
+    image: "https://ik.imagekit.io/u2yelrvui/pexels-shubham-1175058629-32451790.jpg"
+  },
+  {
+    id: 4,
+    title: "Golden Triangle of Faith",
+    route: "golden-triangle-faith",
+    location: "Varanasi, Ayodhya & Prayagraj, Uttar Pradesh, India",
+    duration: "6 Days, 5 Nights",
+    price: "₹24,000",
+    image: "https://ik.imagekit.io/u2yelrvui/Ram-Mandir-01.png"
+  }
+];
+
 
   const handlePackageClick = (route) => {
-    navigate(`/tours/western-india/${route}`);
+    navigate(`/tours/north-india/uttar-pradesh/${route}`);
   };
 
   return (
@@ -29,14 +57,14 @@ function WesternIndiaTours() {
       <Navbar />
       <section className="relative mt-[5rem] min-h-[50vh] flex mb-[4rem] items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')`
+          backgroundImage: "url('https://ik.imagekit.io/qad3x0vr1/Explore%20tiles/pexels-leodan-zamalloa-1289782709-32388950.jpg')"
         }} />
         
         <div className="relative z-10 text-center text-white px-8 max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-normal mb-8 flex flex-wrap justify-center items-baseline">
-            <span className="block italic font-serif animate-gentleFadeInLeft">Western</span>
-            <span className="block italic font-serif animate-softPulse mx-2 md:mx-4">India</span>
-            <span className="block animate-gentleFadeInRight">Tours</span>
+            <span className="block animate-gentleFadeInLeft">Uttar</span>
+            <span className="block animate-softPulse mx-2 md:mx-4"></span>
+            <span className="block italic font-serif animate-gentleFadeInRight">Pradesh</span>
           </h1>
         </div>
       </section>
@@ -74,6 +102,7 @@ function WesternIndiaTours() {
                   
                   <div className="text-right">
                     <span className="text-2xl font-bold">{pkg.price}</span>
+                    <span className="text-sm ml-1">per person</span>
                   </div>
                 </div>
               </div>
@@ -142,4 +171,4 @@ function WesternIndiaTours() {
   );
 }
 
-export default WesternIndiaTours;
+export default UttarPradeshTour;

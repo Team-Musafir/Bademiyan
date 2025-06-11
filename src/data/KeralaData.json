@@ -1,0 +1,663 @@
+{
+  "soul-of-south": {
+    "title": "The Soul of South India",
+    "location": " Munnar, Thekkady, Alleppey & Kochi,Kerala, India",
+    "duration": "7 days , 6 nights",
+    "description": "Uncover the serene beauty of Kerala with a 7-day journey through hill stations, spice gardens, backwaters, and heritage towns.",
+    "price": 21000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Kerala, often referred to as \"God's Own Country,\" is a stunning destination on the southwestern coast of India, known for its lush landscapes, tranquil backwaters, scenic hill stations, and pristine beaches. The state offers a perfect blend of natural beauty, rich cultural heritage, and unique experiences, from serene houseboat cruises in Alleppey to the lush tea plantations of Munnar. Kerala is also famous for its vibrant festivals, traditional dance forms like Kathakali, and delicious cuisine featuring coconut and spices. Whether seeking relaxation, adventure, or wellness, Kerala provides an unforgettable escape for every traveler.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/kerala-backwaters.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Gondola Tickets or any other tickets",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi – Transfer to Munnar",
+        "activities": [
+          "Welcome at Kochi International Airport",
+          "Drive to Munnar via Cheeyappara & Valara Waterfalls",
+          "Visit a spice plantation",
+          "Check-in and relax at Munnar hotel"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cheeyappara-waterfalls.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Eravikulam National Park",
+          "Boating at Mattupetty Dam",
+          "Tour the Tea Museum",
+          "Visit Echo Point",
+          "Evening leisure time in Munnar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/eravikulam-national-park.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady Transfer",
+        "activities": [
+          "Drive to Thekkady (approx. 3 hrs)",
+          "Boat ride in Periyar Wildlife Sanctuary",
+          "Spice plantation tour",
+          "Optional Kalaripayattu or Kathakali show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/periyar-lake.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Alleppey Transfer",
+        "activities": [
+          "Drive to Alleppey (approx. 3.5 hrs)",
+          "Check-in to traditional houseboat",
+          "Cruise through backwaters and enjoy Kerala Sadya",
+          "Evening relaxation on the houseboat"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Kochi Transfer",
+        "activities": [
+          "Morning cruise and breakfast onboard",
+          "Drive to Kochi",
+          "Visit Fort Kochi, St. Francis Church, Jew Town, Paradesi Synagogue, and Mattancherry Palace",
+          "Optional Kathakali performance or Marine Drive walk"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/fort-kochi.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Kochi Sightseeing and Leisure",
+        "activities": [
+          "Visit Mughal gardens: Shalimar Bagh, Nishat Bagh, Chashme Shahi",
+          "Optional visit to Bolgatty Palace or Shikara ride",
+          "Shopping and relaxing at Marine Drive"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kochi-marine-drive.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Kochi",
+        "activities": [
+          "Breakfast and checkout",
+          "Transfer to Kochi International Airport"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kochi-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/munnar-tea-plantation.jpg",
+        "alt": "Tea Plantations in Munnar"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kathakali-performance.jpg",
+        "alt": "Traditional Kathakali Dance in Kerala"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/backwater-cruise-alleppey.jpg",
+        "alt": "Backwater Cruise in Alleppey"
+      }
+    ]
+  },
+  "enchanted-kerala": {
+    "title": "Uncharted Kerala",
+    "location": "Munnar, Thekkady, Alleppey & Trivandrum, Kerala, India",
+    "duration": "8 days , 7 nights",
+    "description": "Explore the uncharted beauty of Kerala through its tranquil hills, lush backwaters, and breezy beaches from Munnar to Trivandrum.",
+    "price": 27000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Kerala, often referred to as \"God's Own Country,\" is a stunning destination on the southwestern coast of India, known for its lush landscapes, tranquil backwaters, scenic hill stations, and pristine beaches. The state offers a perfect blend of natural beauty, rich cultural heritage, and unique experiences, from serene houseboat cruises in Alleppey to the lush tea plantations of Munnar. Kerala is also famous for its vibrant festivals, traditional dance forms like Kathakali, and delicious cuisine featuring coconut and spices. Whether seeking relaxation, adventure, or wellness, Kerala provides an unforgettable escape for every traveler.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/kerala-houseboat.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Gondola Tickets or any other tickets",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi – Transfer to Munnar",
+        "activities": [
+          "Arrival at Kochi International Airport",
+          "Drive to Munnar via Cheeyappara and Valara Waterfalls",
+          "Visit a spice plantation",
+          "Check-in and relax at hotel in Munnar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cheeyappara-waterfalls.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Eravikulam National Park",
+          "Boating at Mattupetty Dam",
+          "Tour the Tea Museum",
+          "Visit Echo Point",
+          "Explore Munnar markets or enjoy nature"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/eravikulam-national-park.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady Transfer",
+        "activities": [
+          "Drive to Thekkady (approx. 3 hrs)",
+          "Boat ride in Periyar Wildlife Sanctuary",
+          "Spice plantation tour",
+          "Optional Kalaripayattu or Kathakali show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/periyar-lake.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Alleppey Transfer",
+        "activities": [
+          "Drive to Alleppey (approx. 3.5 hrs)",
+          "Houseboat cruise through Alleppey backwaters",
+          "Enjoy traditional Kerala Sadya meal",
+          "Evening relaxation on the houseboat"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Trivandrum Transfer",
+        "activities": [
+          "Disembark from houseboat and drive to Trivandrum",
+          "Visit Sree Padmanabhaswamy Temple",
+          "Explore Kuthiramalika Palace Museum and Napier Museum",
+          "Relax at Shankumugham Beach or Lighthouse Beach"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/padmanabhaswamy-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Trivandrum – Kovalam Beach",
+        "activities": [
+          "Visit Kovalam Beach",
+          "Optional swimming, parasailing or windsurfing",
+          "Visit Hawa Beach and Samudra Beach",
+          "Optional Ayurvedic massage and leisure time"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kovalam-beach.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Trivandrum Local Sightseeing and Leisure",
+        "activities": [
+          "Visit Padmanabhapuram Palace",
+          "Explore Vellayani Lake and Akkulam Lake",
+          "Shopping at MG Road or local markets"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/padmanabhapuram-palace.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Departure from Trivandrum",
+        "activities": [
+          "Checkout and transfer to Trivandrum International Airport"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/trivandrum-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/munnar-hills.jpg",
+        "alt": "Munnar Hills"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/trivandrum-beach-sunset.jpg",
+        "alt": "Sunset at Trivandrum Beach"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kuthiramalika-palace.jpg",
+        "alt": "Kuthiramalika Palace Museum"
+      }
+    ]
+  },
+  "kerala-escapade": {
+    "title": "Kerala Escapade: Sea, Hills & Backwaters",
+    "location": "Munnar, Thekkady, Varkala, Alleppey, Trivandrum, Kovalam – Kerala, India",
+    "duration": "9 days X 8 nights",
+    "description": "Journey through Kerala’s pristine hills, tranquil backwaters, and scenic beaches with this 9-day immersive itinerary.",
+    "price": 30000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Kerala, often referred to as \"God's Own Country,\" is a stunning destination on the southwestern coast of India, known for its lush landscapes, tranquil backwaters, scenic hill stations, and pristine beaches. The state offers a perfect blend of natural beauty, rich cultural heritage, and unique experiences, from serene houseboat cruises in Alleppey to the lush tea plantations of Munnar. Kerala is also famous for its vibrant festivals, traditional dance forms like Kathakali, and delicious cuisine featuring coconut and spices. Whether seeking relaxation, adventure, or wellness, Kerala provides an unforgettable escape for every traveler.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/kerala-coastline.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Gondola Tickets or any other tickets",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi – Transfer to Munnar",
+        "activities": [
+          "Arrival at Kochi International Airport",
+          "Drive to Munnar via Cheeyappara and Valara Waterfalls",
+          "Visit spice plantations",
+          "Check-in at hotel in Munnar"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cheeyappara-waterfalls.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Eravikulam National Park",
+          "Boating at Mattupetty Dam",
+          "Explore the Tea Museum",
+          "Experience Echo Point",
+          "Evening leisure at local market or hotel"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mattupetty-dam.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady Transfer",
+        "activities": [
+          "Drive to Thekkady (approx. 3 hrs)",
+          "Boat ride at Periyar Wildlife Sanctuary",
+          "Spice plantation tour",
+          "Optional Kathakali or Kalaripayattu show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/periyar-lake.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Varkala Transfer",
+        "activities": [
+          "Drive to Varkala (approx. 4 hrs)",
+          "Relax at Varkala Beach",
+          "Visit Janardanaswamy Temple",
+          "Cliff walk with Arabian Sea view"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/varkala-beach.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Varkala Beach and Relaxation",
+        "activities": [
+          "Optional yoga or Ayurvedic spa",
+          "Explore Papanasam Beach",
+          "Sunset from Varkala cliffs"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/varkala-sunset.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Varkala to Alleppey Transfer",
+        "activities": [
+          "Drive to Alleppey (approx. 4 hrs)",
+          "Check-in to houseboat for backwater cruise",
+          "Enjoy traditional Kerala Sadya onboard",
+          "Relax in serene houseboat setting"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Alleppey to Trivandrum Transfer",
+        "activities": [
+          "Check out and drive to Trivandrum",
+          "Visit Padmanabhaswamy Temple",
+          "Explore Kuthiramalika Palace and Napier Museum",
+          "Relax at Lighthouse or Shankumugham Beach"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/padmanabhaswamy-temple.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Trivandrum – Kovalam Beach",
+        "activities": [
+          "Beach time at Kovalam, Hawa Beach, Samudra Beach",
+          "Optional water sports: parasailing, surfing",
+          "Visit Padmanabhapuram Palace and Akkulam Lake",
+          "Optional Ayurvedic massage"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kovalam-beach.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Departure from Trivandrum",
+        "activities": [
+          "Checkout and transfer to Trivandrum Airport"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/trivandrum-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/tea-garden-munnar.jpg",
+        "alt": "Tea Gardens in Munnar"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/backwater-cruise.jpg",
+        "alt": "Backwater Cruise in Alleppey"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kovalam-coast.jpg",
+        "alt": "Kovalam Coastline"
+      }
+    ]
+  },
+  "kerala-southern-shores": {
+    "title": "From Backwaters to the Southern Shores",
+    "location": "Munnar, Thekkady, Alleppey, Trivandrum, Kanyakumari – India",
+    "duration": "9 days X 8 nights",
+    "description": "A scenic 9-day journey through Kerala’s hills, backwaters, and beaches, ending at India’s southernmost tip in Kanyakumari.",
+    "price": 32000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Kerala, often referred to as \"God's Own Country,\" is a stunning destination on the southwestern coast of India, known for its lush landscapes, tranquil backwaters, scenic hill stations, and pristine beaches. The state offers a perfect blend of natural beauty, rich cultural heritage, and unique experiences, from serene houseboat cruises in Alleppey to the lush tea plantations of Munnar. Kerala is also famous for its vibrant festivals, traditional dance forms like Kathakali, and delicious cuisine featuring coconut and spices. Whether seeking relaxation, adventure, or wellness, Kerala provides an unforgettable escape for every traveler.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/kanyakumari-shoreline.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Gondola Tickets or any other tickets",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi – Transfer to Munnar",
+        "activities": [
+          "Arrival at Kochi International Airport",
+          "Drive to Munnar with stops at Cheeyappara and Valara Waterfalls",
+          "Visit spice plantation",
+          "Check-in and relax at Munnar hotel"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cheeyappara-waterfalls.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Eravikulam National Park",
+          "Boating at Mattupetty Dam",
+          "Tour the Tea Museum and Echo Point",
+          "Evening at leisure or local shopping"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/mattupetty-dam.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady Transfer",
+        "activities": [
+          "Drive to Thekkady (approx. 3 hrs)",
+          "Visit Periyar Wildlife Sanctuary with boat ride",
+          "Spice plantation tour",
+          "Optional Kathakali or Kalaripayattu show"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/periyar-lake.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Alleppey Transfer",
+        "activities": [
+          "Drive to Alleppey (approx. 4 hrs)",
+          "Check-in to traditional houseboat",
+          "Kerala Sadya lunch and backwater cruise",
+          "Evening relaxation onboard"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Trivandrum Transfer",
+        "activities": [
+          "Disembark from houseboat and drive to Trivandrum",
+          "Visit Padmanabhaswamy Temple",
+          "Explore Napier Museum",
+          "Evening at Shankumugham Beach"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/padmanabhaswamy-temple.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Trivandrum – Kovalam Beach",
+        "activities": [
+          "Visit Kovalam and Lighthouse Beach",
+          "Engage in water sports or boat at Akkulam Lake",
+          "Optional Ayurvedic massage session"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kovalam-beach.jpg"
+      },
+      {
+        "day": 7,
+        "title": "Trivandrum to Kanyakumari",
+        "activities": [
+          "Drive to Kanyakumari (approx. 2 hrs)",
+          "Visit Vivekananda Rock Memorial and Thiruvalluvar Statue",
+          "Sunset at Triveni Sangam (three-sea confluence)"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/vivekananda-rock.jpg"
+      },
+      {
+        "day": 8,
+        "title": "Kanyakumari Sightseeing and Return to Trivandrum",
+        "activities": [
+          "Visit Kanyakumari Temple and Gandhi Memorial",
+          "Scenic boat ride to Vivekananda Rock",
+          "Return to Trivandrum"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kanyakumari-gandhi-memorial.jpg"
+      },
+      {
+        "day": 9,
+        "title": "Departure from Trivandrum",
+        "activities": [
+          "Check out and transfer to Trivandrum International Airport"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/trivandrum-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/munnar-tea-garden.jpg",
+        "alt": "Lush Tea Gardens in Munnar"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/backwaters-houseboat.jpg",
+        "alt": "Alleppey Backwaters on Houseboat"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kanyakumari-sunset.jpg",
+        "alt": "Sunset at Kanyakumari"
+      }
+    ]
+  },
+  "gods-own-itinerary": {
+    "title": "God's Own Itinerary",
+    "location": "Kochi, Munnar, Alleppey – Kerala, India",
+    "duration": "6 days X 5 nights",
+    "description": "A 6-day exploration through Kerala’s cultural, hill, and backwater gems: Kochi, Munnar, and Alleppey.",
+    "price": 18000,
+    "quota": 0,
+    "schedule": "",
+    "longDescription": "Kerala, often referred to as \"God's Own Country,\" is a stunning destination on the southwestern coast of India, known for its lush landscapes, tranquil backwaters, scenic hill stations, and pristine beaches. The state offers a perfect blend of natural beauty, rich cultural heritage, and unique experiences, from serene houseboat cruises in Alleppey to the lush tea plantations of Munnar. Kerala is also famous for its vibrant festivals, traditional dance forms like Kathakali, and delicious cuisine featuring coconut and spices. Whether seeking relaxation, adventure, or wellness, Kerala provides an unforgettable escape for every traveler.",
+    "heroImage": "https://ik.imagekit.io/qad3x0vr1/kerala-kochi.jpg",
+    "includes": [
+      "Pick-up and Drop (Airport / Railway Station)",
+      "Accommodation",
+      "Food: Breakfast",
+      "All transfers and sightseeing by Personalized AC Car",
+      "All Toll tax, parking fees & driver allowances",
+      "GST as applicable"
+    ],
+    "excludes": [
+      "Camera fee",
+      "Alcoholic / Non-Alcoholic beverages",
+      "Tips, laundry & phone call",
+      "Gondola Tickets or any other tickets",
+      "Special clothing and Winter-wear on rent",
+      "Entrance fees to monuments and museum",
+      "All personal expenses",
+      "Travel Insurance",
+      "Service Tax extra (As applicable)",
+      "Any Airfare/Train fare",
+      "Other meals not mentioned laundry, telephone calls, and incidentals.",
+      "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+      "Any expense arising due to unforeseen circumstances is not included."
+    ],
+    "itineraryDays": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi – The Gateway to Kerala",
+        "activities": [
+          "Arrival and transfer to hotel in Kochi",
+          "Visit Fort Kochi, Chinese Fishing Nets, Jew Town, Paradesi Synagogue, and Mattancherry Palace",
+          "Optional Kathakali dance performance"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/fort-kochi.jpg"
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar Transfer",
+        "activities": [
+          "Drive to Munnar via Cheeyappara and Valara Waterfalls",
+          "Visit spice plantations en route",
+          "Check-in and relax in Munnar",
+          "Evening leisure time"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/cheeyappara-waterfalls.jpg"
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Visit Eravikulam National Park",
+          "Tour Tea Museum by Tata",
+          "Boating at Mattupetty Dam",
+          "Explore Echo Point and Top Station"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/top-station.jpg"
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Alleppey Transfer",
+        "activities": [
+          "Drive to Alleppey",
+          "Check-in to traditional houseboat for cruise",
+          "Enjoy Sadhya meal onboard and explore backwaters",
+          "Evening at leisure onboard"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/alleppey-houseboat.jpg"
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Kochi Transfer",
+        "activities": [
+          "Breakfast onboard and return to dock",
+          "Transfer to Kochi",
+          "Free time or shopping at Lulu Mall or MG Road",
+          "Optional visit to Marine Drive"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kochi-marine-drive.jpg"
+      },
+      {
+        "day": 6,
+        "title": "Departure from Kochi",
+        "activities": [
+          "Check out and transfer to Kochi Airport"
+        ],
+        "image": "https://ik.imagekit.io/qad3x0vr1/kochi-airport.jpg"
+      }
+    ],
+    "galleryImages": [
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/tea-plantation-munnar.jpg",
+        "alt": "Tea plantations in Munnar"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/backwaters-kerala.jpg",
+        "alt": "Scenic Alleppey backwaters"
+      },
+      {
+        "url": "https://ik.imagekit.io/qad3x0vr1/kathakali-performance.jpg",
+        "alt": "Kathakali dance performance"
+      }
+    ]
+  }
+}

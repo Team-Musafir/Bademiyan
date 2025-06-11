@@ -3,16 +3,16 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Clock, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useParams } from 'react-router-dom';
-import Navbar from '../components/NavbarB';
-import Reviews from '../components/Review';
-import Footer from '../components/Footer';
-import southIndiaToursData from '../data/southIndiaToursData.json';
+import Navbar from '../../components/NavbarB';
+import Reviews from '../../components/Review';
+import Footer from '../../components/Footer';
+import tourData from '../../data/RajasthanData.json';
 
 const defaultDestinationData = {
-  title: 'South India Tour Package',
-  location: 'Location not specified',
+  title: 'Rajasthan Tour Package',
+  location: 'Rajasthan, India',
   duration: 'Duration not specified',
-  description: 'No description available',
+  description: 'Experience the royal heritage of Rajasthan with our exclusive tour packages',
   price: 0,
   quota: 0,
   schedule: 'Schedule not specified',
@@ -28,14 +28,14 @@ const defaultDestinationData = {
   ]
 };
 
-export default function SouthIndiaTrips() {
+export default function RajasthanTrip() {
   const { packageRoute } = useParams();
   const [destinationData, setDestinationData] = useState(defaultDestinationData);
   const [expandedDay, setExpandedDay] = useState(0);
 
   useEffect(() => {
-    if (southIndiaToursData[packageRoute]) {
-      setDestinationData(southIndiaToursData[packageRoute]);
+    if (tourData[packageRoute]) {
+      setDestinationData(tourData[packageRoute]);
     } else {
       console.warn(`Destination "${packageRoute}" not found in tourData`);
       setDestinationData(defaultDestinationData);
@@ -71,7 +71,7 @@ export default function SouthIndiaTrips() {
     }
   };
 
-  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'tour';
+  const locationFirstPart = destinationData.location?.split(',')[0]?.toLowerCase() || 'rajasthan tours';
 
   return (
     <div className="min-h-screen bg-white">
@@ -130,8 +130,8 @@ export default function SouthIndiaTrips() {
               alt={`${destinationData.title} tour`}
               className="w-full h-full object-cover object-center"
               onError={(e) => {
-                e.target.src = 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80';
-                e.target.alt = 'Tour image placeholder';
+                e.target.src = 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2410&q=80';
+                e.target.alt = 'Rajasthan tour image placeholder';
               }}
             />
           </div>
@@ -150,8 +150,6 @@ export default function SouthIndiaTrips() {
           <span className="text-gray-600 text-base sm:text-lg md:text-xl">Price</span>
           <span className="text-lg sm:text-xl font-semibold">₹{destinationData.price.toLocaleString()}/adult</span>
         </motion.div>
-        
-        
       </motion.div>
 
       <div className="border-1 border-gray-200 my-6 sm:my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20"></div>
@@ -246,7 +244,7 @@ export default function SouthIndiaTrips() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-normal text-gray-800"
             >
-              Travel <em className="italic">Itinerary</em>
+              Travel <em className="italic">Plans</em>
             </motion.h1>
 
             <motion.p
@@ -256,7 +254,7 @@ export default function SouthIndiaTrips() {
               viewport={{ once: true }}
               className="text-lg md:text-lg text-gray-600 max-w-xl leading-relaxed text-right"
             >
-              Your detailed day-by-day plan for the perfect {locationFirstPart} experience
+              Your detailed day-by-day itinerary for the perfect {locationFirstPart} experience
             </motion.p>
           </div>
 
@@ -329,47 +327,49 @@ export default function SouthIndiaTrips() {
 
       <Reviews />
 
+      {/* Gallery Section */}
       {destinationData.galleryImages?.length >= 3 && (
-              <motion.div
-                className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
-                initial="hidden"
-                whileInView="visible"
-                variants={fadeIn}
-                viewport={{ once: true }}
-              >
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                  {/* Main large image - same height on mobile and desktop */}
-                  <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
-                    <img
-                      src={destinationData.galleryImages[0].url}
-                      alt={destinationData.galleryImages[0].alt}
-                      className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
-                    />
-                  </div>
-      
-                  {/* Two smaller images - same height as first image on mobile, split on desktop */}
-                  <div className="grid grid-cols-1 grid-rows-2 gap-5 h-64 md:h-96">
-                    {/* First small image - full width on mobile, half height on desktop */}
-                    <div className="rounded-3xl overflow-hidden h-full">
-                      <img
-                        src={destinationData.galleryImages[1].url}
-                        alt={destinationData.galleryImages[1].alt}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                      />
-                    </div>
-      
-                    {/* Second small image - full width on mobile, half height on desktop */}
-                    <div className="rounded-3xl overflow-hidden h-full">
-                      <img
-                        src={destinationData.galleryImages[2].url}
-                        alt={destinationData.galleryImages[2].alt}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            )}
+        <motion.div
+          className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-16"
+          initial="hidden"
+          whileInView="visible"
+          variants={fadeIn}
+          viewport={{ once: true }}
+        >
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {/* Main large image - same height on mobile and desktop */}
+            <div className="col-span-1 md:col-span-2 rounded-3xl overflow-hidden h-64 md:h-96">
+              <img
+                src={destinationData.galleryImages[0].url}
+                alt={destinationData.galleryImages[0].alt}
+                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+
+            {/* Two smaller images - same height as first image on mobile, split on desktop */}
+            <div className="grid grid-cols-1 grid-rows-2 gap-5 h-64 md:h-96">
+              {/* First small image - full width on mobile, half height on desktop */}
+              <div className="rounded-3xl overflow-hidden h-full">
+                <img
+                  src={destinationData.galleryImages[1].url}
+                  alt={destinationData.galleryImages[1].alt}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+
+              {/* Second small image - full width on mobile, half height on desktop */}
+              <div className="rounded-3xl overflow-hidden h-full">
+                <img
+                  src={destinationData.galleryImages[2].url}
+                  alt={destinationData.galleryImages[2].alt}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      )}
+
       <Footer />
     </div>
   );

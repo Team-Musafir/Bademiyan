@@ -1,0 +1,436 @@
+{
+    "kashmir-calling": {
+        "title": "Kashmir Calling – A Complete Valley Experience",
+        "location": "Srinagar, Pahalgam, Gulmarg, Jammu & Kashmir, India",
+        "duration": "5 Days & 4 Nights",
+        "description": "A magical exploration through Kashmir’s iconic destinations—Srinagar’s lakes and gardens, Pahalgam’s meadows, and Gulmarg’s alpine adventures.",
+        "price": 15000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Nestled in the northernmost part of India, Kashmir is often referred to as 'Heaven on Earth' due to its unmatched natural beauty, serene valleys, snow-clad mountains, and tranquil lakes. This enchanting region has a rich tapestry of history, blending ancient traditions with modern culture.\n\nKashmir's history dates back to ancient times when it was an important center of Hinduism and Buddhism. The region later saw the arrival of Islam in the 14th century, which shaped its cultural and architectural landscape. The Mughal emperors were captivated by Kashmir's beauty, leading to the construction of iconic Mughal gardens that still mesmerize visitors today.\n\nThe region is renowned for its handwoven Pashmina shawls, intricate handicrafts, and world-famous saffron. Its stunning landscapes have inspired poets, artists, and travelers for centuries, making it a must-visit destination for anyone seeking a blend of natural splendor and cultural richness.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Gondola Tickets or any other tickets",
+            "Special clothing and Winter-wear on rent",
+            "Entrance fees to monuments and museum",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Srinagar – Stay in Nigeen Lake Houseboat",
+                "activities": [
+                    "Arrival and transfer to Nigeen Lake houseboat",
+                    "Evening Shikara ride on Nigeen Lake",
+                    "Overnight stay at the houseboat"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Srinagar to Pahalgam – En Route Saffron Fields and Avantipora Ruins",
+                "activities": [
+                    "Visit Pampore saffron fields (seasonal)",
+                    "Explore Avantipora ruins",
+                    "Arrive and check-in at Pahalgam hotel",
+                    "Visit Aru Valley or Betaab Valley (optional pony rides)",
+                    "Evening by the Lidder River",
+                    "Overnight stay in Pahalgam"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Pahalgam to Gulmarg – Journey Through Scenic Meadows",
+                "activities": [
+                    "Drive from Pahalgam to Gulmarg",
+                    "Ride the Gulmarg Gondola to Apharwat Peak",
+                    "Visit Gulmarg Golf Course (seasonal)",
+                    "Overnight stay in Gulmarg"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Gulmarg to Srinagar – Mughal Gardens and Dal Lake Exploration",
+                "activities": [
+                    "Visit Nishat Bagh, Shalimar Bagh, and Chashme Shahi",
+                    "Walk along Dal Lake Boulevard or shop for Kashmiri crafts",
+                    "Optional: Traditional Wazwan dinner",
+                    "Overnight stay in Srinagar"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Departure from Srinagar",
+                "activities": [
+                    "Free time for personal exploration",
+                    "Transfer to Srinagar Airport for departure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Kashmir Valley Tour Image"
+            }
+        ]
+    },
+    "magical-kashmir": {
+        "title": "Magical Kashmir Escape",
+        "location": "Srinagar, Pahalgam, Gulmarg, Sonmarg, Jammu & Kashmir, India",
+        "duration": "6 Days & 5 Nights",
+        "description": "A complete escape into Kashmir’s most scenic gems—Gulmarg, Pahalgam, Sonmarg, and Srinagar—with unforgettable houseboat stays and local delicacies.",
+        "price": 18000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Nestled in the northernmost part of India, Kashmir is often referred to as 'Heaven on Earth' due to its unmatched natural beauty, serene valleys, snow-clad mountains, and tranquil lakes. This enchanting region has a rich tapestry of history, blending ancient traditions with modern culture.\n\nKashmir's history dates back to ancient times when it was an important center of Hinduism and Buddhism. The region later saw the arrival of Islam in the 14th century, which shaped its cultural and architectural landscape. The Mughal emperors were captivated by Kashmir's beauty, leading to the construction of iconic Mughal gardens that still mesmerize visitors today.\n\nThe region is renowned for its handwoven Pashmina shawls, intricate handicrafts, and world-famous saffron. Its stunning landscapes have inspired poets, artists, and travelers for centuries, making it a must-visit destination for anyone seeking a blend of natural splendor and cultural richness.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Entrance fees to monuments and museum",
+            "Gondola Tickets or any other tickets",
+            "Special clothing and Winter-wear on rent",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Srinagar – Houseboat Stay on Nigeen Lake",
+                "activities": [
+                    "Arrival and transfer to Nigeen Lake deluxe houseboat",
+                    "Shikara ride on Nigeen and Dal Lakes",
+                    "Explore floating gardens and market",
+                    "Try Rogan Josh, Tabak Maaz, and Kehwa",
+                    "Overnight stay on houseboat"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Srinagar to Gulmarg",
+                "activities": [
+                    "Transfer to Gulmarg",
+                    "Gondola ride to Kongdoori and Apharwat Peak",
+                    "Seasonal activities: skiing/snowboarding or nature walks/golf",
+                    "Try Haak Saag and Dum Aloo",
+                    "Overnight stay in Gulmarg"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Gulmarg to Pahalgam",
+                "activities": [
+                    "Visit saffron fields of Pampore and Awantipora ruins en route",
+                    "Explore Aru Valley, Betaab Valley, and Chandanwari",
+                    "Stroll along Lidder River and explore local market",
+                    "Try Yakhni and Nadru Yakhni",
+                    "Overnight stay in Pahalgam"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Pahalgam to Srinagar",
+                "activities": [
+                    "Drive to Srinagar and hotel check-in",
+                    "Visit Mughal Gardens: Shalimar Bagh, Nishat Bagh, and Chashme Shahi",
+                    "Visit Shankaracharya Temple",
+                    "Optional cultural performance",
+                    "Try Modur Pulao and Seekh Kebab",
+                    "Overnight stay in Srinagar"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Day Trip to Sonmarg",
+                "activities": [
+                    "Full-day excursion to Sonmarg",
+                    "Optional pony ride or trek to Thajiwas Glacier",
+                    "Picnic or café lunch by the river",
+                    "Try Rista and Shab Deg",
+                    "Return to Srinagar for overnight stay"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 6,
+                "title": "Departure from Srinagar",
+                "activities": [
+                    "Breakfast and final shopping or relaxation",
+                    "Transfer to Srinagar Airport for departure"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Magical Kashmir Escape Tour Image"
+            }
+        ]
+    },
+    "heart-in-himalayas": {
+        "title": "Heart in the Himalayas - Kashmir",
+        "location": "Srinagar, Sonmarg & Pahalgam, Jammu & Kashmir, India",
+        "duration": "6 Days & 5 Nights",
+        "description": "A complete escape into Kashmir’s most scenic gems—Gulmarg, Pahalgam, Sonmarg, and Srinagar—with unforgettable houseboat stays and local delicacies.",
+        "price": 21000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Nestled in the northernmost part of India, Kashmir is often referred to as 'Heaven on Earth' due to its unmatched natural beauty, serene valleys, snow-clad mountains, and tranquil lakes. This enchanting region has a rich tapestry of history, blending ancient traditions with modern culture.\n\nKashmir's history dates back to ancient times when it was an important center of Hinduism and Buddhism. The region later saw the arrival of Islam in the 14th century, which shaped its cultural and architectural landscape. The Mughal emperors were captivated by Kashmir's beauty, leading to the construction of iconic Mughal gardens that still mesmerize visitors today.\n\nThe region is renowned for its handwoven Pashmina shawls, intricate handicrafts, and world-famous saffron. Its stunning landscapes have inspired poets, artists, and travelers for centuries, making it a must-visit destination for anyone seeking a blend of natural splendor and cultural richness.",
+        "heroImage": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Entrance fees to monuments and museum",
+            "Gondola Tickets or any other tickets",
+            "Special clothing and Winter-wear on rent",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Srinagar – Stay in a Nigeen Lake Houseboat",
+                "activities": [
+                    "Arrival at Srinagar Airport",
+                    "Transfer to houseboat on Nigeen Lake",
+                    "Shikara ride and floating gardens",
+                    "Relax on houseboat",
+                    "Overnight stay at Nigeen Lake"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Srinagar to Gurez – Gateway to Untouched Beauty",
+                "activities": [
+                    "Scenic drive through Razdan Pass",
+                    "Explore Habba Khatoon Peak",
+                    "View Dawar Village",
+                    "Unwind in Gurez nature",
+                    "Overnight stay in Gurez"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Gurez Exploration – Untouched Nature and Local Culture",
+                "activities": [
+                    "Visit Tulail Valley",
+                    "Interact with locals",
+                    "Optional trek or mosque visit",
+                    "Starlit evening relaxation",
+                    "Overnight stay in Gurez"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Gurez to Gulmarg – The Meadow of Flowers",
+                "activities": [
+                    "Drive through forests and meadows",
+                    "Arrive in Gulmarg",
+                    "Gondola ride to Apharwat Peak",
+                    "Optional skiing, snowboarding or golf",
+                    "Overnight stay in Gulmarg"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Gulmarg to Srinagar – Mughal Gardens and Dal Lake",
+                "activities": [
+                    "Drive to Srinagar",
+                    "Visit Nishat Bagh, Shalimar Bagh, Chashme Shahi",
+                    "Explore Shankaracharya Temple",
+                    "Shopping for Pashmina and crafts",
+                    "Overnight stay in Srinagar"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 6,
+                "title": "Departure from Srinagar",
+                "activities": [
+                    "Leisure morning or market visit",
+                    "Transfer to Srinagar Airport",
+                    "Tour ends"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Magical Kashmir Escape Tour Image"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Gurez Valley scenic view"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Gulmarg Gondola Ride"
+            }
+        ]
+    },
+    "offbeat-sonmarg": {
+        "title": "Offbeat to Sonmarg - Kashmir",
+        "location": "Sonmarg, Jammu & Kashmir, India",
+        "duration": "5 Days, 4 Nights",
+        "description": "Explore Gurez Valley’s untouched beauty, the serenity of Nigeen Lake, and iconic experiences in Gulmarg and Srinagar.",
+        "price": 26000,
+        "quota": 0,
+        "schedule": "",
+        "longDescription": "Kashmir is often referred to as 'Heaven on Earth' due to its stunning beauty—snow-capped mountains, alpine meadows, and timeless lakes. This tour covers some of Kashmir's most offbeat and pristine destinations, including Gurez Valley and Sonmarg, along with cultural icons like the Mughal Gardens and Dal Lake. You'll experience scenic mountain drives, houseboat stays, shikara rides, Gondola excursions, and a slice of traditional Kashmiri life. This is a unique chance to witness both the iconic and lesser-explored wonders of Kashmir in one seamless trip.",
+        "heroImage": "https://ik.imagekit.io/u2yelrvui/pexels-withbaxit-32486614.jpg",
+        "includes": [
+            "Pick-up and Drop (Airport / Railway Station)",
+            "Accommodation",
+            "Food: Breakfast",
+            "All transfers and sightseeing by Personalized AC Car",
+            "All Toll tax, parking fees & driver allowances",
+            "GST as applicable"
+        ],
+        "excludes": [
+            "Camera fee",
+            "Alcoholic / Non-Alcoholic beverages",
+            "Tips, laundry & phone call",
+            "Gondola Tickets or any other tickets",
+            "Special clothing and Winter-wear on rent",
+            "Entrance fees to monuments and museum",
+            "All personal expenses",
+            "Travel Insurance",
+            "Service Tax extra (As applicable)",
+            "Any Airfare/Train fare",
+            "Other meals not mentioned laundry, telephone calls, and incidentals.",
+            "Any personal expenses. Room service and special orders. Alcoholic and non-alcoholic beverages.",
+            "Any expense arising due to unforeseen circumstances is not included."
+        ],
+        "itineraryDays": [
+            {
+                "day": 1,
+                "title": "Arrival in Srinagar – Houseboat on Nigeen Lake",
+                "activities": [
+                    "Arrival at Srinagar Airport",
+                    "Transfer to Nigeen Lake deluxe houseboat",
+                    "Shikara ride and floating gardens",
+                    "Evening relaxation and dinner",
+                    "Overnight stay on houseboat"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 2,
+                "title": "Srinagar to Gurez Valley",
+                "activities": [
+                    "Drive through Razdan Pass",
+                    "View Habba Khatoon Peak and Dawar Village",
+                    "Evening at leisure in Gurez",
+                    "Overnight stay in Gurez guesthouse"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 3,
+                "title": "Gurez Exploration – Tulail Valley",
+                "activities": [
+                    "Visit Tulail Valley",
+                    "Local interaction and optional mosque visit",
+                    "Evening by riverside or stargazing",
+                    "Overnight stay in Gurez"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 4,
+                "title": "Gurez to Gulmarg",
+                "activities": [
+                    "Scenic drive to Gulmarg",
+                    "Gondola ride to Apharwat Peak",
+                    "Seasonal activities: skiing or meadow trekking",
+                    "Overnight stay in Gulmarg"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            },
+            {
+                "day": 5,
+                "title": "Gulmarg to Srinagar & Departure",
+                "activities": [
+                    "Visit Mughal Gardens: Nishat Bagh, Shalimar Bagh, Chashme Shahi",
+                    "Shankaracharya Temple view",
+                    "Shopping or leisure",
+                    "Transfer to Srinagar Airport"
+                ],
+                "image": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg"
+            }
+        ],
+        "galleryImages": [
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Nigeen Lake Houseboat"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Gurez Valley Mountains"
+            },
+            {
+                "url": "https://ik.imagekit.io/qad3x0vr1/images%20(4).jpeg",
+                "alt": "Gulmarg Gondola Experience"
+            }
+        ]
+    }
+}
