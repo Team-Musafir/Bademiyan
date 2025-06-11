@@ -4,7 +4,7 @@ export default function Journey() {
   return (
     <div className="min-h-screen bg-white md:px-24 lg:px-24 sm:px-8 px-8 flex items-center">
       {/* Inject Playfair Display via inline CSS */}
-      <style>
+      <style jsx='true'>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
           .font-playfair {

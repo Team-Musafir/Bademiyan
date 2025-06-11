@@ -67,7 +67,7 @@ const Navbar = () => {
 
   return (
     <>
-      <style jsx global>{`
+      <style jsx='true'>{`
         .underline-effect {
           position: relative;
         }

@@ -248,7 +248,7 @@ const Hero = () => {
       ref={ref}
       className="min-h-screen relative overflow-hidden"
     >
-      <style jsx global>{`
+      <style jsx='true'>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
         .font-playfair-medium-italic {
           font-family: 'Playfair Display', serif;
