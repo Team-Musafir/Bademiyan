@@ -70,16 +70,16 @@ const FloatingSocialLinks = () => {
               rel="noopener noreferrer"
               className={`w-10 h-10 rounded-full flex items-center justify-center backdrop-blur-md border transition-all duration-300 group ${
                 isBeyond100vh
-                  ? 'bg-white/80 border-gray-300 hover:bg-amber-100/80 hover:border-amber-300 shadow-md'
-                  : 'bg-white/10 border-white/20 hover:bg-amber-400/30 hover:border-amber-400/50'
+                  ? 'bg-white/80 border-gray-300 shadow-md'
+                  : 'bg-white/10 border-white/20'
               }`}
               whileHover={{ scale: 1.1 }}
               aria-label={link.name}
             >
               <span className={`transition-colors ${
                 isBeyond100vh
-                  ? 'text-gray-700 group-hover:text-amber-600'
-                  : 'text-white group-hover:text-amber-300'
+                  ? 'text-gray-700'
+                  : 'text-white'
               }`}>
                 {link.icon}
               </span>
@@ -107,16 +107,16 @@ const FloatingSocialLinks = () => {
             rel="noopener noreferrer"
             className={`w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center backdrop-blur-md border transition-all duration-300 group ${
               isBeyond100vh
-                ? 'bg-white/80 border-gray-300 hover:bg-amber-100/80 hover:border-amber-300 shadow-md'
-                : 'bg-white/10 border-white/20 hover:bg-amber-400/30 hover:border-amber-400/50'
+                ? 'bg-white/80 border-gray-300 shadow-md'
+                : 'bg-white/10 border-white/20'
             }`}
             whileHover={{ scale: 1.1 }}
             aria-label={link.name}
           >
             <span className={`transition-colors ${
               isBeyond100vh
-                ? 'text-gray-700 group-hover:text-amber-600'
-                : 'text-white group-hover:text-amber-300'
+                ? 'text-gray-700 '
+                : 'text-white '
             }`}>
               {link.icon}
             </span>
