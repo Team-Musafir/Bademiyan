@@ -1,7 +1,14 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Youtube, Phone, MapPin } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import ScrollToTop from './ScrolltoTop';
 
 const Footer = () => {
+
+  const nav = useNavigate()
+  const handleNavigate=(link)=>{
+    nav(link)
+  }
   return (
     <footer className="bg-gray-900 text-white">
       <style>
@@ -35,17 +42,29 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12">
             {/* Discover */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200">Discover</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Trip Packages</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Events</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Gallery</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-              </ul>
-            </div>
+            <div> 
+  <h3 className="text-xl font-semibold mb-6 text-gray-200">Discover</h3>
+  <ul className="space-y-3">
+    <li onClick={() => { ScrollToTop(); handleNavigate('/'); }}>
+      <a className="text-gray-400 hover:text-white transition-colors">Home</a>
+    </li>
+    <li onClick={() => handleNavigate('/about')}>
+      <a className="text-gray-400 hover:text-white transition-colors">About Us</a>
+    </li>
+    <li onClick={() => handleNavigate('/tours')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Tours</a>
+    </li>
+    <li onClick={() => handleNavigate('/events')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Events</a>
+    </li>
+    <li onClick={() => handleNavigate('/blog')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Gallery</a>
+    </li>
+    <li onClick={() => handleNavigate('/contact')}>
+      <a className="text-gray-400 hover:text-white transition-colors">Contact</a>
+    </li>
+  </ul>
+</div>
 
             {/* Services */}
             <div>
