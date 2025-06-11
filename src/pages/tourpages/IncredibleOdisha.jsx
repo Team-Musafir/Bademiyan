@@ -15,7 +15,7 @@ function IncredibleOdisha() {
       route: "golden-triangle-tour",
       location: "Bhubaneswar, Konark, Puri, Odisha, India",
       duration: "4 days , 3 nights",
-      price: "From ₹10,000",
+      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-9796144.jpeg"
     },
     {
@@ -24,7 +24,7 @@ function IncredibleOdisha() {
       route: "jagannath-dham-darshan",
       location: "Bhubaneswar, Konark, Puri, Satapada, Odisha, India",
       duration: "5 Days & 4 Nights",
-      price: "From ₹9000",
+      price: "₹9000",
       image: "https://ik.imagekit.io/qad3x0vr1/photo-1706790574525-d218c4c52b5c.jpeg"
     },
     {
@@ -33,7 +33,7 @@ function IncredibleOdisha() {
       route: "tribal-tour",
       location: "Koraput, Odisha, India",
       duration: "10 Days, 9 Nights",
-      price: "From ₹25,000",
+      price: "₹25,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-photo-3678501.jpeg"
     },
     {
@@ -42,7 +42,7 @@ function IncredibleOdisha() {
       route: "buddhism-and-beyond",
       location: "Dhauli, Lalitgiri, Ratnagiri, India",
       duration: "6 Days, 5 Nights",
-      price: "From ₹15,000",
+      price: "₹15,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-soubhagya23-13829286.jpg"
     },
     {
@@ -51,7 +51,7 @@ function IncredibleOdisha() {
       route: "shakti-peeth",
       location: "Various locations, Odisha, India",
       duration: "5 Days, 4 Nights",
-      price: "From ₹10,000",
+      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/arial1.jpg"
     },
     {
@@ -60,7 +60,7 @@ function IncredibleOdisha() {
       route: "western-odisha-tour",
       location: "Sambalpur, Bargarh, India",
       duration: "7 Days, 6 Nights",
-      price: "From ₹17,000",
+      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-joy-photo-238541869-32138411.jpg"
     },
     {
@@ -69,7 +69,7 @@ function IncredibleOdisha() {
       route: "wildlife-tourism",
       location: "Bhubaneswar, Balasore, Simlipal, Odisha, India",
       duration: "6 Days, 5 Nights",
-      price: "From ₹17,000",
+      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/Sunrise_at_Bhitarakanika.jpg"
     },
     {
@@ -78,7 +78,7 @@ function IncredibleOdisha() {
       route: "temple-tours",
       location: "Across Odisha, India",
       duration: "6 Days, 5 Nights",
-      price: "From ₹10,000",
+      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/pexels-ravi-mittal-107469583-29064614.jpg"
     },
     {
@@ -87,7 +87,7 @@ function IncredibleOdisha() {
       route: "kashmir-of-odisha",
       location: "Daringbadi, India",
       duration: "4 Days, 3 Nights",
-      price: "From ₹17,000",
+      price: "₹17,000",
       image: "https://ik.imagekit.io/qad3x0vr1/17787-c-1594835747.jpg"
     },
     {
@@ -96,7 +96,7 @@ function IncredibleOdisha() {
       route: "heritage-tour",
       location: "Hampi, India",
       duration: "7 Days, 6 Nights",
-      price: "From ₹18,000",
+      price: "₹18,000",
       image: "https://ik.imagekit.io/qad3x0vr1/caption.jpg"
     },
     {
@@ -105,7 +105,7 @@ function IncredibleOdisha() {
       route: "eco-tourism",
       location: "Satkosia, Chilika, India",
       duration: "6 Days, 5 Nights",
-      price: "From ₹15,000",
+      price: "₹15,000",
       image: "https://ik.imagekit.io/qad3x0vr1/108064-679600422_tiny.jpg"
     },
     {
@@ -114,7 +114,7 @@ function IncredibleOdisha() {
       route: "textile-tourism",
       location: "Jaipur, India",
       duration: "4 Days, 3 Nights",
-      price: "From ₹899",
+      price: "₹899",
       image: "https://ik.imagekit.io/qad3x0vr1/pipili-applique.webp"
     },
     {
@@ -123,7 +123,7 @@ function IncredibleOdisha() {
       route: "adventure-tour-plan",
       location: "Manali, India",
       duration: "8 Days, 7 Nights",
-      price: "From ₹10,000",
+      price: "₹10,000",
       image: "https://ik.imagekit.io/qad3x0vr1/1.webp"
     },
   ];
